@@ -30,6 +30,11 @@ def minutes_since(s, now):
     return None if t is None else (now - t).total_seconds() / 60
 
 
+def is_stale(iso, now):
+    m = minutes_since(iso, now)
+    return m is None or m > STALE_MIN
+
+
 def health_of(src_state, now, interval):
     """green: checked OK recently; yellow: last attempt failed or feed not live yet; red: no success for STALE_MIN."""
     ok = minutes_since(src_state.get('last_ok'), now)
@@ -102,7 +107,7 @@ def build(races_json, ga_json, state, sources, secondary=None, now=None):
             entry['result'] = {k: c[k] for k in ('candidates', 'total_votes', 'reporting', 'office') if k in c}
             entry['result']['reporting_precincts'] = c.get('reporting_precincts')
             entry['source'] = {**c['source'], 'last_checked': state['sources'][sid].get('last_ok'), 'feed': sid}
-            entry['stale'] = (minutes_since(state['sources'][sid].get('last_ok'), now) or 999) > STALE_MIN
+            entry['stale'] = is_stale(state['sources'][sid].get('last_ok'), now)
             if sec and sec.get('candidates'):
                 dis = disagreement(c, sec)
                 if dis:
@@ -110,7 +115,7 @@ def build(races_json, ga_json, state, sources, secondary=None, now=None):
         elif sec and sec.get('candidates'):
             entry['result'] = {'candidates': sec['candidates'], 'total_votes': sum(x['votes'] for x in sec['candidates']), 'reporting': sec.get('reporting')}
             entry['source'] = {'name': sec.get('source'), 'kind': 'secondary', 'url': sec.get('url'), 'fetched_at': sec.get('extracted_at')}
-            entry['stale'] = (minutes_since(sec.get('extracted_at'), now) or 999) > STALE_MIN
+            entry['stale'] = is_stale(sec.get('extracted_at'), now)
         else:
             entry['notes'].append(NO_FEED.get(stc, 'Official feed not live yet') if stc in NO_FEED else 'Official feed not live yet')
         if sec and sec.get('call') and sec['call'].get('outlet') in OUTLETS:
@@ -139,7 +144,7 @@ def build(races_json, ga_json, state, sources, secondary=None, now=None):
         rt = 'governor' if c['key'] == 'GA-GOV' else 'senate' if c['key'] == 'GA-SEN' else 'other'
         ga_out.append({**{k: c[k] for k in ('key', 'office', 'candidates', 'total_votes', 'reporting', 'source', 'contest_type') if k in c},
                        'reporting_precincts': c.get('reporting_precincts'), 'counties': c.get('counties'),
-                       **sm, 'stale': (minutes_since(ga_src.get('last_ok'), now) or 999) > STALE_MIN,
+                       **sm, 'stale': is_stale(ga_src.get('last_ok'), now),
                        'flags': {'recount': recount_check('GA', c['candidates'], c.get('total_votes')),
                                  'majority': majority_check('GA', rt, c['candidates'], c.get('total_votes'), sm['reporting_share'])
                                  if not c['key'].startswith(('GA-AMEND', 'GA-REF')) else None}})

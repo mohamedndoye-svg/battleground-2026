@@ -49,3 +49,20 @@ Blocked until the session has full network access. Order of work:
 3. Poller with backoff, per-source health, fetch log, 20-minute staleness marking, official-over-other precedence with discrepancy flags.
 4. Runoff / recount watch from each state's rules.
 5. Mock election night: staggered closings, slow counts, a feed outage, a source disagreement, a recount-margin race, a GA race at 49.6%.
+
+## Election night (live results)
+
+`site/index.html` is the live dashboard (Results tab + live Georgia section). It reads `live/live.json`, which the
+poller in `live/` writes from official state feeds. Hosted on GitHub Pages from the `gh-pages` branch; the
+`Election night poller` workflow keeps one ~5h40m polling job running Nov 3–6, then every 3 hours, then Dec 1–3.
+
+```sh
+python3 -m live.poller --out site/live --once          # one real polling cycle
+python3 -m live.mock                                   # mock election night (17 checks)
+python3 -m unittest discover -s live/tests -t .        # all tests (28)
+```
+
+Official feeds wired in: GA (Enhanced Voting API, statewide + 159 counties), IA and SC (Clarity ENR),
+MN / NC / FL (results files), NE (spreadsheet export). Tracked states with no automated source:
+AK, AZ, KS, ME, MI, NH, NV, OH, OR, TX, VT, WI (reasons in `live/sources.py`). Race calls are recorded only from
+named outlets via `site/live/secondary.json`; nothing is projected.

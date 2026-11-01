@@ -22,8 +22,12 @@ UA = 'BattlegroundTracker/1.0 (election-night dashboard; polls public results fe
 LOG_PATH = os.environ.get('BG_LOG', os.path.join(os.path.dirname(__file__), '..', 'logs', 'fetch.jsonl'))
 
 
+CLOCK = time.time   # replaced by the mock election night to run on simulated time
+TRIES = int(os.environ.get('BG_FETCH_TRIES', '3'))
+
+
 def now_iso():
-    return datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+    return datetime.fromtimestamp(CLOCK(), timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
 
 def log(event, **kw):
@@ -36,10 +40,11 @@ class FetchError(Exception):
     pass
 
 
-def fetch(url, source, timeout=60, tries=3, base_delay=2.0, opener=None):
+def fetch(url, source, timeout=60, tries=None, base_delay=2.0, opener=None):
     """GET with exponential backoff (2s, 4s, 8s + jitter). Logs every attempt. Returns bytes."""
     opener = opener or urllib.request.urlopen
     last = None
+    tries = tries or TRIES
     for i in range(tries):
         t0 = time.time()
         try:

@@ -23,7 +23,7 @@ def load(path, default):
         return default
 
 
-def poll_source(src, st):
+def poll_source(src, st, clock=time.time):
     st['last_attempt'] = now_iso()
     try:
         res, ver = src.poll(st)
@@ -43,10 +43,22 @@ def poll_source(src, st):
         st.update(status='error', consecutive_failures=n, last_error=f'{type(e).__name__}: {str(e)[:300]}')
         delay = min(src.interval * 2 ** n, MAX_BACKOFF)
         log('source_error', source=src.id, failures=n, retry_in_s=delay, error=st['last_error'])
-    st['next_due'] = time.time() + delay
+    st['next_due'] = clock() + delay
 
 
-def run(out, duration_min=None, once=False, root=None, sleep=time.sleep, clock=time.time):
+def publish(cmd, state):
+    """Run the publish hook (e.g. git push to gh-pages). Its failure is logged and never stops polling."""
+    import subprocess
+    try:
+        r = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=240)
+        log('publish', ok=r.returncode == 0, rc=r.returncode, out=(r.stdout + r.stderr)[-300:])
+        if r.returncode == 0:
+            state['last_published'] = now_iso()
+    except Exception as e:
+        log('publish', ok=False, error=str(e)[:300])
+
+
+def run(out, duration_min=None, once=False, root=None, sleep=time.sleep, clock=time.time, publish_cmd=None, publish_every=360):
     root = root or os.path.join(os.path.dirname(__file__), '..')
     races = load(os.path.join(root, 'data', 'races.json'), {'races': []})
     ga_json = load(os.path.join(root, 'data', 'ga.json'), {})
@@ -58,11 +70,14 @@ def run(out, duration_min=None, once=False, root=None, sleep=time.sleep, clock=t
         for s in sources:
             st = state['sources'].setdefault(s.id, {})
             if once or clock() >= st.get('next_due', 0):
-                poll_source(s, st)
+                poll_source(s, st, clock)
         secondary = load(os.path.join(out, 'secondary.json'), {})
-        live = combine.build(races, ga_json, state, sources, secondary)
+        live = combine.build(races, ga_json, state, sources, secondary, now=datetime.fromtimestamp(clock(), timezone.utc))
         write_json(os.path.join(out, 'live.json'), live)
         write_json(state_path, state)
+        if publish_cmd and (once or clock() - state.get('_published_at', 0) >= publish_every):
+            state['_published_at'] = clock()
+            publish(publish_cmd, state)
         if once or (end and clock() >= end):
             return live
         nxt = min(st.get('next_due', 0) for st in state['sources'].values())
@@ -74,8 +89,10 @@ def main(argv=None):
     ap.add_argument('--out', default='site/live')
     ap.add_argument('--duration', type=float, help='minutes to run')
     ap.add_argument('--once', action='store_true')
+    ap.add_argument('--publish-cmd', help='shell command run after a cycle to publish site/ (rate-limited)')
+    ap.add_argument('--publish-every', type=int, default=360, help='seconds between publishes (GitHub Pages: ~10 builds/hour)')
     a = ap.parse_args(argv)
-    live = run(a.out, a.duration, a.once)
+    live = run(a.out, a.duration, a.once, publish_cmd=a.publish_cmd, publish_every=a.publish_every)
     print(json.dumps({s['id']: s['health'] for s in live['sources']}))
 
 
