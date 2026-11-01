@@ -15,7 +15,7 @@ needs to know which state platform a number came from:
       "official": False,   # True only when the source marks results as certified/official
     }
 """
-import json, os, random, re, time, urllib.request, urllib.error
+import gzip, json, os, random, re, time, urllib.request, urllib.error
 from datetime import datetime, timezone
 
 UA = 'BattlegroundTracker/1.0 (election-night dashboard; polls public results feeds every few minutes)'
@@ -43,10 +43,13 @@ def fetch(url, source, timeout=60, tries=3, base_delay=2.0, opener=None):
     for i in range(tries):
         t0 = time.time()
         try:
-            req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': 'application/json, text/plain, */*'})
+            req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': 'application/json, text/plain, */*',
+                                                       'Accept-Encoding': 'gzip'})
             with opener(req, timeout=timeout) as r:
                 body = r.read()
                 status = getattr(r, 'status', 200)
+            if body[:2] == b'\x1f\x8b':  # some servers (Clarity) gzip regardless of what was asked
+                body = gzip.decompress(body)
             log('fetch', source=source, url=url, status=status, bytes=len(body), ms=int((time.time() - t0) * 1000), attempt=i + 1)
             if status == 204:
                 return b''
@@ -78,7 +81,7 @@ def write_json(path, obj):
     os.replace(tmp, path)
 
 
-PARTY = {'rep': 'R', 'republican': 'R', 'dem': 'D', 'democratic': 'D', 'democrat': 'D', 'lib': 'L', 'libertarian': 'L',
+PARTY = {'rep': 'R', 'republican': 'R', 'dem': 'D', 'democratic': 'D', 'democrat': 'D', 'dfl': 'D', 'lib': 'L', 'libertarian': 'L',
          'grn': 'G', 'green': 'G', 'ind': 'I', 'independent': 'I', 'np': 'NP', 'nonpartisan': 'NP'}
 
 
