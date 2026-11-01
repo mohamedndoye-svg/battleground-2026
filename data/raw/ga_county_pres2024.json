@@ -1,0 +1,651 @@
+{
+ "source": "https://results.sos.ga.gov/results/public/Georgia/elections/2024NovGen",
+ "note": "Certified 2024 presidential result by county from the GA Secretary of State. margin_r: Trump minus Harris, percent of all votes cast.",
+ "statewide_margin_r": 2.19,
+ "counties": {
+  "Appling": {
+   "margin_r": 62.41,
+   "total_votes": 8334
+  },
+  "Atkinson": {
+   "margin_r": 53.97,
+   "total_votes": 3057
+  },
+  "Bacon": {
+   "margin_r": 73.18,
+   "total_votes": 4839
+  },
+  "Baker": {
+   "margin_r": 19.85,
+   "total_votes": 1476
+  },
+  "Baldwin": {
+   "margin_r": 2.2,
+   "total_votes": 18825
+  },
+  "Banks": {
+   "margin_r": 78.16,
+   "total_votes": 10519
+  },
+  "Barrow": {
+   "margin_r": 40.47,
+   "total_votes": 43934
+  },
+  "Bartow": {
+   "margin_r": 50.97,
+   "total_votes": 57547
+  },
+  "Ben Hill": {
+   "margin_r": 32.03,
+   "total_votes": 6501
+  },
+  "Berrien": {
+   "margin_r": 69.81,
+   "total_votes": 8068
+  },
+  "Bibb": {
+   "margin_r": -22.43,
+   "total_votes": 69181
+  },
+  "Bleckley": {
+   "margin_r": 55.36,
+   "total_votes": 6044
+  },
+  "Brantley": {
+   "margin_r": 82.45,
+   "total_votes": 8500
+  },
+  "Brooks": {
+   "margin_r": 26.78,
+   "total_votes": 7210
+  },
+  "Bryan": {
+   "margin_r": 36.34,
+   "total_votes": 24651
+  },
+  "Bulloch": {
+   "margin_r": 29.0,
+   "total_votes": 32657
+  },
+  "Burke": {
+   "margin_r": 9.33,
+   "total_votes": 11070
+  },
+  "Butts": {
+   "margin_r": 45.16,
+   "total_votes": 13019
+  },
+  "Calhoun": {
+   "margin_r": -12.31,
+   "total_votes": 2056
+  },
+  "Camden": {
+   "margin_r": 35.67,
+   "total_votes": 26393
+  },
+  "Candler": {
+   "margin_r": 47.5,
+   "total_votes": 4568
+  },
+  "Carroll": {
+   "margin_r": 41.16,
+   "total_votes": 60494
+  },
+  "Catoosa": {
+   "margin_r": 55.5,
+   "total_votes": 35038
+  },
+  "Charlton": {
+   "margin_r": 56.18,
+   "total_votes": 4628
+  },
+  "Chatham": {
+   "margin_r": -18.02,
+   "total_votes": 141109
+  },
+  "Chattahoochee": {
+   "margin_r": 16.47,
+   "total_votes": 1694
+  },
+  "Chattooga": {
+   "margin_r": 64.2,
+   "total_votes": 10706
+  },
+  "Cherokee": {
+   "margin_r": 39.01,
+   "total_votes": 162281
+  },
+  "Clarke": {
+   "margin_r": -38.29,
+   "total_votes": 52887
+  },
+  "Clay": {
+   "margin_r": -7.49,
+   "total_votes": 1442
+  },
+  "Clayton": {
+   "margin_r": -69.21,
+   "total_votes": 111729
+  },
+  "Clinch": {
+   "margin_r": 51.55,
+   "total_votes": 2908
+  },
+  "Cobb": {
+   "margin_r": -14.88,
+   "total_votes": 401369
+  },
+  "Coffee": {
+   "margin_r": 45.14,
+   "total_votes": 15715
+  },
+  "Colquitt": {
+   "margin_r": 50.19,
+   "total_votes": 16611
+  },
+  "Columbia": {
+   "margin_r": 25.64,
+   "total_votes": 85920
+  },
+  "Cook": {
+   "margin_r": 46.46,
+   "total_votes": 7357
+  },
+  "Coweta": {
+   "margin_r": 33.86,
+   "total_votes": 85916
+  },
+  "Crawford": {
+   "margin_r": 49.84,
+   "total_votes": 6340
+  },
+  "Crisp": {
+   "margin_r": 25.95,
+   "total_votes": 8116
+  },
+  "Dade": {
+   "margin_r": 66.6,
+   "total_votes": 8200
+  },
+  "Dawson": {
+   "margin_r": 65.26,
+   "total_votes": 19561
+  },
+  "Decatur": {
+   "margin_r": 23.97,
+   "total_votes": 11549
+  },
+  "DeKalb": {
+   "margin_r": -64.75,
+   "total_votes": 366008
+  },
+  "Dodge": {
+   "margin_r": 49.92,
+   "total_votes": 8350
+  },
+  "Dooly": {
+   "margin_r": 7.71,
+   "total_votes": 4177
+  },
+  "Dougherty": {
+   "margin_r": -41.14,
+   "total_votes": 33850
+  },
+  "Douglas": {
+   "margin_r": -31.45,
+   "total_votes": 70721
+  },
+  "Early": {
+   "margin_r": 11.48,
+   "total_votes": 4879
+  },
+  "Echols": {
+   "margin_r": 82.06,
+   "total_votes": 1438
+  },
+  "Effingham": {
+   "margin_r": 49.11,
+   "total_votes": 36244
+  },
+  "Elbert": {
+   "margin_r": 43.38,
+   "total_votes": 9589
+  },
+  "Emanuel": {
+   "margin_r": 44.14,
+   "total_votes": 9619
+  },
+  "Evans": {
+   "margin_r": 42.34,
+   "total_votes": 4244
+  },
+  "Fannin": {
+   "margin_r": 64.77,
+   "total_votes": 16096
+  },
+  "Fayette": {
+   "margin_r": 3.16,
+   "total_votes": 74633
+  },
+  "Floyd": {
+   "margin_r": 41.95,
+   "total_votes": 44738
+  },
+  "Forsyth": {
+   "margin_r": 33.11,
+   "total_votes": 138249
+  },
+  "Franklin": {
+   "margin_r": 72.59,
+   "total_votes": 12140
+  },
+  "Fulton": {
+   "margin_r": -44.86,
+   "total_votes": 535238
+  },
+  "Gilmer": {
+   "margin_r": 62.57,
+   "total_votes": 18481
+  },
+  "Glascock": {
+   "margin_r": 83.89,
+   "total_votes": 1670
+  },
+  "Glynn": {
+   "margin_r": 25.99,
+   "total_votes": 43912
+  },
+  "Gordon": {
+   "margin_r": 63.44,
+   "total_votes": 27606
+  },
+  "Grady": {
+   "margin_r": 38.21,
+   "total_votes": 10718
+  },
+  "Greene": {
+   "margin_r": 28.95,
+   "total_votes": 12786
+  },
+  "Gwinnett": {
+   "margin_r": -16.51,
+   "total_votes": 420681
+  },
+  "Habersham": {
+   "margin_r": 64.89,
+   "total_votes": 23280
+  },
+  "Hall": {
+   "margin_r": 43.78,
+   "total_votes": 101973
+  },
+  "Hancock": {
+   "margin_r": -35.38,
+   "total_votes": 4240
+  },
+  "Haralson": {
+   "margin_r": 74.4,
+   "total_votes": 16364
+  },
+  "Harris": {
+   "margin_r": 46.11,
+   "total_votes": 22353
+  },
+  "Hart": {
+   "margin_r": 54.8,
+   "total_votes": 14331
+  },
+  "Heard": {
+   "margin_r": 72.08,
+   "total_votes": 6210
+  },
+  "Henry": {
+   "margin_r": -29.66,
+   "total_votes": 129034
+  },
+  "Houston": {
+   "margin_r": 11.27,
+   "total_votes": 81514
+  },
+  "Irwin": {
+   "margin_r": 54.21,
+   "total_votes": 4342
+  },
+  "Jackson": {
+   "margin_r": 55.09,
+   "total_votes": 47243
+  },
+  "Jasper": {
+   "margin_r": 58.37,
+   "total_votes": 9118
+  },
+  "Jeff Davis": {
+   "margin_r": 68.31,
+   "total_votes": 5872
+  },
+  "Jefferson": {
+   "margin_r": 1.22,
+   "total_votes": 7463
+  },
+  "Jenkins": {
+   "margin_r": 30.45,
+   "total_votes": 3409
+  },
+  "Johnson": {
+   "margin_r": 46.36,
+   "total_votes": 3984
+  },
+  "Jones": {
+   "margin_r": 38.03,
+   "total_votes": 16092
+  },
+  "Lamar": {
+   "margin_r": 45.91,
+   "total_votes": 10412
+  },
+  "Lanier": {
+   "margin_r": 46.33,
+   "total_votes": 3736
+  },
+  "Laurens": {
+   "margin_r": 32.72,
+   "total_votes": 23352
+  },
+  "Lee": {
+   "margin_r": 43.53,
+   "total_votes": 17683
+  },
+  "Liberty": {
+   "margin_r": -17.45,
+   "total_votes": 23028
+  },
+  "Lincoln": {
+   "margin_r": 44.78,
+   "total_votes": 4931
+  },
+  "Long": {
+   "margin_r": 29.49,
+   "total_votes": 7056
+  },
+  "Lowndes": {
+   "margin_r": 17.98,
+   "total_votes": 47795
+  },
+  "Lumpkin": {
+   "margin_r": 61.67,
+   "total_votes": 17808
+  },
+  "Macon": {
+   "margin_r": -17.9,
+   "total_votes": 4686
+  },
+  "Madison": {
+   "margin_r": 54.79,
+   "total_votes": 16787
+  },
+  "Marion": {
+   "margin_r": 30.24,
+   "total_votes": 3621
+  },
+  "McDuffie": {
+   "margin_r": 24.91,
+   "total_votes": 10537
+  },
+  "McIntosh": {
+   "margin_r": 28.6,
+   "total_votes": 7408
+  },
+  "Meriwether": {
+   "margin_r": 25.47,
+   "total_votes": 11788
+  },
+  "Miller": {
+   "margin_r": 50.48,
+   "total_votes": 2724
+  },
+  "Mitchell": {
+   "margin_r": 16.32,
+   "total_votes": 8877
+  },
+  "Monroe": {
+   "margin_r": 46.68,
+   "total_votes": 17704
+  },
+  "Montgomery": {
+   "margin_r": 53.01,
+   "total_votes": 3973
+  },
+  "Morgan": {
+   "margin_r": 45.94,
+   "total_votes": 13181
+  },
+  "Murray": {
+   "margin_r": 71.59,
+   "total_votes": 17468
+  },
+  "Muscogee": {
+   "margin_r": -23.35,
+   "total_votes": 80491
+  },
+  "Newton": {
+   "margin_r": -15.15,
+   "total_votes": 59051
+  },
+  "Oconee": {
+   "margin_r": 35.93,
+   "total_votes": 27287
+  },
+  "Oglethorpe": {
+   "margin_r": 42.39,
+   "total_votes": 8822
+  },
+  "Paulding": {
+   "margin_r": 24.13,
+   "total_votes": 95196
+  },
+  "Peach": {
+   "margin_r": 6.03,
+   "total_votes": 13454
+  },
+  "Pickens": {
+   "margin_r": 65.79,
+   "total_votes": 20915
+  },
+  "Pierce": {
+   "margin_r": 77.51,
+   "total_votes": 9761
+  },
+  "Pike": {
+   "margin_r": 73.44,
+   "total_votes": 12549
+  },
+  "Polk": {
+   "margin_r": 60.52,
+   "total_votes": 19171
+  },
+  "Pulaski": {
+   "margin_r": 40.48,
+   "total_votes": 4336
+  },
+  "Putnam": {
+   "margin_r": 42.25,
+   "total_votes": 12877
+  },
+  "Quitman": {
+   "margin_r": 15.44,
+   "total_votes": 1140
+  },
+  "Rabun": {
+   "margin_r": 56.88,
+   "total_votes": 10423
+  },
+  "Randolph": {
+   "margin_r": -7.63,
+   "total_votes": 2990
+  },
+  "Richmond": {
+   "margin_r": -36.12,
+   "total_votes": 83578
+  },
+  "Rockdale": {
+   "margin_r": -47.51,
+   "total_votes": 45160
+  },
+  "Schley": {
+   "margin_r": 62.48,
+   "total_votes": 2428
+  },
+  "Screven": {
+   "margin_r": 25.2,
+   "total_votes": 6920
+  },
+  "Seminole": {
+   "margin_r": 40.43,
+   "total_votes": 4007
+  },
+  "Spalding": {
+   "margin_r": 16.66,
+   "total_votes": 33038
+  },
+  "Stephens": {
+   "margin_r": 62.81,
+   "total_votes": 13099
+  },
+  "Stewart": {
+   "margin_r": -16.27,
+   "total_votes": 2028
+  },
+  "Sumter": {
+   "margin_r": -2.22,
+   "total_votes": 12049
+  },
+  "Talbot": {
+   "margin_r": -11.99,
+   "total_votes": 3379
+  },
+  "Taliaferro": {
+   "margin_r": -14.93,
+   "total_votes": 884
+  },
+  "Tattnall": {
+   "margin_r": 53.43,
+   "total_votes": 8512
+  },
+  "Taylor": {
+   "margin_r": 30.99,
+   "total_votes": 3982
+  },
+  "Telfair": {
+   "margin_r": 39.3,
+   "total_votes": 4214
+  },
+  "Terrell": {
+   "margin_r": -4.1,
+   "total_votes": 4341
+  },
+  "Thomas": {
+   "margin_r": 24.11,
+   "total_votes": 22080
+  },
+  "Tift": {
+   "margin_r": 35.66,
+   "total_votes": 16989
+  },
+  "Toombs": {
+   "margin_r": 50.71,
+   "total_votes": 10912
+  },
+  "Towns": {
+   "margin_r": 62.3,
+   "total_votes": 8838
+  },
+  "Treutlen": {
+   "margin_r": 44.41,
+   "total_votes": 3121
+  },
+  "Troup": {
+   "margin_r": 24.39,
+   "total_votes": 31304
+  },
+  "Turner": {
+   "margin_r": 28.49,
+   "total_votes": 3833
+  },
+  "Twiggs": {
+   "margin_r": 14.68,
+   "total_votes": 4456
+  },
+  "Union": {
+   "margin_r": 62.46,
+   "total_votes": 17880
+  },
+  "Upson": {
+   "margin_r": 39.75,
+   "total_votes": 13662
+  },
+  "Walker": {
+   "margin_r": 59.3,
+   "total_votes": 32086
+  },
+  "Walton": {
+   "margin_r": 45.91,
+   "total_votes": 58376
+  },
+  "Ware": {
+   "margin_r": 43.16,
+   "total_votes": 14392
+  },
+  "Warren": {
+   "margin_r": -4.71,
+   "total_votes": 2592
+  },
+  "Washington": {
+   "margin_r": 1.91,
+   "total_votes": 9493
+  },
+  "Wayne": {
+   "margin_r": 59.75,
+   "total_votes": 13561
+  },
+  "Webster": {
+   "margin_r": 18.41,
+   "total_votes": 1336
+  },
+  "Wheeler": {
+   "margin_r": 45.08,
+   "total_votes": 2276
+  },
+  "White": {
+   "margin_r": 68.51,
+   "total_votes": 16825
+  },
+  "Whitfield": {
+   "margin_r": 44.45,
+   "total_votes": 39828
+  },
+  "Wilcox": {
+   "margin_r": 49.18,
+   "total_votes": 3347
+  },
+  "Wilkes": {
+   "margin_r": 16.85,
+   "total_votes": 5098
+  },
+  "Wilkinson": {
+   "margin_r": 17.85,
+   "total_votes": 4908
+  },
+  "Worth": {
+   "margin_r": 50.39,
+   "total_votes": 9309
+  }
+ },
+ "closest_to_statewide": [
+  "Baldwin",
+  "Washington",
+  "Jefferson",
+  "Fayette",
+  "Peach",
+  "Sumter"
+ ]
+}
