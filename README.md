@@ -38,18 +38,6 @@ python3 -I scripts/build_ga.py   cache/wiki cache/gv data
 - Excluded as paid: Silver Bulletin, NYT, Decision Desk HQ API. FiveThirtyEight shut down in 2025.
 - No number is estimated. Anything a source doesn't publish shows "no data".
 
-## Next: Election Night mode (not started)
-
-Requested: automated official results for every tracked race and all GA races/counties, polled every 2–5 minutes, hosted on **GitHub Actions + Pages** (long-running job loop of ~5.5 h started hourly, with a concurrency lock, to avoid Actions' cron delays). The search agent was dropped, so race calls by outlet and states without an official feed will show "not recorded" / "no data".
-
-Blocked until the session has full network access. Order of work:
-
-1. Georgia feed: confirm the platform (appears to be `results.sos.ga.gov`, replacing Clarity) and URL pattern; parse the June 16, 2026 runoff and 2024 general, statewide and county level.
-2. Feeds for the other tracked states; table of state / feed found / format / URL pattern / parser tested.
-3. Poller with backoff, per-source health, fetch log, 20-minute staleness marking, official-over-other precedence with discrepancy flags.
-4. Runoff / recount watch from each state's rules.
-5. Mock election night: staggered closings, slow counts, a feed outage, a source disagreement, a recount-margin race, a GA race at 49.6%.
-
 ## Election night (live results)
 
 `site/index.html` is the live dashboard (Results tab + live Georgia section). It reads `live/live.json`, which the
