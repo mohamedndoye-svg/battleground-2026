@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Battleground 2026</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: sticky tab bar; each view is a single column of panels on phones, two columns of race cards on wide screens.
+   Ink on cool paper, with party colours carrying all the meaning and one violet accent for "this year". */
+:root {
+  --bg: #f3f5f8; --surface: #ffffff; --sunk: #e9edf2; --ink: #17202a; --ink-2: #4a5563; --ink-3: #6b7685; --line: #d7dde5;
+  --accent: #6a35b0; --accent-soft: #efe8fa;
+  --dem: #1f5fb4; --dem-soft: #e3edfa; --dem-mid: #8fb2e3;
+  --rep: #be2f28; --rep-soft: #fbe6e4; --rep-mid: #e79a94;
+  --ind: #5b4fa6; --ind-soft: #ebe8f7;
+  --toss: #8a6a12; --toss-soft: #f6eed7; --toss-mid: #d8bd6a;
+  --warn: #9a5b00; --warn-soft: #fff1da;
+  --c2026: #7A3FC2; --c2022: #B26A12;
+  --focus: #6a35b0;
+  --f-display: "IBM Plex Sans Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --f-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --r: 10px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1419; --surface: #171e26; --sunk: #1e2731; --ink: #e7ecf2; --ink-2: #b4bfcb; --ink-3: #8b97a5; --line: #2b3643;
+  --accent: #b08ef0; --accent-soft: #2a2140;
+  --dem: #7aa9ea; --dem-soft: #17283f; --dem-mid: #3d6aa8;
+  --rep: #f08a80; --rep-soft: #3a1c1b; --rep-mid: #a8463f;
+  --ind: #a99cf0; --ind-soft: #262140;
+  --toss: #dcb85a; --toss-soft: #322a14; --toss-mid: #8d7330;
+  --warn: #f0b45a; --warn-soft: #33260f;
+  --c2026: #9D6FE6; --c2022: #BE8126; --focus: #b08ef0; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f1419; --surface: #171e26; --sunk: #1e2731; --ink: #e7ecf2; --ink-2: #b4bfcb; --ink-3: #8b97a5; --line: #2b3643;
+  --accent: #b08ef0; --accent-soft: #2a2140;
+  --dem: #7aa9ea; --dem-soft: #17283f; --dem-mid: #3d6aa8;
+  --rep: #f08a80; --rep-soft: #3a1c1b; --rep-mid: #a8463f;
+  --ind: #a99cf0; --ind-soft: #262140;
+  --toss: #dcb85a; --toss-soft: #322a14; --toss-mid: #8d7330;
+  --warn: #f0b45a; --warn-soft: #33260f;
+  --c2026: #9D6FE6; --c2022: #BE8126; --focus: #b08ef0; color-scheme: dark }
+
+html { color-scheme: light; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px) }
+body { margin: 0 }
+img { max-width: 100% }
+[hidden] { display: none !important }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface) }
+a { color: var(--accent); text-underline-offset: 2px }
+a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px }
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)) }
+.num, .mono { font-family: var(--f-mono); font-variant-numeric: tabular-nums }
+h1, h2, h3 { font-family: var(--f-display); text-wrap: balance; margin: 0; line-height: 1.15 }
+h2 { font-size: 1.45rem; font-weight: 700 }
+h3 { font-size: 1.12rem; font-weight: 600 }
+.eyebrow { font-family: var(--f-display); font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); font-weight: 600 }
+.muted { color: var(--ink-3) } .small { font-size: .82rem } .tiny { font-size: .74rem }
+
+/* header */
+header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 9; background: var(--surface); border-bottom: 1px solid var(--line) }
+.top .wrap { display: flex; align-items: center; gap: 12px 20px; flex-wrap: wrap; padding-block: 10px }
+.brand { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; min-width: 0 }
+.brand h1 { font-size: 1.35rem; font-weight: 700 }
+.brand .count { font-family: var(--f-mono); font-size: .8rem; color: var(--ink-2) }
+nav.tabs { display: flex; gap: 4px; margin-left: auto; background: var(--sunk); padding: 3px; border-radius: 999px }
+nav.tabs a { font-family: var(--f-display); font-weight: 600; font-size: .95rem; text-decoration: none; color: var(--ink-2); padding: 6px 14px; border-radius: 999px; min-height: 36px; display: inline-flex; align-items: center }
+nav.tabs a[aria-current="page"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 2px rgb(0 0 0 / .12) }
+@media (max-width: 560px) { nav.tabs { margin-left: 0; width: 100% } nav.tabs a { flex: 1; justify-content: center; padding: 6px 8px } }
+
+main { padding-block: 20px 60px; display: grid; gap: 22px }
+main > *, section.panel > *, .card .body > *, .grid2 > *, .rules > *, .avg > *, .ctl > * { min-width: 0 }
+section.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 18px; display: grid; gap: 14px; min-width: 0 }
+.panel-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px 16px; flex-wrap: wrap }
+.stamp { font-size: .74rem; color: var(--ink-3); font-family: var(--f-mono) }
+.note { font-size: .84rem; color: var(--ink-2); max-width: 72ch }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 14px }
+
+/* chips & badges */
+.chip { display: inline-flex; align-items: center; gap: 4px; font-size: .74rem; font-weight: 600; padding: 2px 8px; border-radius: 999px; border: 1px solid transparent; white-space: nowrap; font-family: var(--f-body) }
+.chip.d { background: var(--dem-soft); color: var(--dem) } .chip.r { background: var(--rep-soft); color: var(--rep) }
+.chip.t { background: var(--toss-soft); color: var(--toss) } .chip.i { background: var(--ind-soft); color: var(--ind) }
+.chip.n { background: var(--sunk); color: var(--ink-2) }
+.chip.moe { background: var(--warn-soft); color: var(--warn); border-color: currentColor }
+.chip.gw { background: var(--accent-soft); color: var(--accent) }
+.chip.flag { background: var(--ink); color: var(--surface) }
+.chips { display: flex; flex-wrap: wrap; gap: 6px }
+
+/* control math */
+.ctl { display: grid; gap: 10px }
+.ctl-row { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap }
+.ctl-row .big { font-family: var(--f-display); font-size: 1.9rem; font-weight: 700; line-height: 1 }
+.ctl-row .big .d { color: var(--dem) } .ctl-row .big .r { color: var(--rep) } .ctl-row .big .i { color: var(--ind) } .ctl-row .big .u { color: var(--ink-3) }
+.bar { position: relative; height: 26px; display: flex; border-radius: 6px; overflow: hidden; background: var(--sunk); gap: 2px }
+.bar span { display: block; height: 100% }
+.bar .bd { background: var(--dem) } .bar .bdl { background: var(--dem-mid) } .bar .bu { background: var(--sunk) } .bar .bi { background: var(--ind) }
+.bar .brl { background: var(--rep-mid) } .bar .br { background: var(--rep) }
+.bar .bdx { background: var(--dem-soft); box-shadow: inset 0 0 0 1px var(--dem-mid) } .bar .brx { background: var(--rep-soft); box-shadow: inset 0 0 0 1px var(--rep-mid) }
+.hrow { display: grid; gap: 4px }
+.analysis { border-left: 3px solid var(--accent); padding: 2px 0 2px 12px; display: grid; gap: 6px; font-size: .9rem }
+.analysis p { margin: 0; max-width: 68ch } .analysis .lede { font-weight: 600 } .analysis .watch { color: var(--ink-2); font-size: .84rem }
+.bar .mark { position: absolute; top: -4px; bottom: -4px; width: 2px; background: var(--ink) }
+.bar-legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: .78rem; color: var(--ink-2) }
+.sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px }
+.status { font-family: var(--f-display); font-weight: 600; font-size: 1.02rem }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px }
+.fact { background: var(--sunk); border-radius: 8px; padding: 8px 10px; min-width: 0 }
+.fact b { display: block; font-family: var(--f-mono); font-size: .98rem; line-height: 1.3 }
+
+/* ladder */
+.ladder { display: grid; gap: 4px; overflow-x: auto }
+.rung { display: grid; grid-template-columns: 28px minmax(0, 1fr) 90px 92px; align-items: center; gap: 8px; padding: 5px 8px; border-radius: 6px; background: var(--sunk); font-size: .86rem }
+.rung.ga { outline: 2px solid var(--accent); outline-offset: -2px }
+.rung.decided { opacity: .55 }
+.rung .tp { font-size: .7rem; font-weight: 700 }
+.rung .who { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.line-mark { font-size: .74rem; font-weight: 700; letter-spacing: .04em; padding: 2px 8px; border-left: 3px solid; margin: 2px 0 }
+.line-mark.d { color: var(--dem); border-color: var(--dem) } .line-mark.r { color: var(--rep); border-color: var(--rep) }
+
+/* toolbar */
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--surface) }
+.seg button { font: 600 .84rem var(--f-body); border: 0; background: transparent; color: var(--ink-2); padding: 7px 12px; min-height: 36px; cursor: pointer }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface) }
+select, input[type="search"] { font: .86rem var(--f-body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; min-height: 36px }
+.btn { font: 600 .84rem var(--f-body); border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 8px; padding: 7px 12px; min-height: 36px; cursor: pointer }
+
+/* race card */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr)); gap: 14px; align-items: start }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); display: grid; min-width: 0; overflow: hidden }
+.card .stripe { height: 5px }
+.card .body { padding: 14px; display: grid; gap: 12px; min-width: 0 }
+.card-head { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start }
+.card-head .t { min-width: 0 }
+.card-head h3 { font-size: 1.2rem }
+.cands { display: grid; gap: 3px; font-size: .9rem }
+.cand { display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap }
+.pdot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex: none; transform: translateY(-1px) }
+.pdot.D { background: var(--dem) } .pdot.R { background: var(--rep) } .pdot.I { background: var(--ind) } .pdot.L, .pdot.Other { background: var(--ink-3) }
+.rates { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px }
+.rate { border-radius: 7px; padding: 6px 8px; font-size: .8rem; min-width: 0 }
+.rate .who { font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; opacity: .85; font-weight: 600 }
+.rate .what { font-weight: 600; font-size: .86rem; line-height: 1.2 }
+.rate.d { background: var(--dem-soft); color: var(--dem) } .rate.r { background: var(--rep-soft); color: var(--rep) }
+.rate.t { background: var(--toss-soft); color: var(--toss) } .rate.n { background: var(--sunk); color: var(--ink-3) } .rate.i { background: var(--ind-soft); color: var(--ind) }
+.avg { display: grid; gap: 6px }
+.avg-top { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap }
+.avg-top .m { font-family: var(--f-display); font-size: 1.5rem; font-weight: 700 }
+.m.d { color: var(--dem) } .m.r { color: var(--rep) } .m.i { color: var(--ind) } .m.t { color: var(--toss) }
+.meter { position: relative; height: 8px; background: var(--sunk); border-radius: 4px }
+.meter .zero { position: absolute; left: 50%; top: -3px; bottom: -3px; width: 2px; background: var(--ink-3) }
+.meter .fill { position: absolute; top: 0; bottom: 0; border-radius: 4px }
+.meter .moe { position: absolute; top: -2px; bottom: -2px; border: 1.5px dashed var(--warn); border-radius: 4px }
+table { border-collapse: collapse; width: 100%; font-size: .82rem }
+th, td { text-align: left; padding: 5px 6px; border-bottom: 1px solid var(--line); vertical-align: top }
+th { font-weight: 600; color: var(--ink-3); font-size: .72rem; text-transform: uppercase; letter-spacing: .05em; white-space: nowrap }
+td.r, th.r { text-align: right }
+.tscroll { overflow-x: auto; min-width: 0 }
+details summary { cursor: pointer; font-weight: 600; font-size: .86rem; color: var(--ink-2); list-style-position: outside }
+details[open] summary { margin-bottom: 6px }
+.foot { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 10px }
+.pick { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden }
+.pick button { font: 700 .82rem var(--f-mono); border: 0; background: var(--surface); color: var(--ink-2); min-width: 44px; min-height: 36px; cursor: pointer }
+.pick button + button { border-left: 1px solid var(--line) }
+.pick button[aria-pressed="true"].D { background: var(--dem); color: #fff }
+.pick button[aria-pressed="true"].R { background: var(--rep); color: #fff }
+.pick button[aria-pressed="true"].I { background: var(--ind); color: #fff }
+.pick button[aria-pressed="true"].U { background: var(--ink-3); color: var(--surface) }
+.nodata { color: var(--ink-3); font-style: italic }
+
+/* georgia */
+.rules { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 12px }
+.rule { background: var(--sunk); border-radius: 8px; padding: 12px; display: grid; gap: 6px; align-content: start }
+.rule .k { font-family: var(--f-display); font-size: 1.6rem; font-weight: 700; line-height: 1.05 }
+tr.focus td { background: var(--accent-soft) }
+tr.gw td:first-child { box-shadow: inset 3px 0 0 var(--accent) }
+.chart { width: 100%; height: auto; display: block; overflow: visible }
+.chart text { fill: var(--ink-3); font: 11px var(--f-mono) }
+.chart .grid line { stroke: var(--line) }
+.tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--surface); font: .78rem var(--f-mono); padding: 6px 8px; border-radius: 6px; white-space: nowrap; transform: translate(-50%, -110%) }
+.chartbox { position: relative }
+.src-list { display: grid; gap: 8px }
+.src { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; padding: 10px 12px; background: var(--sunk); border-radius: 8px; font-size: .86rem }
+.ok { color: var(--dem) } .blocked { color: var(--rep) }
+code { font-family: var(--f-mono); font-size: .85em; background: var(--sunk); padding: 1px 5px; border-radius: 4px }
+.loading { padding: 40px 0; color: var(--ink-3) }
+@media (prefers-reduced-motion: no-preference) { .bar span { transition: flex-basis .25s ease } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand"><h1>Battleground 2026</h1><span class="count" id="countdown"></span></div>
+    <nav class="tabs" aria-label="Views">
+      <a href="#georgia" data-view="georgia">Georgia</a>
+      <a href="#national" data-view="national">National</a>
+      <a href="#sources" data-view="sources">Sources</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="app"><p class="loading">Loading race data…</p></main>
+
+<script>
+(() => {
+const TZ = 'America/New_York';
+const ELECTION = new Date('2026-11-03T07:00:00-05:00');
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const fmtN = n => n == null ? '—' : Number(n).toLocaleString('en-US');
+const fmtTS = iso => { if (!iso) return 'no data'; const d = new Date(iso); return isNaN(d) ? iso : d.toLocaleString('en-US', { timeZone: TZ, month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + ' ET'; };
+const shortDate = s => s ? String(s).replace(/, 2026$/, '').replace('October', 'Oct').replace('September', 'Sep').replace('November', 'Nov').replace('August', 'Aug') : '—';
+const link = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : esc(text);
+
+let R = null, G = null;
+let picks = {};
+try { picks = JSON.parse(localStorage.getItem('bg26-picks') || '{}') || {}; } catch (e) { picks = {}; }
+const savePicks = () => { try { localStorage.setItem('bg26-picks', JSON.stringify(picks)); } catch (e) {} };
+const ui = { chamber: 'all', sort: 'close', q: '' };
+
+// rating -> signed score (+D / -R), used only for colour and ordering
+function score(r) {
+  if (!r) return null;
+  r = String(r).replace(' (flip)', '');
+  if (/^toss/i.test(r)) return 0;
+  const m = r.match(/^(Tilt|Lean|Likely|Solid|Safe) ([DRI])/);
+  if (!m) return null;
+  const v = { Tilt: 1, Lean: 2, Likely: 3, Solid: 4, Safe: 4 }[m[1]];
+  return m[2] === 'R' ? -v : v;
+}
+const rateCls = r => { const s = score(r); if (s == null) return 'n'; if (s === 0) return 't'; if (/ I/.test(r)) return 'i'; return s > 0 ? 'd' : 'r'; };
+const sideCls = (m, demParty) => m == null ? 't' : Math.abs(m) < 0.05 ? 't' : m > 0 ? (demParty === 'I' ? 'i' : 'd') : 'r';
+function stripeColor(r) {
+  const s = r.mean_score;
+  if (s == null) return 'var(--line)';
+  if (Math.abs(s) < 0.5) return 'var(--toss-mid)';
+  if (s > 0) return s >= 2.5 ? 'var(--dem)' : 'var(--dem-mid)';
+  return s <= -2.5 ? 'var(--rep)' : 'var(--rep-mid)';
+}
+function marginLabel(m, main) {
+  if (m == null) return null;
+  if (Math.abs(m) < 0.05) return 'Tied';
+  return `${m > 0 ? main.dem_side : main.rep_side} +${Math.abs(m).toFixed(1)}`;
+}
+function moeInfo(race) {
+  const polls = race.polling?.polls || [];
+  const moes = polls.map(p => p.moe).filter(x => x != null);
+  if (race.consensus != null && moes.length) {
+    const avg = moes.reduce((a, b) => a + b, 0) / moes.length;
+    return { within: Math.abs(race.consensus) <= avg, moe: avg, basis: `average margin vs. the mean ±${avg.toFixed(1)} MoE of the ${moes.length} most recent polls` };
+  }
+  const p = polls[0];
+  if (p && p.moe != null) return { within: Math.abs(p.margin) <= p.moe, moe: p.moe, basis: `latest poll's lead vs. its own ±${p.moe} MoE (no published average)` };
+  return null;
+}
+const closeKey = r => r.consensus != null ? Math.abs(r.consensus) : (r.polling?.polls?.[0] ? 50 + Math.abs(r.polling.polls[0].margin) : 100 + Math.abs(r.mean_score ?? 9));
+
+// ---------------------------------------------------------------- shared card pieces
+function ratingsHTML(ratings) {
+  const keys = [['cook', 'Cook'], ['ie', 'Inside Elections'], ['sabato', 'Sabato']];
+  return `<div class="rates">${keys.map(([k, n]) => {
+    const x = ratings?.[k];
+    if (!x || !x.rating) return `<div class="rate n"><div class="who">${n}</div><div class="what nodata">no data</div></div>`;
+    return `<div class="rate ${rateCls(x.rating)}" title="${esc(n)} as of ${esc(x.as_of)}"><div class="who">${n}</div><div class="what">${esc(x.rating)}</div><div class="tiny">${esc(shortDate(x.as_of))}</div></div>`;
+  }).join('')}</div>`;
+}
+function meterHTML(m, moe, demParty) {
+  if (m == null) return '';
+  const cap = 15, w = Math.min(Math.abs(m), cap) / cap * 50;
+  const color = Math.abs(m) < 0.05 ? 'var(--toss)' : m > 0 ? (demParty === 'I' ? 'var(--ind)' : 'var(--dem)') : 'var(--rep)';
+  const left = m >= 0 ? 50 : 50 - w;
+  const moeBox = moe ? `<span class="moe" style="left:${50 - Math.min(moe, cap) / cap * 50}%;width:${Math.min(moe, cap) / cap * 100}%"></span>` : '';
+  return `<div class="meter" role="img" aria-label="Margin ${esc(String(m))} points">${moeBox}<span class="fill" style="left:${left}%;width:${Math.max(w, 1)}%;background:${color}"></span><span class="zero"></span></div>`;
+}
+function pollingHTML(race) {
+  const p = race.polling || {}, main = race.main || {};
+  const avgs = p.averages || [], polls = p.polls || [];
+  const mi = moeInfo(race);
+  const head = race.consensus != null
+    ? `<div class="avg-top"><span class="m ${sideCls(race.consensus, main.dem_party)}">${esc(marginLabel(race.consensus, main))}</span><span class="small muted">mean of ${avgs.filter(a => a.margin != null).length} free averages</span>${mi?.within ? `<span class="chip moe" title="${esc(mi.basis)}">Within margin of error</span>` : ''}</div>`
+    : `<div class="avg-top"><span class="nodata">Polling average: no data</span><span class="small muted">${race.chamber === 'house' || race.office ? 'no free aggregator publishes one for this race' : ''}</span>${mi?.within ? `<span class="chip moe" title="${esc(mi.basis)}">Within margin of error</span>` : ''}</div>`;
+  const avgRows = avgs.length ? `<div class="tscroll"><table><thead><tr><th>Average</th><th class="r">Margin</th><th>Updated</th></tr></thead><tbody>${avgs.map(a => `<tr><td>${link(a.cite, a.source)}</td><td class="r num">${esc(marginLabel(a.margin, main) ?? '—')}</td><td class="small">${esc(shortDate(a.updated))}</td></tr>`).join('')}</tbody></table></div>`
+    : '';
+  const hasRCP = avgs.some(a => /RealClear/.test(a.source));
+  const pollRows = polls.length ? `<div class="tscroll"><table><thead><tr><th>Pollster</th><th>Dates</th><th class="r">n</th><th class="r">MoE</th><th class="r">${esc(main.dem_side || 'D')}</th><th class="r">${esc(main.rep_side || 'R')}</th><th class="r">Margin</th></tr></thead><tbody>${polls.map(x => `<tr><td>${link(x.cite, x.pollster)}${x.partisan ? ` <span class="tiny muted">(${esc(x.partisan)})</span>` : ''}</td><td class="small">${esc(shortDate(x.dates))}</td><td class="r num">${x.n ? fmtN(x.n) : '—'}${x.pop ? ` ${esc(x.pop)}` : ''}</td><td class="r num">${x.moe != null ? '±' + x.moe : '—'}</td><td class="r num">${x.dem}</td><td class="r num">${x.rep}</td><td class="r num">${esc(marginLabel(x.margin, main))}</td></tr>`).join('')}</tbody></table></div>`
+    : `<p class="nodata small">Recent polls: no data${p.page ? ` on ${link(p.page, 'the race page')}` : ''}.</p>`;
+  return `<div class="avg">${head}${meterHTML(race.consensus ?? polls[0]?.margin ?? null, mi?.moe, main.dem_party)}
+    ${avgRows}${avgs.length && !hasRCP ? '<p class="tiny muted">RealClearPolling: no data (blocks automated access and not reported for this race).</p>' : ''}
+    <details${race.chamber === 'senate' || race.office ? ' open' : ''}><summary>${polls.length ? `${polls.length} most recent polls` : 'Recent polls'}${p.poll_count ? ` <span class="muted small">of ${p.poll_count} listed</span>` : ''}</summary>${pollRows}</details></div>`;
+}
+function candsHTML(cands) {
+  return `<div class="cands">${(cands || []).map(c => `<div class="cand"><span class="pdot ${esc(c.party)}"></span><span>${esc(c.name)}</span><span class="muted small">${esc(c.party)}${c.incumbent ? ' · incumbent' : ''}</span></div>`).join('')}</div>`;
+}
+function stampHTML(race) {
+  const rt = race.ratings?.cook || race.ratings?.sabato || race.ratings?.ie;
+  const lastAvg = (race.polling?.averages || []).map(a => a.updated).filter(Boolean)[0];
+  return `<div class="stamp">Ratings as of ${esc(shortDate(rt?.as_of))} (fetched ${esc(fmtTS(rt?.fetched_at))}) · ${lastAvg ? `averages updated ${esc(shortDate(lastAvg))} · ` : ''}polls fetched ${esc(fmtTS(race.polling?.fetched_at))}</div>`;
+}
+
+// ---------------------------------------------------------------- control math
+function tally(chamber) {
+  const C = R.control[chamber];
+  const list = R.races.filter(r => r.chamber === chamber);
+  const t = { D: C.base.D, R: C.base.R, I: 0, U: 0, leanD: 0, leanR: 0, toss: 0 };
+  for (const r of list) {
+    const p = picks[r.id];
+    if (p === 'D') t.D++; else if (p === 'R') t.R++; else if (p === 'I') t.I++;
+    else {
+      t.U++;
+      const s = score(r.ratings?.cook?.rating);
+      if (s > 0) t.leanD++; else if (s < 0) t.leanR++; else t.toss++;
+    }
+  }
+  return { t, C, list };
+}
+function controlPanel(chamber) {
+  const { t, C, list } = tally(chamber);
+  const seats = chamber === 'senate' ? 100 : 435;
+  const needD = chamber === 'senate' ? C.majority.D : C.majority;
+  const needR = chamber === 'senate' ? C.majority.R : C.majority;
+  let status;
+  if (t.D >= needD) status = `<span style="color:var(--dem)">Democrats win control</span> in this scenario`;
+  else if (t.R >= needR) status = `<span style="color:var(--rep)">Republicans keep control</span> in this scenario${chamber === 'senate' && t.R === 50 ? ' (50 seats + Vice President Vance\'s tiebreak)' : ''}`;
+  else status = `Undecided: Democrats need <b>${needD - t.D}</b> more, Republicans need <b>${needR - t.R}</b> more`;
+  const pct = n => (n / seats * 100).toFixed(3) + '%';
+  const markAt = (chamber === 'senate' ? 50 : 217.5) / seats * 100;
+  const fixedD = t.D, fixedR = t.R;
+  const bar = `<div class="bar" role="img" aria-label="${fixedD} Democratic, ${t.I} independent, ${t.U} undecided, ${fixedR} Republican">
+      <span class="bd" style="flex-basis:${pct(fixedD)}"></span>${t.I ? `<span class="bi" style="flex-basis:${pct(t.I)}"></span>` : ''}
+      <span class="bdl" style="flex-basis:${pct(t.leanD)}"></span><span class="bu" style="flex-basis:${pct(t.toss)}"></span><span class="brl" style="flex-basis:${pct(t.leanR)}"></span>
+      <span class="br" style="flex-basis:${pct(fixedR)}"></span><span class="mark" style="left:${markAt}%"></span></div>`;
+  const cur = C.current;
+  const curTxt = chamber === 'senate'
+    ? `${cur.R} R · ${cur.D} D · ${cur.I} I (caucus with D)`
+    : `${cur.R} R · ${cur.D} D · ${cur.I} I (caucuses with R) · ${cur.vacant} vacant`;
+  const majTxt = chamber === 'senate'
+    ? `R 50 · D 51`
+    : `218 of 435`;
+  return `<div class="ctl">
+    <div class="ctl-row"><h3>Senate</h3>
+      <div class="big"><span class="d">${t.D}</span> <span class="u">·</span> ${t.I ? `<span class="i">${t.I}</span> <span class="u">·</span> ` : ''}<span class="r">${t.R}</span></div></div>
+    ${bar}
+    <div class="bar-legend"><span><i class="sw" style="background:var(--dem)"></i>D base + your picks</span><span><i class="sw" style="background:var(--dem-mid)"></i>Undecided, Cook leans D (${t.leanD})</span><span><i class="sw" style="background:var(--sunk);outline:1px solid var(--line)"></i>Undecided toss-up (${t.toss})</span><span><i class="sw" style="background:var(--rep-mid)"></i>Undecided, Cook leans R (${t.leanR})</span><span><i class="sw" style="background:var(--rep)"></i>R base + your picks</span>${t.I ? `<span><i class="sw" style="background:var(--ind)"></i>Independent</span>` : ''}</div>
+    <div class="status">${status}</div>
+    <div class="facts">
+      <div class="fact"><span class="eyebrow">Now</span><b>${curTxt}</b></div>
+      <div class="fact"><span class="eyebrow">Needed for majority</span><b>${majTxt}</b>${chamber === 'senate' ? '<span class="tiny">R needs 50 because VP Vance breaks ties</span>' : ''}</div>
+      <div class="fact"><span class="eyebrow">Not tracked (Cook)</span><b>${C.base.D} D · ${C.base.R} R</b></div>
+      <div class="fact"><span class="eyebrow">Tracked races</span><b>${list.length}</b></div>
+    </div>
+    <p class="stamp">${chamber === 'senate'
+      ? `Composition: ${link(C.source, 'Wikipedia')} fetched ${esc(fmtTS(C.fetched_at))}. Base = ${C.holdover.D} D/I and ${C.holdover.R} R seats not up in 2026, plus untracked races rated Solid/Likely by Cook. ${esc(C.vp.note)}`
+      : `Composition: ${link(C.source, 'Wikipedia')} fetched ${esc(fmtTS(C.fetched_at))}. Base = seats outside the tracked list, assigned by Cook's ${esc(shortDate(C.cook_totals.as_of))} ratings (Cook total: ${C.cook_totals.D} D, ${C.cook_totals.R} R, ${C.cook_totals.toss} toss-ups).`}</p>
+  </div>`;
+}
+function pathPanel() {
+  const { t } = tally('senate');
+  const sen = R.races.filter(r => r.chamber === 'senate');
+  const und = sen.filter(r => !picks[r.id]);
+  const needD = Math.max(0, 51 - t.D), needR = Math.max(0, 50 - t.R);
+  const dPool = und.filter(r => r.main?.dem_party !== 'I');
+  const ord = [...und].sort((a, b) => (b.consensus ?? -99) - (a.consensus ?? -99)); // D-best first
+  const dOrd = ord.filter(r => r.main?.dem_party !== 'I');
+  const dTip = needD > 0 && needD <= dOrd.length ? dOrd[needD - 1] : null;
+  const rOrd = [...ord].reverse();
+  const rTip = needR > 0 && needR <= rOrd.length ? rOrd[needR - 1] : null;
+  const ga = sen.find(r => r.id === 'S-GA');
+  const dMsg = t.D >= 51 ? 'Democrats already have 51 in this scenario.' : needD > dPool.length ? `Democrats can no longer reach 51 (need ${needD}, only ${dPool.length} undecided races they can win).` : needD === dPool.length ? `Democrats must win <b>every one</b> of the ${dPool.length} remaining races they contest.` : `Democrats need <b>any ${needD}</b> of the ${dPool.length} undecided races (Nebraska's Osborn is an independent and is not counted toward 51).`;
+  const rMsg = t.R >= 50 ? 'Republicans already have 50 + the VP tiebreak in this scenario.' : needR > und.length ? `Republicans can no longer reach 50.` : needR === und.length ? `Republicans must win <b>every one</b> of the ${und.length} remaining races.` : `Republicans need <b>any ${needR}</b> of the ${und.length} undecided races (50 seats + VP tiebreak).`;
+  let dCount = t.D, rCount = t.R;
+  const rows = ord.map((r, i) => {
+    const isGA = r.id === 'S-GA';
+    const m = r.consensus;
+    let pre = '';
+    const row = `<div class="rung${isGA ? ' ga' : ''}"><span class="tp num">${i + 1}</span><span class="who"><b>${esc(r.state)}</b> <span class="muted small">${esc(r.main.dem_side)} v ${esc(r.main.rep_side)}</span>${isGA ? ' <span class="chip gw">GA</span>' : ''}</span><span class="m ${sideCls(m, r.main.dem_party)} num small">${esc(marginLabel(m, r.main) ?? 'no avg')}</span><span class="small muted">${esc(r.ratings?.cook?.rating ?? '')}</span></div>`;
+    let after = '';
+    if (dTip === r) after += `<div class="line-mark d">▲ Democrats reach 51 if they win every race down to here (tipping point: ${esc(r.state)})</div>`;
+    if (rTip === r) pre += `<div class="line-mark r">▼ Republicans reach 50 if they win every race from the bottom up to here (tipping point: ${esc(r.state)})</div>`;
+    return pre + row + after;
+  }).join('');
+  const gaLine = ga ? (() => {
+    const pos = ord.indexOf(ga);
+    return picks['S-GA'] ? `You have assigned Georgia to <b>${picks['S-GA']}</b>.` :
+      `Georgia (Ossoff v. Collins, ${esc(marginLabel(ga.consensus, ga.main))} in the average) ranks <b>#${pos + 1}</b> of ${ord.length} for Democrats. ${dTip && pos >= 0 && pos < dOrd.indexOf(dTip) + 1 ? 'It sits inside the Democrats\' path: losing it means winning a race further down the list.' : ''} For Republicans, flipping Georgia would replace the need to win one of the closer races. It is rated Likely D by all three raters and is included here by hand. If no candidate reaches 50%, it goes to a runoff on December 1, so control might not be known on election night.`;
+  })() : '';
+  return `<section class="panel" id="path"><div class="panel-head"><h2>Path to a Senate majority</h2><span class="stamp">Ordered by polling average, from best for Democrats to best for Republicans</span></div>
+    <div class="grid2"><p class="note" style="margin:0"><b style="color:var(--dem)">Democrats:</b> ${dMsg}</p><p class="note" style="margin:0"><b style="color:var(--rep)">Republicans:</b> ${rMsg}</p></div>
+    <p class="note" style="margin:0">${gaLine}</p>
+    <div class="ladder">${rows || '<p class="muted">All tracked races are assigned.</p>'}</div>
+    <p class="tiny muted">"Any N of" counts every combination: the ladder just shows the cheapest one, taking races in order of the polling average. Tap D / ? / R on a race card to change the scenario.</p></section>`;
+}
+function houseSummary() {
+  const C = R.control.house, B = C.by_rater;
+  const order = [['cook', 'Cook'], ['ie', 'Inside Elections'], ['sabato', 'Sabato']];
+  const pct = n => (n / 435 * 100).toFixed(3) + '%';
+  const rowsHTML = order.map(([k, n]) => {
+    const x = B[k]; if (!x) return '';
+    const dl = x.D.Lean + x.D.Tilt, rl = x.R.Lean + x.R.Tilt;
+    return `<div class="hrow"><div class="ctl-row"><span class="small"><b>${n}</b> <span class="muted">${esc(shortDate(x.as_of))}</span></span>
+        <span class="num small"><b style="color:var(--dem)">${x.total.D} D</b> · ${x.toss} toss-up · <b style="color:var(--rep)">${x.total.R} R</b></span></div>
+      <div class="bar" role="img" aria-label="${n}: ${x.total.D} seats rated Democratic, ${x.toss} toss-ups, ${x.total.R} rated Republican">
+        <span class="bd" style="flex-basis:${pct(x.D.Solid)}"></span><span class="bdl" style="flex-basis:${pct(x.D.Likely)}"></span><span class="bdx" style="flex-basis:${pct(dl)}"></span>
+        <span class="bu" style="flex-basis:${pct(x.toss)}"></span>
+        <span class="brx" style="flex-basis:${pct(rl)}"></span><span class="brl" style="flex-basis:${pct(x.R.Likely)}"></span><span class="br" style="flex-basis:${pct(x.R.Solid)}"></span>
+        <span class="mark" style="left:${(217.5 / 435 * 100).toFixed(2)}%"></span></div>
+      <div class="tiny muted">${x.total.D >= 218 ? `Democrats already reach 218 with seats rated at least Lean D (${x.total.D - 218} to spare).` : `Democrats need ${218 - x.total.D} of the ${x.toss} toss-ups.`} ${x.total.R >= 218 ? `Republicans reach 218 with seats rated at least Lean R.` : `Republicans need ${218 - x.total.R} of the ${x.toss} toss-ups.`} Rated flips: ${x.flips.D} toward D, ${x.flips.R} toward R.</div></div>`;
+  }).join('');
+  const cur = C.current;
+  return `<div class="ctl">
+    <div class="ctl-row"><h3>House</h3><span class="small muted">218 of 435 for a majority</span></div>
+    <div class="facts">
+      <div class="fact"><span class="eyebrow">Now</span><b>${cur.R} R · ${cur.D} D · ${cur.I} I · ${cur.vacant} vacant</b><span class="tiny">The independent (Kiley) caucuses with R</span></div>
+      <div class="fact"><span class="eyebrow">Needed for majority</span><b>218 of 435</b><span class="tiny">All 435 seats are up</span></div>
+    </div>
+    <div class="eyebrow">Where each party stands, by rater</div>
+    ${rowsHTML}
+    <div class="bar-legend"><span><i class="sw" style="background:var(--dem)"></i>Solid D</span><span><i class="sw" style="background:var(--dem-mid)"></i>Likely D</span><span><i class="sw" style="background:var(--dem-soft);outline:1px solid var(--dem-mid)"></i>Lean/Tilt D</span><span><i class="sw" style="background:var(--sunk);outline:1px solid var(--line)"></i>Toss-up</span><span><i class="sw" style="background:var(--rep-soft);outline:1px solid var(--rep-mid)"></i>Lean/Tilt R</span><span><i class="sw" style="background:var(--rep-mid)"></i>Likely R</span><span><i class="sw" style="background:var(--rep)"></i>Solid R</span></div>
+    <p class="stamp">Composition: ${link(C.source, 'Wikipedia')} fetched ${esc(fmtTS(C.fetched_at))}. Ratings: ${link(C.ratings_via, 'Wikipedia ratings table')} fetched ${esc(fmtTS(C.ratings_fetched_at))}. Seats no rater calls competitive are counted as Solid. The line marks 218.</p>
+  </div>`;
+}
+function governorSummary() {
+  const C = R.control.governor, list = R.races.filter(r => r.chamber === 'governor');
+  const count = (pred) => list.filter(pred).length;
+  const lead = r => r.consensus ?? r.polling?.polls?.[0]?.margin ?? null;
+  const dLead = count(r => (lead(r) ?? 0) > 0.05), rLead = count(r => (lead(r) ?? 0) < -0.05), tie = list.length - dLead - rLead;
+  const flipsD = list.filter(r => r.incumbent.party === 'R' && (lead(r) ?? 0) > 0.05).map(r => r.state);
+  const flipsR = list.filter(r => r.incumbent.party === 'D' && (lead(r) ?? 0) < -0.05).map(r => r.state);
+  return `<section class="panel" id="governors"><div class="panel-head"><h2>Governors</h2><span class="stamp">Ratings ${link(C.source, 'via Wikipedia')} fetched ${esc(fmtTS(C.fetched_at))}</span></div>
+    <div class="facts">
+      ${[['cook', 'Cook'], ['ie', 'Inside Elections'], ['sabato', 'Sabato']].map(([k, n]) => `<div class="fact"><span class="eyebrow">${n}, all 50 states</span><b>${esc(C.by_rater_totals[k])}</b><span class="tiny">${esc(shortDate(C.as_of[k]))}</span></div>`).join('')}
+      <div class="fact"><span class="eyebrow">${list.length} competitive races</span><b>${dLead} D lead · ${rLead} R lead${tie ? ` · ${tie} tied` : ''}</b><span class="tiny">by polling average, or latest poll where no average exists</span></div>
+    </div>
+    <p class="note" style="margin:0">Races where the polling leader would flip the seat: ${flipsD.length ? `<b style="color:var(--dem)">to D</b>: ${esc(flipsD.join(', '))}` : 'none to D'}; ${flipsR.length ? `<b style="color:var(--rep)">to R</b>: ${esc(flipsR.join(', '))}` : 'none to R'}.</p>
+    <p class="tiny muted">Competitive = rated Toss-up, Tilt or Lean by Cook, Inside Elections or Sabato. Each card below has a short analysis written on ${esc(C.analysis_as_of)} from the ratings and polls shown on that card.</p>
+  </section>`;
+}
+// ---------------------------------------------------------------- national view
+function analysisHTML(a) {
+  if (!a) return '';
+  return `<div class="analysis"><div class="eyebrow">Analysis</div><p class="lede">${esc(a.headline)}</p>${(a.body || []).map(t => `<p>${esc(t)}</p>`).join('')}${a.watch ? `<p class="watch"><b>Watch on election night:</b> ${esc(a.watch)}</p>` : ''}</div>`;
+}
+function raceCard(r) {
+  const p = picks[r.id] || 'U';
+  const dp = r.main?.dem_party || 'D';
+  const pres = r.pres2024?.margin_r;
+  const presTxt = pres == null ? '<span class="nodata">no data</span>' : pres > 0 ? `Trump +${pres.toFixed(1)}` : pres < 0 ? `Harris +${Math.abs(pres).toFixed(1)}` : 'Even';
+  const mi = moeInfo(r);
+  return `<article class="card" id="card-${esc(r.id)}">
+    <div class="stripe" style="background:${stripeColor(r)}"></div>
+    <div class="body">
+      <div class="card-head"><div class="t"><div class="eyebrow">${r.chamber === 'senate' ? 'Senate' : 'Governor'}${r.pvi ? ` · PVI ${esc(r.pvi)}` : ''}</div><h3>${esc(r.state)}</h3></div>
+        <div class="chips" style="justify-content:flex-end">${r.open ? '<span class="chip n">Open seat</span>' : '<span class="chip n">Incumbent running</span>'}${r.included_by === 'manual' ? '<span class="chip gw">Added by hand</span>' : ''}</div></div>
+      ${candsHTML(r.candidates)}
+      <div class="small muted">Held by ${esc(r.incumbent?.name)} (${esc(r.incumbent?.party ?? '?')}) · 2024 president: <b class="num">${presTxt}</b> ${r.pres2024?.source ? link(r.pres2024.source, 'source') : ''}</div>
+      ${ratingsHTML(r.ratings)}
+      ${pollingHTML(r)}
+      ${analysisHTML(r.analysis)}
+      ${r.included_note ? `<p class="tiny muted">${esc(r.included_note)}</p>` : ''}
+      <div class="foot">${stampHTML(r)}
+        ${r.chamber === 'senate' ? `<div class="pick" role="group" aria-label="Scenario pick for ${esc(r.label)}">
+          <button class="${dp}" data-pick="${esc(r.id)}" data-v="${dp}" aria-pressed="${p === dp}">${dp}</button>
+          <button class="U" data-pick="${esc(r.id)}" data-v="U" aria-pressed="${p === 'U'}" aria-label="Undecided">?</button>
+          <button class="R" data-pick="${esc(r.id)}" data-v="R" aria-pressed="${p === 'R'}">R</button>
+        </div>` : ''}</div>
+    </div></article>`;
+}
+function nationalView() {
+  let list = R.races.slice();
+  if (ui.chamber === 'senate') list = list.filter(r => r.chamber === 'senate');
+  if (ui.chamber === 'governor') list = list.filter(r => r.chamber === 'governor');
+  if (ui.chamber === 'moe') list = list.filter(r => moeInfo(r)?.within);
+  if (ui.q) { const q = ui.q.toLowerCase(); list = list.filter(r => (r.label + ' ' + r.state + ' ' + (r.candidates || []).map(c => c.name).join(' ')).toLowerCase().includes(q)); }
+  if (ui.sort === 'close') list.sort((a, b) => (a.chamber === b.chamber ? 0 : a.chamber === 'senate' ? -1 : 1) || closeKey(a) - closeKey(b));
+
+  if (ui.sort === 'rating') list.sort((a, b) => Math.abs(a.mean_score ?? 9) - Math.abs(b.mean_score ?? 9));
+  if (ui.sort === 'state') list.sort((a, b) => a.label.localeCompare(b.label, 'en', { numeric: true }));
+  const nPicked = Object.keys(picks).length;
+  return `
+  <section class="panel"><div class="panel-head"><h2>Control of Congress</h2><span class="stamp">Data built ${esc(fmtTS(R.generated_at))}</span></div>
+    <div class="grid2">${controlPanel('senate')}${houseSummary()}</div>
+    <div class="toolbar"><span class="small muted">${nPicked ? `${nPicked} Senate race${nPicked > 1 ? 's' : ''} assigned in your scenario.` : 'No Senate races assigned yet: tap D / ? / R on any Senate card below.'}</span>${nPicked ? '<button class="btn" id="reset">Clear scenario</button>' : ''}<button class="btn" id="leaders">Assign every Senate race to its polling leader</button></div>
+  </section>
+  ${pathPanel()}
+  ${governorSummary()}
+  <section class="panel" aria-label="Races">
+    <div class="panel-head"><h2>Races</h2><span class="small muted">${list.length} shown</span></div>
+    <div class="toolbar">
+      <div class="seg" role="group" aria-label="Filter">${[['all', 'All'], ['senate', 'Senate'], ['governor', 'Governors'], ['moe', 'Within MoE']].map(([k, n]) => `<button data-f="${k}" aria-pressed="${ui.chamber === k}">${n}</button>`).join('')}</div>
+      <label class="small muted" for="sort">Sort</label><select id="sort"><option value="close"${ui.sort === 'close' ? ' selected' : ''}>Closest polling average</option><option value="rating"${ui.sort === 'rating' ? ' selected' : ''}>Closest rating</option><option value="state"${ui.sort === 'state' ? ' selected' : ''}>State A–Z</option></select>
+      <input type="search" id="q" placeholder="Find a state, district or candidate" value="${esc(ui.q)}" aria-label="Search races">
+    </div>
+    <p class="tiny muted">Senate races first, then governors, each sorted by how close the polling average is. Races with no published average (Alaska, Oregon and Vermont governor) sort by their latest poll. "Within margin of error" compares the average margin with the polls' typical MoE.</p>
+    <div class="cards">${list.map(raceCard).join('') || '<p class="muted">No races match.</p>'}</div>
+  </section>`;
+}
+
+// ---------------------------------------------------------------- Georgia view
+function gaCard(s) {
+  const main = s.main;
+  const avgs = s.polling?.averages || [];
+  const dAvg = avgs.length ? avgs.reduce((a, x) => a + (x.dem || 0), 0) / avgs.length : null;
+  const rAvg = avgs.length ? avgs.reduce((a, x) => a + (x.rep || 0), 0) / avgs.length : null;
+  const runoffRisk = dAvg != null && dAvg < 50 && rAvg < 50;
+  const latest = s.polling?.polls?.[0];
+  const runoffRiskPoll = !avgs.length && latest && latest.dem < 50 && latest.rep < 50;
+  const race = { ...s, chamber: 'ga', mean_score: (() => { const v = Object.values(s.ratings || {}).map(x => score(x.rating)).filter(x => x != null); return v.length ? v.reduce((a, b) => a + b, 0) / v.length : null; })() };
+  return `<article class="card"><div class="stripe" style="background:${stripeColor(race)}"></div><div class="body">
+    <div class="card-head"><div class="t"><div class="eyebrow">Georgia · statewide</div><h3>${esc(s.office)}</h3></div>
+      <div class="chips" style="justify-content:flex-end">${runoffRisk || runoffRiskPoll ? `<span class="chip moe" title="${runoffRisk ? 'Neither candidate is at 50% in the polling average' : 'Neither candidate is at 50% in the latest poll'}">Runoff possible</span>` : ''}</div></div>
+    ${candsHTML(s.candidates)}
+    <div class="small muted">${esc(s.note)}</div>
+    ${Object.keys(s.ratings || {}).length ? ratingsHTML(s.ratings) : '<p class="small nodata">Ratings: no data (Cook, Inside Elections and Sabato have not published one that the source page lists).</p>'}
+    ${pollingHTML({ ...s, office: true, chamber: 'ga' })}
+    ${avgs.length ? `<p class="tiny muted">Average shares: ${esc(main.dem_side)} ${dAvg.toFixed(1)}%, ${esc(main.rep_side)} ${rAvg.toFixed(1)}%. Georgia requires 50% + 1 to win outright.</p>` : ''}
+    ${s.office === 'Governor' ? analysisHTML(R.races.find(r => r.id === 'G-Georgia')?.analysis) : ''}
+    <div class="foot"><div class="stamp">Source: ${link(s.source, 'Wikipedia race page')} fetched ${esc(fmtTS(s.fetched_at))}${avgs[0]?.updated ? ` · averages updated ${esc(shortDate(avgs[0].updated))}` : ''}</div></div>
+  </div></article>`;
+}
+function turnoutChart(daily) {
+  const W = 640, H = 240, L = 54, Rr = 72, T = 14, B = 30;
+  const pts = daily;
+  const maxY = Math.max(...pts.map(d => Math.max(d.y2026 || 0, d.y2022 || 0)));
+  const yTop = Math.ceil(maxY / 500000) * 500000;
+  const x = i => L + i / (pts.length - 1) * (W - L - Rr);
+  const y = v => T + (1 - v / yTop) * (H - T - B);
+  const path = key => pts.map((d, i) => d[key] == null ? null : `${x(i).toFixed(1)},${y(d[key]).toFixed(1)}`).filter(Boolean).map((p, i) => (i ? 'L' : 'M') + p).join('');
+  const ticks = []; for (let v = 0; v <= yTop; v += 500000) ticks.push(v);
+  const xt = pts.map((d, i) => ({ d, i })).filter(({ d }) => /-(05|12|19|26|03)$/.test(d.date) || d.date === '2026-11-03');
+  const last26 = pts.reduce((a, d, i) => d.y2026 != null ? i : a, 0);
+  const lastI = pts.length - 1;
+  return `<div class="chartbox" id="tchart"><svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Cumulative early and mail votes, 2026 compared with 2022 at the same point">
+    <g class="grid">${ticks.map(v => `<line x1="${L}" x2="${W - Rr}" y1="${y(v)}" y2="${y(v)}"></line><text x="${L - 6}" y="${y(v) + 4}" text-anchor="end">${v ? (v / 1e6).toFixed(1) + 'M' : '0'}</text>`).join('')}</g>
+    ${xt.map(({ d, i }) => `<text x="${x(i)}" y="${H - 8}" text-anchor="middle">${d.date.slice(5).replace('-', '/')}</text>`).join('')}
+    <path d="${path('y2022')}" fill="none" stroke="var(--c2022)" stroke-width="2" stroke-dasharray="5 4"></path>
+    <path d="${path('y2026')}" fill="none" stroke="var(--c2026)" stroke-width="2.5"></path>
+    <circle cx="${x(last26)}" cy="${y(pts[last26].y2026)}" r="4.5" fill="var(--c2026)" stroke="var(--surface)" stroke-width="2"></circle>
+    <text x="${x(last26) + 8}" y="${y(pts[last26].y2026) - 6}" style="fill:var(--ink);font-weight:500">2026</text>
+    <text x="${x(lastI) + 6}" y="${y(pts[lastI].y2022) + 14}" style="fill:var(--ink-2)">2022</text>
+    <line id="xh" x1="0" x2="0" y1="${T}" y2="${H - B}" stroke="var(--ink-3)" stroke-width="1" visibility="hidden"></line>
+    <rect x="${L}" y="${T}" width="${W - L - Rr}" height="${H - T - B}" fill="transparent" id="hit"></rect>
+  </svg><div class="tip" id="tip" hidden></div></div>`;
+}
+function bindChart(daily) {
+  const box = $('#tchart'); if (!box) return;
+  const svg = $('svg', box), hit = $('#hit', box), tip = $('#tip', box), xh = $('#xh', box);
+  const W = 640, L = 54, Rr = 72;
+  const show = ev => {
+    const r = svg.getBoundingClientRect();
+    const sx = (ev.clientX - r.left) / r.width * W;
+    const i = Math.max(0, Math.min(daily.length - 1, Math.round((sx - L) / (W - L - Rr) * (daily.length - 1))));
+    const d = daily[i], px = L + i / (daily.length - 1) * (W - L - Rr);
+    xh.setAttribute('x1', px); xh.setAttribute('x2', px); xh.setAttribute('visibility', 'visible');
+    tip.hidden = false; tip.style.left = (px / W * r.width) + 'px'; tip.style.top = '18px';
+    tip.textContent = `${d.date}  2026: ${d.y2026 == null ? '—' : fmtN(d.y2026)}  2022: ${fmtN(d.y2022)}`;
+  };
+  hit.addEventListener('pointermove', show); hit.addEventListener('pointerdown', show);
+  hit.addEventListener('pointerleave', () => { tip.hidden = true; xh.setAttribute('visibility', 'hidden'); });
+}
+let countyAll = false, countyQ = '';
+function countyTable(T) {
+  const focus = T.focus_counties;
+  const rows = T.counties;
+  const pinned = focus.map(f => rows.find(c => c.county === f)).filter(Boolean);
+  let rest = rows.filter(c => !focus.includes(c.county));
+  if (countyQ) rest = rows.filter(c => c.county.toLowerCase().includes(countyQ.toLowerCase()));
+  else if (!countyAll) rest = rest.slice(0, 16);
+  const tr = (c, isF) => `<tr class="${isF ? 'focus' : ''}"><td><b>${esc(c.county)}</b>${c.county === 'Gwinnett' ? ' <span class="chip gw">You</span>' : ''}</td><td class="r num">${fmtN(c.votes)}</td><td class="r num">${fmtN(c.same_point_2022)}</td><td class="r num" style="color:${c.change_vs_2022_pct >= 0 ? 'var(--ink)' : 'var(--rep)'}">${c.change_vs_2022_pct == null ? '—' : (c.change_vs_2022_pct > 0 ? '+' : '') + c.change_vs_2022_pct + '%'}</td><td class="r num nodata" title="no data">—</td><td class="r num">${c.pct_of_rv}%</td><td class="r num">${fmtN(c.mail_accepted)}</td><td class="r num">${fmtN(c.early_in_person)}</td></tr>`;
+  return `<div class="tscroll"><table><thead><tr><th>County</th><th class="r">Voted so far</th><th class="r">2022, same point</th><th class="r">vs 2022</th><th class="r">2024, same point</th><th class="r">% of reg.</th><th class="r">Mail</th><th class="r">In person</th></tr></thead>
+    <tbody>${countyQ ? '' : pinned.map(c => tr(c, true)).join('')}${rest.map(c => tr(c, focus.includes(c.county))).join('')}</tbody></table></div>`;
+}
+function georgiaView() {
+  const T = G.turnout, Ru = G.rules;
+  const gwDistricts = G.house.filter(h => h.gwinnett).map(h => h.id).join(', ');
+  const st = T.statewide;
+  const sen = R.races.find(r => r.id === 'S-GA');
+  return `
+  <section class="panel"><div class="panel-head"><h2>Georgia rules that decide the night</h2><span class="stamp">Checked ${esc(Ru.verified)}</span></div>
+    <div class="rules">
+      <div class="rule"><span class="eyebrow">To win outright</span><span class="k">50% + 1</span><span class="small">${esc(Ru.runoff.rule)}</span></div>
+      <div class="rule"><span class="eyebrow">General election runoff</span><span class="k">${esc(Ru.runoff.date_label)}</span><span class="small">${esc(Ru.runoff.details)} ${esc(Ru.runoff.statute)}.</span><span class="tiny">${Ru.runoff.sources.map(s => link(s.url, s.label)).join(' · ')}</span></div>
+      <div class="rule"><span class="eyebrow">Recount threshold</span><span class="k">≤ ${Ru.recount.threshold_pct} pts</span><span class="small">${esc(Ru.recount.rule)} ${esc(Ru.recount.statute)}.</span><span class="tiny">${Ru.recount.sources.map(s => link(s.url, s.label)).join(' · ')}</span></div>
+    </div>
+    <p class="tiny muted">${esc(Ru.not_on_ballot)} The Secretary of State's own site (sos.ga.gov) blocks automated access, so these were confirmed on georgia.gov, the state's official portal.</p>
+  </section>
+
+  <section class="panel"><div class="panel-head"><h2>Early and mail voting</h2><span class="stamp">${link(T.source, 'georgiavotes.com')} "last updated ${esc(T.site_last_updated)}" (${esc(T.site_tz_note)}) · fetched ${esc(fmtTS(T.fetched_at))} · votes through ${esc(T.through_vote_day)}</span></div>
+    <div class="facts">
+      <div class="fact"><span class="eyebrow">Voted so far, statewide</span><b>${fmtN(st.votes)}</b></div>
+      <div class="fact"><span class="eyebrow">2022, same point</span><b>${fmtN(st.same_point_2022)}</b><span class="small">${st.change_vs_2022_pct > 0 ? '+' : ''}${st.change_vs_2022_pct}% this year</span></div>
+      <div class="fact"><span class="eyebrow">2024, same point</span><b class="nodata">no data</b><span class="tiny">${esc(st.same_point_2024_note)}</span></div>
+      <div class="fact"><span class="eyebrow">Gwinnett so far</span><b>${fmtN(T.counties.find(c => c.county === 'Gwinnett')?.votes)}</b><span class="small">${(() => { const g = T.counties.find(c => c.county === 'Gwinnett'); return g ? `${g.change_vs_2022_pct > 0 ? '+' : ''}${g.change_vs_2022_pct}% vs 2022 · ${g.pct_of_rv}% of registered` : ''; })()}</span></div>
+    </div>
+    <div><div class="eyebrow">Cumulative votes cast, 2026 vs 2022 by days before Election Day</div>${turnoutChart(T.daily)}
+      <div class="bar-legend"><span><i class="sw" style="background:var(--c2026)"></i>2026 (solid)</span><span><i class="sw" style="background:var(--c2022)"></i>2022, same days before Election Day (dashed)</span></div></div>
+    <details><summary>Table view of the chart</summary><div class="tscroll"><table><thead><tr><th>Date (2026 calendar)</th><th class="r">2026</th><th class="r">2022, aligned</th></tr></thead><tbody>${T.daily.map(d => `<tr><td>${esc(d.date)}</td><td class="r num">${d.y2026 == null ? '—' : fmtN(d.y2026)}</td><td class="r num">${fmtN(d.y2022)}</td></tr>`).join('')}</tbody></table></div></details>
+    <div class="panel-head"><h3>By county</h3><div class="toolbar"><input type="search" id="cq" placeholder="Find a county" value="${esc(countyQ)}" aria-label="Search counties"><button class="btn" id="call">${countyAll ? 'Show largest only' : 'Show all 159'}</button></div></div>
+    <p class="tiny muted">Pinned: Gwinnett, Fulton, Cobb, DeKalb. Below them, the largest counties by registered voters.</p>
+    <div id="ctable">${countyTable(T)}</div>
+    <details><summary>By congressional district</summary><div class="tscroll"><table><thead><tr><th>District</th><th class="r">Registered</th><th class="r">Voted so far</th><th class="r">% of 2022 early total</th></tr></thead><tbody>${T.by_district.map(d => `<tr class="${G.house.find(h => h.id === d.district)?.gwinnett ? 'gw' : ''}"><td>${esc(d.district)}${G.house.find(h => h.id === d.district)?.gwinnett ? ' <span class="chip gw">Gwinnett</span>' : ''}</td><td class="r num">${fmtN(d.rv)}</td><td class="r num">${fmtN(d.votes)}</td><td class="r num">${esc(d.pct_of_2022_total)}</td></tr>`).join('')}</tbody></table></div><p class="tiny muted">"% of 2022 early total" compares with all of 2022's early vote, not the same point.</p></details>
+    <details><summary>Who is voting early</summary><div class="tscroll"><table><thead><tr><th>Group</th><th class="r">2026</th><th class="r">2024</th><th class="r">2022</th></tr></thead><tbody>${T.electorate_by_race.map(e => `<tr><td>${esc(e.group)}</td><td class="r num">${esc(e.y2026)}</td><td class="r num">${esc(e.y2024)}</td><td class="r num">${esc(e.y2022)}</td></tr>`).join('')}</tbody></table></div><p class="tiny muted">${esc(T.electorate_note)} Race as recorded in the voter file.</p></details>
+    <p class="tiny muted">${esc(T.source_note)} Official turnout page: ${link(T.sos_turnout_page, 'GA SOS Election Data Hub')}. Gwinnett 2024 presidential margin: ${esc(T.gwinnett_extra.pres2024)} (${link(T.gwinnett_extra.source, 'source')}).</p>
+  </section>
+
+  <section class="panel"><div class="panel-head"><h2>Statewide races on your ballot</h2><span class="stamp">Nominees from each race's Wikipedia page, checked against news lists</span></div>
+    ${sen ? `<p class="note" style="margin:0">The U.S. Senate race is also on the ${'<a href="#national">'}National</a> tab, where it can be assigned in the control scenario.</p>` : ''}
+    <div class="cards">${G.statewide.map(gaCard).join('')}</div>
+    <div class="rule"><span class="eyebrow">Ballot measures</span><b>${esc(G.measures.count_note)}</b>
+      <ol style="margin:4px 0 0;padding-left:20px;display:grid;gap:4px">${G.measures.items.map(m => `<li><b>${esc(m.name)}.</b> ${esc(m.summary)}</li>`).join('')}</ol>
+      <span class="tiny muted">${esc(G.measures.numbering_note)} ${G.measures.sources.map(s => link(s.url, s.label)).join(' · ')}</span></div>
+  </section>
+
+  <section class="panel"><div class="panel-head"><h2>U.S. House: all 14 Georgia districts</h2><span class="stamp">Ratings ${link(G.house_sources.ratings_via, 'via Wikipedia')} fetched ${esc(fmtTS(G.house_sources.ratings_fetched_at))} · candidates and margins ${link(G.house_sources.candidates_and_margins, '270toWin')} fetched ${esc(fmtTS(G.house_sources.candidates_fetched_at))}</span></div>
+    <p class="note" style="margin:0"><b>Gwinnett County</b> is split among ${esc(gwDistricts)}. ${G.house.some(h => h.competitive) ? '' : 'None of Georgia\'s 14 districts is rated Toss-up, Tilt or Lean by Cook, Inside Elections or Sabato.'} ${link(G.house_sources.gwinnett_source, 'Source for the Gwinnett split')}.</p>
+    <div class="tscroll"><table><thead><tr><th>District</th><th>Candidates</th><th>Cook</th><th>IE</th><th>Sabato</th><th class="r">2024 pres.</th><th class="r">2024 House</th></tr></thead><tbody>
+      ${G.house.map(h => `<tr class="${h.gwinnett ? 'gw focus' : ''}"><td><b>${esc(h.id)}</b>${h.gwinnett ? '<br><span class="chip gw">Gwinnett</span>' : ''}${h.competitive ? '<br><span class="chip t">Competitive</span>' : ''}</td><td>${h.candidates.map(c => `<span class="cand"><span class="pdot ${esc(c.party)}"></span>${esc(c.name)}${c.incumbent ? ' <span class="tiny muted">inc.</span>' : ''}</span>`).join('')}${h.note ? `<div class="tiny muted">${esc(h.note)}</div>` : ''}</td>${['cook', 'ie', 'sabato'].map(k => `<td><span class="chip ${rateCls(h.ratings[k].rating === 'Solid' ? (h.pres2024?.party === 'D' ? 'Solid D' : 'Solid R') : h.ratings[k].rating)}" title="${esc(h.ratings[k].note || 'as of ' + h.ratings[k].as_of)}">${esc(h.ratings[k].rating === 'Solid' ? (h.pres2024?.party === 'D' ? 'Solid D' : 'Solid R') : h.ratings[k].rating)}</span></td>`).join('')}<td class="r num">${h.pres2024 ? `${h.pres2024.party === 'R' ? 'Trump' : 'Harris'} +${h.pres2024.pts}` : 'no data'}</td><td class="r num">${h.house2024 ? `${h.house2024.party}+${h.house2024.pts}` : 'no data'}</td></tr>`).join('')}
+    </tbody></table></div>
+    <p class="tiny muted">${esc(G.house_sources.ga13_note)} ${esc(G.house_sources.ga14_note)} Districts missing from the ratings table are rated Solid/Safe by every rater; the party shown follows the 2024 presidential result. No House polling average exists for these districts.</p>
+  </section>`;
+}
+
+// ---------------------------------------------------------------- sources
+function sourcesView() {
+  const S = [
+    ['Wikipedia (ratings tables, race pages, polls)', 'ok', 'Reachable. Used for Cook / Inside Elections / Sabato ratings (each column dated and cited), nominees, polling averages and individual polls with links to each pollster.'],
+    ['270toWin', 'ok', 'Reachable. Georgia House candidates and 2024 presidential margin by district.'],
+    ['georgiavotes.com', 'ok', 'Reachable. Independent site built from the GA Secretary of State absentee files; statewide and county early-vote counts compared with 2022.'],
+    ['georgia.gov', 'ok', 'Official state portal; runoff date and recount rules (read via search results).'],
+    ['Cook Political Report', 'blocked', 'Bot wall (HTTP 403). House ratings are also subscriber-only. Read via Wikipedia.'],
+    ['Inside Elections', 'blocked', 'Cloudflare block. Read via Wikipedia.'],
+    ["Sabato's Crystal Ball", 'blocked', 'Cloudflare verification page. Read via Wikipedia.'],
+    ['RealClearPolling', 'blocked', 'HTTP 403 to automated requests. Its average appears only where Wikipedia reports it (labelled RealClearPolitics). Otherwise: no data.'],
+    ['GA Secretary of State (sos.ga.gov, mvp.sos.ga.gov)', 'blocked', 'Cloudflare verification page. Turnout comes from georgiavotes.com instead; 2024 same-point comparison is no data.'],
+    ['GA election results (results.enr.clarityelections.com)', 'blocked', 'AWS block (HTTP 403).'],
+    ['Ballotpedia', 'blocked', 'CloudFront block (HTTP 403).'],
+    ['FiveThirtyEight', 'blocked', 'Shut down in March 2025.'],
+    ['Silver Bulletin, NYT, Decision Desk HQ API', 'blocked', 'Paid; excluded at your request. Decision Desk HQ\'s free public averages appear where Wikipedia reports them.'],
+  ];
+  return `<section class="panel"><div class="panel-head"><h2>Sources and how to read this page</h2><span class="stamp">Data built ${esc(fmtTS(R.generated_at))}</span></div>
+    <div class="src-list">${S.map(([n, s, d]) => `<div class="src"><b>${esc(n)}</b><span class="${s} small">${s === 'ok' ? 'Reachable' : 'Not used directly'}</span><span class="small muted" style="grid-column:1/-1">${esc(d)}</span></div>`).join('')}</div>
+    <h3>Method</h3>
+    <ul class="note" style="display:grid;gap:6px;padding-left:18px;margin:0">
+      ${Object.values(R.notes).map(n => `<li>${esc(n)}</li>`).join('')}
+      <li>Race selection: every Senate and governor race rated Toss-up, Tilt or Lean by at least one of Cook, Inside Elections or Sabato. Georgia's Senate race is added by hand. The House is shown as a summary of each rater's seat counts, not race by race.</li>
+      <li>Governor analyses are written from the ratings and polls on each card. They describe where the race stands; they are not forecasts.</li>
+      <li>"Polling average" on a card is the mean of the free averages listed under it. No numbers are estimated: anything a source does not publish is shown as "no data".</li>
+      <li>Your scenario picks are saved in this browser only.</li>
+    </ul>
+    <h3>Editing the race list</h3>
+    <p class="note" style="margin:0">Races live in <code>races.json</code> (published next to this page). To drop a race, delete its object from <code>races</code>. To add one, copy an existing object and change <code>id</code>, <code>chamber</code>, <code>label</code>, <code>candidates</code> and <code>ratings</code>; fields you leave out show as "no data". If you add or remove a Senate race, also adjust <code>control.senate.base</code> so the seat total still adds up to 100. Governor analyses live in <code>gov_analysis.json</code> in the project and are merged in at build time. Georgia data lives in <code>ga.json</code>.</p>
+  </section>`;
+}
+
+// ---------------------------------------------------------------- routing & events
+function view() { const h = location.hash.replace('#', ''); return ['georgia', 'national', 'sources'].includes(h) ? h : 'georgia'; }
+function render() {
+  const v = view();
+  document.querySelectorAll('nav.tabs a').forEach(a => a.setAttribute('aria-current', a.dataset.view === v ? 'page' : 'false'));
+  const y = window.scrollY;
+  $('#app').innerHTML = v === 'georgia' ? georgiaView() : v === 'national' ? nationalView() : sourcesView();
+  if (v === 'georgia') bindChart(G.turnout.daily);
+  return y;
+}
+function rerenderKeep(focusSel) {
+  const y = window.scrollY; render(); window.scrollTo(0, y);
+  if (focusSel) { const el = $(focusSel); if (el) { el.focus(); if (el.setSelectionRange && el.value) el.setSelectionRange(el.value.length, el.value.length); } }
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  if (b.dataset.pick) {
+    const id = b.dataset.pick, v = b.dataset.v;
+    if (v === 'U') delete picks[id]; else picks[id] = v;
+    savePicks(); rerenderKeep(`[data-pick="${CSS.escape(id)}"][data-v="${v}"]`);
+  } else if (b.dataset.f) { ui.chamber = b.dataset.f; rerenderKeep(); }
+  else if (b.id === 'reset') { picks = {}; savePicks(); rerenderKeep(); }
+  else if (b.id === 'leaders') {
+    for (const r of R.races.filter(x => x.chamber === 'senate')) {
+      const m = r.consensus;
+      if (m == null || Math.abs(m) < 0.05) continue;
+      picks[r.id] = m > 0 ? (r.main?.dem_party || 'D') : 'R';
+    }
+    savePicks(); rerenderKeep();
+  } else if (b.id === 'call') { countyAll = !countyAll; rerenderKeep(); }
+});
+document.addEventListener('input', e => {
+  if (e.target.id === 'q') { ui.q = e.target.value; rerenderKeep('#q'); }
+  if (e.target.id === 'cq') { countyQ = e.target.value; $('#ctable').innerHTML = countyTable(G.turnout); }
+});
+document.addEventListener('change', e => { if (e.target.id === 'sort') { ui.sort = e.target.value; rerenderKeep('#sort'); } });
+window.addEventListener('hashchange', () => { render(); window.scrollTo(0, 0); });
+
+function countdown() {
+  const days = Math.ceil((ELECTION - Date.now()) / 864e5);
+  $('#countdown').textContent = days > 1 ? `Election Day Tue Nov 3 · ${days} days` : days === 1 ? 'Election Day is tomorrow' : days === 0 ? 'Election Day' : 'Election Day: Nov 3';
+}
+countdown();
+Promise.all([fetch('races.json').then(r => r.json()), fetch('ga.json').then(r => r.json())])
+  .then(([a, b]) => { R = a; G = b; render(); })
+  .catch(err => { $('#app').innerHTML = `<p class="loading">Could not load races.json / ga.json (${esc(err.message)}). They must be published next to this page.</p>`; });
+})();
+</script>
+</body>
+</html>

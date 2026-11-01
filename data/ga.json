@@ -1,0 +1,3470 @@
+{
+ "generated_at": "2026-10-30T23:22:14Z",
+ "statewide": [
+  {
+   "id": "GA-U-S-Senate",
+   "office": "U.S. Senate",
+   "candidates": [
+    {
+     "name": "Jon Ossoff",
+     "party": "D",
+     "incumbent": true
+    },
+    {
+     "name": "Mike Collins",
+     "party": "R",
+     "incumbent": false
+    }
+   ],
+   "main": {
+    "dem_side": "Ossoff",
+    "rep_side": "Collins",
+    "dem_party": "D"
+   },
+   "note": "Jon Ossoff (D) is running for re-election",
+   "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
+   "fetched_at": "2026-10-30T23:16:39Z",
+   "ratings": {
+    "cook": {
+     "rating": "Likely D",
+     "as_of": "October 20, 2026",
+     "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia#Predictions",
+     "fetched_at": "2026-10-30T23:16:39Z"
+    },
+    "ie": {
+     "rating": "Likely D",
+     "as_of": "October 29, 2026",
+     "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia#Predictions",
+     "fetched_at": "2026-10-30T23:16:39Z"
+    },
+    "sabato": {
+     "rating": "Likely D",
+     "as_of": "October 27, 2026",
+     "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia#Predictions",
+     "fetched_at": "2026-10-30T23:16:39Z"
+    }
+   },
+   "polling": {
+    "page": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
+    "fetched_at": "2026-10-30T23:16:39Z",
+    "averages": [
+     {
+      "source": "270toWin",
+      "dates": "September 15 – October 20, 2026",
+      "updated": "October 21, 2026",
+      "dem": 52.0,
+      "rep": 43.6,
+      "margin": 8.4,
+      "cite": "https://www.270towin.com/2026-senate-polls/georgia"
+     },
+     {
+      "source": "Decision Desk HQ",
+      "dates": "through October 20, 2026",
+      "updated": "October 21, 2026",
+      "dem": 51.5,
+      "rep": 43.7,
+      "margin": 7.8,
+      "cite": "https://votes.decisiondeskhq.com/races/2026-11-03/georgia-us-senate-general-election/polling"
+     },
+     {
+      "source": "FiftyPlusOne",
+      "dates": "through October 20, 2026",
+      "updated": "October 21, 2026",
+      "dem": 51.7,
+      "rep": 43.1,
+      "margin": 8.6,
+      "cite": "https://fiftyplusone.news/polls/senate/general/georgia"
+     },
+     {
+      "source": "RealClearPolitics",
+      "dates": "September 15 – October 17, 2026",
+      "updated": "October 20, 2026",
+      "dem": 52.0,
+      "rep": 43.4,
+      "margin": 8.6,
+      "cite": "https://www.realclearpolling.com/polls/senate/general/2026/georgia/ossoff-vs-collins"
+     }
+    ],
+    "polls": [
+     {
+      "pollster": "Echelon Insights",
+      "partisan": "R",
+      "dates": "October 16–23, 2026",
+      "end": "2026-10-23",
+      "n": 508,
+      "pop": "LV",
+      "moe": 5.2,
+      "dem": 55.0,
+      "rep": 40.0,
+      "margin": 15.0,
+      "cite": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/"
+     },
+     {
+      "pollster": "ActiVote",
+      "partisan": null,
+      "dates": "October 6–20, 2026",
+      "end": "2026-10-20",
+      "n": 400,
+      "pop": "LV",
+      "moe": 4.9,
+      "dem": 54.0,
+      "rep": 46.0,
+      "margin": 8.0,
+      "cite": "https://www.activote.net/polls/2026/ga-u-s-senate/"
+     },
+     {
+      "pollster": "Quantus Insights",
+      "partisan": "R",
+      "dates": "October 15–17, 2026",
+      "end": "2026-10-17",
+      "n": 755,
+      "pop": "LV",
+      "moe": 3.8,
+      "dem": 52.0,
+      "rep": 45.0,
+      "margin": 7.0,
+      "cite": "https://drive.google.com/file/d/1e2r7nm_omQkzU9N5XySW6BidnadoY3vB/view"
+     },
+     {
+      "pollster": "University of Georgia School of Public and International Affairs",
+      "partisan": null,
+      "dates": "October 7–15, 2026",
+      "end": "2026-10-15",
+      "n": 1000,
+      "pop": "LV",
+      "moe": 3.1,
+      "dem": 48.0,
+      "rep": 40.0,
+      "margin": 8.0,
+      "cite": "https://www.ajc.com/politics/2026/10/ajc-poll-ossoff-leads-collins-in-georgias-us-senate-race/"
+     },
+     {
+      "pollster": "Trafalgar Group",
+      "partisan": "R",
+      "dates": "October 7–9, 2026",
+      "end": "2026-10-09",
+      "n": 1101,
+      "pop": "LV",
+      "moe": 2.9,
+      "dem": 51.0,
+      "rep": 43.0,
+      "margin": 8.0,
+      "cite": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/GA-General-Report-1010.pdf"
+     }
+    ],
+    "poll_count": 22,
+    "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
+   },
+   "consensus": 8.3
+  },
+  {
+   "id": "GA-Governor",
+   "office": "Governor",
+   "candidates": [
+    {
+     "name": "Keisha Lance Bottoms",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Rick Jackson",
+     "party": "R",
+     "incumbent": false
+    }
+   ],
+   "main": {
+    "dem_side": "Bottoms",
+    "rep_side": "Jackson",
+    "dem_party": "D"
+   },
+   "note": "Open: Brian Kemp (R) is term-limited. Libertarian Chase Oliver withdrew.",
+   "source": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election",
+   "fetched_at": "2026-10-30T23:16:42Z",
+   "ratings": {
+    "cook": {
+     "rating": "Toss-up",
+     "as_of": "October 27, 2026",
+     "via": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election#Predictions",
+     "fetched_at": "2026-10-30T23:16:42Z"
+    },
+    "ie": {
+     "rating": "Tilt D (flip)",
+     "as_of": "October 29, 2026",
+     "via": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election#Predictions",
+     "fetched_at": "2026-10-30T23:16:42Z"
+    },
+    "sabato": {
+     "rating": "Toss-up",
+     "as_of": "October 27, 2026",
+     "via": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election#Predictions",
+     "fetched_at": "2026-10-30T23:16:42Z"
+    }
+   },
+   "polling": {
+    "page": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election",
+    "fetched_at": "2026-10-30T23:16:42Z",
+    "averages": [
+     {
+      "source": "270toWin",
+      "dates": "October 7–23, 2026",
+      "updated": "October 27, 2026",
+      "dem": 47.6,
+      "rep": 48.8,
+      "margin": -1.2,
+      "cite": "https://www.270towin.com/2026-governor-polls/georgia"
+     },
+     {
+      "source": "Decision Desk HQ",
+      "dates": "through October 27, 2026",
+      "updated": "October 28, 2026",
+      "dem": 47.8,
+      "rep": 47.8,
+      "margin": 0.0,
+      "cite": "https://votes.decisiondeskhq.com/races/2026-11-03/georgia-governor-general-election/polling"
+     },
+     {
+      "source": "FiftyPlusOne",
+      "dates": "through October 27, 2026",
+      "updated": "October 28, 2026",
+      "dem": 48.0,
+      "rep": 48.0,
+      "margin": 0.0,
+      "cite": "https://fiftyplusone.news/polls/governor/general/georgia"
+     },
+     {
+      "source": "RealClearPolitics",
+      "dates": "September 14 – October 17, 2026",
+      "updated": "October 20, 2026",
+      "dem": 46.3,
+      "rep": 47.8,
+      "margin": -1.5,
+      "cite": "https://www.realclearpolling.com/polls/governor/general/2026/georgia/lance-bottoms-vs-jackson"
+     }
+    ],
+    "polls": [
+     {
+      "pollster": "State Navigate",
+      "partisan": null,
+      "dates": "October 23–27, 2026",
+      "end": "2026-10-27",
+      "n": 679,
+      "pop": "LV",
+      "moe": 3.8,
+      "dem": 50.0,
+      "rep": 47.0,
+      "margin": 3.0,
+      "cite": "https://articles.statenavigate.com/ga/keisha-lance-bottoms-holds-narrow-lead-in-georgia-governor-race/"
+     },
+     {
+      "pollster": "Echelon Insights",
+      "partisan": "R",
+      "dates": "October 16–23, 2026",
+      "end": "2026-10-23",
+      "n": 508,
+      "pop": "LV",
+      "moe": 5.2,
+      "dem": 49.0,
+      "rep": 48.0,
+      "margin": 1.0,
+      "cite": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/"
+     },
+     {
+      "pollster": "ActiVote",
+      "partisan": null,
+      "dates": "October 6–20, 2026",
+      "end": "2026-10-20",
+      "n": 400,
+      "pop": "LV",
+      "moe": 4.9,
+      "dem": 48.5,
+      "rep": 51.5,
+      "margin": -3.0,
+      "cite": "https://www.activote.net/polls/2026/ga-governor/"
+     },
+     {
+      "pollster": "Quantus Insights",
+      "partisan": "R",
+      "dates": "October 15–17, 2026",
+      "end": "2026-10-17",
+      "n": 755,
+      "pop": "LV",
+      "moe": 3.8,
+      "dem": 47.0,
+      "rep": 48.0,
+      "margin": -1.0,
+      "cite": "https://drive.google.com/file/d/1e2r7nm_omQkzU9N5XySW6BidnadoY3vB/view"
+     },
+     {
+      "pollster": "University of Georgia",
+      "partisan": null,
+      "dates": "October 7–15, 2026",
+      "end": "2026-10-15",
+      "n": 1000,
+      "pop": "LV",
+      "moe": 3.1,
+      "dem": 45.0,
+      "rep": 46.0,
+      "margin": -1.0,
+      "cite": "https://www.wsbtv.com/news/local/ajcuga-poll-bottoms-jackson-dead-heat-georgia-governor-race/76TN3NROXRG4HDILVYDUMJS4RQ/"
+     }
+    ],
+    "poll_count": 18,
+    "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
+   },
+   "consensus": -0.7
+  },
+  {
+   "id": "GA-Lieutenant-Governor",
+   "office": "Lieutenant Governor",
+   "candidates": [
+    {
+     "name": "Josh McLaurin",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Greg Dolezal",
+     "party": "R",
+     "incumbent": false
+    }
+   ],
+   "main": {
+    "dem_side": "McLaurin",
+    "rep_side": "Dolezal",
+    "dem_party": "D"
+   },
+   "note": "Open seat",
+   "source": "https://en.wikipedia.org/wiki/2026_Georgia_lieutenant_gubernatorial_election",
+   "fetched_at": "2026-10-30T23:16:45Z",
+   "ratings": {},
+   "polling": {
+    "page": "https://en.wikipedia.org/wiki/2026_Georgia_lieutenant_gubernatorial_election",
+    "fetched_at": "2026-10-30T23:16:45Z",
+    "averages": [],
+    "polls": [
+     {
+      "pollster": "Quantus Insights",
+      "partisan": "R",
+      "dates": "October 15–17, 2026",
+      "end": "2026-10-17",
+      "n": 755,
+      "pop": "LV",
+      "moe": 3.8,
+      "dem": 47.0,
+      "rep": 47.0,
+      "margin": 0.0,
+      "cite": "https://drive.google.com/file/d/1e2r7nm_omQkzU9N5XySW6BidnadoY3vB/view"
+     },
+     {
+      "pollster": "State Navigate",
+      "partisan": null,
+      "dates": "July 10–13, 2026",
+      "end": "2026-07-13",
+      "n": 448,
+      "pop": "LV",
+      "moe": 4.6,
+      "dem": 48.0,
+      "rep": 44.0,
+      "margin": 4.0,
+      "cite": "https://statenavigate.org/ga/state-navigate-poll-shows-lance-bottoms-with-7-point-lead-in-georgia-governor-race"
+     }
+    ],
+    "poll_count": 2,
+    "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
+   },
+   "consensus": null
+  },
+  {
+   "id": "GA-Secretary-of-State",
+   "office": "Secretary of State",
+   "candidates": [
+    {
+     "name": "Penny Brown Reynolds",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Tim Fleming",
+     "party": "R",
+     "incumbent": false
+    }
+   ],
+   "main": {
+    "dem_side": "Reynolds",
+    "rep_side": "Fleming",
+    "dem_party": "D"
+   },
+   "note": "Open: Brad Raffensperger (R) ran for governor",
+   "source": "https://en.wikipedia.org/wiki/2026_Georgia_Secretary_of_State_election",
+   "fetched_at": "2026-10-30T23:16:49Z",
+   "ratings": {
+    "sabato": {
+     "rating": "Toss-up",
+     "as_of": "October 29, 2026",
+     "via": "https://en.wikipedia.org/wiki/2026_Georgia_Secretary_of_State_election#Predictions",
+     "fetched_at": "2026-10-30T23:16:49Z"
+    }
+   },
+   "polling": {
+    "page": "https://en.wikipedia.org/wiki/2026_Georgia_Secretary_of_State_election",
+    "fetched_at": "2026-10-30T23:16:49Z",
+    "averages": [],
+    "polls": [],
+    "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
+   },
+   "consensus": null
+  },
+  {
+   "id": "GA-Attorney-General",
+   "office": "Attorney General",
+   "candidates": [
+    {
+     "name": "Tanya Miller",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Brian Strickland",
+     "party": "R",
+     "incumbent": false
+    }
+   ],
+   "main": {
+    "dem_side": "Miller",
+    "rep_side": "Strickland",
+    "dem_party": "D"
+   },
+   "note": "Open: Chris Carr (R) ran for governor",
+   "source": "https://en.wikipedia.org/wiki/2026_Georgia_Attorney_General_election",
+   "fetched_at": "2026-10-30T23:16:52Z",
+   "ratings": {
+    "sabato": {
+     "rating": "Toss-up",
+     "as_of": "October 29, 2026",
+     "via": "https://en.wikipedia.org/wiki/2026_Georgia_Attorney_General_election#Predictions",
+     "fetched_at": "2026-10-30T23:16:52Z"
+    }
+   },
+   "polling": {
+    "page": "https://en.wikipedia.org/wiki/2026_Georgia_Attorney_General_election",
+    "fetched_at": "2026-10-30T23:16:52Z",
+    "averages": [],
+    "polls": [
+     {
+      "pollster": "The Atlanta Journal-Constitution",
+      "partisan": null,
+      "dates": "October 7–15, 2026",
+      "end": "2026-10-15",
+      "n": 1000,
+      "pop": "LV",
+      "moe": 3.1,
+      "dem": 44.0,
+      "rep": 44.0,
+      "margin": 0.0,
+      "cite": "https://www.ajc.com/politics/2026/10/georgia-attorney-general-experience-debate/"
+     },
+     {
+      "pollster": "Global Strategy Group",
+      "partisan": "D",
+      "dates": "September 27 – October 1, 2026",
+      "end": "2026-10-01",
+      "n": null,
+      "pop": null,
+      "moe": 3.5,
+      "dem": 46.0,
+      "rep": 43.0,
+      "margin": 3.0,
+      "cite": "https://dems.ag/wp-content/uploads/2026/10/DAGA-State-Polling-Memo-F10.15.26.pdf"
+     }
+    ],
+    "poll_count": 2,
+    "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
+   },
+   "consensus": null
+  },
+  {
+   "id": "GA-Agriculture-Commissioner",
+   "office": "Agriculture Commissioner",
+   "candidates": [
+    {
+     "name": "Katherine Juhan-Arnold",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Tyler Harper",
+     "party": "R",
+     "incumbent": true
+    }
+   ],
+   "main": {
+    "dem_side": "Juhan-Arnold",
+    "rep_side": "Harper",
+    "dem_party": "D"
+   },
+   "note": "Tyler Harper (R) is running for re-election",
+   "source": "https://en.wikipedia.org/wiki/2026_Georgia_Agriculture_Commissioner_election",
+   "fetched_at": "2026-10-30T23:16:56Z",
+   "ratings": {},
+   "polling": {
+    "page": "https://en.wikipedia.org/wiki/2026_Georgia_Agriculture_Commissioner_election",
+    "fetched_at": "2026-10-30T23:16:56Z",
+    "averages": [],
+    "polls": [],
+    "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
+   },
+   "consensus": null
+  },
+  {
+   "id": "GA-Insurance-Commissioner",
+   "office": "Insurance Commissioner",
+   "candidates": [
+    {
+     "name": "Keisha Sean Waites",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "John King",
+     "party": "R",
+     "incumbent": true
+    }
+   ],
+   "main": {
+    "dem_side": "Waites",
+    "rep_side": "King",
+    "dem_party": "D"
+   },
+   "note": "John King (R) is running for re-election",
+   "source": "https://en.wikipedia.org/wiki/2026_Georgia_Insurance_Commissioner_election",
+   "fetched_at": "2026-10-30T23:16:59Z",
+   "ratings": {},
+   "polling": {
+    "page": "https://en.wikipedia.org/wiki/2026_Georgia_Insurance_Commissioner_election",
+    "fetched_at": "2026-10-30T23:16:59Z",
+    "averages": [],
+    "polls": [],
+    "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
+   },
+   "consensus": null
+  },
+  {
+   "id": "GA-Labor-Commissioner",
+   "office": "Labor Commissioner",
+   "candidates": [
+    {
+     "name": "Nikki Porcher",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Bárbara Rivera Holmes",
+     "party": "R",
+     "incumbent": true
+    }
+   ],
+   "main": {
+    "dem_side": "Porcher",
+    "rep_side": "Holmes",
+    "dem_party": "D"
+   },
+   "note": "Bárbara Rivera Holmes (R) is running for a first full term",
+   "source": "https://en.wikipedia.org/wiki/2026_Georgia_Labor_Commissioner_election",
+   "fetched_at": "2026-10-30T23:17:03Z",
+   "ratings": {},
+   "polling": {
+    "page": "https://en.wikipedia.org/wiki/2026_Georgia_Labor_Commissioner_election",
+    "fetched_at": "2026-10-30T23:17:03Z",
+    "averages": [],
+    "polls": [],
+    "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
+   },
+   "consensus": null
+  },
+  {
+   "id": "GA-State-School-Superintendent",
+   "office": "State School Superintendent",
+   "candidates": [
+    {
+     "name": "Lydia Catalina Powell",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Richard Woods",
+     "party": "R",
+     "incumbent": true
+    }
+   ],
+   "main": {
+    "dem_side": "Powell",
+    "rep_side": "Woods",
+    "dem_party": "D"
+   },
+   "note": "Richard Woods (R) is running for re-election",
+   "source": "https://en.wikipedia.org/wiki/2026_Georgia_State_Superintendent_of_Schools_election",
+   "fetched_at": "2026-10-30T23:17:06Z",
+   "ratings": {},
+   "polling": {
+    "page": "https://en.wikipedia.org/wiki/2026_Georgia_State_Superintendent_of_Schools_election",
+    "fetched_at": "2026-10-30T23:17:06Z",
+    "averages": [],
+    "polls": [],
+    "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
+   },
+   "consensus": null
+  },
+  {
+   "id": "GA-Public-Service-Commission-District-3",
+   "office": "Public Service Commission, District 3",
+   "candidates": [
+    {
+     "name": "Peter Hubbard",
+     "party": "D",
+     "incumbent": true
+    },
+    {
+     "name": "Fitz Johnson",
+     "party": "R",
+     "incumbent": false
+    }
+   ],
+   "main": {
+    "dem_side": "Hubbard",
+    "rep_side": "Johnson",
+    "dem_party": "D"
+   },
+   "note": "Peter Hubbard (D) is running for re-election; rematch of 2025",
+   "source": "https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election",
+   "fetched_at": "2026-10-30T23:17:09Z",
+   "ratings": {},
+   "polling": {
+    "page": "https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election",
+    "fetched_at": "2026-10-30T23:17:09Z",
+    "averages": [],
+    "polls": [
+     {
+      "pollster": "Quantus Insights",
+      "partisan": null,
+      "dates": "July 29 – August 1, 2026",
+      "end": "2026-08-01",
+      "n": 815,
+      "pop": "LV",
+      "moe": 3.6,
+      "dem": 39.0,
+      "rep": 38.0,
+      "margin": 1.0,
+      "cite": "https://quantusinsights.org/polling/f/georgia-voters-put-affordability-first-as-2026-races-tighten?blogcategory=Polling"
+     }
+    ],
+    "poll_count": 1,
+    "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
+   },
+   "consensus": null
+  },
+  {
+   "id": "GA-Public-Service-Commission-District-5",
+   "office": "Public Service Commission, District 5",
+   "candidates": [
+    {
+     "name": "Shelia Edwards",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Josh Tolbert",
+     "party": "R",
+     "incumbent": false
+    }
+   ],
+   "main": {
+    "dem_side": "Edwards",
+    "rep_side": "Tolbert",
+    "dem_party": "D"
+   },
+   "note": "Open: Tricia Pridemore (R) ran for U.S. House",
+   "source": "https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election",
+   "fetched_at": "2026-10-30T23:17:09Z",
+   "ratings": {},
+   "polling": {
+    "page": "https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election",
+    "fetched_at": "2026-10-30T23:17:09Z",
+    "averages": [],
+    "polls": [
+     {
+      "pollster": "Quantus Insights",
+      "partisan": null,
+      "dates": "July 29 – August 1, 2026",
+      "end": "2026-08-01",
+      "n": 815,
+      "pop": "LV",
+      "moe": 3.6,
+      "dem": 40.0,
+      "rep": 38.0,
+      "margin": 2.0,
+      "cite": "https://quantusinsights.org/polling/f/georgia-voters-put-affordability-first-as-2026-races-tighten?blogcategory=Polling"
+     }
+    ],
+    "poll_count": 1,
+    "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
+   },
+   "consensus": null
+  }
+ ],
+ "measures": {
+  "items": [
+   {
+    "name": "Amendment 1",
+    "summary": "Raise the cap on land a single owner can enroll in the Conservation Use Valuation Assessment (CUVA) program from 2,000 to 4,000 acres."
+   },
+   {
+    "name": "Amendment 2",
+    "summary": "Require all probate court judges to be elected in nonpartisan elections."
+   },
+   {
+    "name": "Amendment 3",
+    "summary": "Allow the General Assembly to create and dedicate revenue to a Georgia Next Generation 9-1-1 Fund."
+   }
+  ],
+  "count_note": "Three constitutional amendments; no other statewide referendum questions were reported.",
+  "numbering_note": "News outlets number these differently. Numbering here follows the Secretary of State summary booklet as described in search results; the booklet itself (sos.ga.gov) blocks automated access, so confirm the order on your sample ballot.",
+  "sources": [
+   {
+    "label": "WTOC (Oct 21, 2026): Georgia voters will decide 3 constitutional amendments",
+    "url": "https://www.wtoc.com/2026/10/21/georgia-voters-will-decide-3-constitutional-amendments-during-midterms/"
+   },
+   {
+    "label": "Ballotpedia News (Apr 2, 2026)",
+    "url": "https://news.ballotpedia.org/2026/04/02/georgia-general-assembly-places-constitutional-amendments-on-the-2026-ballot-to-fund-emergency-response-systems-and-require-nonpartisan-elections-for-probate-judges/"
+   },
+   {
+    "label": "GA Secretary of State: 2026 Constitutional Summaries booklet (PDF; not machine-readable from here)",
+    "url": "https://sos.ga.gov/sites/default/files/2026-09/2026%20Constitutional%20Summaries%20booklet%20FINAL.pdf"
+   }
+  ],
+  "retrieved": "2026-10-30 via web search; pages not directly fetched"
+ },
+ "house": [
+  {
+   "id": "GA-1",
+   "incumbent": "Buddy Carter",
+   "note": "Retiring to run for U.S. Senate",
+   "candidates": [
+    {
+     "name": "Amanda Hollowell",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Jim Kingston",
+     "party": "R",
+     "incumbent": false
+    }
+   ],
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "as_of": "Oct 30, 2026"
+    },
+    "ie": {
+     "rating": "Solid R",
+     "as_of": "Oct 29, 2026"
+    },
+    "sabato": {
+     "rating": "Safe R",
+     "as_of": "Oct 27, 2026"
+    }
+   },
+   "competitive": false,
+   "gwinnett": false,
+   "pres2024": {
+    "party": "R",
+    "pts": 15.8
+   },
+   "house2024": {
+    "party": "R",
+    "pts": 24.0,
+    "raw": "24.0%"
+   }
+  },
+  {
+   "id": "GA-2",
+   "incumbent": "Sanford Bishop Jr.",
+   "note": "",
+   "candidates": [
+    {
+     "name": "Sanford Bishop",
+     "party": "D",
+     "incumbent": true
+    },
+    {
+     "name": "Matt Day",
+     "party": "R",
+     "incumbent": false
+    }
+   ],
+   "ratings": {
+    "cook": {
+     "rating": "Solid",
+     "as_of": "Oct 30, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "ie": {
+     "rating": "Solid",
+     "as_of": "Oct 29, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "sabato": {
+     "rating": "Solid",
+     "as_of": "Oct 27, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    }
+   },
+   "competitive": false,
+   "gwinnett": false,
+   "pres2024": {
+    "party": "D",
+    "pts": 7.6
+   },
+   "house2024": {
+    "party": "D",
+    "pts": 12.7,
+    "raw": "12.7%"
+   }
+  },
+  {
+   "id": "GA-3",
+   "incumbent": "Brian Jack",
+   "note": "",
+   "candidates": [
+    {
+     "name": "Maura Keller",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Brian Jack",
+     "party": "R",
+     "incumbent": true
+    }
+   ],
+   "ratings": {
+    "cook": {
+     "rating": "Solid",
+     "as_of": "Oct 30, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "ie": {
+     "rating": "Solid",
+     "as_of": "Oct 29, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "sabato": {
+     "rating": "Solid",
+     "as_of": "Oct 27, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    }
+   },
+   "competitive": false,
+   "gwinnett": false,
+   "pres2024": {
+    "party": "R",
+    "pts": 29.6
+   },
+   "house2024": {
+    "party": "R",
+    "pts": 32.6,
+    "raw": "32.6%"
+   }
+  },
+  {
+   "id": "GA-4",
+   "incumbent": "Hank Johnson",
+   "note": "",
+   "candidates": [
+    {
+     "name": "Hank Johnson",
+     "party": "D",
+     "incumbent": true
+    },
+    {
+     "name": "Jim Duffie",
+     "party": "R",
+     "incumbent": false
+    }
+   ],
+   "ratings": {
+    "cook": {
+     "rating": "Solid",
+     "as_of": "Oct 30, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "ie": {
+     "rating": "Solid",
+     "as_of": "Oct 29, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "sabato": {
+     "rating": "Solid",
+     "as_of": "Oct 27, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    }
+   },
+   "competitive": false,
+   "gwinnett": true,
+   "pres2024": {
+    "party": "D",
+    "pts": 52.4
+   },
+   "house2024": {
+    "party": "D",
+    "pts": 51.2,
+    "raw": "51.2%"
+   }
+  },
+  {
+   "id": "GA-5",
+   "incumbent": "Nikema Williams",
+   "note": "",
+   "candidates": [
+    {
+     "name": "Nikema Williams",
+     "party": "D",
+     "incumbent": true
+    },
+    {
+     "name": "John Salvesen",
+     "party": "R",
+     "incumbent": false
+    }
+   ],
+   "ratings": {
+    "cook": {
+     "rating": "Solid",
+     "as_of": "Oct 30, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "ie": {
+     "rating": "Solid",
+     "as_of": "Oct 29, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "sabato": {
+     "rating": "Solid",
+     "as_of": "Oct 27, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    }
+   },
+   "competitive": false,
+   "gwinnett": false,
+   "pres2024": {
+    "party": "D",
+    "pts": 71.5
+   },
+   "house2024": {
+    "party": "D",
+    "pts": 71.4,
+    "raw": "71.4%"
+   }
+  },
+  {
+   "id": "GA-6",
+   "incumbent": "Lucy McBath",
+   "note": "",
+   "candidates": [
+    {
+     "name": "Lucy McBath",
+     "party": "D",
+     "incumbent": true
+    },
+    {
+     "name": "Kevin Martin",
+     "party": "R",
+     "incumbent": false
+    }
+   ],
+   "ratings": {
+    "cook": {
+     "rating": "Solid",
+     "as_of": "Oct 30, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "ie": {
+     "rating": "Solid",
+     "as_of": "Oct 29, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "sabato": {
+     "rating": "Solid",
+     "as_of": "Oct 27, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    }
+   },
+   "competitive": false,
+   "gwinnett": false,
+   "pres2024": {
+    "party": "D",
+    "pts": 49.9
+   },
+   "house2024": {
+    "party": "D",
+    "pts": 49.4,
+    "raw": "49.4%"
+   }
+  },
+  {
+   "id": "GA-7",
+   "incumbent": "Rich McCormick",
+   "note": "",
+   "candidates": [
+    {
+     "name": "Tony Kozycki",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Rich McCormick",
+     "party": "R",
+     "incumbent": true
+    }
+   ],
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "as_of": "Oct 30, 2026"
+    },
+    "ie": {
+     "rating": "Solid R",
+     "as_of": "Oct 29, 2026"
+    },
+    "sabato": {
+     "rating": "Safe R",
+     "as_of": "Oct 27, 2026"
+    }
+   },
+   "competitive": false,
+   "gwinnett": false,
+   "pres2024": {
+    "party": "R",
+    "pts": 22.0
+   },
+   "house2024": {
+    "party": "R",
+    "pts": 29.7,
+    "raw": "29.7%"
+   }
+  },
+  {
+   "id": "GA-8",
+   "incumbent": "Austin Scott",
+   "note": "",
+   "candidates": [
+    {
+     "name": "Kelly Esti",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Austin Scott",
+     "party": "R",
+     "incumbent": true
+    }
+   ],
+   "ratings": {
+    "cook": {
+     "rating": "Solid",
+     "as_of": "Oct 30, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "ie": {
+     "rating": "Solid",
+     "as_of": "Oct 29, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "sabato": {
+     "rating": "Solid",
+     "as_of": "Oct 27, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    }
+   },
+   "competitive": false,
+   "gwinnett": false,
+   "pres2024": {
+    "party": "R",
+    "pts": 30.5
+   },
+   "house2024": {
+    "party": "R",
+    "pts": 37.8,
+    "raw": "37.8%"
+   }
+  },
+  {
+   "id": "GA-9",
+   "incumbent": "Andrew Clyde",
+   "note": "",
+   "candidates": [
+    {
+     "name": "Caitlyn Gegen",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Andrew Clyde",
+     "party": "R",
+     "incumbent": true
+    }
+   ],
+   "ratings": {
+    "cook": {
+     "rating": "Solid",
+     "as_of": "Oct 30, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "ie": {
+     "rating": "Solid",
+     "as_of": "Oct 29, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "sabato": {
+     "rating": "Solid",
+     "as_of": "Oct 27, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    }
+   },
+   "competitive": false,
+   "gwinnett": true,
+   "pres2024": {
+    "party": "R",
+    "pts": 34.0
+   },
+   "house2024": {
+    "party": "R",
+    "pts": 38.0,
+    "raw": "38.0%"
+   }
+  },
+  {
+   "id": "GA-10",
+   "incumbent": "Mike Collins",
+   "note": "Retiring to run for U.S. Senate",
+   "candidates": [
+    {
+     "name": "Pamela Delancy",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Houston Gaines",
+     "party": "R",
+     "incumbent": false
+    }
+   ],
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "as_of": "Oct 30, 2026"
+    },
+    "ie": {
+     "rating": "Solid R",
+     "as_of": "Oct 29, 2026"
+    },
+    "sabato": {
+     "rating": "Safe R",
+     "as_of": "Oct 27, 2026"
+    }
+   },
+   "competitive": false,
+   "gwinnett": true,
+   "pres2024": {
+    "party": "R",
+    "pts": 20.7
+   },
+   "house2024": {
+    "party": "R",
+    "pts": 26.1,
+    "raw": "26.1%"
+   }
+  },
+  {
+   "id": "GA-11",
+   "incumbent": "Barry Loudermilk",
+   "note": "Incumbent not running for re-election in 2026.",
+   "candidates": [
+    {
+     "name": "Chris Harden",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "John Cowan",
+     "party": "R",
+     "incumbent": false
+    }
+   ],
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "as_of": "Oct 30, 2026"
+    },
+    "ie": {
+     "rating": "Solid R",
+     "as_of": "Oct 29, 2026"
+    },
+    "sabato": {
+     "rating": "Safe R",
+     "as_of": "Oct 27, 2026"
+    }
+   },
+   "competitive": false,
+   "gwinnett": false,
+   "pres2024": {
+    "party": "R",
+    "pts": 23.3
+   },
+   "house2024": {
+    "party": "R",
+    "pts": 34.6,
+    "raw": "34.6%"
+   }
+  },
+  {
+   "id": "GA-12",
+   "incumbent": "Rick Allen",
+   "note": "",
+   "candidates": [
+    {
+     "name": "Ceretta Smith",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Rick Allen",
+     "party": "R",
+     "incumbent": true
+    }
+   ],
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "as_of": "Oct 30, 2026"
+    },
+    "ie": {
+     "rating": "Solid R",
+     "as_of": "Oct 29, 2026"
+    },
+    "sabato": {
+     "rating": "Safe R",
+     "as_of": "Oct 27, 2026"
+    }
+   },
+   "competitive": false,
+   "gwinnett": false,
+   "pres2024": {
+    "party": "R",
+    "pts": 14.1
+   },
+   "house2024": {
+    "party": "R",
+    "pts": 20.6,
+    "raw": "20.6%"
+   }
+  },
+  {
+   "id": "GA-13",
+   "incumbent": "Everton Blair",
+   "note": "",
+   "candidates": [
+    {
+     "name": "Jasmine Clark",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Jonathan Chavez",
+     "party": "R",
+     "incumbent": false
+    }
+   ],
+   "ratings": {
+    "cook": {
+     "rating": "Solid",
+     "as_of": "Oct 30, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "ie": {
+     "rating": "Solid",
+     "as_of": "Oct 29, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "sabato": {
+     "rating": "Solid",
+     "as_of": "Oct 27, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    }
+   },
+   "competitive": false,
+   "gwinnett": true,
+   "pres2024": {
+    "party": "D",
+    "pts": 42.3
+   },
+   "house2024": {
+    "party": "D",
+    "pts": 43.7,
+    "raw": "43.7%"
+   }
+  },
+  {
+   "id": "GA-14",
+   "incumbent": "Clay Fuller",
+   "note": "",
+   "candidates": [
+    {
+     "name": "Shawn Harris",
+     "party": "D",
+     "incumbent": false
+    },
+    {
+     "name": "Clay Fuller",
+     "party": "R",
+     "incumbent": true
+    }
+   ],
+   "ratings": {
+    "cook": {
+     "rating": "Solid",
+     "as_of": "Oct 30, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "ie": {
+     "rating": "Solid",
+     "as_of": "Oct 29, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    },
+    "sabato": {
+     "rating": "Solid",
+     "as_of": "Oct 27, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
+    }
+   },
+   "competitive": false,
+   "gwinnett": false,
+   "pres2024": {
+    "party": "R",
+    "pts": 36.7
+   },
+   "house2024": {
+    "party": "R",
+    "pts": 28.7,
+    "raw": "28.7%"
+   }
+  }
+ ],
+ "house_sources": {
+  "ratings_via": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+  "ratings_fetched_at": "2026-10-30T23:14:55Z",
+  "candidates_and_margins": "https://www.270towin.com/2026-house-election/",
+  "candidates_fetched_at": "2026-10-30T23:17:16Z",
+  "gwinnett_source": "https://en.wikipedia.org/wiki/Gwinnett_County,_Georgia",
+  "gwinnett_fetched_at": "2026-10-30T23:17:13Z",
+  "gwinnett_note": "Gwinnett County is split among the 4th, 9th, 10th and 13th districts (2023 map).",
+  "ga13_note": "David Scott (D) died April 22, 2026; Everton Blair won the special election, then lost the Democratic primary to Jasmine Clark.",
+  "ga14_note": "Marjorie Taylor Greene (R) resigned January 5, 2026; Clay Fuller won the special election."
+ },
+ "turnout": {
+  "source": "https://georgiavotes.com/",
+  "source_note": "georgiavotes.com is an independent site built from the GA Secretary of State absentee voter files (sos.ga.gov blocks automated access from here). Counts only accepted ballots with a return date.",
+  "site_last_updated": "2026-10-30 15:13:41",
+  "site_tz_note": "timezone not stated by the site",
+  "fetched_at": "2026-10-30T23:17:20Z",
+  "through_vote_day": "2026-10-29",
+  "statewide": {
+   "votes": 2513648,
+   "same_point_2022": 2266300,
+   "change_vs_2022_pct": 10.9,
+   "final_2022_early_total_note": "The 2022 series keeps rising after this point; the 2022 value at election eve is shown in the daily series.",
+   "same_point_2024": null,
+   "same_point_2024_note": "no data: georgiavotes.com compares midterm to midterm only, and the SOS 2024 absentee file is behind sos.ga.gov's bot wall."
+  },
+  "daily": [
+   {
+    "date": "2026-10-05",
+    "y2026": 979,
+    "y2022": 562
+   },
+   {
+    "date": "2026-10-06",
+    "y2026": 1167,
+    "y2022": 675
+   },
+   {
+    "date": "2026-10-07",
+    "y2026": 1686,
+    "y2022": 824
+   },
+   {
+    "date": "2026-10-08",
+    "y2026": 2806,
+    "y2022": 1340
+   },
+   {
+    "date": "2026-10-09",
+    "y2026": 4361,
+    "y2022": 3127
+   },
+   {
+    "date": "2026-10-10",
+    "y2026": 4447,
+    "y2022": 3282
+   },
+   {
+    "date": "2026-10-11",
+    "y2026": 4457,
+    "y2022": 3314
+   },
+   {
+    "date": "2026-10-12",
+    "y2026": 5855,
+    "y2022": 150642
+   },
+   {
+    "date": "2026-10-13",
+    "y2026": 202717,
+    "y2022": 297434
+   },
+   {
+    "date": "2026-10-14",
+    "y2026": 383248,
+    "y2022": 443824
+   },
+   {
+    "date": "2026-10-15",
+    "y2026": 554846,
+    "y2022": 582229
+   },
+   {
+    "date": "2026-10-16",
+    "y2026": 743928,
+    "y2022": 738762
+   },
+   {
+    "date": "2026-10-17",
+    "y2026": 839317,
+    "y2022": 825615
+   },
+   {
+    "date": "2026-10-18",
+    "y2026": 864649,
+    "y2022": 844388
+   },
+   {
+    "date": "2026-10-19",
+    "y2026": 1031038,
+    "y2022": 998522
+   },
+   {
+    "date": "2026-10-20",
+    "y2026": 1190249,
+    "y2022": 1135094
+   },
+   {
+    "date": "2026-10-21",
+    "y2026": 1333749,
+    "y2022": 1268163
+   },
+   {
+    "date": "2026-10-22",
+    "y2026": 1470605,
+    "y2022": 1393059
+   },
+   {
+    "date": "2026-10-23",
+    "y2026": 1636314,
+    "y2022": 1543311
+   },
+   {
+    "date": "2026-10-24",
+    "y2026": 1753735,
+    "y2022": 1641925
+   },
+   {
+    "date": "2026-10-25",
+    "y2026": 1782371,
+    "y2022": 1668467
+   },
+   {
+    "date": "2026-10-26",
+    "y2026": 1958441,
+    "y2022": 1817615
+   },
+   {
+    "date": "2026-10-27",
+    "y2026": 2131822,
+    "y2022": 1952154
+   },
+   {
+    "date": "2026-10-28",
+    "y2026": 2310670,
+    "y2022": 2097540
+   },
+   {
+    "date": "2026-10-29",
+    "y2026": 2513648,
+    "y2022": 2266300
+   },
+   {
+    "date": "2026-10-30",
+    "y2026": null,
+    "y2022": 2508853
+   },
+   {
+    "date": "2026-10-31",
+    "y2026": null,
+    "y2022": 2511966
+   },
+   {
+    "date": "2026-11-01",
+    "y2026": null,
+    "y2022": 2512273
+   },
+   {
+    "date": "2026-11-02",
+    "y2026": null,
+    "y2022": 2526488
+   },
+   {
+    "date": "2026-11-03",
+    "y2026": null,
+    "y2022": 2537805
+   }
+  ],
+  "daily_note": "2022 is aligned to the same number of days before Election Day.",
+  "electorate_by_race": [
+   {
+    "group": "White",
+    "y2026": "53.1%",
+    "y2024": "59.3%",
+    "y2022": "58.6%"
+   },
+   {
+    "group": "Black",
+    "y2026": "32.3%",
+    "y2024": "26.6%",
+    "y2022": "30.0%"
+   },
+   {
+    "group": "Hispanic",
+    "y2026": "3.5%",
+    "y2024": "3.1%",
+    "y2022": "1.9%"
+   },
+   {
+    "group": "Asian",
+    "y2026": "2.8%",
+    "y2024": "2.8%",
+    "y2022": "1.9%"
+   },
+   {
+    "group": "Other race",
+    "y2026": "8.2%",
+    "y2024": "8.2%",
+    "y2022": "7.5%"
+   }
+  ],
+  "electorate_note": "Share of early voters so far, compared with the same point in 2024 and 2022.",
+  "counties": [
+   {
+    "county": "Fulton",
+    "rv": 847454,
+    "votes": 301706,
+    "mail_accepted": 9757,
+    "early_in_person": 291949,
+    "pct_of_rv": 35.6,
+    "same_point_2022": 274103,
+    "change_vs_2022_pct": 10,
+    "pct_of_2022_total": "71.7%"
+   },
+   {
+    "county": "Gwinnett",
+    "rv": 645243,
+    "votes": 210890,
+    "mail_accepted": 7678,
+    "early_in_person": 203212,
+    "pct_of_rv": 32.7,
+    "same_point_2022": 169904,
+    "change_vs_2022_pct": 24,
+    "pct_of_2022_total": "70.2%"
+   },
+   {
+    "county": "Cobb",
+    "rv": 565749,
+    "votes": 212053,
+    "mail_accepted": 7876,
+    "early_in_person": 204177,
+    "pct_of_rv": 37.5,
+    "same_point_2022": 181732,
+    "change_vs_2022_pct": 17,
+    "pct_of_2022_total": "67.9%"
+   },
+   {
+    "county": "DeKalb",
+    "rv": 565098,
+    "votes": 212043,
+    "mail_accepted": 7731,
+    "early_in_person": 204312,
+    "pct_of_rv": 37.5,
+    "same_point_2022": 190438,
+    "change_vs_2022_pct": 11,
+    "pct_of_2022_total": "70.8%"
+   },
+   {
+    "county": "Chatham",
+    "rv": 231094,
+    "votes": 59171,
+    "mail_accepted": 3633,
+    "early_in_person": 55538,
+    "pct_of_rv": 25.6,
+    "same_point_2022": 51765,
+    "change_vs_2022_pct": 14,
+    "pct_of_2022_total": "55.4%"
+   },
+   {
+    "county": "Cherokee",
+    "rv": 219195,
+    "votes": 77544,
+    "mail_accepted": 4352,
+    "early_in_person": 73192,
+    "pct_of_rv": 35.4,
+    "same_point_2022": 66151,
+    "change_vs_2022_pct": 17,
+    "pct_of_2022_total": "64.3%"
+   },
+   {
+    "county": "Clayton",
+    "rv": 205459,
+    "votes": 62307,
+    "mail_accepted": 2012,
+    "early_in_person": 60295,
+    "pct_of_rv": 30.3,
+    "same_point_2022": 54065,
+    "change_vs_2022_pct": 15,
+    "pct_of_2022_total": "73.8%"
+   },
+   {
+    "county": "Henry",
+    "rv": 199097,
+    "votes": 72240,
+    "mail_accepted": 2350,
+    "early_in_person": 69890,
+    "pct_of_rv": 36.3,
+    "same_point_2022": 61697,
+    "change_vs_2022_pct": 17,
+    "pct_of_2022_total": "75.4%"
+   },
+   {
+    "county": "Forsyth",
+    "rv": 181246,
+    "votes": 65774,
+    "mail_accepted": 3046,
+    "early_in_person": 62728,
+    "pct_of_rv": 36.3,
+    "same_point_2022": 62600,
+    "change_vs_2022_pct": 5,
+    "pct_of_2022_total": "64.1%"
+   },
+   {
+    "county": "Hall",
+    "rv": 153643,
+    "votes": 47820,
+    "mail_accepted": 2425,
+    "early_in_person": 45395,
+    "pct_of_rv": 31.1,
+    "same_point_2022": 43342,
+    "change_vs_2022_pct": 10,
+    "pct_of_2022_total": "64.9%"
+   },
+   {
+    "county": "Richmond",
+    "rv": 146474,
+    "votes": 35777,
+    "mail_accepted": 2202,
+    "early_in_person": 33575,
+    "pct_of_rv": 24.4,
+    "same_point_2022": 32100,
+    "change_vs_2022_pct": 11,
+    "pct_of_2022_total": "55.6%"
+   },
+   {
+    "county": "Muscogee",
+    "rv": 141231,
+    "votes": 37854,
+    "mail_accepted": 2723,
+    "early_in_person": 35131,
+    "pct_of_rv": 26.8,
+    "same_point_2022": 35287,
+    "change_vs_2022_pct": 7,
+    "pct_of_2022_total": "63.5%"
+   },
+   {
+    "county": "Paulding",
+    "rv": 137543,
+    "votes": 45123,
+    "mail_accepted": 2070,
+    "early_in_person": 43053,
+    "pct_of_rv": 32.8,
+    "same_point_2022": 38952,
+    "change_vs_2022_pct": 16,
+    "pct_of_2022_total": "67.2%"
+   },
+   {
+    "county": "Houston",
+    "rv": 125181,
+    "votes": 41212,
+    "mail_accepted": 2041,
+    "early_in_person": 39171,
+    "pct_of_rv": 32.9,
+    "same_point_2022": 37038,
+    "change_vs_2022_pct": 11,
+    "pct_of_2022_total": "69.5%"
+   },
+   {
+    "county": "Columbia",
+    "rv": 123052,
+    "votes": 37808,
+    "mail_accepted": 2095,
+    "early_in_person": 35713,
+    "pct_of_rv": 30.7,
+    "same_point_2022": 33323,
+    "change_vs_2022_pct": 13,
+    "pct_of_2022_total": "58.4%"
+   },
+   {
+    "county": "Coweta",
+    "rv": 119906,
+    "votes": 37655,
+    "mail_accepted": 2051,
+    "early_in_person": 35604,
+    "pct_of_rv": 31.4,
+    "same_point_2022": 33445,
+    "change_vs_2022_pct": 13,
+    "pct_of_2022_total": "59.0%"
+   },
+   {
+    "county": "Bibb",
+    "rv": 115878,
+    "votes": 30653,
+    "mail_accepted": 1604,
+    "early_in_person": 29049,
+    "pct_of_rv": 26.5,
+    "same_point_2022": 28164,
+    "change_vs_2022_pct": 9,
+    "pct_of_2022_total": "56.4%"
+   },
+   {
+    "county": "Douglas",
+    "rv": 113110,
+    "votes": 37839,
+    "mail_accepted": 1375,
+    "early_in_person": 36464,
+    "pct_of_rv": 33.5,
+    "same_point_2022": 32894,
+    "change_vs_2022_pct": 15,
+    "pct_of_2022_total": "71.3%"
+   },
+   {
+    "county": "Fayette",
+    "rv": 98280,
+    "votes": 41458,
+    "mail_accepted": 1650,
+    "early_in_person": 39808,
+    "pct_of_rv": 42.2,
+    "same_point_2022": 37745,
+    "change_vs_2022_pct": 10,
+    "pct_of_2022_total": "68.6%"
+   },
+   {
+    "county": "Carroll",
+    "rv": 95860,
+    "votes": 21637,
+    "mail_accepted": 878,
+    "early_in_person": 20759,
+    "pct_of_rv": 22.6,
+    "same_point_2022": 20737,
+    "change_vs_2022_pct": 4,
+    "pct_of_2022_total": "49.4%"
+   },
+   {
+    "county": "Newton",
+    "rv": 93657,
+    "votes": 27946,
+    "mail_accepted": 1172,
+    "early_in_person": 26774,
+    "pct_of_rv": 29.8,
+    "same_point_2022": 22631,
+    "change_vs_2022_pct": 23,
+    "pct_of_2022_total": "66.4%"
+   },
+   {
+    "county": "Bartow",
+    "rv": 89481,
+    "votes": 22053,
+    "mail_accepted": 1077,
+    "early_in_person": 20976,
+    "pct_of_rv": 24.6,
+    "same_point_2022": 19955,
+    "change_vs_2022_pct": 11,
+    "pct_of_2022_total": "55.0%"
+   },
+   {
+    "county": "Walton",
+    "rv": 82894,
+    "votes": 26385,
+    "mail_accepted": 990,
+    "early_in_person": 25395,
+    "pct_of_rv": 31.8,
+    "same_point_2022": 22471,
+    "change_vs_2022_pct": 17,
+    "pct_of_2022_total": "62.0%"
+   },
+   {
+    "county": "Lowndes",
+    "rv": 81482,
+    "votes": 21047,
+    "mail_accepted": 800,
+    "early_in_person": 20247,
+    "pct_of_rv": 25.8,
+    "same_point_2022": 20612,
+    "change_vs_2022_pct": 2,
+    "pct_of_2022_total": "60.4%"
+   },
+   {
+    "county": "Clarke",
+    "rv": 80150,
+    "votes": 26218,
+    "mail_accepted": 1343,
+    "early_in_person": 24875,
+    "pct_of_rv": 32.7,
+    "same_point_2022": 22589,
+    "change_vs_2022_pct": 16,
+    "pct_of_2022_total": "64.9%"
+   },
+   {
+    "county": "Rockdale",
+    "rv": 69339,
+    "votes": 25803,
+    "mail_accepted": 1128,
+    "early_in_person": 24675,
+    "pct_of_rv": 37.2,
+    "same_point_2022": 22664,
+    "change_vs_2022_pct": 14,
+    "pct_of_2022_total": "73.7%"
+   },
+   {
+    "county": "Jackson",
+    "rv": 68228,
+    "votes": 21612,
+    "mail_accepted": 870,
+    "early_in_person": 20742,
+    "pct_of_rv": 31.7,
+    "same_point_2022": 17981,
+    "change_vs_2022_pct": 20,
+    "pct_of_2022_total": "67.5%"
+   },
+   {
+    "county": "Barrow",
+    "rv": 68038,
+    "votes": 17511,
+    "mail_accepted": 835,
+    "early_in_person": 16676,
+    "pct_of_rv": 25.7,
+    "same_point_2022": 15193,
+    "change_vs_2022_pct": 15,
+    "pct_of_2022_total": "59.4%"
+   },
+   {
+    "county": "Floyd",
+    "rv": 67993,
+    "votes": 16641,
+    "mail_accepted": 820,
+    "early_in_person": 15821,
+    "pct_of_rv": 24.5,
+    "same_point_2022": 15462,
+    "change_vs_2022_pct": 8,
+    "pct_of_2022_total": "51.7%"
+   },
+   {
+    "county": "Glynn",
+    "rv": 67948,
+    "votes": 22232,
+    "mail_accepted": 1284,
+    "early_in_person": 20948,
+    "pct_of_rv": 32.7,
+    "same_point_2022": 20890,
+    "change_vs_2022_pct": 6,
+    "pct_of_2022_total": "66.6%"
+   },
+   {
+    "county": "Dougherty",
+    "rv": 64484,
+    "votes": 14181,
+    "mail_accepted": 790,
+    "early_in_person": 13391,
+    "pct_of_rv": 22.0,
+    "same_point_2022": 12717,
+    "change_vs_2022_pct": 12,
+    "pct_of_2022_total": "52.8%"
+   },
+   {
+    "county": "Whitfield",
+    "rv": 64387,
+    "votes": 12546,
+    "mail_accepted": 618,
+    "early_in_person": 11928,
+    "pct_of_rv": 19.5,
+    "same_point_2022": 10294,
+    "change_vs_2022_pct": 22,
+    "pct_of_2022_total": "46.3%"
+   },
+   {
+    "county": "Bulloch",
+    "rv": 53735,
+    "votes": 12257,
+    "mail_accepted": 635,
+    "early_in_person": 11622,
+    "pct_of_rv": 22.8,
+    "same_point_2022": 11239,
+    "change_vs_2022_pct": 9,
+    "pct_of_2022_total": "51.8%"
+   },
+   {
+    "county": "Effingham",
+    "rv": 53416,
+    "votes": 12351,
+    "mail_accepted": 468,
+    "early_in_person": 11883,
+    "pct_of_rv": 23.1,
+    "same_point_2022": 11632,
+    "change_vs_2022_pct": 6,
+    "pct_of_2022_total": "48.4%"
+   },
+   {
+    "county": "Spalding",
+    "rv": 52887,
+    "votes": 15763,
+    "mail_accepted": 952,
+    "early_in_person": 14811,
+    "pct_of_rv": 29.8,
+    "same_point_2022": 13878,
+    "change_vs_2022_pct": 14,
+    "pct_of_2022_total": "64.4%"
+   },
+   {
+    "county": "Catoosa",
+    "rv": 51766,
+    "votes": 13838,
+    "mail_accepted": 547,
+    "early_in_person": 13291,
+    "pct_of_rv": 26.7,
+    "same_point_2022": 13624,
+    "change_vs_2022_pct": 2,
+    "pct_of_2022_total": "56.2%"
+   },
+   {
+    "county": "Walker",
+    "rv": 49232,
+    "votes": 10844,
+    "mail_accepted": 598,
+    "early_in_person": 10246,
+    "pct_of_rv": 22.0,
+    "same_point_2022": 10466,
+    "change_vs_2022_pct": 4,
+    "pct_of_2022_total": "48.8%"
+   },
+   {
+    "county": "Troup",
+    "rv": 48739,
+    "votes": 11399,
+    "mail_accepted": 748,
+    "early_in_person": 10651,
+    "pct_of_rv": 23.4,
+    "same_point_2022": 11221,
+    "change_vs_2022_pct": 2,
+    "pct_of_2022_total": "48.9%"
+   },
+   {
+    "county": "Camden",
+    "rv": 43772,
+    "votes": 11464,
+    "mail_accepted": 729,
+    "early_in_person": 10735,
+    "pct_of_rv": 26.2,
+    "same_point_2022": 10092,
+    "change_vs_2022_pct": 14,
+    "pct_of_2022_total": "63.7%"
+   },
+   {
+    "county": "Liberty",
+    "rv": 43299,
+    "votes": 10667,
+    "mail_accepted": 576,
+    "early_in_person": 10091,
+    "pct_of_rv": 24.6,
+    "same_point_2022": 9862,
+    "change_vs_2022_pct": 8,
+    "pct_of_2022_total": "69.0%"
+   },
+   {
+    "county": "Gordon",
+    "rv": 42689,
+    "votes": 8666,
+    "mail_accepted": 431,
+    "early_in_person": 8235,
+    "pct_of_rv": 20.3,
+    "same_point_2022": 8352,
+    "change_vs_2022_pct": 4,
+    "pct_of_2022_total": "45.7%"
+   },
+   {
+    "county": "Bryan",
+    "rv": 37894,
+    "votes": 10823,
+    "mail_accepted": 320,
+    "early_in_person": 10503,
+    "pct_of_rv": 28.6,
+    "same_point_2022": 10236,
+    "change_vs_2022_pct": 6,
+    "pct_of_2022_total": "63.5%"
+   },
+   {
+    "county": "Laurens",
+    "rv": 35954,
+    "votes": 8718,
+    "mail_accepted": 653,
+    "early_in_person": 8065,
+    "pct_of_rv": 24.2,
+    "same_point_2022": 8503,
+    "change_vs_2022_pct": 3,
+    "pct_of_2022_total": "46.9%"
+   },
+   {
+    "county": "Oconee",
+    "rv": 33821,
+    "votes": 14881,
+    "mail_accepted": 674,
+    "early_in_person": 14207,
+    "pct_of_rv": 44.0,
+    "same_point_2022": 14368,
+    "change_vs_2022_pct": 4,
+    "pct_of_2022_total": "66.1%"
+   },
+   {
+    "county": "Habersham",
+    "rv": 33415,
+    "votes": 11683,
+    "mail_accepted": 440,
+    "early_in_person": 11243,
+    "pct_of_rv": 35.0,
+    "same_point_2022": 11027,
+    "change_vs_2022_pct": 6,
+    "pct_of_2022_total": "68.6%"
+   },
+   {
+    "county": "Thomas",
+    "rv": 33237,
+    "votes": 10452,
+    "mail_accepted": 427,
+    "early_in_person": 10025,
+    "pct_of_rv": 31.4,
+    "same_point_2022": 10479,
+    "change_vs_2022_pct": 0,
+    "pct_of_2022_total": "60.3%"
+   },
+   {
+    "county": "Harris",
+    "rv": 30012,
+    "votes": 8362,
+    "mail_accepted": 421,
+    "early_in_person": 7941,
+    "pct_of_rv": 27.9,
+    "same_point_2022": 7786,
+    "change_vs_2022_pct": 7,
+    "pct_of_2022_total": "49.0%"
+   },
+   {
+    "county": "Pickens",
+    "rv": 28814,
+    "votes": 8794,
+    "mail_accepted": 435,
+    "early_in_person": 8359,
+    "pct_of_rv": 30.5,
+    "same_point_2022": 8016,
+    "change_vs_2022_pct": 10,
+    "pct_of_2022_total": "58.2%"
+   },
+   {
+    "county": "Baldwin",
+    "rv": 28803,
+    "votes": 9400,
+    "mail_accepted": 551,
+    "early_in_person": 8849,
+    "pct_of_rv": 32.6,
+    "same_point_2022": 9120,
+    "change_vs_2022_pct": 3,
+    "pct_of_2022_total": "62.5%"
+   },
+   {
+    "county": "Polk",
+    "rv": 28771,
+    "votes": 7846,
+    "mail_accepted": 309,
+    "early_in_person": 7537,
+    "pct_of_rv": 27.3,
+    "same_point_2022": 7980,
+    "change_vs_2022_pct": -2,
+    "pct_of_2022_total": "57.5%"
+   },
+   {
+    "county": "Colquitt",
+    "rv": 28366,
+    "votes": 5761,
+    "mail_accepted": 240,
+    "early_in_person": 5521,
+    "pct_of_rv": 20.3,
+    "same_point_2022": 5913,
+    "change_vs_2022_pct": -3,
+    "pct_of_2022_total": "45.6%"
+   },
+   {
+    "county": "Tift",
+    "rv": 28321,
+    "votes": 7513,
+    "mail_accepted": 248,
+    "early_in_person": 7265,
+    "pct_of_rv": 26.5,
+    "same_point_2022": 7237,
+    "change_vs_2022_pct": 4,
+    "pct_of_2022_total": "57.4%"
+   },
+   {
+    "county": "Murray",
+    "rv": 27271,
+    "votes": 5649,
+    "mail_accepted": 182,
+    "early_in_person": 5467,
+    "pct_of_rv": 20.7,
+    "same_point_2022": 4830,
+    "change_vs_2022_pct": 17,
+    "pct_of_2022_total": "48.8%"
+   },
+   {
+    "county": "Dawson",
+    "rv": 27089,
+    "votes": 9367,
+    "mail_accepted": 420,
+    "early_in_person": 8947,
+    "pct_of_rv": 34.6,
+    "same_point_2022": 8770,
+    "change_vs_2022_pct": 7,
+    "pct_of_2022_total": "66.8%"
+   },
+   {
+    "county": "Gilmer",
+    "rv": 25898,
+    "votes": 7662,
+    "mail_accepted": 532,
+    "early_in_person": 7130,
+    "pct_of_rv": 29.6,
+    "same_point_2022": 7381,
+    "change_vs_2022_pct": 4,
+    "pct_of_2022_total": "54.3%"
+   },
+   {
+    "county": "Coffee",
+    "rv": 25836,
+    "votes": 6439,
+    "mail_accepted": 166,
+    "early_in_person": 6273,
+    "pct_of_rv": 24.9,
+    "same_point_2022": 6646,
+    "change_vs_2022_pct": -3,
+    "pct_of_2022_total": "53.9%"
+   },
+   {
+    "county": "Lumpkin",
+    "rv": 25683,
+    "votes": 8281,
+    "mail_accepted": 368,
+    "early_in_person": 7913,
+    "pct_of_rv": 32.2,
+    "same_point_2022": 8054,
+    "change_vs_2022_pct": 3,
+    "pct_of_2022_total": "64.8%"
+   },
+   {
+    "county": "Lee",
+    "rv": 25238,
+    "votes": 6663,
+    "mail_accepted": 254,
+    "early_in_person": 6409,
+    "pct_of_rv": 26.4,
+    "same_point_2022": 6556,
+    "change_vs_2022_pct": 2,
+    "pct_of_2022_total": "48.9%"
+   },
+   {
+    "county": "Haralson",
+    "rv": 24457,
+    "votes": 4893,
+    "mail_accepted": 271,
+    "early_in_person": 4622,
+    "pct_of_rv": 20.0,
+    "same_point_2022": 4855,
+    "change_vs_2022_pct": 1,
+    "pct_of_2022_total": "41.9%"
+   },
+   {
+    "county": "Monroe",
+    "rv": 24268,
+    "votes": 7458,
+    "mail_accepted": 323,
+    "early_in_person": 7135,
+    "pct_of_rv": 30.7,
+    "same_point_2022": 7093,
+    "change_vs_2022_pct": 5,
+    "pct_of_2022_total": "54.1%"
+   },
+   {
+    "county": "White",
+    "rv": 23905,
+    "votes": 7367,
+    "mail_accepted": 379,
+    "early_in_person": 6988,
+    "pct_of_rv": 30.8,
+    "same_point_2022": 6883,
+    "change_vs_2022_pct": 7,
+    "pct_of_2022_total": "57.9%"
+   },
+   {
+    "county": "Madison",
+    "rv": 23821,
+    "votes": 6145,
+    "mail_accepted": 337,
+    "early_in_person": 5808,
+    "pct_of_rv": 25.8,
+    "same_point_2022": 6038,
+    "change_vs_2022_pct": 2,
+    "pct_of_2022_total": "48.8%"
+   },
+   {
+    "county": "Union",
+    "rv": 23256,
+    "votes": 8856,
+    "mail_accepted": 495,
+    "early_in_person": 8361,
+    "pct_of_rv": 38.1,
+    "same_point_2022": 8362,
+    "change_vs_2022_pct": 6,
+    "pct_of_2022_total": "61.7%"
+   },
+   {
+    "county": "Jones",
+    "rv": 22413,
+    "votes": 6641,
+    "mail_accepted": 395,
+    "early_in_person": 6246,
+    "pct_of_rv": 29.6,
+    "same_point_2022": 6506,
+    "change_vs_2022_pct": 2,
+    "pct_of_2022_total": "53.9%"
+   },
+   {
+    "county": "Ware",
+    "rv": 22322,
+    "votes": 5366,
+    "mail_accepted": 377,
+    "early_in_person": 4989,
+    "pct_of_rv": 24.0,
+    "same_point_2022": 5945,
+    "change_vs_2022_pct": -10,
+    "pct_of_2022_total": "49.7%"
+   },
+   {
+    "county": "Fannin",
+    "rv": 22206,
+    "votes": 6214,
+    "mail_accepted": 510,
+    "early_in_person": 5704,
+    "pct_of_rv": 28.0,
+    "same_point_2022": 6271,
+    "change_vs_2022_pct": -1,
+    "pct_of_2022_total": "49.0%"
+   },
+   {
+    "county": "Stephens",
+    "rv": 20838,
+    "votes": 6306,
+    "mail_accepted": 349,
+    "early_in_person": 5957,
+    "pct_of_rv": 30.3,
+    "same_point_2022": 6346,
+    "change_vs_2022_pct": -1,
+    "pct_of_2022_total": "66.9%"
+   },
+   {
+    "county": "Peach",
+    "rv": 20586,
+    "votes": 7038,
+    "mail_accepted": 305,
+    "early_in_person": 6733,
+    "pct_of_rv": 34.2,
+    "same_point_2022": 6517,
+    "change_vs_2022_pct": 8,
+    "pct_of_2022_total": "69.9%"
+   },
+   {
+    "county": "Wayne",
+    "rv": 20582,
+    "votes": 5608,
+    "mail_accepted": 220,
+    "early_in_person": 5388,
+    "pct_of_rv": 27.2,
+    "same_point_2022": 5037,
+    "change_vs_2022_pct": 11,
+    "pct_of_2022_total": "55.8%"
+   },
+   {
+    "county": "Hart",
+    "rv": 20516,
+    "votes": 6066,
+    "mail_accepted": 293,
+    "early_in_person": 5773,
+    "pct_of_rv": 29.6,
+    "same_point_2022": 5460,
+    "change_vs_2022_pct": 11,
+    "pct_of_2022_total": "57.3%"
+   },
+   {
+    "county": "Upson",
+    "rv": 20446,
+    "votes": 6229,
+    "mail_accepted": 321,
+    "early_in_person": 5908,
+    "pct_of_rv": 30.5,
+    "same_point_2022": 6304,
+    "change_vs_2022_pct": -1,
+    "pct_of_2022_total": "61.2%"
+   },
+   {
+    "county": "Butts",
+    "rv": 19374,
+    "votes": 6883,
+    "mail_accepted": 204,
+    "early_in_person": 6679,
+    "pct_of_rv": 35.5,
+    "same_point_2022": 6727,
+    "change_vs_2022_pct": 2,
+    "pct_of_2022_total": "70.8%"
+   },
+   {
+    "county": "Sumter",
+    "rv": 18915,
+    "votes": 5663,
+    "mail_accepted": 444,
+    "early_in_person": 5219,
+    "pct_of_rv": 29.9,
+    "same_point_2022": 5632,
+    "change_vs_2022_pct": 1,
+    "pct_of_2022_total": "59.7%"
+   },
+   {
+    "county": "Decatur",
+    "rv": 18237,
+    "votes": 4472,
+    "mail_accepted": 258,
+    "early_in_person": 4214,
+    "pct_of_rv": 24.5,
+    "same_point_2022": 5004,
+    "change_vs_2022_pct": -11,
+    "pct_of_2022_total": "50.2%"
+   },
+   {
+    "county": "Putnam",
+    "rv": 18097,
+    "votes": 6801,
+    "mail_accepted": 420,
+    "early_in_person": 6381,
+    "pct_of_rv": 37.6,
+    "same_point_2022": 6282,
+    "change_vs_2022_pct": 8,
+    "pct_of_2022_total": "66.3%"
+   },
+   {
+    "county": "Franklin",
+    "rv": 17990,
+    "votes": 4274,
+    "mail_accepted": 197,
+    "early_in_person": 4077,
+    "pct_of_rv": 23.8,
+    "same_point_2022": 4039,
+    "change_vs_2022_pct": 6,
+    "pct_of_2022_total": "48.8%"
+   },
+   {
+    "county": "Burke",
+    "rv": 17875,
+    "votes": 4194,
+    "mail_accepted": 363,
+    "early_in_person": 3831,
+    "pct_of_rv": 23.5,
+    "same_point_2022": 3772,
+    "change_vs_2022_pct": 11,
+    "pct_of_2022_total": "49.4%"
+   },
+   {
+    "county": "Meriwether",
+    "rv": 17713,
+    "votes": 3766,
+    "mail_accepted": 289,
+    "early_in_person": 3477,
+    "pct_of_rv": 21.3,
+    "same_point_2022": 3837,
+    "change_vs_2022_pct": -2,
+    "pct_of_2022_total": "42.1%"
+   },
+   {
+    "county": "Toombs",
+    "rv": 17702,
+    "votes": 4432,
+    "mail_accepted": 220,
+    "early_in_person": 4212,
+    "pct_of_rv": 25.0,
+    "same_point_2022": 5056,
+    "change_vs_2022_pct": -12,
+    "pct_of_2022_total": "52.0%"
+   },
+   {
+    "county": "Morgan",
+    "rv": 17263,
+    "votes": 6128,
+    "mail_accepted": 266,
+    "early_in_person": 5862,
+    "pct_of_rv": 35.5,
+    "same_point_2022": 5784,
+    "change_vs_2022_pct": 6,
+    "pct_of_2022_total": "59.2%"
+   },
+   {
+    "county": "Greene",
+    "rv": 17242,
+    "votes": 7528,
+    "mail_accepted": 395,
+    "early_in_person": 7133,
+    "pct_of_rv": 43.7,
+    "same_point_2022": 7019,
+    "change_vs_2022_pct": 7,
+    "pct_of_2022_total": "71.4%"
+   },
+   {
+    "county": "McDuffie",
+    "rv": 16533,
+    "votes": 5237,
+    "mail_accepted": 369,
+    "early_in_person": 4868,
+    "pct_of_rv": 31.7,
+    "same_point_2022": 5246,
+    "change_vs_2022_pct": 0,
+    "pct_of_2022_total": "62.8%"
+   },
+   {
+    "county": "Grady",
+    "rv": 16486,
+    "votes": 4041,
+    "mail_accepted": 238,
+    "early_in_person": 3803,
+    "pct_of_rv": 24.5,
+    "same_point_2022": 4203,
+    "change_vs_2022_pct": -4,
+    "pct_of_2022_total": "48.3%"
+   },
+   {
+    "county": "Chattooga",
+    "rv": 16347,
+    "votes": 3510,
+    "mail_accepted": 170,
+    "early_in_person": 3340,
+    "pct_of_rv": 21.5,
+    "same_point_2022": 3777,
+    "change_vs_2022_pct": -7,
+    "pct_of_2022_total": "45.3%"
+   },
+   {
+    "county": "Pike",
+    "rv": 16234,
+    "votes": 4821,
+    "mail_accepted": 224,
+    "early_in_person": 4597,
+    "pct_of_rv": 29.7,
+    "same_point_2022": 4899,
+    "change_vs_2022_pct": -2,
+    "pct_of_2022_total": "51.0%"
+   },
+   {
+    "county": "Lamar",
+    "rv": 15605,
+    "votes": 4601,
+    "mail_accepted": 230,
+    "early_in_person": 4371,
+    "pct_of_rv": 29.5,
+    "same_point_2022": 4055,
+    "change_vs_2022_pct": 13,
+    "pct_of_2022_total": "59.2%"
+   },
+   {
+    "county": "Banks",
+    "rv": 15469,
+    "votes": 4200,
+    "mail_accepted": 210,
+    "early_in_person": 3990,
+    "pct_of_rv": 27.2,
+    "same_point_2022": 4235,
+    "change_vs_2022_pct": -1,
+    "pct_of_2022_total": "57.1%"
+   },
+   {
+    "county": "Emanuel",
+    "rv": 15361,
+    "votes": 3355,
+    "mail_accepted": 160,
+    "early_in_person": 3195,
+    "pct_of_rv": 21.8,
+    "same_point_2022": 3296,
+    "change_vs_2022_pct": 2,
+    "pct_of_2022_total": "44.2%"
+   },
+   {
+    "county": "Rabun",
+    "rv": 14446,
+    "votes": 5478,
+    "mail_accepted": 347,
+    "early_in_person": 5131,
+    "pct_of_rv": 37.9,
+    "same_point_2022": 6034,
+    "change_vs_2022_pct": -9,
+    "pct_of_2022_total": "66.0%"
+   },
+   {
+    "county": "Worth",
+    "rv": 14420,
+    "votes": 3154,
+    "mail_accepted": 149,
+    "early_in_person": 3005,
+    "pct_of_rv": 21.9,
+    "same_point_2022": 3096,
+    "change_vs_2022_pct": 2,
+    "pct_of_2022_total": "42.5%"
+   },
+   {
+    "county": "Mitchell",
+    "rv": 14277,
+    "votes": 3340,
+    "mail_accepted": 314,
+    "early_in_person": 3026,
+    "pct_of_rv": 23.4,
+    "same_point_2022": 3521,
+    "change_vs_2022_pct": -5,
+    "pct_of_2022_total": "47.3%"
+   },
+   {
+    "county": "Elbert",
+    "rv": 14098,
+    "votes": 3566,
+    "mail_accepted": 213,
+    "early_in_person": 3353,
+    "pct_of_rv": 25.3,
+    "same_point_2022": 3590,
+    "change_vs_2022_pct": -1,
+    "pct_of_2022_total": "48.6%"
+   },
+   {
+    "county": "Pierce",
+    "rv": 14020,
+    "votes": 4301,
+    "mail_accepted": 132,
+    "early_in_person": 4169,
+    "pct_of_rv": 30.7,
+    "same_point_2022": 4365,
+    "change_vs_2022_pct": -1,
+    "pct_of_2022_total": "59.7%"
+   },
+   {
+    "county": "Dade",
+    "rv": 13966,
+    "votes": 2504,
+    "mail_accepted": 93,
+    "early_in_person": 2411,
+    "pct_of_rv": 17.9,
+    "same_point_2022": 2567,
+    "change_vs_2022_pct": -2,
+    "pct_of_2022_total": "42.6%"
+   },
+   {
+    "county": "Washington",
+    "rv": 13944,
+    "votes": 4671,
+    "mail_accepted": 361,
+    "early_in_person": 4310,
+    "pct_of_rv": 33.5,
+    "same_point_2022": 4096,
+    "change_vs_2022_pct": 14,
+    "pct_of_2022_total": "59.6%"
+   },
+   {
+    "county": "Crisp",
+    "rv": 13745,
+    "votes": 3830,
+    "mail_accepted": 220,
+    "early_in_person": 3610,
+    "pct_of_rv": 27.9,
+    "same_point_2022": 3766,
+    "change_vs_2022_pct": 2,
+    "pct_of_2022_total": "60.3%"
+   },
+   {
+    "county": "Jasper",
+    "rv": 13045,
+    "votes": 3474,
+    "mail_accepted": 177,
+    "early_in_person": 3297,
+    "pct_of_rv": 26.6,
+    "same_point_2022": 3340,
+    "change_vs_2022_pct": 4,
+    "pct_of_2022_total": "52.7%"
+   },
+   {
+    "county": "Long",
+    "rv": 13045,
+    "votes": 2515,
+    "mail_accepted": 80,
+    "early_in_person": 2435,
+    "pct_of_rv": 19.3,
+    "same_point_2022": 2162,
+    "change_vs_2022_pct": 16,
+    "pct_of_2022_total": "56.7%"
+   },
+   {
+    "county": "Tattnall",
+    "rv": 12917,
+    "votes": 3163,
+    "mail_accepted": 124,
+    "early_in_person": 3039,
+    "pct_of_rv": 24.5,
+    "same_point_2022": 3387,
+    "change_vs_2022_pct": -7,
+    "pct_of_2022_total": "48.3%"
+   },
+   {
+    "county": "Brantley",
+    "rv": 12803,
+    "votes": 2623,
+    "mail_accepted": 76,
+    "early_in_person": 2547,
+    "pct_of_rv": 20.5,
+    "same_point_2022": 2731,
+    "change_vs_2022_pct": -4,
+    "pct_of_2022_total": "44.6%"
+   },
+   {
+    "county": "Berrien",
+    "rv": 12748,
+    "votes": 2897,
+    "mail_accepted": 135,
+    "early_in_person": 2762,
+    "pct_of_rv": 22.7,
+    "same_point_2022": 2886,
+    "change_vs_2022_pct": 0,
+    "pct_of_2022_total": "48.0%"
+   },
+   {
+    "county": "Appling",
+    "rv": 12576,
+    "votes": 3335,
+    "mail_accepted": 198,
+    "early_in_person": 3137,
+    "pct_of_rv": 26.5,
+    "same_point_2022": 3312,
+    "change_vs_2022_pct": 1,
+    "pct_of_2022_total": "49.6%"
+   },
+   {
+    "county": "Dodge",
+    "rv": 12372,
+    "votes": 3299,
+    "mail_accepted": 200,
+    "early_in_person": 3099,
+    "pct_of_rv": 26.7,
+    "same_point_2022": 3026,
+    "change_vs_2022_pct": 9,
+    "pct_of_2022_total": "49.6%"
+   },
+   {
+    "county": "Oglethorpe",
+    "rv": 12175,
+    "votes": 3919,
+    "mail_accepted": 256,
+    "early_in_person": 3663,
+    "pct_of_rv": 32.2,
+    "same_point_2022": 4021,
+    "change_vs_2022_pct": -3,
+    "pct_of_2022_total": "57.4%"
+   },
+   {
+    "county": "Cook",
+    "rv": 11936,
+    "votes": 2924,
+    "mail_accepted": 129,
+    "early_in_person": 2795,
+    "pct_of_rv": 24.5,
+    "same_point_2022": 2936,
+    "change_vs_2022_pct": 0,
+    "pct_of_2022_total": "52.3%"
+   },
+   {
+    "county": "Brooks",
+    "rv": 11746,
+    "votes": 2661,
+    "mail_accepted": 164,
+    "early_in_person": 2497,
+    "pct_of_rv": 22.7,
+    "same_point_2022": 2662,
+    "change_vs_2022_pct": 0,
+    "pct_of_2022_total": "47.2%"
+   },
+   {
+    "county": "Jefferson",
+    "rv": 11736,
+    "votes": 2634,
+    "mail_accepted": 216,
+    "early_in_person": 2418,
+    "pct_of_rv": 22.4,
+    "same_point_2022": 3071,
+    "change_vs_2022_pct": -14,
+    "pct_of_2022_total": "41.8%"
+   },
+   {
+    "county": "Towns",
+    "rv": 11490,
+    "votes": 5289,
+    "mail_accepted": 330,
+    "early_in_person": 4959,
+    "pct_of_rv": 46.0,
+    "same_point_2022": 4973,
+    "change_vs_2022_pct": 6,
+    "pct_of_2022_total": "73.3%"
+   },
+   {
+    "county": "Ben Hill",
+    "rv": 11155,
+    "votes": 3164,
+    "mail_accepted": 116,
+    "early_in_person": 3048,
+    "pct_of_rv": 28.4,
+    "same_point_2022": 3439,
+    "change_vs_2022_pct": -8,
+    "pct_of_2022_total": "61.6%"
+   },
+   {
+    "county": "Screven",
+    "rv": 10722,
+    "votes": 2992,
+    "mail_accepted": 77,
+    "early_in_person": 2915,
+    "pct_of_rv": 27.9,
+    "same_point_2022": 2753,
+    "change_vs_2022_pct": 9,
+    "pct_of_2022_total": "56.3%"
+   },
+   {
+    "county": "McIntosh",
+    "rv": 10383,
+    "votes": 3366,
+    "mail_accepted": 131,
+    "early_in_person": 3235,
+    "pct_of_rv": 32.4,
+    "same_point_2022": 3422,
+    "change_vs_2022_pct": -2,
+    "pct_of_2022_total": "60.9%"
+   },
+   {
+    "county": "Jeff Davis",
+    "rv": 9257,
+    "votes": 2017,
+    "mail_accepted": 80,
+    "early_in_person": 1937,
+    "pct_of_rv": 21.8,
+    "same_point_2022": 2074,
+    "change_vs_2022_pct": -3,
+    "pct_of_2022_total": "44.2%"
+   },
+   {
+    "county": "Crawford",
+    "rv": 9230,
+    "votes": 2486,
+    "mail_accepted": 110,
+    "early_in_person": 2376,
+    "pct_of_rv": 26.9,
+    "same_point_2022": 2492,
+    "change_vs_2022_pct": 0,
+    "pct_of_2022_total": "51.3%"
+   },
+   {
+    "county": "Heard",
+    "rv": 9157,
+    "votes": 1827,
+    "mail_accepted": 197,
+    "early_in_person": 1630,
+    "pct_of_rv": 20.0,
+    "same_point_2022": 1803,
+    "change_vs_2022_pct": 1,
+    "pct_of_2022_total": "40.9%"
+   },
+   {
+    "county": "Bleckley",
+    "rv": 8644,
+    "votes": 2798,
+    "mail_accepted": 132,
+    "early_in_person": 2666,
+    "pct_of_rv": 32.4,
+    "same_point_2022": 2624,
+    "change_vs_2022_pct": 7,
+    "pct_of_2022_total": "58.0%"
+   },
+   {
+    "county": "Early",
+    "rv": 7634,
+    "votes": 1792,
+    "mail_accepted": 128,
+    "early_in_person": 1664,
+    "pct_of_rv": 23.5,
+    "same_point_2022": 1987,
+    "change_vs_2022_pct": -10,
+    "pct_of_2022_total": "45.5%"
+   },
+   {
+    "county": "Macon",
+    "rv": 7509,
+    "votes": 2031,
+    "mail_accepted": 154,
+    "early_in_person": 1877,
+    "pct_of_rv": 27.0,
+    "same_point_2022": 2202,
+    "change_vs_2022_pct": -8,
+    "pct_of_2022_total": "53.5%"
+   },
+   {
+    "county": "Candler",
+    "rv": 7299,
+    "votes": 1989,
+    "mail_accepted": 62,
+    "early_in_person": 1927,
+    "pct_of_rv": 27.3,
+    "same_point_2022": 2275,
+    "change_vs_2022_pct": -13,
+    "pct_of_2022_total": "55.5%"
+   },
+   {
+    "county": "Charlton",
+    "rv": 7225,
+    "votes": 1590,
+    "mail_accepted": 74,
+    "early_in_person": 1516,
+    "pct_of_rv": 22.0,
+    "same_point_2022": 1669,
+    "change_vs_2022_pct": -5,
+    "pct_of_2022_total": "46.5%"
+   },
+   {
+    "county": "Wilkes",
+    "rv": 7167,
+    "votes": 2447,
+    "mail_accepted": 213,
+    "early_in_person": 2234,
+    "pct_of_rv": 34.1,
+    "same_point_2022": 2154,
+    "change_vs_2022_pct": 14,
+    "pct_of_2022_total": "58.7%"
+   },
+   {
+    "county": "Bacon",
+    "rv": 7056,
+    "votes": 2236,
+    "mail_accepted": 76,
+    "early_in_person": 2160,
+    "pct_of_rv": 31.7,
+    "same_point_2022": 2417,
+    "change_vs_2022_pct": -7,
+    "pct_of_2022_total": "59.7%"
+   },
+   {
+    "county": "Wilkinson",
+    "rv": 6974,
+    "votes": 1485,
+    "mail_accepted": 118,
+    "early_in_person": 1367,
+    "pct_of_rv": 21.3,
+    "same_point_2022": 1532,
+    "change_vs_2022_pct": -3,
+    "pct_of_2022_total": "36.5%"
+   },
+   {
+    "county": "Evans",
+    "rv": 6797,
+    "votes": 1856,
+    "mail_accepted": 157,
+    "early_in_person": 1699,
+    "pct_of_rv": 27.3,
+    "same_point_2022": 2040,
+    "change_vs_2022_pct": -9,
+    "pct_of_2022_total": "55.0%"
+   },
+   {
+    "county": "Lincoln",
+    "rv": 6745,
+    "votes": 2216,
+    "mail_accepted": 193,
+    "early_in_person": 2023,
+    "pct_of_rv": 32.9,
+    "same_point_2022": 2047,
+    "change_vs_2022_pct": 8,
+    "pct_of_2022_total": "55.5%"
+   },
+   {
+    "county": "Terrell",
+    "rv": 6740,
+    "votes": 1795,
+    "mail_accepted": 160,
+    "early_in_person": 1635,
+    "pct_of_rv": 26.6,
+    "same_point_2022": 1868,
+    "change_vs_2022_pct": -4,
+    "pct_of_2022_total": "49.0%"
+   },
+   {
+    "county": "Irwin",
+    "rv": 6553,
+    "votes": 1782,
+    "mail_accepted": 57,
+    "early_in_person": 1725,
+    "pct_of_rv": 27.2,
+    "same_point_2022": 1786,
+    "change_vs_2022_pct": 0,
+    "pct_of_2022_total": "51.9%"
+   },
+   {
+    "county": "Lanier",
+    "rv": 6536,
+    "votes": 1403,
+    "mail_accepted": 36,
+    "early_in_person": 1367,
+    "pct_of_rv": 21.5,
+    "same_point_2022": 1459,
+    "change_vs_2022_pct": -4,
+    "pct_of_2022_total": "52.9%"
+   },
+   {
+    "county": "Telfair",
+    "rv": 6522,
+    "votes": 1589,
+    "mail_accepted": 100,
+    "early_in_person": 1489,
+    "pct_of_rv": 24.4,
+    "same_point_2022": 1629,
+    "change_vs_2022_pct": -2,
+    "pct_of_2022_total": "46.3%"
+   },
+   {
+    "county": "Dooly",
+    "rv": 6519,
+    "votes": 1701,
+    "mail_accepted": 102,
+    "early_in_person": 1599,
+    "pct_of_rv": 26.1,
+    "same_point_2022": 1735,
+    "change_vs_2022_pct": -2,
+    "pct_of_2022_total": "51.5%"
+   },
+   {
+    "county": "Seminole",
+    "rv": 6407,
+    "votes": 1090,
+    "mail_accepted": 56,
+    "early_in_person": 1034,
+    "pct_of_rv": 17.0,
+    "same_point_2022": 1242,
+    "change_vs_2022_pct": -12,
+    "pct_of_2022_total": "35.5%"
+   },
+   {
+    "county": "Twiggs",
+    "rv": 6401,
+    "votes": 1655,
+    "mail_accepted": 192,
+    "early_in_person": 1463,
+    "pct_of_rv": 25.9,
+    "same_point_2022": 1650,
+    "change_vs_2022_pct": 0,
+    "pct_of_2022_total": "46.5%"
+   },
+   {
+    "county": "Pulaski",
+    "rv": 6340,
+    "votes": 2149,
+    "mail_accepted": 135,
+    "early_in_person": 2014,
+    "pct_of_rv": 33.9,
+    "same_point_2022": 2087,
+    "change_vs_2022_pct": 3,
+    "pct_of_2022_total": "63.5%"
+   },
+   {
+    "county": "Hancock",
+    "rv": 6245,
+    "votes": 2035,
+    "mail_accepted": 245,
+    "early_in_person": 1790,
+    "pct_of_rv": 32.6,
+    "same_point_2022": 1955,
+    "change_vs_2022_pct": 4,
+    "pct_of_2022_total": "59.7%"
+   },
+   {
+    "county": "Turner",
+    "rv": 6112,
+    "votes": 1887,
+    "mail_accepted": 60,
+    "early_in_person": 1827,
+    "pct_of_rv": 30.9,
+    "same_point_2022": 1882,
+    "change_vs_2022_pct": 0,
+    "pct_of_2022_total": "60.6%"
+   },
+   {
+    "county": "Montgomery",
+    "rv": 5894,
+    "votes": 1258,
+    "mail_accepted": 60,
+    "early_in_person": 1198,
+    "pct_of_rv": 21.3,
+    "same_point_2022": 1311,
+    "change_vs_2022_pct": -4,
+    "pct_of_2022_total": "38.8%"
+   },
+   {
+    "county": "Johnson",
+    "rv": 5889,
+    "votes": 1615,
+    "mail_accepted": 80,
+    "early_in_person": 1535,
+    "pct_of_rv": 27.4,
+    "same_point_2022": 1803,
+    "change_vs_2022_pct": -10,
+    "pct_of_2022_total": "47.6%"
+   },
+   {
+    "county": "Taylor",
+    "rv": 5718,
+    "votes": 1743,
+    "mail_accepted": 105,
+    "early_in_person": 1638,
+    "pct_of_rv": 30.5,
+    "same_point_2022": 1843,
+    "change_vs_2022_pct": -5,
+    "pct_of_2022_total": "54.2%"
+   },
+   {
+    "county": "Jenkins",
+    "rv": 5465,
+    "votes": 1294,
+    "mail_accepted": 77,
+    "early_in_person": 1217,
+    "pct_of_rv": 23.7,
+    "same_point_2022": 1509,
+    "change_vs_2022_pct": -14,
+    "pct_of_2022_total": "46.5%"
+   },
+   {
+    "county": "Marion",
+    "rv": 5347,
+    "votes": 1444,
+    "mail_accepted": 92,
+    "early_in_person": 1352,
+    "pct_of_rv": 27.0,
+    "same_point_2022": 1375,
+    "change_vs_2022_pct": 5,
+    "pct_of_2022_total": "50.5%"
+   },
+   {
+    "county": "Atkinson",
+    "rv": 4918,
+    "votes": 991,
+    "mail_accepted": 44,
+    "early_in_person": 947,
+    "pct_of_rv": 20.2,
+    "same_point_2022": 1022,
+    "change_vs_2022_pct": -3,
+    "pct_of_2022_total": "44.0%"
+   },
+   {
+    "county": "Wilcox",
+    "rv": 4916,
+    "votes": 1058,
+    "mail_accepted": 47,
+    "early_in_person": 1011,
+    "pct_of_rv": 21.5,
+    "same_point_2022": 1113,
+    "change_vs_2022_pct": -5,
+    "pct_of_2022_total": "40.2%"
+   },
+   {
+    "county": "Talbot",
+    "rv": 4790,
+    "votes": 1294,
+    "mail_accepted": 102,
+    "early_in_person": 1192,
+    "pct_of_rv": 27.0,
+    "same_point_2022": 1282,
+    "change_vs_2022_pct": 1,
+    "pct_of_2022_total": "45.0%"
+   },
+   {
+    "county": "Chattahoochee",
+    "rv": 4666,
+    "votes": 547,
+    "mail_accepted": 19,
+    "early_in_person": 528,
+    "pct_of_rv": 11.7,
+    "same_point_2022": 502,
+    "change_vs_2022_pct": 9,
+    "pct_of_2022_total": "53.2%"
+   },
+   {
+    "county": "Randolph",
+    "rv": 4558,
+    "votes": 1247,
+    "mail_accepted": 78,
+    "early_in_person": 1169,
+    "pct_of_rv": 27.4,
+    "same_point_2022": 1415,
+    "change_vs_2022_pct": -12,
+    "pct_of_2022_total": "48.3%"
+   },
+   {
+    "county": "Treutlen",
+    "rv": 4553,
+    "votes": 1254,
+    "mail_accepted": 75,
+    "early_in_person": 1179,
+    "pct_of_rv": 27.5,
+    "same_point_2022": 1441,
+    "change_vs_2022_pct": -13,
+    "pct_of_2022_total": "50.9%"
+   },
+   {
+    "county": "Clinch",
+    "rv": 4439,
+    "votes": 925,
+    "mail_accepted": 31,
+    "early_in_person": 894,
+    "pct_of_rv": 20.8,
+    "same_point_2022": 1028,
+    "change_vs_2022_pct": -10,
+    "pct_of_2022_total": "43.5%"
+   },
+   {
+    "county": "Warren",
+    "rv": 4095,
+    "votes": 1298,
+    "mail_accepted": 76,
+    "early_in_person": 1222,
+    "pct_of_rv": 31.7,
+    "same_point_2022": 1302,
+    "change_vs_2022_pct": 0,
+    "pct_of_2022_total": "59.9%"
+   },
+   {
+    "county": "Miller",
+    "rv": 4020,
+    "votes": 1026,
+    "mail_accepted": 65,
+    "early_in_person": 961,
+    "pct_of_rv": 25.5,
+    "same_point_2022": 1151,
+    "change_vs_2022_pct": -11,
+    "pct_of_2022_total": "47.3%"
+   },
+   {
+    "county": "Wheeler",
+    "rv": 3462,
+    "votes": 949,
+    "mail_accepted": 52,
+    "early_in_person": 897,
+    "pct_of_rv": 27.4,
+    "same_point_2022": 848,
+    "change_vs_2022_pct": 12,
+    "pct_of_2022_total": "51.9%"
+   },
+   {
+    "county": "Schley",
+    "rv": 3201,
+    "votes": 1001,
+    "mail_accepted": 43,
+    "early_in_person": 958,
+    "pct_of_rv": 31.3,
+    "same_point_2022": 1129,
+    "change_vs_2022_pct": -11,
+    "pct_of_2022_total": "53.1%"
+   },
+   {
+    "county": "Calhoun",
+    "rv": 3139,
+    "votes": 822,
+    "mail_accepted": 90,
+    "early_in_person": 732,
+    "pct_of_rv": 26.2,
+    "same_point_2022": 793,
+    "change_vs_2022_pct": 4,
+    "pct_of_2022_total": "47.7%"
+   },
+   {
+    "county": "Stewart",
+    "rv": 2932,
+    "votes": 658,
+    "mail_accepted": 29,
+    "early_in_person": 629,
+    "pct_of_rv": 22.4,
+    "same_point_2022": 821,
+    "change_vs_2022_pct": -20,
+    "pct_of_2022_total": "42.1%"
+   },
+   {
+    "county": "Echols",
+    "rv": 2248,
+    "votes": 470,
+    "mail_accepted": 3,
+    "early_in_person": 467,
+    "pct_of_rv": 20.9,
+    "same_point_2022": 610,
+    "change_vs_2022_pct": -23,
+    "pct_of_2022_total": "44.0%"
+   },
+   {
+    "county": "Glascock",
+    "rv": 2201,
+    "votes": 666,
+    "mail_accepted": 26,
+    "early_in_person": 640,
+    "pct_of_rv": 30.3,
+    "same_point_2022": 613,
+    "change_vs_2022_pct": 9,
+    "pct_of_2022_total": "50.8%"
+   },
+   {
+    "county": "Baker",
+    "rv": 2187,
+    "votes": 598,
+    "mail_accepted": 61,
+    "early_in_person": 537,
+    "pct_of_rv": 27.3,
+    "same_point_2022": 660,
+    "change_vs_2022_pct": -9,
+    "pct_of_2022_total": "47.2%"
+   },
+   {
+    "county": "Clay",
+    "rv": 2167,
+    "votes": 648,
+    "mail_accepted": 63,
+    "early_in_person": 585,
+    "pct_of_rv": 29.9,
+    "same_point_2022": 657,
+    "change_vs_2022_pct": -1,
+    "pct_of_2022_total": "57.1%"
+   },
+   {
+    "county": "Webster",
+    "rv": 1809,
+    "votes": 585,
+    "mail_accepted": 69,
+    "early_in_person": 516,
+    "pct_of_rv": 32.3,
+    "same_point_2022": 656,
+    "change_vs_2022_pct": -11,
+    "pct_of_2022_total": "51.5%"
+   },
+   {
+    "county": "Quitman",
+    "rv": 1701,
+    "votes": 483,
+    "mail_accepted": 19,
+    "early_in_person": 464,
+    "pct_of_rv": 28.4,
+    "same_point_2022": 490,
+    "change_vs_2022_pct": -1,
+    "pct_of_2022_total": "53.0%"
+   },
+   {
+    "county": "Taliaferro",
+    "rv": 1321,
+    "votes": 444,
+    "mail_accepted": 55,
+    "early_in_person": 389,
+    "pct_of_rv": 33.6,
+    "same_point_2022": 472,
+    "change_vs_2022_pct": -6,
+    "pct_of_2022_total": "54.5%"
+   }
+  ],
+  "focus_counties": [
+   "Gwinnett",
+   "Fulton",
+   "Cobb",
+   "DeKalb"
+  ],
+  "by_district": [
+   {
+    "district": "GA-1",
+    "rv": 582343,
+    "votes": 153800,
+    "pct_of_2022_total": "57.5%"
+   },
+   {
+    "district": "GA-2",
+    "rv": 531799,
+    "votes": 138819,
+    "pct_of_2022_total": "57.3%"
+   },
+   {
+    "district": "GA-3",
+    "rv": 612014,
+    "votes": 180434,
+    "pct_of_2022_total": "56.2%"
+   },
+   {
+    "district": "GA-4",
+    "rv": 504547,
+    "votes": 170267,
+    "pct_of_2022_total": "73.6%"
+   },
+   {
+    "district": "GA-5",
+    "rv": 596404,
+    "votes": 196780,
+    "pct_of_2022_total": "71.9%"
+   },
+   {
+    "district": "GA-6",
+    "rv": 587934,
+    "votes": 217069,
+    "pct_of_2022_total": "75.0%"
+   },
+   {
+    "district": "GA-7",
+    "rv": 584425,
+    "votes": 220366,
+    "pct_of_2022_total": "67.5%"
+   },
+   {
+    "district": "GA-8",
+    "rv": 536815,
+    "votes": 150118,
+    "pct_of_2022_total": "56.4%"
+   },
+   {
+    "district": "GA-9",
+    "rv": 588874,
+    "votes": 188066,
+    "pct_of_2022_total": "64.0%"
+   },
+   {
+    "district": "GA-10",
+    "rv": 604319,
+    "votes": 193769,
+    "pct_of_2022_total": "61.2%"
+   },
+   {
+    "district": "GA-11",
+    "rv": 590940,
+    "votes": 193001,
+    "pct_of_2022_total": "60.8%"
+   },
+   {
+    "district": "GA-12",
+    "rv": 549355,
+    "votes": 145626,
+    "pct_of_2022_total": "53.9%"
+   },
+   {
+    "district": "GA-13",
+    "rv": 571625,
+    "votes": 202462,
+    "pct_of_2022_total": "76.1%"
+   },
+   {
+    "district": "GA-14",
+    "rv": 566878,
+    "votes": 163071,
+    "pct_of_2022_total": "58.2%"
+   }
+  ],
+  "gwinnett_extra": {
+   "pres2024": "D+16.7",
+   "source": "https://georgiavotes.com/county?c=67",
+   "fetched_at": "2026-10-30T23:17:30Z"
+  },
+  "sos_turnout_page": "https://sos.ga.gov/page/election-data-hub-turnout"
+ },
+ "rules": {
+  "runoff": {
+   "rule": "In a general election, a candidate needs a majority (50% + 1) of votes cast. If nobody gets it, the top two finishers go to a runoff.",
+   "date": "2026-12-01",
+   "date_label": "Tuesday, December 1, 2026",
+   "details": "Polls open 7 a.m.–7 p.m. Early voting for the runoff is shortened by Thanksgiving; counties set exact dates.",
+   "statute": "O.C.G.A. § 21-2-501",
+   "sources": [
+    {
+     "label": "georgia.gov: Georgia Election Guide",
+     "url": "https://georgia.gov/georgia-election-guide"
+    },
+    {
+     "label": "Wikipedia: 2026 Georgia state elections (cites GA SOS Elections Division)",
+     "url": "https://en.wikipedia.org/wiki/2026_Georgia_state_elections"
+    },
+    {
+     "label": "Rockdale County 2026 election schedule (from SOS calendar)",
+     "url": "https://www.rockdalecountyga.gov/board-of-elections-voter-registration/georgia-2026-election-schedule-v1-2/"
+    }
+   ]
+  },
+  "recount": {
+   "rule": "No automatic recount. A losing candidate may request one if the margin is 0.5 percentage points or less, in writing, within two business days after certification. Election superintendents may also order a recount before certification if they find a discrepancy.",
+   "threshold_pct": 0.5,
+   "statute": "O.C.G.A. § 21-2-495",
+   "sources": [
+    {
+     "label": "georgia.gov: Election Recount Rules in Georgia",
+     "url": "https://georgia.gov/election-recount-rules-georgia"
+    },
+    {
+     "label": "Verified Voting: Georgia recount law",
+     "url": "https://verifiedvoting.org/recountlaw/georgia/"
+    }
+   ]
+  },
+  "verified": "2026-10-30 via web search of official georgia.gov pages; sos.ga.gov and legis.ga.gov could not be fetched directly",
+  "other_dates": {
+   "election_day": "2026-11-03",
+   "early_voting_ends": "2026-10-30"
+  },
+  "not_on_ballot": "Georgia Supreme Court and Court of Appeals seats were decided in the May 19 nonpartisan election, not in November."
+ }
+}

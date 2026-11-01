@@ -1,0 +1,10616 @@
+{
+"AK-AL": {
+"id": "AK-AL",
+"incumbent": "Nick Begich",
+"house2024": {
+"party": "R",
+"pts": 2.4,
+"raw": "2.4%y"
+},
+"pres2024": {
+"party": "R",
+"pts": 13.1,
+"raw": "13.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Eric Hafner",
+"fill": "DD"
+},
+{
+"name": "Nick Begich*",
+"fill": "RR"
+},
+{
+"name": "Jim McDermott",
+"fill": "L"
+},
+{
+"name": "Bill Hill",
+"fill": "i4"
+}
+],
+"note": ""
+},
+"AL-2": {
+"id": "AL-2",
+"incumbent": "Shomari Figures",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 14.3,
+"raw": "14.3%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Shomari Figures*",
+"fill": "DD"
+},
+{
+"name": "Rhett Marques",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"AR-2": {
+"id": "AR-2",
+"incumbent": "French Hill",
+"house2024": {
+"party": "R",
+"pts": 17.9,
+"raw": "17.9%"
+},
+"pres2024": {
+"party": "R",
+"pts": 15.5,
+"raw": "15.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Chris Jones",
+"fill": "DD"
+},
+{
+"name": "French Hill*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"AZ-1": {
+"id": "AZ-1",
+"incumbent": "David Schweikert",
+"house2024": {
+"party": "R",
+"pts": 3.8,
+"raw": "3.8%"
+},
+"pres2024": {
+"party": "R",
+"pts": 3.1,
+"raw": "3.1%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Amish Shah",
+"fill": "DD"
+},
+{
+"name": "Jay Feely",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for governor"
+},
+"AZ-2": {
+"id": "AZ-2",
+"incumbent": "Eli Crane",
+"house2024": {
+"party": "R",
+"pts": 9.0,
+"raw": "9.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 14.9,
+"raw": "14.9%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Jonathan Nez",
+"fill": "DD"
+},
+{
+"name": "Eli Crane*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"AZ-6": {
+"id": "AZ-6",
+"incumbent": "Juan Ciscomani",
+"house2024": {
+"party": "R",
+"pts": 2.5,
+"raw": "2.5%"
+},
+"pres2024": {
+"party": "R",
+"pts": 0.7,
+"raw": "0.7%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "JoAnna Mendoza",
+"fill": "DD"
+},
+{
+"name": "Juan Ciscomani*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"AZ-8": {
+"id": "AZ-8",
+"incumbent": "Abraham Hamadeh",
+"house2024": {
+"party": "R",
+"pts": 13.0,
+"raw": "13.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 16.3,
+"raw": "16.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Bernadette Greene-Placentia",
+"fill": "DD"
+},
+{
+"name": "Abraham Hamadeh*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-1": {
+"id": "CA-1",
+"incumbent": "James Gallagher",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 12.2,
+"raw": "12.2%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Mike McGuire",
+"fill": "DD"
+},
+{
+"name": "James Gallagher*",
+"fill": "RR"
+}
+],
+"note": "Won special election in June, 2026"
+},
+"CA-3": {
+"id": "CA-3",
+"incumbent": "Ami Bera",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 10.1,
+"raw": "10.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Ami Bera*",
+"fill": "DD"
+},
+{
+"name": "Robb Tucker",
+"fill": "RR"
+}
+],
+"note": "Currently CA-06; moved due to redistricting"
+},
+"CA-6": {
+"id": "CA-6",
+"incumbent": "Kevin Kiley",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 8.4,
+"raw": "8.4%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Richard Pan",
+"fill": "DD"
+},
+{
+"name": "Kevin Kiley*",
+"fill": "P"
+}
+],
+"note": "Currently CA-03; moved due to redistricting"
+},
+"CA-13": {
+"id": "CA-13",
+"incumbent": "Adam Gray",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 0.3,
+"raw": "0.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Adam Gray*",
+"fill": "DD"
+},
+{
+"name": "Kevin Lincoln",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-22": {
+"id": "CA-22",
+"incumbent": "David Valadao",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 1.8,
+"raw": "1.8%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Randy Villegas",
+"fill": "DD"
+},
+{
+"name": "David Valadao*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-41": {
+"id": "CA-41",
+"incumbent": "Linda Sanchez",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 14.1,
+"raw": "14.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Linda Sanchez*",
+"fill": "DD"
+},
+{
+"name": "Mitch Clemmons",
+"fill": "RR"
+}
+],
+"note": "Currently CA-38; moved due to redistricting"
+},
+"CA-45": {
+"id": "CA-45",
+"incumbent": "Derek Tran",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 3.9,
+"raw": "3.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Derek Tran*",
+"fill": "DD"
+},
+{
+"name": "Chuong Vo",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-48": {
+"id": "CA-48",
+"incumbent": "Darrell Issa",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 3.3,
+"raw": "3.3%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Marni Von Wilpert",
+"fill": "DD"
+},
+{
+"name": "Jim Desmond",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"CO-3": {
+"id": "CO-3",
+"incumbent": "Jeff Hurd",
+"house2024": {
+"party": "R",
+"pts": 5.0,
+"raw": "5.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 9.7,
+"raw": "9.7%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Dwayne Romero",
+"fill": "DD"
+},
+{
+"name": "Jeff Hurd*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CO-4": {
+"id": "CO-4",
+"incumbent": "Lauren Boebert",
+"house2024": {
+"party": "R",
+"pts": 11.6,
+"raw": "11.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 18.2,
+"raw": "18.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Eileen Laubacher",
+"fill": "DD"
+},
+{
+"name": "Lauren Boebert*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CO-5": {
+"id": "CO-5",
+"incumbent": "Jeff Crank",
+"house2024": {
+"party": "R",
+"pts": 13.8,
+"raw": "13.8%"
+},
+"pres2024": {
+"party": "R",
+"pts": 9.0,
+"raw": "9.0%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Jessica Killin",
+"fill": "DD"
+},
+{
+"name": "Jeff Crank*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CO-8": {
+"id": "CO-8",
+"incumbent": "Gabe Evans",
+"house2024": {
+"party": "R",
+"pts": 0.7,
+"raw": "0.7%"
+},
+"pres2024": {
+"party": "R",
+"pts": 1.8,
+"raw": "1.8%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Manny Rutinel",
+"fill": "DD"
+},
+{
+"name": "Gabe Evans*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-4": {
+"id": "FL-4",
+"incumbent": "Aaron Bean",
+"house2024": {
+"party": "R",
+"pts": 14.5,
+"raw": "14.5%"
+},
+"pres2024": {
+"party": "R",
+"pts": 11.8,
+"raw": "11.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "L.J. Holloway",
+"fill": "DD"
+},
+{
+"name": "Aaron Bean*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-7": {
+"id": "FL-7",
+"incumbent": "Cory Mills",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 12.4,
+"raw": "12.4%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Bale Dalton",
+"fill": "DD"
+},
+{
+"name": "Ryan Elijah",
+"fill": "RR"
+}
+],
+"note": "Incumbent defeated in primary for 2026 election."
+},
+"FL-9": {
+"id": "FL-9",
+"incumbent": "Darren Soto",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 17.7,
+"raw": "17.7%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Darren Soto*",
+"fill": "DD"
+},
+{
+"name": "Dan Green",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-13": {
+"id": "FL-13",
+"incumbent": "Anna Paulina Luna",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 13.3,
+"raw": "13.3%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Leela Gray",
+"fill": "DD"
+},
+{
+"name": "Anna Paulina Luna*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-14": {
+"id": "FL-14",
+"incumbent": "Kathy Castor",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 10.5,
+"raw": "10.5%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Kathy Castor*",
+"fill": "DD"
+},
+{
+"name": "Mike Beltran",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-16": {
+"id": "FL-16",
+"incumbent": "Vern Buchanan",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 13.6,
+"raw": "13.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kelly Kirschner",
+"fill": "DD"
+},
+{
+"name": "Sydney Gruters",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"FL-22": {
+"id": "FL-22",
+"incumbent": "OPEN",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 10.2,
+"raw": "10.2%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Pia Dandiya",
+"fill": "DD"
+},
+{
+"name": "Casey Askar",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-25": {
+"id": "FL-25",
+"incumbent": "Jared Moskowitz",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 9.1,
+"raw": "9.1%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Jared Moskowitz*",
+"fill": "DD"
+},
+{
+"name": "Scott Singer",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-27": {
+"id": "FL-27",
+"incumbent": "Maria Salazar",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 14.5,
+"raw": "14.5%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Eliott Rodriguez",
+"fill": "DD"
+},
+{
+"name": "Maria Salazar*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IA-1": {
+"id": "IA-1",
+"incumbent": "Mariannette Miller-Meeks",
+"house2024": {
+"party": "R",
+"pts": 0.2,
+"raw": "0.2%"
+},
+"pres2024": {
+"party": "R",
+"pts": 8.4,
+"raw": "8.4%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Christina Bohannan",
+"fill": "DD"
+},
+{
+"name": "Mariannette Miller-Meeks*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IA-2": {
+"id": "IA-2",
+"incumbent": "Ashley Hinson",
+"house2024": {
+"party": "R",
+"pts": 15.6,
+"raw": "15.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 9.9,
+"raw": "9.9%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Lindsay James",
+"fill": "DD"
+},
+{
+"name": "Joe Mitchell",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate"
+},
+"IA-3": {
+"id": "IA-3",
+"incumbent": "Zach Nunn",
+"house2024": {
+"party": "R",
+"pts": 3.8,
+"raw": "3.8%"
+},
+"pres2024": {
+"party": "R",
+"pts": 4.4,
+"raw": "4.4%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Sarah Trone Garriott",
+"fill": "DD"
+},
+{
+"name": "Zach Nunn*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IN-1": {
+"id": "IN-1",
+"incumbent": "Frank Mrvan",
+"house2024": {
+"party": "D",
+"pts": 8.5,
+"raw": "8.5%"
+},
+"pres2024": {
+"party": "D",
+"pts": 0.3,
+"raw": "0.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Frank Mrvan*",
+"fill": "DD"
+},
+{
+"name": "Barb Regnitz",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IN-5": {
+"id": "IN-5",
+"incumbent": "Victoria Spartz",
+"house2024": {
+"party": "R",
+"pts": 18.6,
+"raw": "18.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 16.8,
+"raw": "16.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "J.D. Ford",
+"fill": "DD"
+},
+{
+"name": "Victoria Spartz*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"KS-2": {
+"id": "KS-2",
+"incumbent": "Derek Schmidt",
+"house2024": {
+"party": "R",
+"pts": 18.9,
+"raw": "18.9%"
+},
+"pres2024": {
+"party": "R",
+"pts": 19.6,
+"raw": "19.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Don Coover",
+"fill": "DD"
+},
+{
+"name": "Derek Schmidt*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"KY-6": {
+"id": "KY-6",
+"incumbent": "Andy Barr",
+"house2024": {
+"party": "R",
+"pts": 26.8,
+"raw": "26.8%"
+},
+"pres2024": {
+"party": "R",
+"pts": 15.0,
+"raw": "15.0%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Zach Dembo",
+"fill": "DD"
+},
+{
+"name": "Ralph Alvarado",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate"
+},
+"LA-6": {
+"id": "LA-6",
+"incumbent": "Cleo Fields",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 30.0,
+"raw": "30.0%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "3 Democrats",
+"fill": "DD"
+},
+{
+"name": "5 Republicans",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"ME-2": {
+"id": "ME-2",
+"incumbent": "Jared Golden",
+"house2024": {
+"party": "D",
+"pts": 0.7,
+"raw": "0.7%y"
+},
+"pres2024": {
+"party": "R",
+"pts": 9.0,
+"raw": "9.0%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Matthew Dunlap",
+"fill": "DD"
+},
+{
+"name": "Paul LePage",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"MI-4": {
+"id": "MI-4",
+"incumbent": "Bill Huizenga",
+"house2024": {
+"party": "R",
+"pts": 11.7,
+"raw": "11.7%"
+},
+"pres2024": {
+"party": "R",
+"pts": 5.5,
+"raw": "5.5%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Sean McCann",
+"fill": "DD"
+},
+{
+"name": "Bill Huizenga*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MI-7": {
+"id": "MI-7",
+"incumbent": "Tom Barrett",
+"house2024": {
+"party": "R",
+"pts": 3.7,
+"raw": "3.7%"
+},
+"pres2024": {
+"party": "R",
+"pts": 1.2,
+"raw": "1.2%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "William Lawrence",
+"fill": "DD"
+},
+{
+"name": "Tom Barrett*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MI-8": {
+"id": "MI-8",
+"incumbent": "Kristen McDonald Rivet",
+"house2024": {
+"party": "D",
+"pts": 6.6,
+"raw": "6.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 1.9,
+"raw": "1.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kristen McDonald Rivet*",
+"fill": "DD"
+},
+{
+"name": "Thomas Smith",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MI-10": {
+"id": "MI-10",
+"incumbent": "John James",
+"house2024": {
+"party": "R",
+"pts": 6.1,
+"raw": "6.1%"
+},
+"pres2024": {
+"party": "R",
+"pts": 6.5,
+"raw": "6.5%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Christina Hines",
+"fill": "DD"
+},
+{
+"name": "Michael Bouchard",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for governor"
+},
+"MN-1": {
+"id": "MN-1",
+"incumbent": "Brad Finstad",
+"house2024": {
+"party": "R",
+"pts": 17.1,
+"raw": "17.1%"
+},
+"pres2024": {
+"party": "R",
+"pts": 12.0,
+"raw": "12.0%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Jake Johnson",
+"fill": "DD"
+},
+{
+"name": "Brad Finstad*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MN-2": {
+"id": "MN-2",
+"incumbent": "Angie Craig",
+"house2024": {
+"party": "D",
+"pts": 13.5,
+"raw": "13.5%"
+},
+"pres2024": {
+"party": "D",
+"pts": 5.8,
+"raw": "5.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Matt Little",
+"fill": "DD"
+},
+{
+"name": "Eric Pratt",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate"
+},
+"MO-2": {
+"id": "MO-2",
+"incumbent": "Ann Wagner",
+"house2024": {
+"party": "R",
+"pts": 12.0,
+"raw": "12.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 7.9,
+"raw": "7.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Fred Wellman",
+"fill": "DD"
+},
+{
+"name": "Ann Wagner*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MT-1": {
+"id": "MT-1",
+"incumbent": "Ryan Zinke",
+"house2024": {
+"party": "R",
+"pts": 7.7,
+"raw": "7.7%"
+},
+"pres2024": {
+"party": "R",
+"pts": 11.5,
+"raw": "11.5%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Sam Forstag",
+"fill": "DD"
+},
+{
+"name": "Aaron Flint",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"NC-1": {
+"id": "NC-1",
+"incumbent": "Don Davis",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 11.5,
+"raw": "11.5%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Don Davis*",
+"fill": "DD"
+},
+{
+"name": "Laurie Buckhout",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NC-3": {
+"id": "NC-3",
+"incumbent": "Greg Murphy",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 13.6,
+"raw": "13.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Raymond Smith Jr.",
+"fill": "DD"
+},
+{
+"name": "Greg Murphy*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NC-9": {
+"id": "NC-9",
+"incumbent": "Richard Hudson",
+"house2024": {
+"party": "R",
+"pts": 18.5,
+"raw": "18.5%"
+},
+"pres2024": {
+"party": "R",
+"pts": 15.8,
+"raw": "15.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Richard Ojeda",
+"fill": "DD"
+},
+{
+"name": "Richard Hudson*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NC-11": {
+"id": "NC-11",
+"incumbent": "Chuck Edwards",
+"house2024": {
+"party": "R",
+"pts": 13.5,
+"raw": "13.5%"
+},
+"pres2024": {
+"party": "R",
+"pts": 9.5,
+"raw": "9.5%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Jamie Ager",
+"fill": "DD"
+},
+{
+"name": "Jennifer Balkcom",
+"fill": "RR"
+}
+],
+"note": "Ended reelection campaign August 5, 2026"
+},
+"NC-13": {
+"id": "NC-13",
+"incumbent": "Brad Knott",
+"house2024": {
+"party": "R",
+"pts": 17.3,
+"raw": "17.3%"
+},
+"pres2024": {
+"party": "R",
+"pts": 16.4,
+"raw": "16.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Paul Barringer",
+"fill": "DD"
+},
+{
+"name": "Brad Knott*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NE-1": {
+"id": "NE-1",
+"incumbent": "Mike Flood",
+"house2024": {
+"party": "R",
+"pts": 20.2,
+"raw": "20.2%"
+},
+"pres2024": {
+"party": "R",
+"pts": 13.0,
+"raw": "13.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Chris Backemeyer",
+"fill": "DD"
+},
+{
+"name": "Mike Flood*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NE-2": {
+"id": "NE-2",
+"incumbent": "Don Bacon",
+"house2024": {
+"party": "R",
+"pts": 1.9,
+"raw": "1.9%"
+},
+"pres2024": {
+"party": "D",
+"pts": 4.6,
+"raw": "4.6%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Denise Powell",
+"fill": "DD"
+},
+{
+"name": "Brinker Harding",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"NH-1": {
+"id": "NH-1",
+"incumbent": "Chris Pappas",
+"house2024": {
+"party": "D",
+"pts": 8.1,
+"raw": "8.1%"
+},
+"pres2024": {
+"party": "D",
+"pts": 2.0,
+"raw": "2.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Stefany Shaheen",
+"fill": "DD"
+},
+{
+"name": "Anthony DiLorenzo",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate"
+},
+"NH-2": {
+"id": "NH-2",
+"incumbent": "Maggie Goodlander",
+"house2024": {
+"party": "D",
+"pts": 6.0,
+"raw": "6.0%"
+},
+"pres2024": {
+"party": "D",
+"pts": 3.5,
+"raw": "3.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Maggie Goodlander*",
+"fill": "DD"
+},
+{
+"name": "Lily Tang Williams",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NJ-2": {
+"id": "NJ-2",
+"incumbent": "Jeff Van Drew",
+"house2024": {
+"party": "R",
+"pts": 16.9,
+"raw": "16.9%"
+},
+"pres2024": {
+"party": "R",
+"pts": 12.5,
+"raw": "12.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Zack Mullock",
+"fill": "DD"
+},
+{
+"name": "Jeff Van Drew*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NJ-7": {
+"id": "NJ-7",
+"incumbent": "Tom Kean",
+"house2024": {
+"party": "R",
+"pts": 5.4,
+"raw": "5.4%"
+},
+"pres2024": {
+"party": "R",
+"pts": 1.1,
+"raw": "1.1%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Rebecca Bennett",
+"fill": "DD"
+},
+{
+"name": "Tom Kean Jr.*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NJ-9": {
+"id": "NJ-9",
+"incumbent": "Nellie Pou",
+"house2024": {
+"party": "D",
+"pts": 4.9,
+"raw": "4.9%"
+},
+"pres2024": {
+"party": "R",
+"pts": 1.1,
+"raw": "1.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Nellie Pou*",
+"fill": "DD"
+},
+{
+"name": "Rosie Pino",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NM-2": {
+"id": "NM-2",
+"incumbent": "Gabriel Vasquez",
+"house2024": {
+"party": "D",
+"pts": 4.2,
+"raw": "4.2%"
+},
+"pres2024": {
+"party": "R",
+"pts": 1.8,
+"raw": "1.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Gabriel Vasquez*",
+"fill": "DD"
+},
+{
+"name": "Gregory Cunningham",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NV-1": {
+"id": "NV-1",
+"incumbent": "Dina Titus",
+"house2024": {
+"party": "D",
+"pts": 7.5,
+"raw": "7.5%"
+},
+"pres2024": {
+"party": "D",
+"pts": 2.2,
+"raw": "2.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Dina Titus*",
+"fill": "DD"
+},
+{
+"name": "Carrie Buck",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NV-2": {
+"id": "NV-2",
+"incumbent": "Mark Amodei",
+"house2024": {
+"party": "R",
+"pts": 18.9,
+"raw": "18.9%+"
+},
+"pres2024": {
+"party": "R",
+"pts": 13.9,
+"raw": "13.9%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Teresa Benitez-Thompson",
+"fill": "DD"
+},
+{
+"name": "David Flippo",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"NV-3": {
+"id": "NV-3",
+"incumbent": "Susie Lee",
+"house2024": {
+"party": "D",
+"pts": 2.7,
+"raw": "2.7%"
+},
+"pres2024": {
+"party": "R",
+"pts": 0.7,
+"raw": "0.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Susie Lee*",
+"fill": "DD"
+},
+{
+"name": "Martin O'Donnell",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NV-4": {
+"id": "NV-4",
+"incumbent": "Steven Horsford",
+"house2024": {
+"party": "D",
+"pts": 8.1,
+"raw": "8.1%"
+},
+"pres2024": {
+"party": "D",
+"pts": 2.3,
+"raw": "2.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Steven Horsford*",
+"fill": "DD"
+},
+{
+"name": "Cody Whipple",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-1": {
+"id": "NY-1",
+"incumbent": "Nicholas LaLota",
+"house2024": {
+"party": "R",
+"pts": 10.4,
+"raw": "10.4%"
+},
+"pres2024": {
+"party": "R",
+"pts": 10.0,
+"raw": "10.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Christopher Gallant",
+"fill": "DD"
+},
+{
+"name": "Nicholas LaLota*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-3": {
+"id": "NY-3",
+"incumbent": "Tom Suozzi",
+"house2024": {
+"party": "D",
+"pts": 3.6,
+"raw": "3.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 4.2,
+"raw": "4.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Thomas Suozzi*",
+"fill": "DD"
+},
+{
+"name": "Michael LiPetri",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-4": {
+"id": "NY-4",
+"incumbent": "Laura Gillen",
+"house2024": {
+"party": "D",
+"pts": 2.3,
+"raw": "2.3%"
+},
+"pres2024": {
+"party": "D",
+"pts": 1.2,
+"raw": "1.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Laura Gillen*",
+"fill": "DD"
+},
+{
+"name": "Jeanine Driscoll",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-17": {
+"id": "NY-17",
+"incumbent": "Michael Lawler",
+"house2024": {
+"party": "R",
+"pts": 6.3,
+"raw": "6.3%"
+},
+"pres2024": {
+"party": "D",
+"pts": 0.5,
+"raw": "0.5%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Cait Conley",
+"fill": "DD"
+},
+{
+"name": "Mike Lawler*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-19": {
+"id": "NY-19",
+"incumbent": "Josh Riley",
+"house2024": {
+"party": "D",
+"pts": 2.2,
+"raw": "2.2%"
+},
+"pres2024": {
+"party": "D",
+"pts": 1.7,
+"raw": "1.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Josh Riley*",
+"fill": "DD"
+},
+{
+"name": "Peter Oberacker",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-21": {
+"id": "NY-21",
+"incumbent": "Elise Stefanik",
+"house2024": {
+"party": "R",
+"pts": 24.0,
+"raw": "24.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 20.6,
+"raw": "20.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Blake Gendebien",
+"fill": "DD"
+},
+{
+"name": "Anthony Constantino",
+"fill": "RR"
+}
+],
+"note": "Retiring; dropped bid for governor 12/19/25"
+},
+"OH-1": {
+"id": "OH-1",
+"incumbent": "Greg Landsman",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 2.5,
+"raw": "2.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Greg Landsman*",
+"fill": "DD"
+},
+{
+"name": "Eric Conroy",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OH-7": {
+"id": "OH-7",
+"incumbent": "Max Miller",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 11.0,
+"raw": "11.0%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Brian Poindexter",
+"fill": "DD"
+},
+{
+"name": "Max Miller*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OH-9": {
+"id": "OH-9",
+"incumbent": "Marcy Kaptur",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 10.5,
+"raw": "10.5%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Marcy Kaptur*",
+"fill": "DD"
+},
+{
+"name": "Derek Merrin",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OH-10": {
+"id": "OH-10",
+"incumbent": "Michael Turner",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 7.7,
+"raw": "7.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kristina Knickerbocker",
+"fill": "DD"
+},
+{
+"name": "Mike Turner*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OH-13": {
+"id": "OH-13",
+"incumbent": "Emilia Sykes",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 3.2,
+"raw": "3.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Emilia Sykes*",
+"fill": "DD"
+},
+{
+"name": "Carey Coleman",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OH-15": {
+"id": "OH-15",
+"incumbent": "Mike Carey",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 10.0,
+"raw": "10.0%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Don Leonard",
+"fill": "DD"
+},
+{
+"name": "Mike Carey*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"PA-1": {
+"id": "PA-1",
+"incumbent": "Brian Fitzpatrick",
+"house2024": {
+"party": "R",
+"pts": 12.8,
+"raw": "12.8%"
+},
+"pres2024": {
+"party": "D",
+"pts": 0.3,
+"raw": "0.3%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Bob Harvie",
+"fill": "DD"
+},
+{
+"name": "Brian Fitzpatrick*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"PA-7": {
+"id": "PA-7",
+"incumbent": "Ryan Mackenzie",
+"house2024": {
+"party": "R",
+"pts": 1.0,
+"raw": "1.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 3.2,
+"raw": "3.2%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Bob Brooks",
+"fill": "DD"
+},
+{
+"name": "Ryan Mackenzie*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"PA-8": {
+"id": "PA-8",
+"incumbent": "Rob Bresnahan",
+"house2024": {
+"party": "R",
+"pts": 1.6,
+"raw": "1.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 8.4,
+"raw": "8.4%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Paige Cognetti",
+"fill": "DD"
+},
+{
+"name": "Rob Bresnahan*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"PA-10": {
+"id": "PA-10",
+"incumbent": "Scott Perry",
+"house2024": {
+"party": "R",
+"pts": 1.3,
+"raw": "1.3%"
+},
+"pres2024": {
+"party": "R",
+"pts": 5.2,
+"raw": "5.2%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Janelle Stelson",
+"fill": "DD"
+},
+{
+"name": "Scott Perry*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"SC-1": {
+"id": "SC-1",
+"incumbent": "Nancy Mace",
+"house2024": {
+"party": "R",
+"pts": 16.6,
+"raw": "16.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 13.0,
+"raw": "13.0%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Nancy Lacore",
+"fill": "DD"
+},
+{
+"name": "Jenny Honeycutt",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for governor"
+},
+"TN-9": {
+"id": "TN-9",
+"incumbent": "Steve Cohen",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 21.1,
+"raw": "21.1%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Justin Pearson",
+"fill": "DD"
+},
+{
+"name": "Brent Taylor",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"TX-9": {
+"id": "TX-9",
+"incumbent": "Al Green",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 19.7,
+"raw": "19.7%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Leticia Gutierrez",
+"fill": "DD"
+},
+{
+"name": "Alex Mealer",
+"fill": "RR"
+}
+],
+"note": "Ran in TX-18 due to redistricting; lost in primary"
+},
+"TX-15": {
+"id": "TX-15",
+"incumbent": "Monica De La Cruz",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 17.8,
+"raw": "17.8%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Bobby Pulido",
+"fill": "DD"
+},
+{
+"name": "Monica De La Cruz*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-23": {
+"id": "TX-23",
+"incumbent": "OPEN",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 14.8,
+"raw": "14.8%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Katy Padilla Stout",
+"fill": "DD"
+},
+{
+"name": "Brandon Herrera",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-28": {
+"id": "TX-28",
+"incumbent": "Henry Cuellar",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 10.3,
+"raw": "10.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Henry Cuellar*",
+"fill": "DD"
+},
+{
+"name": "Tano Tijerina",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-32": {
+"id": "TX-32",
+"incumbent": "Julie Johnson",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 17.7,
+"raw": "17.7%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Dan Barrios",
+"fill": "DD"
+},
+{
+"name": "Jace Yarbrough",
+"fill": "RR"
+}
+],
+"note": "Ran in TX-33 due to redistricting; lost in primary"
+},
+"TX-34": {
+"id": "TX-34",
+"incumbent": "Vicente Gonzalez",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 10.1,
+"raw": "10.1%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Vicente Gonzalez*",
+"fill": "DD"
+},
+{
+"name": "Eric Flores",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-35": {
+"id": "TX-35",
+"incumbent": "OPEN (Casar)",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 10.4,
+"raw": "10.4%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Johnny Garcia",
+"fill": "DD"
+},
+{
+"name": "Carlos De La Cruz",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"UT-1": {
+"id": "UT-1",
+"incumbent": "OPEN (R)",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 23.6,
+"raw": "23.6%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Ben McAdams",
+"fill": "DD"
+},
+{
+"name": "Riley Owen",
+"fill": "RR"
+}
+],
+"note": "Blake Moore running in UT-02 due to redistricting"
+},
+"VA-1": {
+"id": "VA-1",
+"incumbent": "Rob Wittman",
+"house2024": {
+"party": "R",
+"pts": 12.8,
+"raw": "12.8%"
+},
+"pres2024": {
+"party": "R",
+"pts": 4.9,
+"raw": "4.9%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Shannon Taylor",
+"fill": "DD"
+},
+{
+"name": "Rob Wittman*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"VA-2": {
+"id": "VA-2",
+"incumbent": "Jen Kiggans",
+"house2024": {
+"party": "R",
+"pts": 3.8,
+"raw": "3.8%"
+},
+"pres2024": {
+"party": "R",
+"pts": 0.2,
+"raw": "0.2%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Elaine Luria",
+"fill": "DD"
+},
+{
+"name": "Jen Kiggans*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"VA-5": {
+"id": "VA-5",
+"incumbent": "John McGuire",
+"house2024": {
+"party": "R",
+"pts": 15.0,
+"raw": "15.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 12.2,
+"raw": "12.2%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Tom Perriello",
+"fill": "DD"
+},
+{
+"name": "John McGuire*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"VA-7": {
+"id": "VA-7",
+"incumbent": "Eugene Vindman",
+"house2024": {
+"party": "D",
+"pts": 2.6,
+"raw": "2.6%"
+},
+"pres2024": {
+"party": "D",
+"pts": 2.8,
+"raw": "2.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Eugene Vindman*",
+"fill": "DD"
+},
+{
+"name": "Doug Ollivant",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WA-3": {
+"id": "WA-3",
+"incumbent": "Marie Gluesenkamp Perez",
+"house2024": {
+"party": "D",
+"pts": 3.9,
+"raw": "3.9%"
+},
+"pres2024": {
+"party": "R",
+"pts": 3.3,
+"raw": "3.3%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Marie Gluesenkamp Perez*",
+"fill": "DD"
+},
+{
+"name": "John Braun",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WA-5": {
+"id": "WA-5",
+"incumbent": "Michael Baumgartner",
+"house2024": {
+"party": "R",
+"pts": 21.3,
+"raw": "21.3%"
+},
+"pres2024": {
+"party": "R",
+"pts": 10.7,
+"raw": "10.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Carmela Conroy",
+"fill": "DD"
+},
+{
+"name": "Michael Baumgartner*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WI-1": {
+"id": "WI-1",
+"incumbent": "Bryan Steil",
+"house2024": {
+"party": "R",
+"pts": 10.2,
+"raw": "10.2%"
+},
+"pres2024": {
+"party": "R",
+"pts": 4.5,
+"raw": "4.5%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Mitchell Berman",
+"fill": "DD"
+},
+{
+"name": "Bryan Steil*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WI-3": {
+"id": "WI-3",
+"incumbent": "Derrick Van Orden",
+"house2024": {
+"party": "R",
+"pts": 2.7,
+"raw": "2.7%"
+},
+"pres2024": {
+"party": "R",
+"pts": 7.3,
+"raw": "7.3%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Rebecca Cooke",
+"fill": "DD"
+},
+{
+"name": "Derrick Van Orden*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"AL-1": {
+"id": "AL-1",
+"incumbent": "Barry Moore",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 36.0,
+"raw": "36.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Clyde Jones",
+"fill": "DD"
+},
+{
+"name": "Jerry Carl",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate"
+},
+"AL-3": {
+"id": "AL-3",
+"incumbent": "Mike Rogers",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 46.6,
+"raw": "46.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Lee McInnis",
+"fill": "DD"
+},
+{
+"name": "Mike Rogers*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"AL-4": {
+"id": "AL-4",
+"incumbent": "Robert Aderholt",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 66.4,
+"raw": "66.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Amanda Pusczek",
+"fill": "DD"
+},
+{
+"name": "Robert Aderholt*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"AL-5": {
+"id": "AL-5",
+"incumbent": "Dale Strong",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 29.1,
+"raw": "29.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Andrew Sneed",
+"fill": "DD"
+},
+{
+"name": "Dale Strong*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"AL-6": {
+"id": "AL-6",
+"incumbent": "Gary Palmer",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 34.6,
+"raw": "34.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Maurice Mercer",
+"fill": "DD"
+},
+{
+"name": "Gary Palmer*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"AL-7": {
+"id": "AL-7",
+"incumbent": "Terri Sewell",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 17.7,
+"raw": "17.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Terri Sewell*",
+"fill": "DD"
+},
+{
+"name": "Ammie Akin",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"AR-1": {
+"id": "AR-1",
+"incumbent": "Rick Crawford",
+"house2024": {
+"party": "R",
+"pts": 48.9,
+"raw": "48.9%"
+},
+"pres2024": {
+"party": "R",
+"pts": 45.2,
+"raw": "45.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Terri Green",
+"fill": "DD"
+},
+{
+"name": "Rick Crawford*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"AR-3": {
+"id": "AR-3",
+"incumbent": "Steve Womack",
+"house2024": {
+"party": "R",
+"pts": 32.0,
+"raw": "32.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 24.8,
+"raw": "24.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Robb Ryerse",
+"fill": "DD"
+},
+{
+"name": "Steve Womack*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"AR-4": {
+"id": "AR-4",
+"incumbent": "Bruce Westerman",
+"house2024": {
+"party": "R",
+"pts": 45.8,
+"raw": "45.8%"
+},
+"pres2024": {
+"party": "R",
+"pts": 39.9,
+"raw": "39.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "James Russell",
+"fill": "DD"
+},
+{
+"name": "Bruce Westerman*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"AZ-3": {
+"id": "AZ-3",
+"incumbent": "Yassamin Ansari",
+"house2024": {
+"party": "D",
+"pts": 44.4,
+"raw": "44.4%"
+},
+"pres2024": {
+"party": "D",
+"pts": 39.7,
+"raw": "39.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Yassamin Ansari*",
+"fill": "DD"
+},
+{
+"name": "Nicholas Glenn",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"AZ-4": {
+"id": "AZ-4",
+"incumbent": "Greg Stanton",
+"house2024": {
+"party": "D",
+"pts": 7.3,
+"raw": "7.3%"
+},
+"pres2024": {
+"party": "D",
+"pts": 6.6,
+"raw": "6.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Greg Stanton*",
+"fill": "DD"
+},
+{
+"name": "Zhudi Jasser",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"AZ-5": {
+"id": "AZ-5",
+"incumbent": "Andy Biggs",
+"house2024": {
+"party": "R",
+"pts": 20.8,
+"raw": "20.8%"
+},
+"pres2024": {
+"party": "R",
+"pts": 19.9,
+"raw": "19.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Elizabeth Lee",
+"fill": "DD"
+},
+{
+"name": "Mark Lamb",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for governor"
+},
+"AZ-7": {
+"id": "AZ-7",
+"incumbent": "Adelita Grijalva",
+"house2024": {
+"party": "D",
+"pts": 26.9,
+"raw": "26.9%"
+},
+"pres2024": {
+"party": "D",
+"pts": 22.1,
+"raw": "22.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Adelita Grijalva*",
+"fill": "DD"
+},
+{
+"name": "Daniel Butierez",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"AZ-9": {
+"id": "AZ-9",
+"incumbent": "Paul Gosar",
+"house2024": {
+"party": "R",
+"pts": 30.6,
+"raw": "30.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 31.0,
+"raw": "31.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Danielle Sterbinsky",
+"fill": "DD"
+},
+{
+"name": "Paul Gosar*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-2": {
+"id": "CA-2",
+"incumbent": "Jared Huffman",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 24.6,
+"raw": "24.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jared Huffman*",
+"fill": "DD"
+},
+{
+"name": "Robin Littau",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-4": {
+"id": "CA-4",
+"incumbent": "Mike Thompson",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 14.4,
+"raw": "14.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Eric Jones",
+"fill": "DD"
+},
+{
+"name": "Mike Thompson*",
+"fill": "DD"
+}
+],
+"note": ""
+},
+"CA-5": {
+"id": "CA-5",
+"incumbent": "Tom McClintock",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 20.7,
+"raw": "20.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Michael Masuda",
+"fill": "DD"
+},
+{
+"name": "Tom McClintock*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-7": {
+"id": "CA-7",
+"incumbent": "Doris Matsui",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 12.8,
+"raw": "12.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Doris Matsui*",
+"fill": "DD"
+},
+{
+"name": "Mai Vang",
+"fill": "DD"
+}
+],
+"note": ""
+},
+"CA-8": {
+"id": "CA-8",
+"incumbent": "John Garamendi",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 34.0,
+"raw": "34.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "John Garamendi*",
+"fill": "DD"
+},
+{
+"name": "Rudy Recile",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-9": {
+"id": "CA-9",
+"incumbent": "Josh Harder",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 11.4,
+"raw": "11.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Josh Harder*",
+"fill": "DD"
+},
+{
+"name": "John McBride",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-10": {
+"id": "CA-10",
+"incumbent": "Mark DeSaulnier",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 33.5,
+"raw": "33.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Mark DeSaulnier*",
+"fill": "DD"
+},
+{
+"name": "Jeff Frese",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-11": {
+"id": "CA-11",
+"incumbent": "Nancy Pelosi",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 67.7,
+"raw": "67.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Connie Chan",
+"fill": "DD"
+},
+{
+"name": "Scott Wiener",
+"fill": "DD"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"CA-12": {
+"id": "CA-12",
+"incumbent": "Lateefah Simon",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 73.8,
+"raw": "73.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jamie Joyce",
+"fill": "DD"
+},
+{
+"name": "Lateefah Simon*",
+"fill": "DD"
+}
+],
+"note": ""
+},
+"CA-14": {
+"id": "CA-14",
+"incumbent": "Aisha Wahab",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 34.7,
+"raw": "34.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Melissa Hernandez",
+"fill": "DD"
+},
+{
+"name": "Aisha Wahab",
+"fill": "DD"
+}
+],
+"note": ""
+},
+"CA-15": {
+"id": "CA-15",
+"incumbent": "Kevin Mullin",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 47.8,
+"raw": "47.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kevin Mullin*",
+"fill": "DD"
+},
+{
+"name": "Charles Hoelter",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-16": {
+"id": "CA-16",
+"incumbent": "Sam Liccardo",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 48.1,
+"raw": "48.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Sam Liccardo*",
+"fill": "DD"
+},
+{
+"name": "Peter Soule",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-17": {
+"id": "CA-17",
+"incumbent": "Ro Khanna",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 38.9,
+"raw": "38.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Ro Khanna*",
+"fill": "DD"
+},
+{
+"name": "Ritesh Tandon",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-18": {
+"id": "CA-18",
+"incumbent": "Zoe Lofgren",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 28.4,
+"raw": "28.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Zoe Lofgren*",
+"fill": "DD"
+},
+{
+"name": "Shane Lewis",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-19": {
+"id": "CA-19",
+"incumbent": "Jimmy Panetta",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 34.4,
+"raw": "34.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jimmy Panetta*",
+"fill": "DD"
+},
+{
+"name": "Peter Coe Verbica",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-20": {
+"id": "CA-20",
+"incumbent": "Vince Fong",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 32.2,
+"raw": "32.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Sandra Van Scotter",
+"fill": "DD"
+},
+{
+"name": "Vince Fong*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-21": {
+"id": "CA-21",
+"incumbent": "Jim Costa",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 5.9,
+"raw": "5.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jim Costa*",
+"fill": "DD"
+},
+{
+"name": "Kyle Kirkland",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-23": {
+"id": "CA-23",
+"incumbent": "Jay Obernolte",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 19.3,
+"raw": "19.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Tessa Hodge",
+"fill": "DD"
+},
+{
+"name": "Jay Obernolte*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-24": {
+"id": "CA-24",
+"incumbent": "Salud Carbajal",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 24.9,
+"raw": "24.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Salud Carbajal*",
+"fill": "DD"
+},
+{
+"name": "Bob Smith",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-25": {
+"id": "CA-25",
+"incumbent": "Raul Ruiz",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 5.8,
+"raw": "5.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Raul Ruiz*",
+"fill": "DD"
+},
+{
+"name": "Joe Males",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-26": {
+"id": "CA-26",
+"incumbent": "Julia Brownley",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 15.2,
+"raw": "15.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jacqui Irwin",
+"fill": "DD"
+},
+{
+"name": "Sam Gallucci",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"CA-27": {
+"id": "CA-27",
+"incumbent": "George Whitesides",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 9.7,
+"raw": "9.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "George Whitesides*",
+"fill": "DD"
+},
+{
+"name": "Jason Gibbs",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-28": {
+"id": "CA-28",
+"incumbent": "Judy Chu",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 25.2,
+"raw": "25.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Judy Chu*",
+"fill": "DD"
+},
+{
+"name": "April Verlato",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-29": {
+"id": "CA-29",
+"incumbent": "Luz Rivas",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 33.6,
+"raw": "33.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Angelica Duenas",
+"fill": "DD"
+},
+{
+"name": "Luz Rivas*",
+"fill": "DD"
+}
+],
+"note": ""
+},
+"CA-30": {
+"id": "CA-30",
+"incumbent": "Laura Friedman",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 40.0,
+"raw": "40.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Laura Friedman*",
+"fill": "DD"
+},
+{
+"name": "Scott Meyers",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-31": {
+"id": "CA-31",
+"incumbent": "Gil Cisneros",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 12.2,
+"raw": "12.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Gil Cisneros*",
+"fill": "DD"
+},
+{
+"name": "Eric Ching",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-32": {
+"id": "CA-32",
+"incumbent": "Brad Sherman",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 24.9,
+"raw": "24.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Brad Sherman*",
+"fill": "DD"
+},
+{
+"name": "Larry Thompson",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-33": {
+"id": "CA-33",
+"incumbent": "Pete Aguilar",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 9.7,
+"raw": "9.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Pete Aguilar*",
+"fill": "DD"
+},
+{
+"name": "Stephanie Vargas",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-34": {
+"id": "CA-34",
+"incumbent": "Jimmy Gomez",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 50.6,
+"raw": "50.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jimmy Gomez*",
+"fill": "DD"
+},
+{
+"name": "Angela Gonzales-Torres",
+"fill": "DD"
+}
+],
+"note": ""
+},
+"CA-35": {
+"id": "CA-35",
+"incumbent": "Norma Torres",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 7.7,
+"raw": "7.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Norma Torres*",
+"fill": "DD"
+},
+{
+"name": "Mike Cargile",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-36": {
+"id": "CA-36",
+"incumbent": "Ted Lieu",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 39.1,
+"raw": "39.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Ted Lieu*",
+"fill": "DD"
+},
+{
+"name": "Houston Brignano",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-37": {
+"id": "CA-37",
+"incumbent": "Sydney Kamlager-Dove",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 60.3,
+"raw": "60.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Sydney Kamlager-Dove*",
+"fill": "DD"
+},
+{
+"name": "Samantha Mota",
+"fill": "DD"
+}
+],
+"note": ""
+},
+"CA-38": {
+"id": "CA-38",
+"incumbent": "OPEN (Sanchez)",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 12.3,
+"raw": "12.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Hilda Solis",
+"fill": "DD"
+},
+{
+"name": "Pedro Casas",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-39": {
+"id": "CA-39",
+"incumbent": "Mark Takano",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 9.4,
+"raw": "9.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Mark Takano*",
+"fill": "DD"
+},
+{
+"name": "Steve Manos",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-40": {
+"id": "CA-40",
+"incumbent": "Kim | Calvert",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 12.2,
+"raw": "12.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Ken Calvert*",
+"fill": "RR"
+},
+{
+"name": "Young Kim*",
+"fill": "RR"
+}
+],
+"note": "Calvert currently CA-41; moved due to redistricting. Member vs. member"
+},
+"CA-42": {
+"id": "CA-42",
+"incumbent": "Robert Garcia",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 13.1,
+"raw": "13.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Robert Garcia*",
+"fill": "DD"
+},
+{
+"name": "Brian Burley",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-43": {
+"id": "CA-43",
+"incumbent": "Maxine Waters",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 48.9,
+"raw": "48.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Maxine Waters*",
+"fill": "DD"
+},
+{
+"name": "Christian Morales",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-44": {
+"id": "CA-44",
+"incumbent": "Nanette Barragan",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 35.1,
+"raw": "35.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Nanette Barragan*",
+"fill": "DD"
+},
+{
+"name": "Genevieve Angel",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-46": {
+"id": "CA-46",
+"incumbent": "Lou Correa",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 16.1,
+"raw": "16.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Lou Correa*",
+"fill": "DD"
+},
+{
+"name": "David Pan",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-47": {
+"id": "CA-47",
+"incumbent": "Dave Min",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 10.0,
+"raw": "10.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Dave Min*",
+"fill": "DD"
+},
+{
+"name": "Jenny Le Roux",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-49": {
+"id": "CA-49",
+"incumbent": "Mike Levin",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 12.1,
+"raw": "12.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Mike Levin*",
+"fill": "DD"
+},
+{
+"name": "Armen Kurdian",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-50": {
+"id": "CA-50",
+"incumbent": "Scott Peters",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 18.2,
+"raw": "18.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Scott Peters*",
+"fill": "DD"
+},
+{
+"name": "Steve Cohen",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-51": {
+"id": "CA-51",
+"incumbent": "Sara Jacobs",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 18.2,
+"raw": "18.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Sara Jacobs*",
+"fill": "DD"
+},
+{
+"name": "Ricardo Cabrera",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CA-52": {
+"id": "CA-52",
+"incumbent": "Juan Vargas",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 17.5,
+"raw": "17.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Juan Vargas*",
+"fill": "DD"
+},
+{
+"name": "Jeff Belle",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CO-1": {
+"id": "CO-1",
+"incumbent": "Diana DeGette",
+"house2024": {
+"party": "D",
+"pts": 55.0,
+"raw": "55.0%"
+},
+"pres2024": {
+"party": "D",
+"pts": 56.0,
+"raw": "56.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Melat Kiros",
+"fill": "DD"
+},
+{
+"name": "Christy Peterson",
+"fill": "RR"
+}
+],
+"note": "Incumbent defeated in primary for 2026 election."
+},
+"CO-2": {
+"id": "CO-2",
+"incumbent": "Joe Neguse",
+"house2024": {
+"party": "D",
+"pts": 39.4,
+"raw": "39.4%"
+},
+"pres2024": {
+"party": "D",
+"pts": 39.7,
+"raw": "39.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Joe Neguse*",
+"fill": "DD"
+},
+{
+"name": "Kelley Dennison",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CO-6": {
+"id": "CO-6",
+"incumbent": "Jason Crow",
+"house2024": {
+"party": "D",
+"pts": 20.5,
+"raw": "20.5%"
+},
+"pres2024": {
+"party": "D",
+"pts": 19.7,
+"raw": "19.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jason Crow*",
+"fill": "DD"
+},
+{
+"name": "Mel Tewahade",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CO-7": {
+"id": "CO-7",
+"incumbent": "Brittany Pettersen",
+"house2024": {
+"party": "D",
+"pts": 14.2,
+"raw": "14.2%"
+},
+"pres2024": {
+"party": "D",
+"pts": 14.9,
+"raw": "14.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Brittany Pettersen*",
+"fill": "DD"
+},
+{
+"name": "Tim Bennett",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CT-1": {
+"id": "CT-1",
+"incumbent": "John Larson",
+"house2024": {
+"party": "D",
+"pts": 28.3,
+"raw": "28.3%"
+},
+"pres2024": {
+"party": "D",
+"pts": 22.8,
+"raw": "22.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Luke Bronin",
+"fill": "DD"
+},
+{
+"name": "Amy Chai",
+"fill": "RR"
+}
+],
+"note": "Incumbent defeated in primary for 2026 election."
+},
+"CT-2": {
+"id": "CT-2",
+"incumbent": "Joe Courtney",
+"house2024": {
+"party": "D",
+"pts": 16.0,
+"raw": "16.0%"
+},
+"pres2024": {
+"party": "D",
+"pts": 7.7,
+"raw": "7.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Joe Courtney*",
+"fill": "DD"
+},
+{
+"name": "George Austin",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CT-3": {
+"id": "CT-3",
+"incumbent": "Rosa DeLauro",
+"house2024": {
+"party": "D",
+"pts": 17.8,
+"raw": "17.8%"
+},
+"pres2024": {
+"party": "D",
+"pts": 14.0,
+"raw": "14.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Rosa DeLauro*",
+"fill": "DD"
+},
+{
+"name": "Christopher Lancia",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CT-4": {
+"id": "CT-4",
+"incumbent": "James Himes",
+"house2024": {
+"party": "D",
+"pts": 23.7,
+"raw": "23.7%"
+},
+"pres2024": {
+"party": "D",
+"pts": 23.3,
+"raw": "23.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jim Himes*",
+"fill": "DD"
+},
+{
+"name": "Michael Goldstein",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"CT-5": {
+"id": "CT-5",
+"incumbent": "Jahana Hayes",
+"house2024": {
+"party": "D",
+"pts": 6.8,
+"raw": "6.8%"
+},
+"pres2024": {
+"party": "D",
+"pts": 5.5,
+"raw": "5.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jahana Hayes*",
+"fill": "DD"
+},
+{
+"name": "Chris Shea",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"DE-AL": {
+"id": "DE-AL",
+"incumbent": "Sarah McBride",
+"house2024": {
+"party": "D",
+"pts": 15.7,
+"raw": "15.7%"
+},
+"pres2024": {
+"party": "D",
+"pts": 14.7,
+"raw": "14.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Sarah McBride*",
+"fill": "DD"
+},
+{
+"name": "Joseph Arminio",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-1": {
+"id": "FL-1",
+"incumbent": "Jimmy Patronis",
+"house2024": {
+"party": "R",
+"pts": 32.1,
+"raw": "32.1%"
+},
+"pres2024": {
+"party": "R",
+"pts": 37.2,
+"raw": "37.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Gay Valimont",
+"fill": "DD"
+},
+{
+"name": "Jimmy Patronis*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-2": {
+"id": "FL-2",
+"incumbent": "Neal Dunn",
+"house2024": {
+"party": "R",
+"pts": 23.3,
+"raw": "23.3%"
+},
+"pres2024": {
+"party": "R",
+"pts": 17.9,
+"raw": "17.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Amanda Green",
+"fill": "DD"
+},
+{
+"name": "Austin Rogers",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"FL-3": {
+"id": "FL-3",
+"incumbent": "Kat Cammack",
+"house2024": {
+"party": "R",
+"pts": 23.2,
+"raw": "23.2%"
+},
+"pres2024": {
+"party": "R",
+"pts": 21.1,
+"raw": "21.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Seth Harp",
+"fill": "DD"
+},
+{
+"name": "Kat Cammack*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-5": {
+"id": "FL-5",
+"incumbent": "John Rutherford",
+"house2024": {
+"party": "R",
+"pts": 26.2,
+"raw": "26.2%"
+},
+"pres2024": {
+"party": "R",
+"pts": 21.4,
+"raw": "21.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Rachel Grage",
+"fill": "DD"
+},
+{
+"name": "John Rutherford*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-6": {
+"id": "FL-6",
+"incumbent": "Randy Fine",
+"house2024": {
+"party": "R",
+"pts": 33.1,
+"raw": "33.1%"
+},
+"pres2024": {
+"party": "R",
+"pts": 30.0,
+"raw": "30.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Eric Yonce",
+"fill": "DD"
+},
+{
+"name": "Randy Fine*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-8": {
+"id": "FL-8",
+"incumbent": "Mike Haridopolos",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 16.2,
+"raw": "16.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jennifer Jenkins",
+"fill": "DD"
+},
+{
+"name": "Mike Haridopolos*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-10": {
+"id": "FL-10",
+"incumbent": "Maxwell Frost",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 23.9,
+"raw": "23.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Incumbent is unopposed",
+"fill": "DD"
+}
+],
+"note": ""
+},
+"FL-11": {
+"id": "FL-11",
+"incumbent": "Dan Webster",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 15.6,
+"raw": "15.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "James Pericola",
+"fill": "DD"
+},
+{
+"name": "Joe Strada",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"FL-12": {
+"id": "FL-12",
+"incumbent": "Gus Bilirakis",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 15.3,
+"raw": "15.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kimberly Overman",
+"fill": "DD"
+},
+{
+"name": "Gus Bilirakis*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-15": {
+"id": "FL-15",
+"incumbent": "Laurel Lee",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 19.8,
+"raw": "19.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Robert People",
+"fill": "DD"
+},
+{
+"name": "Laurel Lee*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-17": {
+"id": "FL-17",
+"incumbent": "Greg Steube",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 22.0,
+"raw": "22.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Matthew Montavon",
+"fill": "DD"
+},
+{
+"name": "Greg Steube*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-18": {
+"id": "FL-18",
+"incumbent": "Scott Franklin",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 16.9,
+"raw": "16.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Curtis Gibson",
+"fill": "DD"
+},
+{
+"name": "Scott Franklin*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-19": {
+"id": "FL-19",
+"incumbent": "Byron Donalds",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 30.2,
+"raw": "30.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Victor Arias",
+"fill": "DD"
+},
+{
+"name": "Jim Schwartzel",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for governor"
+},
+"FL-20": {
+"id": "FL-20",
+"incumbent": "Debbie Wasserman Schultz",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 37.1,
+"raw": "37.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Debbie Wasserman Schultz*",
+"fill": "DD"
+},
+{
+"name": "Brent Anderson",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-21": {
+"id": "FL-21",
+"incumbent": "Brian Mast",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 16.2,
+"raw": "16.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "James Martin",
+"fill": "DD"
+},
+{
+"name": "Brian Mast*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-23": {
+"id": "FL-23",
+"incumbent": "Lois Frankel",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 13.7,
+"raw": "13.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Lois Frankel*",
+"fill": "DD"
+},
+{
+"name": "Deborah Adeimy",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-24": {
+"id": "FL-24",
+"incumbent": "Frederica Wilson",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 38.7,
+"raw": "38.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Oliver Gilbert",
+"fill": "DD"
+},
+{
+"name": "Te Brown",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"FL-26": {
+"id": "FL-26",
+"incumbent": "Mario Diaz-Balart",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 18.3,
+"raw": "18.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Nicole Locklin",
+"fill": "DD"
+},
+{
+"name": "Mario Diaz-Balart*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"FL-28": {
+"id": "FL-28",
+"incumbent": "Carlos Gimenez",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 25.4,
+"raw": "25.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Phil Ehr",
+"fill": "DD"
+},
+{
+"name": "Carlos Gimenez*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"GA-1": {
+"id": "GA-1",
+"incumbent": "Buddy Carter",
+"house2024": {
+"party": "R",
+"pts": 24.0,
+"raw": "24.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 15.8,
+"raw": "15.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Amanda Hollowell",
+"fill": "DD"
+},
+{
+"name": "Jim Kingston",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate"
+},
+"GA-2": {
+"id": "GA-2",
+"incumbent": "Sanford Bishop Jr.",
+"house2024": {
+"party": "D",
+"pts": 12.7,
+"raw": "12.7%"
+},
+"pres2024": {
+"party": "D",
+"pts": 7.6,
+"raw": "7.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Sanford Bishop*",
+"fill": "DD"
+},
+{
+"name": "Matt Day",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"GA-3": {
+"id": "GA-3",
+"incumbent": "Brian Jack",
+"house2024": {
+"party": "R",
+"pts": 32.6,
+"raw": "32.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 29.6,
+"raw": "29.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Maura Keller",
+"fill": "DD"
+},
+{
+"name": "Brian Jack*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"GA-4": {
+"id": "GA-4",
+"incumbent": "Hank Johnson",
+"house2024": {
+"party": "D",
+"pts": 51.2,
+"raw": "51.2%"
+},
+"pres2024": {
+"party": "D",
+"pts": 52.4,
+"raw": "52.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Hank Johnson*",
+"fill": "DD"
+},
+{
+"name": "Jim Duffie",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"GA-5": {
+"id": "GA-5",
+"incumbent": "Nikema Williams",
+"house2024": {
+"party": "D",
+"pts": 71.4,
+"raw": "71.4%"
+},
+"pres2024": {
+"party": "D",
+"pts": 71.5,
+"raw": "71.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Nikema Williams*",
+"fill": "DD"
+},
+{
+"name": "John Salvesen",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"GA-6": {
+"id": "GA-6",
+"incumbent": "Lucy McBath",
+"house2024": {
+"party": "D",
+"pts": 49.4,
+"raw": "49.4%"
+},
+"pres2024": {
+"party": "D",
+"pts": 49.9,
+"raw": "49.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Lucy McBath*",
+"fill": "DD"
+},
+{
+"name": "Kevin Martin",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"GA-7": {
+"id": "GA-7",
+"incumbent": "Rich McCormick",
+"house2024": {
+"party": "R",
+"pts": 29.7,
+"raw": "29.7%"
+},
+"pres2024": {
+"party": "R",
+"pts": 22.0,
+"raw": "22.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Tony Kozycki",
+"fill": "DD"
+},
+{
+"name": "Rich McCormick*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"GA-8": {
+"id": "GA-8",
+"incumbent": "Austin Scott",
+"house2024": {
+"party": "R",
+"pts": 37.8,
+"raw": "37.8%"
+},
+"pres2024": {
+"party": "R",
+"pts": 30.5,
+"raw": "30.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kelly Esti",
+"fill": "DD"
+},
+{
+"name": "Austin Scott*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"GA-9": {
+"id": "GA-9",
+"incumbent": "Andrew Clyde",
+"house2024": {
+"party": "R",
+"pts": 38.0,
+"raw": "38.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 34.0,
+"raw": "34.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Caitlyn Gegen",
+"fill": "DD"
+},
+{
+"name": "Andrew Clyde*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"GA-10": {
+"id": "GA-10",
+"incumbent": "Mike Collins",
+"house2024": {
+"party": "R",
+"pts": 26.1,
+"raw": "26.1%"
+},
+"pres2024": {
+"party": "R",
+"pts": 20.7,
+"raw": "20.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Pamela Delancy",
+"fill": "DD"
+},
+{
+"name": "Houston Gaines",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate"
+},
+"GA-11": {
+"id": "GA-11",
+"incumbent": "Barry Loudermilk",
+"house2024": {
+"party": "R",
+"pts": 34.6,
+"raw": "34.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 23.3,
+"raw": "23.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Chris Harden",
+"fill": "DD"
+},
+{
+"name": "John Cowan",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"GA-12": {
+"id": "GA-12",
+"incumbent": "Rick Allen",
+"house2024": {
+"party": "R",
+"pts": 20.6,
+"raw": "20.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 14.1,
+"raw": "14.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Ceretta Smith",
+"fill": "DD"
+},
+{
+"name": "Rick Allen*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"GA-13": {
+"id": "GA-13",
+"incumbent": "Everton Blair",
+"house2024": {
+"party": "D",
+"pts": 43.7,
+"raw": "43.7%"
+},
+"pres2024": {
+"party": "D",
+"pts": 42.3,
+"raw": "42.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jasmine Clark",
+"fill": "DD"
+},
+{
+"name": "Jonathan Chavez",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"GA-14": {
+"id": "GA-14",
+"incumbent": "Clay Fuller",
+"house2024": {
+"party": "R",
+"pts": 28.7,
+"raw": "28.7%"
+},
+"pres2024": {
+"party": "R",
+"pts": 36.7,
+"raw": "36.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Shawn Harris",
+"fill": "DD"
+},
+{
+"name": "Clay Fuller*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"HI-1": {
+"id": "HI-1",
+"incumbent": "Ed Case",
+"house2024": {
+"party": "D",
+"pts": 43.7,
+"raw": "43.7%"
+},
+"pres2024": {
+"party": "D",
+"pts": 24.7,
+"raw": "24.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Ed Case*",
+"fill": "DD"
+},
+{
+"name": "Adriel Lam",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"HI-2": {
+"id": "HI-2",
+"incumbent": "Jill Tokuda",
+"house2024": {
+"party": "D",
+"pts": 36.3,
+"raw": "36.3%"
+},
+"pres2024": {
+"party": "D",
+"pts": 21.5,
+"raw": "21.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jill Tokuda*",
+"fill": "DD"
+},
+{
+"name": "Brenton Awa",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IA-4": {
+"id": "IA-4",
+"incumbent": "Randy Feenstra",
+"house2024": {
+"party": "R",
+"pts": 34.3,
+"raw": "34.3%"
+},
+"pres2024": {
+"party": "R",
+"pts": 31.4,
+"raw": "31.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Dave Dawson",
+"fill": "DD"
+},
+{
+"name": "Chris McGowan",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for governor"
+},
+"ID-1": {
+"id": "ID-1",
+"incumbent": "Russ Fulcher",
+"house2024": {
+"party": "R",
+"pts": 45.6,
+"raw": "45.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 45.0,
+"raw": "45.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kaylee Peterson",
+"fill": "DD"
+},
+{
+"name": "Russ Fulcher*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"ID-2": {
+"id": "ID-2",
+"incumbent": "Michael Simpson",
+"house2024": {
+"party": "R",
+"pts": 30.4,
+"raw": "30.4%"
+},
+"pres2024": {
+"party": "R",
+"pts": 26.7,
+"raw": "26.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Ellie Gilbreath",
+"fill": "DD"
+},
+{
+"name": "Mike Simpson*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IL-1": {
+"id": "IL-1",
+"incumbent": "Jonathan Jackson",
+"house2024": {
+"party": "D",
+"pts": 31.7,
+"raw": "31.7%"
+},
+"pres2024": {
+"party": "D",
+"pts": 32.0,
+"raw": "32.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jonathan Jackson*",
+"fill": "DD"
+},
+{
+"name": "Christian Maxwell",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IL-2": {
+"id": "IL-2",
+"incumbent": "Robin Kelly",
+"house2024": {
+"party": "D",
+"pts": 35.1,
+"raw": "35.1%"
+},
+"pres2024": {
+"party": "D",
+"pts": 33.1,
+"raw": "33.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Donna Miller",
+"fill": "DD"
+},
+{
+"name": "Michael Noack",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate"
+},
+"IL-3": {
+"id": "IL-3",
+"incumbent": "Delia Ramirez",
+"house2024": {
+"party": "D",
+"pts": 34.6,
+"raw": "34.6%"
+},
+"pres2024": {
+"party": "D",
+"pts": 31.3,
+"raw": "31.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Delia Ramirez*",
+"fill": "DD"
+},
+{
+"name": "Angel Oakley",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IL-4": {
+"id": "IL-4",
+"incumbent": "Jesus Garcia",
+"house2024": {
+"party": "D",
+"pts": 40.2,
+"raw": "40.2%"
+},
+"pres2024": {
+"party": "D",
+"pts": 28.3,
+"raw": "28.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Patty Garcia",
+"fill": "DD"
+},
+{
+"name": "Lupe Castillo",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"IL-5": {
+"id": "IL-5",
+"incumbent": "Mike Quigley",
+"house2024": {
+"party": "D",
+"pts": 37.9,
+"raw": "37.9%"
+},
+"pres2024": {
+"party": "D",
+"pts": 37.1,
+"raw": "37.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Mike Quigley*",
+"fill": "DD"
+},
+{
+"name": "Tommy Hanson",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IL-6": {
+"id": "IL-6",
+"incumbent": "Sean Casten",
+"house2024": {
+"party": "D",
+"pts": 8.4,
+"raw": "8.4%"
+},
+"pres2024": {
+"party": "D",
+"pts": 5.4,
+"raw": "5.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Sean Casten*",
+"fill": "DD"
+},
+{
+"name": "Niki Conforti",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IL-7": {
+"id": "IL-7",
+"incumbent": "Danny Davis",
+"house2024": {
+"party": "D",
+"pts": 66.6,
+"raw": "66.6%"
+},
+"pres2024": {
+"party": "D",
+"pts": 65.3,
+"raw": "65.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "La Shawn Ford",
+"fill": "DD"
+},
+{
+"name": "Chad Koppie",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"IL-8": {
+"id": "IL-8",
+"incumbent": "Raja Krishnamoorthi",
+"house2024": {
+"party": "D",
+"pts": 14.1,
+"raw": "14.1%"
+},
+"pres2024": {
+"party": "D",
+"pts": 6.9,
+"raw": "6.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Melissa Bean",
+"fill": "DD"
+},
+{
+"name": "Jennifer Davis",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate"
+},
+"IL-9": {
+"id": "IL-9",
+"incumbent": "Jan Schakowsky",
+"house2024": {
+"party": "D",
+"pts": 36.8,
+"raw": "36.8%"
+},
+"pres2024": {
+"party": "D",
+"pts": 36.5,
+"raw": "36.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Daniel Biss",
+"fill": "DD"
+},
+{
+"name": "John Elleson",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"IL-10": {
+"id": "IL-10",
+"incumbent": "Brad Schneider",
+"house2024": {
+"party": "D",
+"pts": 19.9,
+"raw": "19.9%"
+},
+"pres2024": {
+"party": "D",
+"pts": 22.0,
+"raw": "22.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Brad Schneider*",
+"fill": "DD"
+},
+{
+"name": "Carl Lambrecht",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IL-11": {
+"id": "IL-11",
+"incumbent": "Bill Foster",
+"house2024": {
+"party": "D",
+"pts": 11.2,
+"raw": "11.2%"
+},
+"pres2024": {
+"party": "D",
+"pts": 11.4,
+"raw": "11.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Bill Foster*",
+"fill": "DD"
+},
+{
+"name": "Jeff Walter",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IL-12": {
+"id": "IL-12",
+"incumbent": "Mike Bost",
+"house2024": {
+"party": "R",
+"pts": 48.4,
+"raw": "48.4%"
+},
+"pres2024": {
+"party": "R",
+"pts": 43.4,
+"raw": "43.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Julie Fortier",
+"fill": "DD"
+},
+{
+"name": "Mike Bost*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IL-13": {
+"id": "IL-13",
+"incumbent": "Nikki Budzinski",
+"house2024": {
+"party": "D",
+"pts": 16.2,
+"raw": "16.2%"
+},
+"pres2024": {
+"party": "D",
+"pts": 10.4,
+"raw": "10.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Nikki Budzinski*",
+"fill": "DD"
+},
+{
+"name": "Jeff Wilson",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IL-14": {
+"id": "IL-14",
+"incumbent": "Lauren Underwood",
+"house2024": {
+"party": "D",
+"pts": 10.2,
+"raw": "10.2%"
+},
+"pres2024": {
+"party": "D",
+"pts": 5.1,
+"raw": "5.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Lauren Underwood*",
+"fill": "DD"
+},
+{
+"name": "James Marter",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IL-15": {
+"id": "IL-15",
+"incumbent": "Mary Miller",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 39.7,
+"raw": "39.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jennifer Todd",
+"fill": "DD"
+},
+{
+"name": "Mary Miller*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IL-16": {
+"id": "IL-16",
+"incumbent": "Darin LaHood",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 22.6,
+"raw": "22.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Paul Nolley",
+"fill": "DD"
+},
+{
+"name": "Darin LaHood*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IL-17": {
+"id": "IL-17",
+"incumbent": "Eric Sorensen",
+"house2024": {
+"party": "D",
+"pts": 8.9,
+"raw": "8.9%"
+},
+"pres2024": {
+"party": "D",
+"pts": 4.7,
+"raw": "4.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Eric Sorensen*",
+"fill": "DD"
+},
+{
+"name": "Dillan Vancil",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IN-2": {
+"id": "IN-2",
+"incumbent": "Rudy Yakym",
+"house2024": {
+"party": "R",
+"pts": 28.1,
+"raw": "28.1%"
+},
+"pres2024": {
+"party": "R",
+"pts": 26.5,
+"raw": "26.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jamee Decio",
+"fill": "DD"
+},
+{
+"name": "Rudy Yakym*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IN-3": {
+"id": "IN-3",
+"incumbent": "Marlin Stutzman",
+"house2024": {
+"party": "R",
+"pts": 33.6,
+"raw": "33.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 31.1,
+"raw": "31.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kelly Thompson",
+"fill": "DD"
+},
+{
+"name": "Marlin Stutzman*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IN-4": {
+"id": "IN-4",
+"incumbent": "Jim Baird",
+"house2024": {
+"party": "R",
+"pts": 33.9,
+"raw": "33.9%"
+},
+"pres2024": {
+"party": "R",
+"pts": 29.3,
+"raw": "29.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "David Cox",
+"fill": "DD"
+},
+{
+"name": "Jim Baird*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IN-6": {
+"id": "IN-6",
+"incumbent": "Jefferson Shreve",
+"house2024": {
+"party": "R",
+"pts": 32.2,
+"raw": "32.2%"
+},
+"pres2024": {
+"party": "R",
+"pts": 32.5,
+"raw": "32.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Cinde Wirth",
+"fill": "DD"
+},
+{
+"name": "Jefferson Shreve*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IN-7": {
+"id": "IN-7",
+"incumbent": "Andre Carson",
+"house2024": {
+"party": "D",
+"pts": 39.4,
+"raw": "39.4%"
+},
+"pres2024": {
+"party": "D",
+"pts": 41.4,
+"raw": "41.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Andre Carson*",
+"fill": "DD"
+},
+{
+"name": "Patrick McAuley",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IN-8": {
+"id": "IN-8",
+"incumbent": "Mark Messmer",
+"house2024": {
+"party": "R",
+"pts": 38.5,
+"raw": "38.5%"
+},
+"pres2024": {
+"party": "R",
+"pts": 35.8,
+"raw": "35.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Mary Allen",
+"fill": "DD"
+},
+{
+"name": "Mark Messmer*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"IN-9": {
+"id": "IN-9",
+"incumbent": "Erin Houchin",
+"house2024": {
+"party": "R",
+"pts": 31.7,
+"raw": "31.7%"
+},
+"pres2024": {
+"party": "R",
+"pts": 29.8,
+"raw": "29.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Brad Meyer",
+"fill": "DD"
+},
+{
+"name": "Erin Houchin*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"KS-1": {
+"id": "KS-1",
+"incumbent": "Tracey Mann",
+"house2024": {
+"party": "R",
+"pts": 38.3,
+"raw": "38.3%"
+},
+"pres2024": {
+"party": "R",
+"pts": 31.2,
+"raw": "31.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Lauren Reinhold",
+"fill": "DD"
+},
+{
+"name": "Tracey Mann*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"KS-3": {
+"id": "KS-3",
+"incumbent": "Sharice Davids",
+"house2024": {
+"party": "D",
+"pts": 10.8,
+"raw": "10.8%"
+},
+"pres2024": {
+"party": "D",
+"pts": 4.0,
+"raw": "4.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Sharice Davids*",
+"fill": "DD"
+},
+{
+"name": "Eric Jenkins",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"KS-4": {
+"id": "KS-4",
+"incumbent": "Ron Estes",
+"house2024": {
+"party": "R",
+"pts": 30.1,
+"raw": "30.1%"
+},
+"pres2024": {
+"party": "R",
+"pts": 23.2,
+"raw": "23.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Katy Tyndell",
+"fill": "DD"
+},
+{
+"name": "Ron Estes*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"KY-1": {
+"id": "KY-1",
+"incumbent": "James Comer",
+"house2024": {
+"party": "R",
+"pts": 49.4,
+"raw": "49.4%"
+},
+"pres2024": {
+"party": "R",
+"pts": 47.2,
+"raw": "47.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "John Williams",
+"fill": "DD"
+},
+{
+"name": "James Comer*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"KY-2": {
+"id": "KY-2",
+"incumbent": "Brett Guthrie",
+"house2024": {
+"party": "R",
+"pts": 46.2,
+"raw": "46.2%"
+},
+"pres2024": {
+"party": "R",
+"pts": 41.3,
+"raw": "41.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Megan Wingfield",
+"fill": "DD"
+},
+{
+"name": "Brett Guthrie*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"KY-3": {
+"id": "KY-3",
+"incumbent": "Morgan McGarvey",
+"house2024": {
+"party": "D",
+"pts": 23.9,
+"raw": "23.9%"
+},
+"pres2024": {
+"party": "D",
+"pts": 18.9,
+"raw": "18.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Morgan McGarvey*",
+"fill": "DD"
+},
+{
+"name": "Maria Rodriguez",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"KY-4": {
+"id": "KY-4",
+"incumbent": "Thomas Massie",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 35.5,
+"raw": "35.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Melissa Strange",
+"fill": "DD"
+},
+{
+"name": "Ed Gallrein",
+"fill": "RR"
+}
+],
+"note": "Incumbent defeated in primary for 2026 election."
+},
+"KY-5": {
+"id": "KY-5",
+"incumbent": "Hal Rogers",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 63.8,
+"raw": "63.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Ned Pillersdorf",
+"fill": "DD"
+},
+{
+"name": "Hal Rogers*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"LA-1": {
+"id": "LA-1",
+"incumbent": "Steve Scalise",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 38.2,
+"raw": "38.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Lauren Jewett",
+"fill": "DD"
+},
+{
+"name": "Steve Scalise*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"LA-2": {
+"id": "LA-2",
+"incumbent": "Troy Carter",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 47.3,
+"raw": "47.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Troy Carter*",
+"fill": "DD"
+},
+{
+"name": "Lisa Ballay",
+"fill": "L"
+}
+],
+"note": ""
+},
+"LA-3": {
+"id": "LA-3",
+"incumbent": "Clay Higgins",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 35.9,
+"raw": "35.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "3 Democrats",
+"fill": "DD"
+},
+{
+"name": "Clay Higgins*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"LA-4": {
+"id": "LA-4",
+"incumbent": "Mike Johnson",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 34.2,
+"raw": "34.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "2 Democrats",
+"fill": "DD"
+},
+{
+"name": "Mike Johnson*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"LA-5": {
+"id": "LA-5",
+"incumbent": "Julia Letlow",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 34.0,
+"raw": "34.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "3 Democrats",
+"fill": "DD"
+},
+{
+"name": "6 Republicans",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate"
+},
+"MA-1": {
+"id": "MA-1",
+"incumbent": "Richard Neal",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 13.6,
+"raw": "13.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Richard Neal*",
+"fill": "DD"
+},
+{
+"name": "Nadia Milleron",
+"fill": "i4"
+}
+],
+"note": ""
+},
+"MA-2": {
+"id": "MA-2",
+"incumbent": "James McGovern",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 23.6,
+"raw": "23.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Incumbent is unopposed",
+"fill": "DD"
+}
+],
+"note": ""
+},
+"MA-3": {
+"id": "MA-3",
+"incumbent": "Lori Trahan",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 18.9,
+"raw": "18.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Lori Trahan*",
+"fill": "DD"
+},
+{
+"name": "Gary Grossi",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MA-4": {
+"id": "MA-4",
+"incumbent": "Jake Auchincloss",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 19.7,
+"raw": "19.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jake Auchincloss*",
+"fill": "DD"
+},
+{
+"name": "Tom Stalcup",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MA-5": {
+"id": "MA-5",
+"incumbent": "Katherine Clark",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 45.1,
+"raw": "45.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Incumbent is unopposed",
+"fill": "DD"
+}
+],
+"note": ""
+},
+"MA-6": {
+"id": "MA-6",
+"incumbent": "Seth Moulton",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 20.6,
+"raw": "20.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Dan Koh",
+"fill": "DD"
+},
+{
+"name": "Micah Jones",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate"
+},
+"MA-7": {
+"id": "MA-7",
+"incumbent": "Ayanna Pressley",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 63.0,
+"raw": "63.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Incumbent is unopposed",
+"fill": "DD"
+}
+],
+"note": ""
+},
+"MA-8": {
+"id": "MA-8",
+"incumbent": "Stephen Lynch",
+"house2024": {
+"party": "D",
+"pts": 41.1,
+"raw": "41.1%"
+},
+"pres2024": {
+"party": "D",
+"pts": 26.4,
+"raw": "26.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Stephen Lynch*",
+"fill": "DD"
+},
+{
+"name": "Robert Burke",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MA-9": {
+"id": "MA-9",
+"incumbent": "William Keating",
+"house2024": {
+"party": "D",
+"pts": 13.0,
+"raw": "13.0%"
+},
+"pres2024": {
+"party": "D",
+"pts": 10.7,
+"raw": "10.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "William Keating*",
+"fill": "DD"
+},
+{
+"name": "Tyler MacAllister",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MD-1": {
+"id": "MD-1",
+"incumbent": "Andrew Harris",
+"house2024": {
+"party": "R",
+"pts": 22.0,
+"raw": "22.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 16.9,
+"raw": "16.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Dan Schwartz",
+"fill": "DD"
+},
+{
+"name": "Andy Harris*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MD-2": {
+"id": "MD-2",
+"incumbent": "Johnny Olszewski",
+"house2024": {
+"party": "D",
+"pts": 18.6,
+"raw": "18.6%"
+},
+"pres2024": {
+"party": "D",
+"pts": 18.4,
+"raw": "18.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "John Olszewski*",
+"fill": "DD"
+},
+{
+"name": "Dave Wallace",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MD-3": {
+"id": "MD-3",
+"incumbent": "Sarah Elfreth",
+"house2024": {
+"party": "D",
+"pts": 21.4,
+"raw": "21.4%"
+},
+"pres2024": {
+"party": "D",
+"pts": 23.7,
+"raw": "23.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Sarah Elfreth*",
+"fill": "DD"
+},
+{
+"name": "Berney Flowers",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MD-4": {
+"id": "MD-4",
+"incumbent": "Glenn Ivey",
+"house2024": {
+"party": "D",
+"pts": 77.2,
+"raw": "77.2%"
+},
+"pres2024": {
+"party": "D",
+"pts": 73.6,
+"raw": "73.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Glenn Ivey*",
+"fill": "DD"
+},
+{
+"name": "George McDermott",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MD-5": {
+"id": "MD-5",
+"incumbent": "Steny Hoyer",
+"house2024": {
+"party": "D",
+"pts": 35.7,
+"raw": "35.7%"
+},
+"pres2024": {
+"party": "D",
+"pts": 33.2,
+"raw": "33.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Adrian Boafo",
+"fill": "DD"
+},
+{
+"name": "Chris Chaffee",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"MD-6": {
+"id": "MD-6",
+"incumbent": "April McClain Delaney",
+"house2024": {
+"party": "D",
+"pts": 6.3,
+"raw": "6.3%"
+},
+"pres2024": {
+"party": "D",
+"pts": 5.7,
+"raw": "5.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "April McClain Delaney*",
+"fill": "DD"
+},
+{
+"name": "Robin Ficker",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MD-7": {
+"id": "MD-7",
+"incumbent": "Kweisi Mfume",
+"house2024": {
+"party": "D",
+"pts": 63.1,
+"raw": "63.1%"
+},
+"pres2024": {
+"party": "D",
+"pts": 58.9,
+"raw": "58.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kweisi Mfume*",
+"fill": "DD"
+},
+{
+"name": "Scott Collier",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MD-8": {
+"id": "MD-8",
+"incumbent": "Jamie Raskin",
+"house2024": {
+"party": "D",
+"pts": 56.3,
+"raw": "56.3%"
+},
+"pres2024": {
+"party": "D",
+"pts": 56.4,
+"raw": "56.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jamie Raskin*",
+"fill": "DD"
+},
+{
+"name": "Cheryl Riley",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"ME-1": {
+"id": "ME-1",
+"incumbent": "Chellie Pingree",
+"house2024": {
+"party": "D",
+"pts": 22.3,
+"raw": "22.3%"
+},
+"pres2024": {
+"party": "D",
+"pts": 21.6,
+"raw": "21.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Chellie Pingree*",
+"fill": "DD"
+},
+{
+"name": "Ronald Russell",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MI-1": {
+"id": "MI-1",
+"incumbent": "Jack Bergman",
+"house2024": {
+"party": "R",
+"pts": 21.2,
+"raw": "21.2%"
+},
+"pres2024": {
+"party": "R",
+"pts": 21.2,
+"raw": "21.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Callie Barr",
+"fill": "DD"
+},
+{
+"name": "Jack Bergman*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MI-2": {
+"id": "MI-2",
+"incumbent": "John Moolenaar",
+"house2024": {
+"party": "R",
+"pts": 33.4,
+"raw": "33.4%"
+},
+"pres2024": {
+"party": "R",
+"pts": 30.0,
+"raw": "30.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Ben Ambrose",
+"fill": "DD"
+},
+{
+"name": "John Moolenaar*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MI-3": {
+"id": "MI-3",
+"incumbent": "Hillary Scholten",
+"house2024": {
+"party": "D",
+"pts": 9.9,
+"raw": "9.9%"
+},
+"pres2024": {
+"party": "D",
+"pts": 7.8,
+"raw": "7.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Hillary Scholten*",
+"fill": "DD"
+},
+{
+"name": "Terri DeBoer",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MI-5": {
+"id": "MI-5",
+"incumbent": "Tim Walberg",
+"house2024": {
+"party": "R",
+"pts": 32.9,
+"raw": "32.9%"
+},
+"pres2024": {
+"party": "R",
+"pts": 27.0,
+"raw": "27.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Christian Vukasovich",
+"fill": "DD"
+},
+{
+"name": "Tim Walberg*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MI-6": {
+"id": "MI-6",
+"incumbent": "Debbie Dingell",
+"house2024": {
+"party": "D",
+"pts": 27.0,
+"raw": "27.0%"
+},
+"pres2024": {
+"party": "D",
+"pts": 23.3,
+"raw": "23.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Debbie Dingell*",
+"fill": "DD"
+},
+{
+"name": "Heather Smiley",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MI-9": {
+"id": "MI-9",
+"incumbent": "Lisa McClain",
+"house2024": {
+"party": "R",
+"pts": 37.3,
+"raw": "37.3%"
+},
+"pres2024": {
+"party": "R",
+"pts": 32.3,
+"raw": "32.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Ray Pooley",
+"fill": "DD"
+},
+{
+"name": "Lisa McClain*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MI-11": {
+"id": "MI-11",
+"incumbent": "Haley Stevens",
+"house2024": {
+"party": "D",
+"pts": 18.6,
+"raw": "18.6%"
+},
+"pres2024": {
+"party": "D",
+"pts": 16.0,
+"raw": "16.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jeremy Moss",
+"fill": "DD"
+},
+{
+"name": "Ethan Baker",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate"
+},
+"MI-12": {
+"id": "MI-12",
+"incumbent": "Rashida Tlaib",
+"house2024": {
+"party": "D",
+"pts": 44.3,
+"raw": "44.3%"
+},
+"pres2024": {
+"party": "D",
+"pts": 37.9,
+"raw": "37.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Rashida Tlaib*",
+"fill": "DD"
+},
+{
+"name": "James Hooper",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MI-13": {
+"id": "MI-13",
+"incumbent": "Shri Thanedar",
+"house2024": {
+"party": "D",
+"pts": 44.1,
+"raw": "44.1%"
+},
+"pres2024": {
+"party": "D",
+"pts": 41.0,
+"raw": "41.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Donavan McKinney",
+"fill": "DD"
+},
+{
+"name": "T.P. Nykoriak",
+"fill": "RR"
+}
+],
+"note": "Incumbent defeated in primary for 2026 election."
+},
+"MN-3": {
+"id": "MN-3",
+"incumbent": "Kelly Morrison",
+"house2024": {
+"party": "D",
+"pts": 17.0,
+"raw": "17.0%"
+},
+"pres2024": {
+"party": "D",
+"pts": 21.2,
+"raw": "21.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kelly Morrison*",
+"fill": "DD"
+},
+{
+"name": "Tyler Bass",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MN-4": {
+"id": "MN-4",
+"incumbent": "Betty McCollum",
+"house2024": {
+"party": "D",
+"pts": 34.7,
+"raw": "34.7%"
+},
+"pres2024": {
+"party": "D",
+"pts": 35.6,
+"raw": "35.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Betty McCollum*",
+"fill": "DD"
+},
+{
+"name": "Paul Wikstrom",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MN-5": {
+"id": "MN-5",
+"incumbent": "Ilhan Omar",
+"house2024": {
+"party": "D",
+"pts": 49.8,
+"raw": "49.8%"
+},
+"pres2024": {
+"party": "D",
+"pts": 61.8,
+"raw": "61.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Ilhan Omar*",
+"fill": "DD"
+},
+{
+"name": "John Nagel",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MN-6": {
+"id": "MN-6",
+"incumbent": "Tom Emmer",
+"house2024": {
+"party": "R",
+"pts": 25.0,
+"raw": "25.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 19.6,
+"raw": "19.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Doug Chapin",
+"fill": "DD"
+},
+{
+"name": "Tom Emmer*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MN-7": {
+"id": "MN-7",
+"incumbent": "Michelle Fischbach",
+"house2024": {
+"party": "R",
+"pts": 41.0,
+"raw": "41.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 36.4,
+"raw": "36.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Erik Osberg",
+"fill": "DD"
+},
+{
+"name": "Michelle Fischbach*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MN-8": {
+"id": "MN-8",
+"incumbent": "Pete Stauber",
+"house2024": {
+"party": "R",
+"pts": 16.1,
+"raw": "16.1%"
+},
+"pres2024": {
+"party": "R",
+"pts": 14.2,
+"raw": "14.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Trina Swanson",
+"fill": "DD"
+},
+{
+"name": "Pete Stauber*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MO-1": {
+"id": "MO-1",
+"incumbent": "Wesley Bell",
+"house2024": {
+"party": "D",
+"pts": 57.6,
+"raw": "57.6%"
+},
+"pres2024": {
+"party": "D",
+"pts": 57.1,
+"raw": "57.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Wesley Bell*",
+"fill": "DD"
+},
+{
+"name": "Paul Berry",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MO-3": {
+"id": "MO-3",
+"incumbent": "Bob Onder",
+"house2024": {
+"party": "R",
+"pts": 26.0,
+"raw": "26.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 26.8,
+"raw": "26.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Bethany Mann",
+"fill": "DD"
+},
+{
+"name": "Bob Onder*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MO-4": {
+"id": "MO-4",
+"incumbent": "Mark Alford",
+"house2024": {
+"party": "R",
+"pts": 44.7,
+"raw": "44.7%"
+},
+"pres2024": {
+"party": "R",
+"pts": 42.3,
+"raw": "42.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jordan Herrera",
+"fill": "DD"
+},
+{
+"name": "Mark Alford*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MO-5": {
+"id": "MO-5",
+"incumbent": "Emanuel Cleaver",
+"house2024": {
+"party": "D",
+"pts": 23.8,
+"raw": "23.8%"
+},
+"pres2024": {
+"party": "D",
+"pts": 23.2,
+"raw": "23.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Emanuel Cleaver*",
+"fill": "DD"
+},
+{
+"name": "Rick Brattin",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MO-6": {
+"id": "MO-6",
+"incumbent": "Sam Graves",
+"house2024": {
+"party": "R",
+"pts": 43.8,
+"raw": "43.8%"
+},
+"pres2024": {
+"party": "R",
+"pts": 38.9,
+"raw": "38.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Josh Smead",
+"fill": "DD"
+},
+{
+"name": "Chris Stigall",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"MO-7": {
+"id": "MO-7",
+"incumbent": "Eric Burlison",
+"house2024": {
+"party": "R",
+"pts": 45.3,
+"raw": "45.3%"
+},
+"pres2024": {
+"party": "R",
+"pts": 42.6,
+"raw": "42.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Missi Hesketh",
+"fill": "DD"
+},
+{
+"name": "Eric Burlison*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MO-8": {
+"id": "MO-8",
+"incumbent": "Jason Smith",
+"house2024": {
+"party": "R",
+"pts": 54.4,
+"raw": "54.4%"
+},
+"pres2024": {
+"party": "R",
+"pts": 54.0,
+"raw": "54.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Chris Reichard",
+"fill": "DD"
+},
+{
+"name": "Jason Smith*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MS-1": {
+"id": "MS-1",
+"incumbent": "Trent Kelly",
+"house2024": {
+"party": "R",
+"pts": 39.6,
+"raw": "39.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 37.0,
+"raw": "37.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Cliff Johnson",
+"fill": "DD"
+},
+{
+"name": "Trent Kelly*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MS-2": {
+"id": "MS-2",
+"incumbent": "Bennie Thompson",
+"house2024": {
+"party": "D",
+"pts": 24.0,
+"raw": "24.0%"
+},
+"pres2024": {
+"party": "D",
+"pts": 20.3,
+"raw": "20.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Bennie Thompson*",
+"fill": "DD"
+},
+{
+"name": "Ron Eller",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MS-3": {
+"id": "MS-3",
+"incumbent": "Michael Guest",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 29.1,
+"raw": "29.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Michael Chiaradio",
+"fill": "DD"
+},
+{
+"name": "Michael Guest*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MS-4": {
+"id": "MS-4",
+"incumbent": "Mike Ezell",
+"house2024": {
+"party": "R",
+"pts": 47.9,
+"raw": "47.9%"
+},
+"pres2024": {
+"party": "R",
+"pts": 42.5,
+"raw": "42.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jeffrey Hulum",
+"fill": "DD"
+},
+{
+"name": "Mike Ezell*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"MT-2": {
+"id": "MT-2",
+"incumbent": "Troy Downing",
+"house2024": {
+"party": "R",
+"pts": 31.9,
+"raw": "31.9%"
+},
+"pres2024": {
+"party": "R",
+"pts": 29.5,
+"raw": "29.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Brian Miller",
+"fill": "DD"
+},
+{
+"name": "Troy Downing*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NC-2": {
+"id": "NC-2",
+"incumbent": "Deborah Ross",
+"house2024": {
+"party": "D",
+"pts": 34.6,
+"raw": "34.6%"
+},
+"pres2024": {
+"party": "D",
+"pts": 33.8,
+"raw": "33.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Deborah Ross*",
+"fill": "DD"
+},
+{
+"name": "Gene Douglass",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NC-4": {
+"id": "NC-4",
+"incumbent": "Valerie Foushee",
+"house2024": {
+"party": "D",
+"pts": 45.7,
+"raw": "45.7%"
+},
+"pres2024": {
+"party": "D",
+"pts": 45.3,
+"raw": "45.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Valerie Foushee*",
+"fill": "DD"
+},
+{
+"name": "Max Ganorkar",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NC-5": {
+"id": "NC-5",
+"incumbent": "Virginia Foxx",
+"house2024": {
+"party": "R",
+"pts": 18.9,
+"raw": "18.9%"
+},
+"pres2024": {
+"party": "R",
+"pts": 17.7,
+"raw": "17.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Chuck Hubbard",
+"fill": "DD"
+},
+{
+"name": "Virginia Foxx*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NC-6": {
+"id": "NC-6",
+"incumbent": "Addison McDowell",
+"house2024": {
+"party": "R",
+"pts": 38.4,
+"raw": "38.4%+"
+},
+"pres2024": {
+"party": "R",
+"pts": 17.1,
+"raw": "17.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Cyril Jefferson",
+"fill": "DD"
+},
+{
+"name": "Addison McDowell*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NC-7": {
+"id": "NC-7",
+"incumbent": "David Rouzer",
+"house2024": {
+"party": "R",
+"pts": 17.2,
+"raw": "17.2%"
+},
+"pres2024": {
+"party": "R",
+"pts": 13.8,
+"raw": "13.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kim Hardy",
+"fill": "DD"
+},
+{
+"name": "David Rouzer*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NC-8": {
+"id": "NC-8",
+"incumbent": "Mark Harris",
+"house2024": {
+"party": "R",
+"pts": 19.2,
+"raw": "19.2%"
+},
+"pres2024": {
+"party": "R",
+"pts": 19.3,
+"raw": "19.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Colby Watson",
+"fill": "DD"
+},
+{
+"name": "Mark Harris*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NC-10": {
+"id": "NC-10",
+"incumbent": "Pat Harrigan",
+"house2024": {
+"party": "R",
+"pts": 19.3,
+"raw": "19.3%"
+},
+"pres2024": {
+"party": "R",
+"pts": 17.7,
+"raw": "17.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Ashley Bell",
+"fill": "DD"
+},
+{
+"name": "Pat Harrigan*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NC-12": {
+"id": "NC-12",
+"incumbent": "Alma Adams",
+"house2024": {
+"party": "D",
+"pts": 48.0,
+"raw": "48.0%"
+},
+"pres2024": {
+"party": "D",
+"pts": 46.2,
+"raw": "46.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Alma Adams*",
+"fill": "DD"
+},
+{
+"name": "Jack Codiga",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NC-14": {
+"id": "NC-14",
+"incumbent": "Tim Moore",
+"house2024": {
+"party": "R",
+"pts": 16.1,
+"raw": "16.1%"
+},
+"pres2024": {
+"party": "R",
+"pts": 15.0,
+"raw": "15.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Lakesha Womack",
+"fill": "DD"
+},
+{
+"name": "Tim Moore*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"ND-AL": {
+"id": "ND-AL",
+"incumbent": "Julie Fedorchak",
+"house2024": {
+"party": "R",
+"pts": 38.9,
+"raw": "38.9%"
+},
+"pres2024": {
+"party": "R",
+"pts": 36.7,
+"raw": "36.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Trygve Hammer",
+"fill": "DD"
+},
+{
+"name": "Julie Fedorchak*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NE-3": {
+"id": "NE-3",
+"incumbent": "Adrian Smith",
+"house2024": {
+"party": "R",
+"pts": 60.8,
+"raw": "60.8%"
+},
+"pres2024": {
+"party": "R",
+"pts": 53.7,
+"raw": "53.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Becky Stille",
+"fill": "DD"
+},
+{
+"name": "Adrian Smith*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NJ-1": {
+"id": "NJ-1",
+"incumbent": "Donald Norcross",
+"house2024": {
+"party": "D",
+"pts": 17.8,
+"raw": "17.8%"
+},
+"pres2024": {
+"party": "D",
+"pts": 18.7,
+"raw": "18.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Donald Norcross*",
+"fill": "DD"
+},
+{
+"name": "Damon Galdo",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NJ-3": {
+"id": "NJ-3",
+"incumbent": "Herb Conaway",
+"house2024": {
+"party": "D",
+"pts": 8.6,
+"raw": "8.6%"
+},
+"pres2024": {
+"party": "D",
+"pts": 8.3,
+"raw": "8.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Herb Conaway*",
+"fill": "DD"
+},
+{
+"name": "Michael McGuire",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NJ-4": {
+"id": "NJ-4",
+"incumbent": "Chris Smith",
+"house2024": {
+"party": "R",
+"pts": 35.7,
+"raw": "35.7%"
+},
+"pres2024": {
+"party": "R",
+"pts": 30.1,
+"raw": "30.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Rachel Peace",
+"fill": "DD"
+},
+{
+"name": "Christopher Smith*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NJ-5": {
+"id": "NJ-5",
+"incumbent": "Josh Gottheimer",
+"house2024": {
+"party": "D",
+"pts": 11.3,
+"raw": "11.3%"
+},
+"pres2024": {
+"party": "D",
+"pts": 1.5,
+"raw": "1.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Josh Gottheimer*",
+"fill": "DD"
+},
+{
+"name": "Sean Kirrane",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NJ-6": {
+"id": "NJ-6",
+"incumbent": "Frank Pallone",
+"house2024": {
+"party": "D",
+"pts": 15.7,
+"raw": "15.7%"
+},
+"pres2024": {
+"party": "D",
+"pts": 6.4,
+"raw": "6.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Frank Pallone*",
+"fill": "DD"
+},
+{
+"name": "Hillary Herzig",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NJ-8": {
+"id": "NJ-8",
+"incumbent": "Robert Menendez",
+"house2024": {
+"party": "D",
+"pts": 39.8,
+"raw": "39.8%"
+},
+"pres2024": {
+"party": "D",
+"pts": 24.1,
+"raw": "24.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Rob Menendez*",
+"fill": "DD"
+},
+{
+"name": "Aristotle Eliopoulos",
+"fill": "i4"
+}
+],
+"note": ""
+},
+"NJ-10": {
+"id": "NJ-10",
+"incumbent": "LaMonica McIver",
+"house2024": {
+"party": "D",
+"pts": 52.2,
+"raw": "52.2%"
+},
+"pres2024": {
+"party": "D",
+"pts": 50.7,
+"raw": "50.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "LaMonica McIver*",
+"fill": "DD"
+},
+{
+"name": "Carmen Bucco",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NJ-11": {
+"id": "NJ-11",
+"incumbent": "Analilia Mejia",
+"house2024": {
+"party": "D",
+"pts": 14.7,
+"raw": "14.7%"
+},
+"pres2024": {
+"party": "D",
+"pts": 8.7,
+"raw": "8.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Analilia Mejia*",
+"fill": "DD"
+},
+{
+"name": "Joe Hathaway",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NJ-12": {
+"id": "NJ-12",
+"incumbent": "Bonnie Coleman",
+"house2024": {
+"party": "D",
+"pts": 24.8,
+"raw": "24.8%"
+},
+"pres2024": {
+"party": "D",
+"pts": 23.8,
+"raw": "23.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Adam Hamawy",
+"fill": "DD"
+},
+{
+"name": "Gregg Mele",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"NM-1": {
+"id": "NM-1",
+"incumbent": "Melanie Stansbury",
+"house2024": {
+"party": "D",
+"pts": 12.7,
+"raw": "12.7%"
+},
+"pres2024": {
+"party": "D",
+"pts": 12.6,
+"raw": "12.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Melanie Stansbury*",
+"fill": "DD"
+},
+{
+"name": "Didi Okpareke",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NM-3": {
+"id": "NM-3",
+"incumbent": "Teresa Leger Fernandez",
+"house2024": {
+"party": "D",
+"pts": 12.6,
+"raw": "12.6%"
+},
+"pres2024": {
+"party": "D",
+"pts": 5.2,
+"raw": "5.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Teresa Fernandez*",
+"fill": "DD"
+},
+{
+"name": "Martin Zamora",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-2": {
+"id": "NY-2",
+"incumbent": "Andrew Garbarino",
+"house2024": {
+"party": "R",
+"pts": 19.5,
+"raw": "19.5%"
+},
+"pres2024": {
+"party": "R",
+"pts": 13.9,
+"raw": "13.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Patrick Halpin",
+"fill": "DD"
+},
+{
+"name": "Andrew Garbarino*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-5": {
+"id": "NY-5",
+"incumbent": "Gregory Meeks",
+"house2024": {
+"party": "D",
+"pts": 45.7,
+"raw": "45.7%"
+},
+"pres2024": {
+"party": "D",
+"pts": 42.1,
+"raw": "42.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Gregory Meeks*",
+"fill": "DD"
+},
+{
+"name": "George Marsh",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-6": {
+"id": "NY-6",
+"incumbent": "Grace Meng",
+"house2024": {
+"party": "D",
+"pts": 23.0,
+"raw": "23.0%"
+},
+"pres2024": {
+"party": "D",
+"pts": 6.4,
+"raw": "6.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Grace Meng*",
+"fill": "DD"
+},
+{
+"name": "Joseph Chou",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-7": {
+"id": "NY-7",
+"incumbent": "Nydia Velazquez",
+"house2024": {
+"party": "D",
+"pts": 56.1,
+"raw": "56.1%"
+},
+"pres2024": {
+"party": "D",
+"pts": 45.8,
+"raw": "45.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Claire Valdez",
+"fill": "DD"
+},
+{
+"name": "Melvin Rivera",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"NY-8": {
+"id": "NY-8",
+"incumbent": "Hakeem Jeffries",
+"house2024": {
+"party": "D",
+"pts": 50.6,
+"raw": "50.6%"
+},
+"pres2024": {
+"party": "D",
+"pts": 43.9,
+"raw": "43.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Hakeem Jeffries*",
+"fill": "DD"
+},
+{
+"name": "Lewis Mizrahi",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-9": {
+"id": "NY-9",
+"incumbent": "Yvette Clarke",
+"house2024": {
+"party": "D",
+"pts": 48.0,
+"raw": "48.0%"
+},
+"pres2024": {
+"party": "D",
+"pts": 40.6,
+"raw": "40.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Yvette Clarke*",
+"fill": "DD"
+},
+{
+"name": "Joel Azumah",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-10": {
+"id": "NY-10",
+"incumbent": "Dan Goldman",
+"house2024": {
+"party": "D",
+"pts": 66.3,
+"raw": "66.3%"
+},
+"pres2024": {
+"party": "D",
+"pts": 60.4,
+"raw": "60.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Brad Lander",
+"fill": "DD"
+},
+{
+"name": "Jennifer Moore",
+"fill": "RR"
+}
+],
+"note": "Incumbent defeated in primary for 2026 election."
+},
+"NY-11": {
+"id": "NY-11",
+"incumbent": "Nicole Malliotakis",
+"house2024": {
+"party": "R",
+"pts": 28.1,
+"raw": "28.1%"
+},
+"pres2024": {
+"party": "R",
+"pts": 24.3,
+"raw": "24.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Mike DeCillis",
+"fill": "DD"
+},
+{
+"name": "Nicole Malliotakis*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-12": {
+"id": "NY-12",
+"incumbent": "Jerrold Nadler",
+"house2024": {
+"party": "D",
+"pts": 60.9,
+"raw": "60.9%"
+},
+"pres2024": {
+"party": "D",
+"pts": 63.6,
+"raw": "63.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Micah Lasher",
+"fill": "DD"
+},
+{
+"name": "Caroline Shinkle",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"NY-13": {
+"id": "NY-13",
+"incumbent": "Adriano Espaillat",
+"house2024": {
+"party": "D",
+"pts": 66.7,
+"raw": "66.7%"
+},
+"pres2024": {
+"party": "D",
+"pts": 59.2,
+"raw": "59.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Darializa Chevalier",
+"fill": "DD"
+},
+{
+"name": "Jomo Williams",
+"fill": "RR"
+}
+],
+"note": "Incumbent defeated in primary for 2026 election."
+},
+"NY-14": {
+"id": "NY-14",
+"incumbent": "Alexandria Ocasio-Cortez",
+"house2024": {
+"party": "D",
+"pts": 38.2,
+"raw": "38.2%"
+},
+"pres2024": {
+"party": "D",
+"pts": 31.7,
+"raw": "31.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Alexandria Ocasio-Cortez*",
+"fill": "DD"
+},
+{
+"name": "Diamant Hysenaj",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-15": {
+"id": "NY-15",
+"incumbent": "Ritchie Torres",
+"house2024": {
+"party": "D",
+"pts": 55.2,
+"raw": "55.2%"
+},
+"pres2024": {
+"party": "D",
+"pts": 48.2,
+"raw": "48.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Ritchie Torres*",
+"fill": "DD"
+},
+{
+"name": "Stylo Sapaskis",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-16": {
+"id": "NY-16",
+"incumbent": "George Latimer",
+"house2024": {
+"party": "D",
+"pts": 43.0,
+"raw": "43.0%"
+},
+"pres2024": {
+"party": "D",
+"pts": 33.1,
+"raw": "33.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "George Latimer*",
+"fill": "DD"
+},
+{
+"name": "Joseph Cinquemani",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-18": {
+"id": "NY-18",
+"incumbent": "Pat Ryan",
+"house2024": {
+"party": "D",
+"pts": 14.3,
+"raw": "14.3%"
+},
+"pres2024": {
+"party": "D",
+"pts": 3.3,
+"raw": "3.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Pat Ryan*",
+"fill": "DD"
+},
+{
+"name": "Jackie Auringer",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-20": {
+"id": "NY-20",
+"incumbent": "Paul Tonko",
+"house2024": {
+"party": "D",
+"pts": 22.2,
+"raw": "22.2%"
+},
+"pres2024": {
+"party": "D",
+"pts": 14.1,
+"raw": "14.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Paul Tonko*",
+"fill": "DD"
+},
+{
+"name": "Ralph Ambrosio",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-22": {
+"id": "NY-22",
+"incumbent": "John Mannion",
+"house2024": {
+"party": "D",
+"pts": 9.1,
+"raw": "9.1%"
+},
+"pres2024": {
+"party": "D",
+"pts": 7.6,
+"raw": "7.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "John Mannion*",
+"fill": "DD"
+},
+{
+"name": "Kailee Buller",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-23": {
+"id": "NY-23",
+"incumbent": "Nick Langworthy",
+"house2024": {
+"party": "R",
+"pts": 31.6,
+"raw": "31.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 21.0,
+"raw": "21.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Aaron Gies",
+"fill": "DD"
+},
+{
+"name": "Nick Langworthy*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-24": {
+"id": "NY-24",
+"incumbent": "Claudia Tenney",
+"house2024": {
+"party": "R",
+"pts": 31.3,
+"raw": "31.3%"
+},
+"pres2024": {
+"party": "R",
+"pts": 23.0,
+"raw": "23.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Alissa Ellman",
+"fill": "DD"
+},
+{
+"name": "Claudia Tenney*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-25": {
+"id": "NY-25",
+"incumbent": "Joseph Morelle",
+"house2024": {
+"party": "D",
+"pts": 21.6,
+"raw": "21.6%"
+},
+"pres2024": {
+"party": "D",
+"pts": 18.4,
+"raw": "18.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Joseph Morelle*",
+"fill": "DD"
+},
+{
+"name": "Virginia McIntyre",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NY-26": {
+"id": "NY-26",
+"incumbent": "Tim Kennedy",
+"house2024": {
+"party": "D",
+"pts": 30.3,
+"raw": "30.3%"
+},
+"pres2024": {
+"party": "D",
+"pts": 19.2,
+"raw": "19.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Tim Kennedy*",
+"fill": "DD"
+},
+{
+"name": "Dennis Hannon",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OH-2": {
+"id": "OH-2",
+"incumbent": "David Taylor",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 42.1,
+"raw": "42.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jen Mazzuckelli",
+"fill": "DD"
+},
+{
+"name": "David Taylor*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OH-3": {
+"id": "OH-3",
+"incumbent": "Joyce Beatty",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 40.2,
+"raw": "40.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Joyce Beatty*",
+"fill": "DD"
+},
+{
+"name": "Cleophus Dulaney",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OH-4": {
+"id": "OH-4",
+"incumbent": "Jim Jordan",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 42.6,
+"raw": "42.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Joshua Kolasinski",
+"fill": "DD"
+},
+{
+"name": "Jim Jordan*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OH-5": {
+"id": "OH-5",
+"incumbent": "Bob Latta",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 23.7,
+"raw": "23.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Brian Shaver",
+"fill": "DD"
+},
+{
+"name": "Bob Latta*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OH-6": {
+"id": "OH-6",
+"incumbent": "Michael Rulli",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 34.6,
+"raw": "34.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Elizabeth Kirtley",
+"fill": "DD"
+},
+{
+"name": "Michael Rulli*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OH-8": {
+"id": "OH-8",
+"incumbent": "Warren Davidson",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 15.6,
+"raw": "15.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Vanessa Enoch",
+"fill": "DD"
+},
+{
+"name": "Warren Davidson*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OH-11": {
+"id": "OH-11",
+"incumbent": "Shontel Brown",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 55.0,
+"raw": "55.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Shontel Brown*",
+"fill": "DD"
+},
+{
+"name": "Mike Kirchner",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OH-12": {
+"id": "OH-12",
+"incumbent": "Troy Balderson",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 30.0,
+"raw": "30.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jerrad Christian",
+"fill": "DD"
+},
+{
+"name": "Troy Balderson*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OH-14": {
+"id": "OH-14",
+"incumbent": "David Joyce",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 20.3,
+"raw": "20.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Maria Jukic",
+"fill": "DD"
+},
+{
+"name": "David Joyce*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OK-1": {
+"id": "OK-1",
+"incumbent": "Kevin Hern",
+"house2024": {
+"party": "R",
+"pts": 25.9,
+"raw": "25.9%"
+},
+"pres2024": {
+"party": "R",
+"pts": 21.5,
+"raw": "21.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "John Croisant",
+"fill": "DD"
+},
+{
+"name": "Mark Tedford",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate"
+},
+"OK-2": {
+"id": "OK-2",
+"incumbent": "Josh Brecheen",
+"house2024": {
+"party": "R",
+"pts": 52.7,
+"raw": "52.7%"
+},
+"pres2024": {
+"party": "R",
+"pts": 55.6,
+"raw": "55.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Brandon Wade",
+"fill": "DD"
+},
+{
+"name": "Josh Brecheen*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OK-3": {
+"id": "OK-3",
+"incumbent": "Frank Lucas",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 45.5,
+"raw": "45.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Suzie Byrd",
+"fill": "DD"
+},
+{
+"name": "Frank Lucas*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OK-4": {
+"id": "OK-4",
+"incumbent": "Tom Cole",
+"house2024": {
+"party": "R",
+"pts": 37.0,
+"raw": "37.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 33.2,
+"raw": "33.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Mitchell Jacob",
+"fill": "DD"
+},
+{
+"name": "Tom Cole*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OK-5": {
+"id": "OK-5",
+"incumbent": "Stephanie Bice",
+"house2024": {
+"party": "R",
+"pts": 21.4,
+"raw": "21.4%"
+},
+"pres2024": {
+"party": "R",
+"pts": 17.7,
+"raw": "17.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jena Nelson",
+"fill": "DD"
+},
+{
+"name": "Stephanie Bice*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OR-1": {
+"id": "OR-1",
+"incumbent": "Suzanne Bonamici",
+"house2024": {
+"party": "D",
+"pts": 40.5,
+"raw": "40.5%"
+},
+"pres2024": {
+"party": "D",
+"pts": 37.7,
+"raw": "37.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Suzanne Bonamici*",
+"fill": "DD"
+},
+{
+"name": "Barbara Kahl",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OR-2": {
+"id": "OR-2",
+"incumbent": "Cliff Bentz",
+"house2024": {
+"party": "R",
+"pts": 31.1,
+"raw": "31.1%"
+},
+"pres2024": {
+"party": "R",
+"pts": 27.1,
+"raw": "27.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Chris Beck",
+"fill": "DD"
+},
+{
+"name": "Cliff Bentz*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OR-3": {
+"id": "OR-3",
+"incumbent": "Maxine Dexter",
+"house2024": {
+"party": "D",
+"pts": 42.5,
+"raw": "42.5%"
+},
+"pres2024": {
+"party": "D",
+"pts": 45.9,
+"raw": "45.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Maxine Dexter*",
+"fill": "DD"
+},
+{
+"name": "Loran Ayles",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OR-4": {
+"id": "OR-4",
+"incumbent": "Val Hoyle",
+"house2024": {
+"party": "D",
+"pts": 7.8,
+"raw": "7.8%"
+},
+"pres2024": {
+"party": "D",
+"pts": 12.0,
+"raw": "12.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Val Hoyle*",
+"fill": "DD"
+},
+{
+"name": "Monique DeSpain",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OR-5": {
+"id": "OR-5",
+"incumbent": "Janelle Bynum",
+"house2024": {
+"party": "D",
+"pts": 2.7,
+"raw": "2.7%"
+},
+"pres2024": {
+"party": "D",
+"pts": 8.5,
+"raw": "8.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Janelle Bynum*",
+"fill": "DD"
+},
+{
+"name": "Patti Adair",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OR-6": {
+"id": "OR-6",
+"incumbent": "Andrea Salinas",
+"house2024": {
+"party": "D",
+"pts": 6.9,
+"raw": "6.9%"
+},
+"pres2024": {
+"party": "D",
+"pts": 11.3,
+"raw": "11.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Andrea Salinas*",
+"fill": "DD"
+},
+{
+"name": "David Russ",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"PA-2": {
+"id": "PA-2",
+"incumbent": "Brendan Boyle",
+"house2024": {
+"party": "D",
+"pts": 42.9,
+"raw": "42.9%"
+},
+"pres2024": {
+"party": "D",
+"pts": 35.7,
+"raw": "35.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Brendan Boyle*",
+"fill": "DD"
+},
+{
+"name": "Jessica Arriaga",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"PA-3": {
+"id": "PA-3",
+"incumbent": "Dwight Evans",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 77.3,
+"raw": "77.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Chris Rabb",
+"fill": "DD"
+},
+{
+"name": "Dennis Mahoney",
+"fill": "i4"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"PA-4": {
+"id": "PA-4",
+"incumbent": "Madeleine Dean",
+"house2024": {
+"party": "D",
+"pts": 18.1,
+"raw": "18.1%"
+},
+"pres2024": {
+"party": "D",
+"pts": 15.8,
+"raw": "15.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Madeleine Dean*",
+"fill": "DD"
+},
+{
+"name": "Aurora Stuski",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"PA-5": {
+"id": "PA-5",
+"incumbent": "Mary Gay Scanlon",
+"house2024": {
+"party": "D",
+"pts": 30.6,
+"raw": "30.6%"
+},
+"pres2024": {
+"party": "D",
+"pts": 28.6,
+"raw": "28.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Mary Gay Scanlon*",
+"fill": "DD"
+},
+{
+"name": "Nick Manganaro",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"PA-6": {
+"id": "PA-6",
+"incumbent": "Chrissy Houlahan",
+"house2024": {
+"party": "D",
+"pts": 12.4,
+"raw": "12.4%"
+},
+"pres2024": {
+"party": "D",
+"pts": 11.4,
+"raw": "11.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Chrissy Houlahan*",
+"fill": "DD"
+},
+{
+"name": "Marty Young",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"PA-9": {
+"id": "PA-9",
+"incumbent": "Dan Meuser",
+"house2024": {
+"party": "R",
+"pts": 41.0,
+"raw": "41.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 37.9,
+"raw": "37.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Rachel Wallace",
+"fill": "DD"
+},
+{
+"name": "Dan Meuser*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"PA-11": {
+"id": "PA-11",
+"incumbent": "Lloyd Smucker",
+"house2024": {
+"party": "R",
+"pts": 25.8,
+"raw": "25.8%"
+},
+"pres2024": {
+"party": "R",
+"pts": 21.3,
+"raw": "21.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Nancy Mannion",
+"fill": "DD"
+},
+{
+"name": "Lloyd Smucker*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"PA-12": {
+"id": "PA-12",
+"incumbent": "Summer Lee",
+"house2024": {
+"party": "D",
+"pts": 12.8,
+"raw": "12.8%"
+},
+"pres2024": {
+"party": "D",
+"pts": 19.1,
+"raw": "19.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Summer Lee*",
+"fill": "DD"
+},
+{
+"name": "James Hayes",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"PA-13": {
+"id": "PA-13",
+"incumbent": "John Joyce",
+"house2024": {
+"party": "R",
+"pts": 48.4,
+"raw": "48.4%"
+},
+"pres2024": {
+"party": "R",
+"pts": 45.5,
+"raw": "45.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Beth Farnham",
+"fill": "DD"
+},
+{
+"name": "John Joyce*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"PA-14": {
+"id": "PA-14",
+"incumbent": "Guy Reschenthaler",
+"house2024": {
+"party": "R",
+"pts": 33.1,
+"raw": "33.1%"
+},
+"pres2024": {
+"party": "R",
+"pts": 33.3,
+"raw": "33.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Alan Bradstock",
+"fill": "DD"
+},
+{
+"name": "Guy Reschenthaler*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"PA-15": {
+"id": "PA-15",
+"incumbent": "Glenn Thompson",
+"house2024": {
+"party": "R",
+"pts": 42.9,
+"raw": "42.9%"
+},
+"pres2024": {
+"party": "R",
+"pts": 37.9,
+"raw": "37.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Ray Bilger",
+"fill": "DD"
+},
+{
+"name": "Glenn Thompson*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"PA-16": {
+"id": "PA-16",
+"incumbent": "Mike Kelly",
+"house2024": {
+"party": "R",
+"pts": 27.3,
+"raw": "27.3%"
+},
+"pres2024": {
+"party": "R",
+"pts": 22.7,
+"raw": "22.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Justin Wagner",
+"fill": "DD"
+},
+{
+"name": "Mike Kelly*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"PA-17": {
+"id": "PA-17",
+"incumbent": "Chris Deluzio",
+"house2024": {
+"party": "D",
+"pts": 7.8,
+"raw": "7.8%"
+},
+"pres2024": {
+"party": "D",
+"pts": 5.5,
+"raw": "5.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Chris Deluzio*",
+"fill": "DD"
+},
+{
+"name": "Tony Guy",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"RI-1": {
+"id": "RI-1",
+"incumbent": "Gabe Amo",
+"house2024": {
+"party": "D",
+"pts": 31.0,
+"raw": "31.0%"
+},
+"pres2024": {
+"party": "D",
+"pts": 22.1,
+"raw": "22.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Gabe Amo*",
+"fill": "DD"
+},
+{
+"name": "Kellie Keenan",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"RI-2": {
+"id": "RI-2",
+"incumbent": "Seth Magaziner",
+"house2024": {
+"party": "D",
+"pts": 16.7,
+"raw": "16.7%"
+},
+"pres2024": {
+"party": "D",
+"pts": 6.7,
+"raw": "6.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Seth Magaziner*",
+"fill": "DD"
+},
+{
+"name": "Victor Mellor",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"SC-2": {
+"id": "SC-2",
+"incumbent": "Joe Wilson",
+"house2024": {
+"party": "R",
+"pts": 19.3,
+"raw": "19.3%"
+},
+"pres2024": {
+"party": "R",
+"pts": 13.9,
+"raw": "13.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Zyon Khalifa",
+"fill": "DD"
+},
+{
+"name": "Joe Wilson*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"SC-3": {
+"id": "SC-3",
+"incumbent": "Sheri Biggs",
+"house2024": {
+"party": "R",
+"pts": 46.4,
+"raw": "46.4%"
+},
+"pres2024": {
+"party": "R",
+"pts": 43.0,
+"raw": "43.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Eunice Lehmacher",
+"fill": "DD"
+},
+{
+"name": "Sheri Biggs*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"SC-4": {
+"id": "SC-4",
+"incumbent": "William Timmons",
+"house2024": {
+"party": "R",
+"pts": 22.5,
+"raw": "22.5%"
+},
+"pres2024": {
+"party": "R",
+"pts": 23.5,
+"raw": "23.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Courtney McClain",
+"fill": "DD"
+},
+{
+"name": "William Timmons*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"SC-5": {
+"id": "SC-5",
+"incumbent": "Ralph Norman",
+"house2024": {
+"party": "R",
+"pts": 27.2,
+"raw": "27.2%"
+},
+"pres2024": {
+"party": "R",
+"pts": 22.7,
+"raw": "22.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Mallory Dittmer",
+"fill": "DD"
+},
+{
+"name": "Wes Climer",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate after initially  running for governor."
+},
+"SC-6": {
+"id": "SC-6",
+"incumbent": "James Clyburn",
+"house2024": {
+"party": "D",
+"pts": 22.8,
+"raw": "22.8%"
+},
+"pres2024": {
+"party": "D",
+"pts": 22.6,
+"raw": "22.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jim Clyburn*",
+"fill": "DD"
+},
+{
+"name": "John Peterson",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"SC-7": {
+"id": "SC-7",
+"incumbent": "Russell Fry",
+"house2024": {
+"party": "R",
+"pts": 29.9,
+"raw": "29.9%"
+},
+"pres2024": {
+"party": "R",
+"pts": 26.3,
+"raw": "26.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "John Vincent",
+"fill": "DD"
+},
+{
+"name": "Russell Fry*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"SD-AL": {
+"id": "SD-AL",
+"incumbent": "Dusty Johnson",
+"house2024": {
+"party": "R",
+"pts": 44.1,
+"raw": "44.1%"
+},
+"pres2024": {
+"party": "R",
+"pts": 29.1,
+"raw": "29.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Nicole Gronli",
+"fill": "DD"
+},
+{
+"name": "Marty Jackley",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for governor"
+},
+"TN-1": {
+"id": "TN-1",
+"incumbent": "Diana Harshbarger",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 57.8,
+"raw": "57.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kristi Burke",
+"fill": "DD"
+},
+{
+"name": "Diana Harshbarger*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TN-2": {
+"id": "TN-2",
+"incumbent": "Tim Burchett",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 33.8,
+"raw": "33.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Michaela Barnett",
+"fill": "DD"
+},
+{
+"name": "Tim Burchett*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TN-3": {
+"id": "TN-3",
+"incumbent": "Chuck Fleischmann",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 35.7,
+"raw": "35.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Anna Golladay",
+"fill": "DD"
+},
+{
+"name": "Chuck Fleischmann*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TN-4": {
+"id": "TN-4",
+"incumbent": "Scott DesJarlais",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 23.9,
+"raw": "23.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Victoria Broderick",
+"fill": "DD"
+},
+{
+"name": "Scott DesJarlais*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TN-5": {
+"id": "TN-5",
+"incumbent": "Andy Ogles",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 23.0,
+"raw": "23.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Chaz Molder",
+"fill": "DD"
+},
+{
+"name": "Charlie Hatcher",
+"fill": "RR"
+}
+],
+"note": "Incumbent defeated in primary for 2026 election."
+},
+"TN-6": {
+"id": "TN-6",
+"incumbent": "John Rose",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 26.5,
+"raw": "26.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Mike Croley",
+"fill": "DD"
+},
+{
+"name": "Johnny Garrett",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for governor"
+},
+"TN-7": {
+"id": "TN-7",
+"incumbent": "Matt Van Epps",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 22.3,
+"raw": "22.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Darden Copeland",
+"fill": "DD"
+},
+{
+"name": "Matt Van Epps*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TN-8": {
+"id": "TN-8",
+"incumbent": "David Kustoff",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 20.1,
+"raw": "20.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Heidi Kuhn",
+"fill": "DD"
+},
+{
+"name": "David Kustoff*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-1": {
+"id": "TX-1",
+"incumbent": "Nathaniel Moran",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 49.5,
+"raw": "49.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Yolanda Prince",
+"fill": "DD"
+},
+{
+"name": "Nathaniel Moran*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-2": {
+"id": "TX-2",
+"incumbent": "Dan Crenshaw",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 22.8,
+"raw": "22.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Shaun Finnie",
+"fill": "DD"
+},
+{
+"name": "Steve Toth",
+"fill": "RR"
+}
+],
+"note": "Incumbent defeated in primary for 2026 election."
+},
+"TX-3": {
+"id": "TX-3",
+"incumbent": "Keith Self",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 23.4,
+"raw": "23.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Evan Hunt",
+"fill": "DD"
+},
+{
+"name": "Keith Self*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-4": {
+"id": "TX-4",
+"incumbent": "Pat Fallon",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 24.7,
+"raw": "24.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "James Pearce",
+"fill": "DD"
+},
+{
+"name": "Pat Fallon*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-5": {
+"id": "TX-5",
+"incumbent": "Lance Gooden",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 21.6,
+"raw": "21.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Chelsey Hockett",
+"fill": "DD"
+},
+{
+"name": "Lance Gooden*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-6": {
+"id": "TX-6",
+"incumbent": "Jake Ellzey",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 22.9,
+"raw": "22.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Danny Minton",
+"fill": "DD"
+},
+{
+"name": "Jake Ellzey*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-7": {
+"id": "TX-7",
+"incumbent": "Lizzie Fletcher",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 23.4,
+"raw": "23.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Lizzie Fletcher*",
+"fill": "DD"
+},
+{
+"name": "Alexander Hale",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-8": {
+"id": "TX-8",
+"incumbent": "Morgan Luttrell",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 27.6,
+"raw": "27.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Laura Jones",
+"fill": "DD"
+},
+{
+"name": "Jessica Steinmann",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"TX-10": {
+"id": "TX-10",
+"incumbent": "Michael McCaul",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 22.6,
+"raw": "22.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Caitlin Rourk",
+"fill": "DD"
+},
+{
+"name": "Chris Gober",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"TX-11": {
+"id": "TX-11",
+"incumbent": "August Pfluger",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 34.3,
+"raw": "34.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Claire Reynolds",
+"fill": "DD"
+},
+{
+"name": "August Pfluger*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-12": {
+"id": "TX-12",
+"incumbent": "Craig Goldman",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 23.8,
+"raw": "23.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Angela R. Prilliman",
+"fill": "DD"
+},
+{
+"name": "Craig Goldman*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-13": {
+"id": "TX-13",
+"incumbent": "Ronny Jackson",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 46.1,
+"raw": "46.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Mark Nair",
+"fill": "DD"
+},
+{
+"name": "Ronny Jackson*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-14": {
+"id": "TX-14",
+"incumbent": "Randy Weber",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 24.3,
+"raw": "24.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Thurman Bartie",
+"fill": "DD"
+},
+{
+"name": "Randy Weber*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-16": {
+"id": "TX-16",
+"incumbent": "Veronica Escobar",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 16.4,
+"raw": "16.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Veronica Escobar*",
+"fill": "DD"
+},
+{
+"name": "Adam Bauman",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-17": {
+"id": "TX-17",
+"incumbent": "Pete Sessions",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 21.6,
+"raw": "21.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Casey Shepard",
+"fill": "DD"
+},
+{
+"name": "Pete Sessions*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-18": {
+"id": "TX-18",
+"incumbent": "Christian Menefee",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 54.9,
+"raw": "54.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Christian Menefee*",
+"fill": "DD"
+},
+{
+"name": "Ronald Whitfield",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-19": {
+"id": "TX-19",
+"incumbent": "Jodey Arrington",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 51.6,
+"raw": "51.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kyle Rable",
+"fill": "DD"
+},
+{
+"name": "Tom Sell",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"TX-20": {
+"id": "TX-20",
+"incumbent": "Joaquin Castro",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 28.5,
+"raw": "28.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Joaquin Castro*",
+"fill": "DD"
+},
+{
+"name": "Edgardo Baez",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-21": {
+"id": "TX-21",
+"incumbent": "Chip Roy",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 21.8,
+"raw": "21.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kristin Hook",
+"fill": "DD"
+},
+{
+"name": "Mark Teixeira",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for attorney general"
+},
+"TX-22": {
+"id": "TX-22",
+"incumbent": "Troy Nehls",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 22.2,
+"raw": "22.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Marquette Greene-Scott",
+"fill": "DD"
+},
+{
+"name": "Trever Nehls",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"TX-24": {
+"id": "TX-24",
+"incumbent": "Beth Van Duyne",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 16.1,
+"raw": "16.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kevin Burge",
+"fill": "DD"
+},
+{
+"name": "Beth Van Duyne*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-25": {
+"id": "TX-25",
+"incumbent": "Roger Williams",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 24.0,
+"raw": "24.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Dione Sims",
+"fill": "DD"
+},
+{
+"name": "Roger Williams*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-26": {
+"id": "TX-26",
+"incumbent": "Brandon Gill",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 23.8,
+"raw": "23.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Steven Shook",
+"fill": "DD"
+},
+{
+"name": "Brandon Gill*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-27": {
+"id": "TX-27",
+"incumbent": "Michael Cloud",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 21.2,
+"raw": "21.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Tanya Lloyd",
+"fill": "DD"
+},
+{
+"name": "Michael Cloud*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-29": {
+"id": "TX-29",
+"incumbent": "Sylvia Garcia",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 30.4,
+"raw": "30.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Sylvia Garcia*",
+"fill": "DD"
+},
+{
+"name": "Martha Fierro",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-30": {
+"id": "TX-30",
+"incumbent": "Jasmine Crockett",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 47.1,
+"raw": "47.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Frederick Haynes",
+"fill": "DD"
+},
+{
+"name": "Everett Jackson",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate"
+},
+"TX-31": {
+"id": "TX-31",
+"incumbent": "John Carter",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 21.8,
+"raw": "21.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Justin Early",
+"fill": "DD"
+},
+{
+"name": "John Carter*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-33": {
+"id": "TX-33",
+"incumbent": "Marc Veasey",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 32.7,
+"raw": "32.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Colin Allred",
+"fill": "DD"
+},
+{
+"name": "Patrick Gillespie",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"TX-36": {
+"id": "TX-36",
+"incumbent": "Brian Babin",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 24.9,
+"raw": "24.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Rhonda Hart",
+"fill": "DD"
+},
+{
+"name": "Brian Babin*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"TX-37": {
+"id": "TX-37",
+"incumbent": "Greg Casar",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 56.6,
+"raw": "56.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Greg Casar*",
+"fill": "DD"
+},
+{
+"name": "Lauren Pena",
+"fill": "RR"
+}
+],
+"note": "Currently TX-35; moved due to redistricting."
+},
+"TX-38": {
+"id": "TX-38",
+"incumbent": "Wesley Hunt",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 20.9,
+"raw": "20.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Melissa McDonough",
+"fill": "DD"
+},
+{
+"name": "Jon Bonck",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate"
+},
+"UT-2": {
+"id": "UT-2",
+"incumbent": "Blake Moore",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 28.9,
+"raw": "28.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Peter Crosby",
+"fill": "DD"
+},
+{
+"name": "Blake Moore*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"UT-3": {
+"id": "UT-3",
+"incumbent": "Celeste Maloy",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 41.3,
+"raw": "41.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kent Udell",
+"fill": "DD"
+},
+{
+"name": "Celeste Maloy*",
+"fill": "RR"
+}
+],
+"note": "Currently UT-02; moved due to redistricting"
+},
+"UT-4": {
+"id": "UT-4",
+"incumbent": "Mike Kennedy",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 32.5,
+"raw": "32.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jonny Larsen",
+"fill": "DD"
+},
+{
+"name": "Mike Kennedy*",
+"fill": "RR"
+}
+],
+"note": "Currently UT-03; moved due to redistricting"
+},
+"VA-3": {
+"id": "VA-3",
+"incumbent": "Bobby Scott",
+"house2024": {
+"party": "D",
+"pts": 40.1,
+"raw": "40.1%"
+},
+"pres2024": {
+"party": "D",
+"pts": 34.6,
+"raw": "34.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Bobby Scott*",
+"fill": "DD"
+},
+{
+"name": "Edwin Rivera",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"VA-4": {
+"id": "VA-4",
+"incumbent": "Jennifer McClellan",
+"house2024": {
+"party": "D",
+"pts": 34.9,
+"raw": "34.9%"
+},
+"pres2024": {
+"party": "D",
+"pts": 32.7,
+"raw": "32.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jennifer McClellan*",
+"fill": "DD"
+},
+{
+"name": "Robert Murray",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"VA-6": {
+"id": "VA-6",
+"incumbent": "Ben Cline",
+"house2024": {
+"party": "R",
+"pts": 28.3,
+"raw": "28.3%"
+},
+"pres2024": {
+"party": "R",
+"pts": 23.8,
+"raw": "23.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Beth Macy",
+"fill": "DD"
+},
+{
+"name": "Ben Cline*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"VA-8": {
+"id": "VA-8",
+"incumbent": "Don Beyer",
+"house2024": {
+"party": "D",
+"pts": 46.9,
+"raw": "46.9%"
+},
+"pres2024": {
+"party": "D",
+"pts": 49.7,
+"raw": "49.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Donald Beyer*",
+"fill": "DD"
+},
+{
+"name": "Tony Sabio",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"VA-9": {
+"id": "VA-9",
+"incumbent": "Morgan Griffith",
+"house2024": {
+"party": "R",
+"pts": 45.2,
+"raw": "45.2%"
+},
+"pres2024": {
+"party": "R",
+"pts": 44.0,
+"raw": "44.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Joy Powers",
+"fill": "DD"
+},
+{
+"name": "Morgan Griffith*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"VA-10": {
+"id": "VA-10",
+"incumbent": "Suhas Subramanyam",
+"house2024": {
+"party": "D",
+"pts": 4.5,
+"raw": "4.5%"
+},
+"pres2024": {
+"party": "D",
+"pts": 8.3,
+"raw": "8.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Suhas Subramanyam*",
+"fill": "DD"
+},
+{
+"name": "Dave Beckwith",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"VA-11": {
+"id": "VA-11",
+"incumbent": "James Walkinshaw",
+"house2024": {
+"party": "D",
+"pts": 33.8,
+"raw": "33.8%"
+},
+"pres2024": {
+"party": "D",
+"pts": 34.2,
+"raw": "34.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "James Walkinshaw*",
+"fill": "DD"
+},
+{
+"name": "Arhtur Purves",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"VT-AL": {
+"id": "VT-AL",
+"incumbent": "Becca Balint",
+"house2024": {
+"party": "D",
+"pts": 32.5,
+"raw": "32.5%"
+},
+"pres2024": {
+"party": "D",
+"pts": 31.7,
+"raw": "31.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Becca Balint*",
+"fill": "DD"
+},
+{
+"name": "Gerald Malloy",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WA-1": {
+"id": "WA-1",
+"incumbent": "Suzan DelBene",
+"house2024": {
+"party": "D",
+"pts": 26.3,
+"raw": "26.3%"
+},
+"pres2024": {
+"party": "D",
+"pts": 28.6,
+"raw": "28.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Suzan DelBene*",
+"fill": "DD"
+},
+{
+"name": "Mary Silva",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WA-2": {
+"id": "WA-2",
+"incumbent": "Rick Larsen",
+"house2024": {
+"party": "D",
+"pts": 28.0,
+"raw": "28.0%"
+},
+"pres2024": {
+"party": "D",
+"pts": 23.6,
+"raw": "23.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Rick Larsen*",
+"fill": "DD"
+},
+{
+"name": "Edwin Feller",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WA-4": {
+"id": "WA-4",
+"incumbent": "Dan Newhouse",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 20.6,
+"raw": "20.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "John Duresky",
+"fill": "DD"
+},
+{
+"name": "Amanda McKinney",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
+},
+"WA-6": {
+"id": "WA-6",
+"incumbent": "Emily Randall",
+"house2024": {
+"party": "D",
+"pts": 13.6,
+"raw": "13.6%"
+},
+"pres2024": {
+"party": "D",
+"pts": 19.2,
+"raw": "19.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Emily Randall*",
+"fill": "DD"
+},
+{
+"name": "Teresa Fox",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WA-7": {
+"id": "WA-7",
+"incumbent": "Pramila Jayapal",
+"house2024": {
+"party": "D",
+"pts": 68.1,
+"raw": "68.1%"
+},
+"pres2024": {
+"party": "D",
+"pts": 74.9,
+"raw": "74.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Pramilia Jayapal*",
+"fill": "DD"
+},
+{
+"name": "Nirav Sheth",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WA-8": {
+"id": "WA-8",
+"incumbent": "Kim Schrier",
+"house2024": {
+"party": "D",
+"pts": 8.2,
+"raw": "8.2%"
+},
+"pres2024": {
+"party": "D",
+"pts": 5.7,
+"raw": "5.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kim Schrier*",
+"fill": "DD"
+},
+{
+"name": "Spencer Meline",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WA-9": {
+"id": "WA-9",
+"incumbent": "Adam Smith",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 41.2,
+"raw": "41.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Adam Smith*",
+"fill": "DD"
+},
+{
+"name": "Doug Basler",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WA-10": {
+"id": "WA-10",
+"incumbent": "Marilyn Strickland",
+"house2024": {
+"party": "D",
+"pts": 17.3,
+"raw": "17.3%"
+},
+"pres2024": {
+"party": "D",
+"pts": 18.0,
+"raw": "18.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Marilyn Strickland*",
+"fill": "DD"
+},
+{
+"name": "Chris Chung",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WI-2": {
+"id": "WI-2",
+"incumbent": "Mark Pocan",
+"house2024": {
+"party": "D",
+"pts": 40.2,
+"raw": "40.2%"
+},
+"pres2024": {
+"party": "D",
+"pts": 40.1,
+"raw": "40.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Incumbent is unopposed",
+"fill": "DD"
+}
+],
+"note": ""
+},
+"WI-4": {
+"id": "WI-4",
+"incumbent": "Gwen Moore",
+"house2024": {
+"party": "D",
+"pts": 52.4,
+"raw": "52.4%"
+},
+"pres2024": {
+"party": "D",
+"pts": 51.5,
+"raw": "51.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Gwen Moore*",
+"fill": "DD"
+},
+{
+"name": "Tim Rogers",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WI-5": {
+"id": "WI-5",
+"incumbent": "Scott Fitzgerald",
+"house2024": {
+"party": "R",
+"pts": 28.9,
+"raw": "28.9%"
+},
+"pres2024": {
+"party": "R",
+"pts": 22.1,
+"raw": "22.1%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Andrew Beck",
+"fill": "DD"
+},
+{
+"name": "Scott Fitzgerald*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WI-6": {
+"id": "WI-6",
+"incumbent": "Glenn Grothman",
+"house2024": {
+"party": "R",
+"pts": 22.6,
+"raw": "22.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 16.4,
+"raw": "16.4%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Brad Smith",
+"fill": "DD"
+},
+{
+"name": "Glenn Grothman*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WI-7": {
+"id": "WI-7",
+"incumbent": "Tom Tiffany",
+"house2024": {
+"party": "R",
+"pts": 27.2,
+"raw": "27.2%"
+},
+"pres2024": {
+"party": "R",
+"pts": 22.5,
+"raw": "22.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Fred Clark",
+"fill": "DD"
+},
+{
+"name": "Michael Alfonso",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for governor"
+},
+"WI-8": {
+"id": "WI-8",
+"incumbent": "Tony Wied",
+"house2024": {
+"party": "R",
+"pts": 14.6,
+"raw": "14.6%"
+},
+"pres2024": {
+"party": "R",
+"pts": 16.2,
+"raw": "16.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Rick Crosson",
+"fill": "DD"
+},
+{
+"name": "Tony Wied*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WV-1": {
+"id": "WV-1",
+"incumbent": "Carol Miller",
+"house2024": {
+"party": "R",
+"pts": 40.2,
+"raw": "40.2%"
+},
+"pres2024": {
+"party": "R",
+"pts": 44.3,
+"raw": "44.3%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Vince George",
+"fill": "DD"
+},
+{
+"name": "Carol Miller*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WV-2": {
+"id": "WV-2",
+"incumbent": "Riley Moore",
+"house2024": {
+"party": "R",
+"pts": 41.5,
+"raw": "41.5%"
+},
+"pres2024": {
+"party": "R",
+"pts": 39.5,
+"raw": "39.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Ace Parsi",
+"fill": "DD"
+},
+{
+"name": "Riley Moore*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"WY-AL": {
+"id": "WY-AL",
+"incumbent": "Harriet Hageman",
+"house2024": {
+"party": "R",
+"pts": 47.4,
+"raw": "47.4%"
+},
+"pres2024": {
+"party": "R",
+"pts": 46.2,
+"raw": "46.2%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Lisa Kinney",
+"fill": "DD"
+},
+{
+"name": "Chuck Gray",
+"fill": "RR"
+}
+],
+"note": "Retiring to run for U.S. Senate"
+}
+}

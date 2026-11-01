@@ -1,0 +1,1756 @@
+{
+ "senate": {
+  "as_of": {
+   "cook": "Oct 30, 2026",
+   "ie": "Oct 29, 2026",
+   "sabato": "Oct 29, 2026"
+  },
+  "rows": {
+   "Alabama": {
+    "pvi": "R+15",
+    "incumbent": "Tommy Tuberville (retiring)",
+    "last": "60.10% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Alaska": {
+    "pvi": "R+6",
+    "incumbent": "Dan S. Sullivan",
+    "last": "53.90% R",
+    "cook": "Toss-up",
+    "ie": "Toss-up",
+    "sabato": "Lean D (flip)"
+   },
+   "Arkansas": {
+    "pvi": "R+15",
+    "incumbent": "Tom Cotton",
+    "last": "66.53% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Colorado": {
+    "pvi": "D+6",
+    "incumbent": "John Hickenlooper",
+    "last": "53.50% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "Delaware": {
+    "pvi": "D+8",
+    "incumbent": "Chris Coons",
+    "last": "59.44% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "Florida (special)": {
+    "pvi": "R+5",
+    "incumbent": "Ashley Moody",
+    "last": "Appointed (2025)[p]",
+    "cook": "Likely R",
+    "ie": "Likely R",
+    "sabato": "Likely R"
+   },
+   "Georgia": {
+    "pvi": "R+1",
+    "incumbent": "Jon Ossoff",
+    "last": "50.62% D",
+    "cook": "Likely D",
+    "ie": "Likely D",
+    "sabato": "Likely D"
+   },
+   "Idaho": {
+    "pvi": "R+18",
+    "incumbent": "Jim Risch",
+    "last": "62.62% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Illinois": {
+    "pvi": "D+6",
+    "incumbent": "Dick Durbin (retiring)",
+    "last": "54.93% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "Iowa": {
+    "pvi": "R+6",
+    "incumbent": "Joni Ernst (retiring)",
+    "last": "51.74% R",
+    "cook": "Toss-up",
+    "ie": "Toss-up",
+    "sabato": "Toss-up"
+   },
+   "Kansas": {
+    "pvi": "R+8",
+    "incumbent": "Roger Marshall",
+    "last": "53.22% R",
+    "cook": "Toss-up",
+    "ie": "Toss-up",
+    "sabato": "Toss-up"
+   },
+   "Kentucky": {
+    "pvi": "R+15",
+    "incumbent": "Mitch McConnell (retiring)",
+    "last": "57.76% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Louisiana": {
+    "pvi": "R+11",
+    "incumbent": "Bill Cassidy (lost renomination)",
+    "last": "59.32% R",
+    "cook": "Solid R",
+    "ie": "Likely R",
+    "sabato": "Likely R"
+   },
+   "Maine": {
+    "pvi": "D+4",
+    "incumbent": "Susan Collins",
+    "last": "50.98% R",
+    "cook": "Toss-up",
+    "ie": "Toss-up",
+    "sabato": "Toss-up"
+   },
+   "Massachusetts": {
+    "pvi": "D+14",
+    "incumbent": "Ed Markey",
+    "last": "66.15% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "Michigan": {
+    "pvi": "EVEN",
+    "incumbent": "Gary Peters (retiring)",
+    "last": "49.90% D",
+    "cook": "Toss-up",
+    "ie": "Tilt D",
+    "sabato": "Lean D"
+   },
+   "Minnesota": {
+    "pvi": "D+3",
+    "incumbent": "Tina Smith (retiring)",
+    "last": "48.74% D",
+    "cook": "Lean D",
+    "ie": "Lean D",
+    "sabato": "Likely D"
+   },
+   "Mississippi": {
+    "pvi": "R+11",
+    "incumbent": "Cindy Hyde-Smith",
+    "last": "54.11% R",
+    "cook": "Likely R",
+    "ie": "Likely R",
+    "sabato": "Likely R"
+   },
+   "Montana": {
+    "pvi": "R+10",
+    "incumbent": "Steve Daines (retiring)",
+    "last": "55.01% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Nebraska": {
+    "pvi": "R+10",
+    "incumbent": "Pete Ricketts",
+    "last": "62.58% R (2024 sp.)[q]",
+    "cook": "Lean R",
+    "ie": "Tilt R",
+    "sabato": "Lean R"
+   },
+   "New Hampshire": {
+    "pvi": "D+2",
+    "incumbent": "Jeanne Shaheen (retiring)",
+    "last": "56.64% D",
+    "cook": "Lean D",
+    "ie": "Tilt D",
+    "sabato": "Likely D"
+   },
+   "New Jersey": {
+    "pvi": "D+4",
+    "incumbent": "Cory Booker",
+    "last": "57.23% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "New Mexico": {
+    "pvi": "D+4",
+    "incumbent": "Ben Ray Luj\u00e1n",
+    "last": "51.73% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "North Carolina": {
+    "pvi": "R+1",
+    "incumbent": "Thom Tillis (retiring)",
+    "last": "48.69% R",
+    "cook": "Likely D (flip)",
+    "ie": "Lean D (flip)",
+    "sabato": "Likely D (flip)"
+   },
+   "Ohio (special)": {
+    "pvi": "R+5",
+    "incumbent": "Jon Husted",
+    "last": "Appointed (2025)[r]",
+    "cook": "Toss-up",
+    "ie": "Tilt D (flip)",
+    "sabato": "Toss-up"
+   },
+   "Oklahoma": {
+    "pvi": "R+17",
+    "incumbent": "Alan Armstrong (retiring)",
+    "last": "Appointed (2026)[s]",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Oregon": {
+    "pvi": "D+8",
+    "incumbent": "Jeff Merkley",
+    "last": "56.91% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "Rhode Island": {
+    "pvi": "D+8",
+    "incumbent": "Jack Reed",
+    "last": "66.48% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "South Carolina": {
+    "pvi": "R+8",
+    "incumbent": "Darline Graham",
+    "last": "Appointed (2026)[t]",
+    "cook": "Lean R",
+    "ie": "Tilt R",
+    "sabato": "Lean R"
+   },
+   "South Dakota": {
+    "pvi": "R+15",
+    "incumbent": "Mike Rounds",
+    "last": "65.74% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Tennessee": {
+    "pvi": "R+14",
+    "incumbent": "Bill Hagerty",
+    "last": "62.20% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Texas": {
+    "pvi": "R+6",
+    "incumbent": "John Cornyn (lost renomination)",
+    "last": "53.51% R",
+    "cook": "Toss-up",
+    "ie": "Tilt D (flip)",
+    "sabato": "Toss-up"
+   },
+   "Virginia": {
+    "pvi": "D+3",
+    "incumbent": "Mark Warner",
+    "last": "55.99% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "West Virginia": {
+    "pvi": "R+21",
+    "incumbent": "Shelley Moore Capito",
+    "last": "70.28% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Wyoming": {
+    "pvi": "R+23",
+    "incumbent": "Cynthia Lummis (retiring)",
+    "last": "72.85% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "_overall": {
+    "cook": "D/I - 47 R - 46 7 tossups",
+    "ie": "D/I - 50 R - 46 4 tossups",
+    "sabato": "D/I - 49 R - 46 5 tossups"
+   }
+  }
+ },
+ "house": {
+  "as_of": {
+   "cook": "Oct 30, 2026",
+   "ie": "Oct 29, 2026",
+   "sabato": "Oct 27, 2026"
+  },
+  "rows": {
+   "Alabama 2": {
+    "pvi": "R+7",
+    "incumbent": "Shomari Figures",
+    "last": "54.6% D",
+    "cook": "Lean R (flip)",
+    "ie": "Tilt R (flip)",
+    "sabato": "Toss-up"
+   },
+   "Alaska at-large": {
+    "pvi": "R+6",
+    "incumbent": "Nick Begich III",
+    "last": "51.3% R",
+    "cook": "Lean R",
+    "ie": "Likely R",
+    "sabato": "Lean R"
+   },
+   "Arizona 1": {
+    "pvi": "R+1",
+    "incumbent": "David Schweikert (retiring)",
+    "last": "51.9% R",
+    "cook": "Lean D (flip)",
+    "ie": "Tilt D (flip)",
+    "sabato": "Lean D (flip)"
+   },
+   "Arizona 2": {
+    "pvi": "R+7",
+    "incumbent": "Eli Crane",
+    "last": "54.5% R",
+    "cook": "Lean R",
+    "ie": "Lean R",
+    "sabato": "Lean R"
+   },
+   "Arizona 5": {
+    "pvi": "R+10",
+    "incumbent": "Andy Biggs (retiring)",
+    "last": "60.4% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Arizona 6": {
+    "pvi": "EVEN",
+    "incumbent": "Juan Ciscomani",
+    "last": "50.0% R",
+    "cook": "Lean D (flip)",
+    "ie": "Tilt D (flip)",
+    "sabato": "Lean D (flip)"
+   },
+   "Arizona 8": {
+    "pvi": "R+8",
+    "incumbent": "Abraham Hamadeh",
+    "last": "56.5% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Arkansas 2": {
+    "pvi": "R+8",
+    "incumbent": "French Hill",
+    "last": "58.9% R",
+    "cook": "Likely R",
+    "ie": "Likely R",
+    "sabato": "Likely R"
+   },
+   "California 5": {
+    "pvi": "R+10",
+    "incumbent": "Tom McClintock",
+    "last": "61.8% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "California 6": {
+    "pvi": "D+5",
+    "incumbent": "Kevin Kiley",
+    "last": "55.5% R[b]",
+    "cook": "Solid D (flip)",
+    "ie": "Likely D (flip)",
+    "sabato": "Likely D (flip)"
+   },
+   "California 13": {
+    "pvi": "D+2",
+    "incumbent": "Adam Gray",
+    "last": "50.0% D",
+    "cook": "Likely D",
+    "ie": "Tilt D",
+    "sabato": "Likely D"
+   },
+   "California 21": {
+    "pvi": "D+5",
+    "incumbent": "Jim Costa",
+    "last": "52.6% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Likely D"
+   },
+   "California 22": {
+    "pvi": "D+1",
+    "incumbent": "David Valadao",
+    "last": "53.4% R",
+    "cook": "Toss-up",
+    "ie": "Toss-up",
+    "sabato": "Lean D (flip)"
+   },
+   "California 45": {
+    "pvi": "D+3",
+    "incumbent": "Derek Tran",
+    "last": "50.1% D",
+    "cook": "Likely D",
+    "ie": "Solid D",
+    "sabato": "Likely D"
+   },
+   "California 48": {
+    "pvi": "D+2",
+    "incumbent": "Darrell Issa (retiring)",
+    "last": "59.3% R",
+    "cook": "Lean D (flip)",
+    "ie": "Tilt D (flip)",
+    "sabato": "Likely D (flip)"
+   },
+   "Colorado 3": {
+    "pvi": "R+5",
+    "incumbent": "Jeff Hurd",
+    "last": "50.8% R",
+    "cook": "Likely R",
+    "ie": "Likely R",
+    "sabato": "Likely R"
+   },
+   "Colorado 4": {
+    "pvi": "R+9",
+    "incumbent": "Lauren Boebert",
+    "last": "53.6% R",
+    "cook": "Lean R",
+    "ie": "Likely R",
+    "sabato": "Lean R"
+   },
+   "Colorado 5": {
+    "pvi": "R+5",
+    "incumbent": "Jeff Crank",
+    "last": "54.7% R",
+    "cook": "Toss-up",
+    "ie": "Toss-up",
+    "sabato": "Toss-up"
+   },
+   "Colorado 8": {
+    "pvi": "EVEN",
+    "incumbent": "Gabe Evans",
+    "last": "49.0% R",
+    "cook": "Lean D (flip)",
+    "ie": "Tilt D (flip)",
+    "sabato": "Lean D (flip)"
+   },
+   "Florida 2": {
+    "pvi": "R+8",
+    "incumbent": "Neal Dunn (retiring)",
+    "last": "61.6% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Florida 3": {
+    "pvi": "R+10",
+    "incumbent": "Kat Cammack",
+    "last": "61.6% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Florida 4": {
+    "pvi": "R+5",
+    "incumbent": "Aaron Bean",
+    "last": "57.3% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Florida 5": {
+    "pvi": "R+10",
+    "incumbent": "John Rutherford",
+    "last": "63.1% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Florida 7": {
+    "pvi": "R+5",
+    "incumbent": "Cory Mills (lost renomination)",
+    "last": "56.5% R",
+    "cook": "Lean R",
+    "ie": "Likely R",
+    "sabato": "Likely R"
+   },
+   "Florida 8": {
+    "pvi": "R+8",
+    "incumbent": "Mike Haridopolos",
+    "last": "62.2% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Florida 9": {
+    "pvi": "R+8",
+    "incumbent": "Darren Soto",
+    "last": "55.1% D",
+    "cook": "Lean R (flip)",
+    "ie": "Likely R (flip)",
+    "sabato": "Likely R (flip)"
+   },
+   "Florida 11": {
+    "pvi": "R+7",
+    "incumbent": "Daniel Webster (retiring)",
+    "last": "60.3% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Florida 12": {
+    "pvi": "R+7",
+    "incumbent": "Gus Bilirakis",
+    "last": "71.0% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Likely R"
+   },
+   "Florida 13": {
+    "pvi": "R+6",
+    "incumbent": "Anna Paulina Luna",
+    "last": "54.8% R",
+    "cook": "Lean R",
+    "ie": "Lean R",
+    "sabato": "Lean R"
+   },
+   "Florida 14": {
+    "pvi": "R+4",
+    "incumbent": "Kathy Castor",
+    "last": "57.0% D",
+    "cook": "Toss-up",
+    "ie": "Tilt D",
+    "sabato": "Toss-up"
+   },
+   "Florida 15": {
+    "pvi": "R+9",
+    "incumbent": "Laurel Lee",
+    "last": "56.2% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Florida 16": {
+    "pvi": "R+6",
+    "incumbent": "Vern Buchanan (retiring)",
+    "last": "59.5% R",
+    "cook": "Likely R",
+    "ie": "Likely R",
+    "sabato": "Likely R"
+   },
+   "Florida 18": {
+    "pvi": "R+8",
+    "incumbent": "Scott Franklin",
+    "last": "65.3% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Florida 21": {
+    "pvi": "R+7",
+    "incumbent": "Brian Mast",
+    "last": "61.8% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Florida 22": {
+    "pvi": "R+4",
+    "incumbent": "New seat",
+    "last": "\u2013",
+    "cook": "Toss-up",
+    "ie": "Toss-up",
+    "sabato": "Toss-up"
+   },
+   "Florida 25": {
+    "pvi": "R+3",
+    "incumbent": "Jared Moskowitz",
+    "last": "52.4% D",
+    "cook": "Lean D",
+    "ie": "Tilt D",
+    "sabato": "Lean D"
+   },
+   "Florida 26": {
+    "pvi": "R+7",
+    "incumbent": "Mario D\u00edaz-Balart",
+    "last": "70.9% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Florida 27": {
+    "pvi": "R+6",
+    "incumbent": "Mar\u00eda Elvira Salazar",
+    "last": "60.4% R",
+    "cook": "Lean R",
+    "ie": "Lean R",
+    "sabato": "Lean R"
+   },
+   "Georgia 1": {
+    "pvi": "R+8",
+    "incumbent": "Buddy Carter (retiring)",
+    "last": "62.0% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Georgia 7": {
+    "pvi": "R+11",
+    "incumbent": "Rich McCormick",
+    "last": "64.9% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Georgia 10": {
+    "pvi": "R+11",
+    "incumbent": "Mike Collins (retiring)",
+    "last": "63.1% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Georgia 11": {
+    "pvi": "R+12",
+    "incumbent": "Barry Loudermilk (retiring)",
+    "last": "65.6% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Georgia 12": {
+    "pvi": "R+7",
+    "incumbent": "Rick Allen",
+    "last": "60.3% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Indiana 1": {
+    "pvi": "D+1",
+    "incumbent": "Frank J. Mrvan",
+    "last": "53.4% D",
+    "cook": "Likely D",
+    "ie": "Likely D",
+    "sabato": "Likely D"
+   },
+   "Indiana 5": {
+    "pvi": "R+8",
+    "incumbent": "Victoria Spartz",
+    "last": "56.6% R",
+    "cook": "Lean R",
+    "ie": "Likely R",
+    "sabato": "Likely R"
+   },
+   "Iowa 1": {
+    "pvi": "R+4",
+    "incumbent": "Mariannette Miller-Meeks",
+    "last": "50.1% R",
+    "cook": "Lean D (flip)",
+    "ie": "Tilt D (flip)",
+    "sabato": "Lean D (flip)"
+   },
+   "Iowa 2": {
+    "pvi": "R+4",
+    "incumbent": "Ashley Hinson (retiring)",
+    "last": "57.1% R",
+    "cook": "Toss-up",
+    "ie": "Toss-up",
+    "sabato": "Lean D (flip)"
+   },
+   "Iowa 3": {
+    "pvi": "R+2",
+    "incumbent": "Zach Nunn",
+    "last": "51.9% R",
+    "cook": "Lean D (flip)",
+    "ie": "Tilt D (flip)",
+    "sabato": "Lean D (flip)"
+   },
+   "Kansas 2": {
+    "pvi": "R+10",
+    "incumbent": "Derek Schmidt",
+    "last": "57.1% R",
+    "cook": "Likely R",
+    "ie": "Likely R",
+    "sabato": "Likely R"
+   },
+   "Kansas 3": {
+    "pvi": "D+2",
+    "incumbent": "Sharice Davids",
+    "last": "53.4% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "Kentucky 6": {
+    "pvi": "R+7",
+    "incumbent": "Andy Barr (retiring)",
+    "last": "63.0% R",
+    "cook": "Toss-up",
+    "ie": "Toss-up",
+    "sabato": "Toss-up"
+   },
+   "Maine 2": {
+    "pvi": "R+4",
+    "incumbent": "Jared Golden (retiring)",
+    "last": "50.3% D",
+    "cook": "Lean R (flip)",
+    "ie": "Lean R (flip)",
+    "sabato": "Lean R (flip)"
+   },
+   "Maryland 1": {
+    "pvi": "R+8",
+    "incumbent": "Andy Harris",
+    "last": "59.4% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Likely R"
+   },
+   "Michigan 1": {
+    "pvi": "R+11",
+    "incumbent": "Jack Bergman",
+    "last": "59.2% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Michigan 3": {
+    "pvi": "D+4",
+    "incumbent": "Hillary Scholten",
+    "last": "53.7% D",
+    "cook": "Solid D",
+    "ie": "Likely D",
+    "sabato": "Safe D"
+   },
+   "Michigan 4": {
+    "pvi": "R+3",
+    "incumbent": "Bill Huizenga",
+    "last": "55.1% R",
+    "cook": "Toss-up",
+    "ie": "Toss-up",
+    "sabato": "Toss-up"
+   },
+   "Michigan 7": {
+    "pvi": "EVEN",
+    "incumbent": "Tom Barrett",
+    "last": "50.3% R",
+    "cook": "Toss-up",
+    "ie": "Toss-up",
+    "sabato": "Toss-up"
+   },
+   "Michigan 8": {
+    "pvi": "R+1",
+    "incumbent": "Kristen McDonald Rivet",
+    "last": "51.2% D",
+    "cook": "Likely D",
+    "ie": "Solid D",
+    "sabato": "Likely D"
+   },
+   "Michigan 10": {
+    "pvi": "R+3",
+    "incumbent": "John James (retiring)",
+    "last": "51.1% R",
+    "cook": "Toss-up",
+    "ie": "Tilt R",
+    "sabato": "Toss-up"
+   },
+   "Minnesota 1": {
+    "pvi": "R+6",
+    "incumbent": "Brad Finstad",
+    "last": "58.6% R",
+    "cook": "Lean R",
+    "ie": "Lean R",
+    "sabato": "Lean R"
+   },
+   "Minnesota 2": {
+    "pvi": "D+3",
+    "incumbent": "Angie Craig (retiring)",
+    "last": "55.6% D",
+    "cook": "Likely D",
+    "ie": "Likely D",
+    "sabato": "Likely D"
+   },
+   "Minnesota 8": {
+    "pvi": "R+7",
+    "incumbent": "Pete Stauber",
+    "last": "58.0% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Missouri 2": {
+    "pvi": "R+4",
+    "incumbent": "Ann Wagner",
+    "last": "54.5% R",
+    "cook": "Likely R",
+    "ie": "Solid R",
+    "sabato": "Toss-up"
+   },
+   "Montana 1": {
+    "pvi": "R+5",
+    "incumbent": "Ryan Zinke (retiring)",
+    "last": "52.3% R",
+    "cook": "Toss-up",
+    "ie": "Toss-up",
+    "sabato": "Toss-up"
+   },
+   "Nebraska 1": {
+    "pvi": "R+6",
+    "incumbent": "Mike Flood",
+    "last": "60.1% R",
+    "cook": "Likely R",
+    "ie": "Likely R",
+    "sabato": "Likely R"
+   },
+   "Nebraska 2": {
+    "pvi": "D+3",
+    "incumbent": "Don Bacon (retiring)",
+    "last": "50.9% R",
+    "cook": "Likely D (flip)",
+    "ie": "Lean D (flip)",
+    "sabato": "Likely D (flip)"
+   },
+   "Nevada 1": {
+    "pvi": "D+2",
+    "incumbent": "Dina Titus",
+    "last": "52.0% D",
+    "cook": "Likely D",
+    "ie": "Lean D",
+    "sabato": "Likely D"
+   },
+   "Nevada 2": {
+    "pvi": "R+7",
+    "incumbent": "Mark Amodei (retiring)",
+    "last": "55.0% R",
+    "cook": "Lean R",
+    "ie": "Tilt R",
+    "sabato": "Lean R"
+   },
+   "Nevada 3": {
+    "pvi": "D+1",
+    "incumbent": "Susie Lee",
+    "last": "51.4% D",
+    "cook": "Likely D",
+    "ie": "Lean D",
+    "sabato": "Likely D"
+   },
+   "Nevada 4": {
+    "pvi": "D+2",
+    "incumbent": "Steven Horsford",
+    "last": "52.7% D",
+    "cook": "Likely D",
+    "ie": "Likely D",
+    "sabato": "Likely D"
+   },
+   "New Hampshire 1": {
+    "pvi": "D+2",
+    "incumbent": "Chris Pappas (retiring)",
+    "last": "54.0% D",
+    "cook": "Likely D",
+    "ie": "Lean D",
+    "sabato": "Likely D"
+   },
+   "New Hampshire 2": {
+    "pvi": "D+2",
+    "incumbent": "Maggie Goodlander",
+    "last": "53.0% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Likely D"
+   },
+   "New Jersey 2": {
+    "pvi": "R+5",
+    "incumbent": "Jeff Van Drew",
+    "last": "58.0% R",
+    "cook": "Likely R",
+    "ie": "Likely R",
+    "sabato": "Likely R"
+   },
+   "New Jersey 7": {
+    "pvi": "EVEN",
+    "incumbent": "Thomas Kean Jr.",
+    "last": "51.8% R",
+    "cook": "Lean D (flip)",
+    "ie": "Tilt D (flip)",
+    "sabato": "Lean D (flip)"
+   },
+   "New Jersey 9": {
+    "pvi": "D+2",
+    "incumbent": "Nellie Pou",
+    "last": "50.8% D",
+    "cook": "Likely D",
+    "ie": "Solid D",
+    "sabato": "Likely D"
+   },
+   "New Mexico 2": {
+    "pvi": "EVEN",
+    "incumbent": "Gabe Vasquez",
+    "last": "52.1% D",
+    "cook": "Lean D",
+    "ie": "Tilt D",
+    "sabato": "Lean D"
+   },
+   "New York 1": {
+    "pvi": "R+4",
+    "incumbent": "Nick LaLota",
+    "last": "55.2% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Likely R"
+   },
+   "New York 2": {
+    "pvi": "R+6",
+    "incumbent": "Andrew Garbarino",
+    "last": "59.8% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "New York 3": {
+    "pvi": "EVEN",
+    "incumbent": "Tom Suozzi",
+    "last": "51.8% D",
+    "cook": "Likely D",
+    "ie": "Lean D",
+    "sabato": "Lean D"
+   },
+   "New York 4": {
+    "pvi": "D+2",
+    "incumbent": "Laura Gillen",
+    "last": "51.1% D",
+    "cook": "Likely D",
+    "ie": "Tilt D",
+    "sabato": "Likely D"
+   },
+   "New York 17": {
+    "pvi": "D+1",
+    "incumbent": "Mike Lawler",
+    "last": "52.2% R",
+    "cook": "Toss-up",
+    "ie": "Toss-up",
+    "sabato": "Toss-up"
+   },
+   "New York 19": {
+    "pvi": "D+1",
+    "incumbent": "Josh Riley",
+    "last": "51.1% D",
+    "cook": "Likely D",
+    "ie": "Solid D",
+    "sabato": "Likely D"
+   },
+   "New York 21": {
+    "pvi": "R+10",
+    "incumbent": "Elise Stefanik (retiring)",
+    "last": "62.1% R",
+    "cook": "Lean R",
+    "ie": "Lean R",
+    "sabato": "Lean R"
+   },
+   "New York 23": {
+    "pvi": "R+10",
+    "incumbent": "Nick Langworthy",
+    "last": "65.8% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "North Carolina 1": {
+    "pvi": "R+5",
+    "incumbent": "Don Davis",
+    "last": "49.5% D",
+    "cook": "Toss-up",
+    "ie": "Tilt D",
+    "sabato": "Lean D"
+   },
+   "North Carolina 3": {
+    "pvi": "R+6",
+    "incumbent": "Greg Murphy",
+    "last": "77.4% R",
+    "cook": "Likely R",
+    "ie": "Likely R",
+    "sabato": "Likely R"
+   },
+   "North Carolina 5": {
+    "pvi": "R+9",
+    "incumbent": "Virginia Foxx",
+    "last": "59.5% R",
+    "cook": "Likely R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "North Carolina 6": {
+    "pvi": "R+9",
+    "incumbent": "Addison McDowell",
+    "last": "69.2% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "North Carolina 7": {
+    "pvi": "R+7",
+    "incumbent": "David Rouzer",
+    "last": "58.6% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "North Carolina 8": {
+    "pvi": "R+10",
+    "incumbent": "Mark Harris",
+    "last": "59.6% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "North Carolina 9": {
+    "pvi": "R+8",
+    "incumbent": "Richard Hudson",
+    "last": "56.3% R",
+    "cook": "Likely R",
+    "ie": "Likely R",
+    "sabato": "Safe R"
+   },
+   "North Carolina 10": {
+    "pvi": "R+9",
+    "incumbent": "Pat Harrigan",
+    "last": "57.5% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "North Carolina 11": {
+    "pvi": "R+5",
+    "incumbent": "Chuck Edwards (withdrew)",
+    "last": "56.8% R",
+    "cook": "Lean D (flip)",
+    "ie": "Tilt D (flip)",
+    "sabato": "Lean D (flip)"
+   },
+   "North Carolina 13": {
+    "pvi": "R+8",
+    "incumbent": "Brad Knott",
+    "last": "58.6% R",
+    "cook": "Likely R",
+    "ie": "Likely R",
+    "sabato": "Safe R"
+   },
+   "North Carolina 14": {
+    "pvi": "R+8",
+    "incumbent": "Tim Moore",
+    "last": "58.1% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Ohio 1": {
+    "pvi": "R+1",
+    "incumbent": "Greg Landsman",
+    "last": "54.6% D",
+    "cook": "Likely D",
+    "ie": "Lean D",
+    "sabato": "Likely D"
+   },
+   "Ohio 7": {
+    "pvi": "R+5",
+    "incumbent": "Max Miller",
+    "last": "51.1% R",
+    "cook": "Toss-up",
+    "ie": "Tilt D (flip)",
+    "sabato": "Toss-up"
+   },
+   "Ohio 8": {
+    "pvi": "R+8",
+    "incumbent": "Warren Davidson",
+    "last": "62.8% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Ohio 9": {
+    "pvi": "R+5",
+    "incumbent": "Marcy Kaptur",
+    "last": "48.3% D",
+    "cook": "Lean D",
+    "ie": "Tilt D",
+    "sabato": "Toss-up"
+   },
+   "Ohio 10": {
+    "pvi": "R+4",
+    "incumbent": "Mike Turner",
+    "last": "57.6% R",
+    "cook": "Lean R",
+    "ie": "Lean R",
+    "sabato": "Lean R"
+   },
+   "Ohio 13": {
+    "pvi": "D+2",
+    "incumbent": "Emilia Sykes",
+    "last": "51.1% D",
+    "cook": "Likely D",
+    "ie": "Solid D",
+    "sabato": "Likely D"
+   },
+   "Ohio 15": {
+    "pvi": "R+5",
+    "incumbent": "Mike Carey",
+    "last": "56.5% R",
+    "cook": "Lean R",
+    "ie": "Lean R",
+    "sabato": "Lean R"
+   },
+   "Oklahoma 1": {
+    "pvi": "R+11",
+    "incumbent": "Kevin Hern (retiring)",
+    "last": "60.4% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Oklahoma 5": {
+    "pvi": "R+9",
+    "incumbent": "Stephanie Bice",
+    "last": "60.7% R",
+    "cook": "Solid R",
+    "ie": "Likely R",
+    "sabato": "Safe R"
+   },
+   "Pennsylvania 1": {
+    "pvi": "D+1",
+    "incumbent": "Brian Fitzpatrick",
+    "last": "56.4% R",
+    "cook": "Toss-up",
+    "ie": "Toss-up",
+    "sabato": "Toss-up"
+   },
+   "Pennsylvania 7": {
+    "pvi": "R+1",
+    "incumbent": "Ryan Mackenzie",
+    "last": "50.5% R",
+    "cook": "Lean D (flip)",
+    "ie": "Tilt D (flip)",
+    "sabato": "Lean D (flip)"
+   },
+   "Pennsylvania 8": {
+    "pvi": "R+4",
+    "incumbent": "Rob Bresnahan",
+    "last": "50.8% R",
+    "cook": "Lean D (flip)",
+    "ie": "Tilt D (flip)",
+    "sabato": "Lean D (flip)"
+   },
+   "Pennsylvania 10": {
+    "pvi": "R+3",
+    "incumbent": "Scott Perry",
+    "last": "50.6% R",
+    "cook": "Lean D (flip)",
+    "ie": "Tilt D (flip)",
+    "sabato": "Lean D (flip)"
+   },
+   "Pennsylvania 11": {
+    "pvi": "R+11",
+    "incumbent": "Lloyd Smucker",
+    "last": "62.9% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "South Carolina 1": {
+    "pvi": "R+6",
+    "incumbent": "Nancy Mace (retiring)",
+    "last": "58.3% R",
+    "cook": "Toss-up",
+    "ie": "Tilt R",
+    "sabato": "Lean R"
+   },
+   "South Carolina 2": {
+    "pvi": "R+7",
+    "incumbent": "Joe Wilson",
+    "last": "59.5% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "South Carolina 5": {
+    "pvi": "R+11",
+    "incumbent": "Ralph Norman (retiring)",
+    "last": "59.5% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Tennessee 5": {
+    "pvi": "R+10",
+    "incumbent": "Andy Ogles (lost renomination)",
+    "last": "56.8% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Tennessee 9": {
+    "pvi": "R+9",
+    "incumbent": "Steve Cohen (retiring)",
+    "last": "71.3% D",
+    "cook": "Solid R (flip)",
+    "ie": "Likely R (flip)",
+    "sabato": "Safe R (flip)"
+   },
+   "Texas 2": {
+    "pvi": "R+11",
+    "incumbent": "Dan Crenshaw (lost renomination)",
+    "last": "65.7% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Texas 5": {
+    "pvi": "R+10",
+    "incumbent": "Lance Gooden",
+    "last": "64.1% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Texas 9": {
+    "pvi": "R+9",
+    "incumbent": "New seat",
+    "last": "\u2013",
+    "cook": "Likely R (flip)",
+    "ie": "Lean R (flip)",
+    "sabato": "Likely R (flip)"
+   },
+   "Texas 10": {
+    "pvi": "R+10",
+    "incumbent": "Michael McCaul (retiring)",
+    "last": "63.6% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Texas 15": {
+    "pvi": "R+7",
+    "incumbent": "Monica De La Cruz",
+    "last": "57.1% R",
+    "cook": "Toss-up",
+    "ie": "Tilt D (flip)",
+    "sabato": "Lean D (flip)"
+   },
+   "Texas 21": {
+    "pvi": "R+10",
+    "incumbent": "Chip Roy (retiring)",
+    "last": "61.9% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Texas 22": {
+    "pvi": "R+11",
+    "incumbent": "Troy Nehls (retiring)",
+    "last": "62.1% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Texas 23": {
+    "pvi": "R+7",
+    "incumbent": "Vacant[c]",
+    "last": "62.3% R",
+    "cook": "Lean R",
+    "ie": "Likely R",
+    "sabato": "Lean R"
+   },
+   "Texas 24": {
+    "pvi": "R+8",
+    "incumbent": "Beth Van Duyne",
+    "last": "60.3% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Texas 27": {
+    "pvi": "R+10",
+    "incumbent": "Michael Cloud",
+    "last": "66.0% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Texas 28": {
+    "pvi": "R+3",
+    "incumbent": "Henry Cuellar",
+    "last": "52.8% D",
+    "cook": "Likely D",
+    "ie": "Lean D",
+    "sabato": "Lean D"
+   },
+   "Texas 31": {
+    "pvi": "R+11",
+    "incumbent": "John Carter",
+    "last": "64.5% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Texas 32": {
+    "pvi": "R+8",
+    "incumbent": "New seat",
+    "last": "\u2013",
+    "cook": "Solid R (flip)",
+    "ie": "Solid R (flip)",
+    "sabato": "Safe R (flip)"
+   },
+   "Texas 34": {
+    "pvi": "R+3",
+    "incumbent": "Vicente Gonzalez",
+    "last": "51.3% D",
+    "cook": "Lean D",
+    "ie": "Toss-up",
+    "sabato": "Lean D"
+   },
+   "Texas 35": {
+    "pvi": "R+4",
+    "incumbent": "New seat",
+    "last": "\u2013",
+    "cook": "Toss-up",
+    "ie": "Toss-up",
+    "sabato": "Toss-up"
+   },
+   "Texas 38": {
+    "pvi": "R+10",
+    "incumbent": "Wesley Hunt (retiring)",
+    "last": "62.7% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Virginia 1": {
+    "pvi": "R+3",
+    "incumbent": "Rob Wittman",
+    "last": "56.4% R",
+    "cook": "Toss-up",
+    "ie": "Tilt R",
+    "sabato": "Toss-up"
+   },
+   "Virginia 2": {
+    "pvi": "EVEN",
+    "incumbent": "Jen Kiggans",
+    "last": "50.8% R",
+    "cook": "Lean D (flip)",
+    "ie": "Tilt D (flip)",
+    "sabato": "Lean D (flip)"
+   },
+   "Virginia 5": {
+    "pvi": "R+6",
+    "incumbent": "John McGuire",
+    "last": "57.5% R",
+    "cook": "Likely R",
+    "ie": "Lean R",
+    "sabato": "Toss-up"
+   },
+   "Virginia 7": {
+    "pvi": "D+2",
+    "incumbent": "Eugene Vindman",
+    "last": "51.3% D",
+    "cook": "Likely D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "Washington 3": {
+    "pvi": "R+2",
+    "incumbent": "Marie Gluesenkamp Perez",
+    "last": "51.7% D",
+    "cook": "Lean D",
+    "ie": "Toss-up",
+    "sabato": "Lean D"
+   },
+   "Washington 4": {
+    "pvi": "R+10",
+    "incumbent": "Dan Newhouse (retiring)",
+    "last": "52.02% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Washington 5": {
+    "pvi": "R+5",
+    "incumbent": "Michael Baumgartner",
+    "last": "60.6% R",
+    "cook": "Likely R",
+    "ie": "Likely R",
+    "sabato": "Likely R"
+   },
+   "Wisconsin 1": {
+    "pvi": "R+2",
+    "incumbent": "Bryan Steil",
+    "last": "54.1% R",
+    "cook": "Lean R",
+    "ie": "Lean R",
+    "sabato": "Lean R"
+   },
+   "Wisconsin 3": {
+    "pvi": "R+3",
+    "incumbent": "Derrick Van Orden",
+    "last": "51.4% R",
+    "cook": "Lean D (flip)",
+    "ie": "Tilt D (flip)",
+    "sabato": "Lean D (flip)"
+   },
+   "Wisconsin 6": {
+    "pvi": "R+8",
+    "incumbent": "Glenn Grothman",
+    "last": "61.2% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Wisconsin 7": {
+    "pvi": "R+11",
+    "incumbent": "Tom Tiffany (retiring)",
+    "last": "63.6% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Wisconsin 8": {
+    "pvi": "R+8",
+    "incumbent": "Tony Wied",
+    "last": "57.3% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Wyoming at-large": {
+    "pvi": "R+23",
+    "incumbent": "Harriet Hageman (retiring)",
+    "last": "70.6% R",
+    "cook": "Solid R",
+    "ie": "Likely R",
+    "sabato": "Safe R"
+   },
+   "_overall": {
+    "cook": "D \u2013 222 R \u2013 195 18 tossups",
+    "ie": "D \u2013 224 R \u2013 198 13 tossups",
+    "sabato": "D \u2013 225 R \u2013 193 17 tossups"
+   }
+  }
+ },
+ "governor": {
+  "as_of": {
+   "cook": "Oct 29, 2026",
+   "ie": "Oct 29, 2026",
+   "sabato": "Oct 27, 2026"
+  },
+  "rows": {
+   "Alabama": {
+    "pvi": "R+15",
+    "incumbent": "Kay Ivey (term-limited)",
+    "last": "66.91% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Likely R"
+   },
+   "Alaska": {
+    "pvi": "R+6",
+    "incumbent": "Mike Dunleavy (term-limited)",
+    "last": "50.29% R",
+    "cook": "Lean D (flip)",
+    "ie": "Tilt D (flip)",
+    "sabato": "Lean D (flip)"
+   },
+   "Arizona": {
+    "pvi": "R+2",
+    "incumbent": "Katie Hobbs",
+    "last": "50.32% D",
+    "cook": "Likely D",
+    "ie": "Tilt D",
+    "sabato": "Likely D"
+   },
+   "Arkansas": {
+    "pvi": "R+15",
+    "incumbent": "Sarah Huckabee Sanders",
+    "last": "62.96% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "California": {
+    "pvi": "D+12",
+    "incumbent": "Gavin Newsom (term-limited)",
+    "last": "59.18% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "Colorado": {
+    "pvi": "D+6",
+    "incumbent": "Jared Polis (term-limited)",
+    "last": "58.53% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "Connecticut": {
+    "pvi": "D+8",
+    "incumbent": "Ned Lamont",
+    "last": "55.97% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "Florida": {
+    "pvi": "R+5",
+    "incumbent": "Ron DeSantis (term-limited)",
+    "last": "59.37% R",
+    "cook": "Lean R",
+    "ie": "Lean R",
+    "sabato": "Lean R"
+   },
+   "Georgia": {
+    "pvi": "R+1",
+    "incumbent": "Brian Kemp (term-limited)",
+    "last": "53.41% R",
+    "cook": "Toss-up",
+    "ie": "Tilt D (flip)",
+    "sabato": "Toss-up"
+   },
+   "Hawaii": {
+    "pvi": "D+13",
+    "incumbent": "Josh Green",
+    "last": "63.21% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "Idaho": {
+    "pvi": "R+18",
+    "incumbent": "Brad Little",
+    "last": "60.52% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Illinois": {
+    "pvi": "D+6",
+    "incumbent": "JB Pritzker",
+    "last": "54.91% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "Iowa": {
+    "pvi": "R+6",
+    "incumbent": "Kim Reynolds (retiring)",
+    "last": "58.04% R",
+    "cook": "Lean D (flip)",
+    "ie": "Lean D (flip)",
+    "sabato": "Lean D (flip)"
+   },
+   "Kansas": {
+    "pvi": "R+8",
+    "incumbent": "Laura Kelly (term-limited)",
+    "last": "49.54% D",
+    "cook": "Toss-up",
+    "ie": "Tilt R (flip)",
+    "sabato": "Lean R (flip)"
+   },
+   "Maine": {
+    "pvi": "D+4",
+    "incumbent": "Janet Mills (term-limited)",
+    "last": "55.69% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Likely D"
+   },
+   "Maryland": {
+    "pvi": "D+15",
+    "incumbent": "Wes Moore",
+    "last": "64.53% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "Massachusetts": {
+    "pvi": "D+14",
+    "incumbent": "Maura Healey",
+    "last": "63.74% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "Michigan": {
+    "pvi": "EVEN",
+    "incumbent": "Gretchen Whitmer (term-limited)",
+    "last": "54.47% D",
+    "cook": "Lean D",
+    "ie": "Lean D",
+    "sabato": "Likely D"
+   },
+   "Minnesota": {
+    "pvi": "D+3",
+    "incumbent": "Tim Walz (retiring)",
+    "last": "52.27% DFL",
+    "cook": "Solid D",
+    "ie": "Likely D",
+    "sabato": "Safe D"
+   },
+   "Nebraska": {
+    "pvi": "R+10",
+    "incumbent": "Jim Pillen",
+    "last": "59.74% R",
+    "cook": "Lean R",
+    "ie": "Likely R",
+    "sabato": "Likely R"
+   },
+   "Nevada": {
+    "pvi": "R+1",
+    "incumbent": "Joe Lombardo",
+    "last": "48.81% R",
+    "cook": "Toss-up",
+    "ie": "Toss-up",
+    "sabato": "Toss-up"
+   },
+   "New Hampshire": {
+    "pvi": "D+2",
+    "incumbent": "Kelly Ayotte",
+    "last": "53.64% R",
+    "cook": "Likely R",
+    "ie": "Solid R",
+    "sabato": "Likely R"
+   },
+   "New Mexico": {
+    "pvi": "D+4",
+    "incumbent": "Michelle Lujan Grisham (term-limited)",
+    "last": "51.97% D",
+    "cook": "Solid D",
+    "ie": "Likely D",
+    "sabato": "Safe D"
+   },
+   "New York": {
+    "pvi": "D+8",
+    "incumbent": "Kathy Hochul",
+    "last": "53.12% D",
+    "cook": "Solid D",
+    "ie": "Likely D",
+    "sabato": "Safe D"
+   },
+   "Ohio": {
+    "pvi": "R+5",
+    "incumbent": "Mike DeWine (term-limited)",
+    "last": "62.41% R",
+    "cook": "Lean D (flip)",
+    "ie": "Tilt D (flip)",
+    "sabato": "Lean D (flip)"
+   },
+   "Oklahoma": {
+    "pvi": "R+17",
+    "incumbent": "Kevin Stitt (term-limited)",
+    "last": "55.45% R",
+    "cook": "Likely R",
+    "ie": "Likely R",
+    "sabato": "Likely R"
+   },
+   "Oregon": {
+    "pvi": "D+8",
+    "incumbent": "Tina Kotek",
+    "last": "46.96% D",
+    "cook": "Lean D",
+    "ie": "Tilt D",
+    "sabato": "Lean D"
+   },
+   "Pennsylvania": {
+    "pvi": "R+1",
+    "incumbent": "Josh Shapiro",
+    "last": "56.49% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "Rhode Island": {
+    "pvi": "D+8",
+    "incumbent": "Dan McKee (lost renomination)",
+    "last": "57.92% D",
+    "cook": "Solid D",
+    "ie": "Solid D",
+    "sabato": "Safe D"
+   },
+   "South Carolina": {
+    "pvi": "R+8",
+    "incumbent": "Henry McMaster (term-limited)",
+    "last": "58.04% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "South Dakota": {
+    "pvi": "R+15",
+    "incumbent": "Larry Rhoden",
+    "last": "61.98% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Tennessee": {
+    "pvi": "R+14",
+    "incumbent": "Bill Lee (term-limited)",
+    "last": "64.91% R",
+    "cook": "Solid R",
+    "ie": "Likely R",
+    "sabato": "Safe R"
+   },
+   "Texas": {
+    "pvi": "R+6",
+    "incumbent": "Greg Abbott",
+    "last": "54.76% R",
+    "cook": "Lean R",
+    "ie": "Tilt R",
+    "sabato": "Lean R"
+   },
+   "Vermont": {
+    "pvi": "D+17",
+    "incumbent": "Phil Scott",
+    "last": "73.43% R",
+    "cook": "Likely R",
+    "ie": "Likely R",
+    "sabato": "Lean R"
+   },
+   "Wisconsin": {
+    "pvi": "EVEN",
+    "incumbent": "Tony Evers (retiring)",
+    "last": "51.15% D",
+    "cook": "Lean D",
+    "ie": "Tilt D",
+    "sabato": "Lean D"
+   },
+   "Wyoming": {
+    "pvi": "R+23",
+    "incumbent": "Mark Gordon (term-limited)",
+    "last": "74.07% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "_overall": {
+    "cook": "D - 26 R - 21 3 tossups",
+    "ie": "D - 27 R - 22 1 tossup",
+    "sabato": "D - 26 R - 22 2 tossups"
+   }
+  }
+ }
+}
