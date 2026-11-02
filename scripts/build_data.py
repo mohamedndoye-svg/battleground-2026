@@ -111,7 +111,7 @@ SENATE = [
      [('Roy Cooper', 'D'), ('Michael Whatley', 'R')], ()),
     ('OH', 'Ohio (special)', '2026_United_States_Senate_special_election_in_Ohio', '2026_United_States_Senate_special_election_in_Ohio', 'Brown', 'Husted', 'Jon Husted (appointed)', 'R', False,
      [('Sherrod Brown', 'D'), ('Jon Husted', 'R', True)], ()),
-    ('SC', 'South Carolina', '2026_United_States_Senate_election_in_South_Carolina', 'sen_South_Carolina', 'Andrews', 'Graham', 'Darline Graham (appointed)', 'R', False,
+    ('SC', 'South Carolina', '2026_United_States_Senate_election_in_South_Carolina', 'sen_South_Carolina', 'Andrews', 'Darline Graham', 'Darline Graham (appointed)', 'R', False,
      [('Annie Andrews', 'D'), ('Darline Graham', 'R', True)], ()),
     ('TX', 'Texas', '2026_United_States_Senate_election_in_Texas', 'sen_Texas', 'Talarico', 'Paxton', 'John Cornyn (lost renomination)', 'R', True,
      [('James Talarico', 'D'), ('Ken Paxton', 'R'), ('Ted Brown', 'L')], ()),

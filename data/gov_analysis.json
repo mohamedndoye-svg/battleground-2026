@@ -1,5 +1,5 @@
 {
- "as_of": "Oct 30, 2026",
+ "as_of": "Nov 1, 2026",
  "note": "Hand-written analysis drawn only from the ratings, polls and 2024 results stored for each race. Describes the state of the race; not a forecast. Edit freely, then rebuild.",
  "races": {
   "Georgia": {
@@ -13,7 +13,7 @@
   "Iowa": {
    "headline": "An open Republican seat where the Democrat has led steadily and sits above 50%.",
    "body": [
-    "Rob Sand leads Zach Lahn by 5.5 to 6.9 points across all four averages (mean: Sand +6.2), and his share is 50.7–51.0% in every one. All five of the latest polls have him ahead, including two from the Republican firm co/efficient (Sand +4 and +5).",
+    "Rob Sand leads Zach Lahn by 5.8 to 6.7 points across all four averages (mean: Sand +6.3), and his share is 51.2–51.6% in every one. All five of the latest polls have him ahead: the final Times/Siena poll by 8, YouGov by 7, and the Republican firm co/efficient by 5.",
     "That's a big gap from 2024, when Trump won Iowa by 13.2 points: about a 19-point difference. All three raters list it as Lean D, a flip from the retiring Republican Kim Reynolds. An independent, Sondra Wilson, is also on the ballot."
    ],
    "watch": "Whether Sand's lead holds in the rural counties Trump won easily. The polls show a statewide lead; they don't show where it comes from."
@@ -29,7 +29,7 @@
   "Kansas": {
    "headline": "A Democratic seat leaning toward a Republican flip, with mixed recent polling.",
    "body": [
-    "Ty Masterson leads Cindy Holscher by 1.5 to 3.2 points in the averages (mean: Masterson +2.2). The most recent polls disagree sharply: Emerson (Oct 26–28) and SSRS have Masterson +4 and +5, while The Washington Post/SSPG (Oct 22–26) has Holscher +6.",
+    "Ty Masterson leads Cindy Holscher by 1.4 to 2.9 points in the averages (mean: Masterson +2.0). The latest polls point in different directions: the final Times/Siena poll (Oct 27–Nov 1) has Holscher up 1 and The Washington Post/SSPG had her up 6, while Emerson and SSRS have Masterson up 5 and YouGov up 1.",
     "Laura Kelly (D) is term-limited. The raters differ: Cook says Toss-up, Inside Elections Tilt R, and Sabato Lean R. Trump won Kansas by 16.1 points, so even a narrow Masterson win would leave the race far closer than the presidential vote."
    ],
    "watch": "Johnson County (suburban Kansas City), where Democrats have needed big margins to win statewide."
@@ -37,15 +37,15 @@
   "Ohio": {
    "headline": "An open Republican seat where the Democrat holds a small but consistent lead.",
    "body": [
-    "Amy Acton leads Vivek Ramaswamy by 2.0 to 4.3 points across the four averages (mean: Acton +3.0). Four of the five latest polls have her ahead. The exception is Echelon Insights, a Republican firm (Ramaswamy +2).",
-    "All three raters list it as a lean or tilt flip to Democrats. Trump won Ohio by 11.2 points in 2024. Acton's share is below 50% in every average (47.6–48.6%), and a Libertarian is on the ballot, so the race is close enough that a small polling miss could change the result."
+    "Amy Acton leads Vivek Ramaswamy by 2.2 to 4.5 points across the four averages (mean: Acton +3.2). All five of the latest polls have her ahead, including the final Times/Siena poll (Acton +6) and InsiderAdvantage, a Republican firm (Acton +3).",
+    "All three raters list it as a lean or tilt flip to Democrats. Trump won Ohio by 11.2 points in 2024. Acton's share is 48.4–49.3%, just under 50%, and a Libertarian is on the ballot, so a small polling miss could still change the result."
    ],
-   "watch": "The Senate special election (Brown v. Husted) on the same ballot: both Democrats are running about 3 points ahead."
+   "watch": "The Senate special election (Brown v. Husted) on the same ballot, where Brown leads by about 2 points in the averages."
   },
   "Texas": {
    "headline": "Abbott leads, but by far less than Trump's 2024 margin.",
    "body": [
-    "Greg Abbott leads Gina Hinojosa by 2.2 to 3.7 points (mean: Abbott +2.9), with his share at 49.1–50.3%. Four of the five latest polls have him ahead; YouGov Blue, a Democratic firm, has Hinojosa +3. The averages count 60 polls, the most of any governor's race here.",
+    "Greg Abbott leads Gina Hinojosa by 2.2 to 3.3 points (mean: Abbott +2.6), with his share at 49.3–50.2%. The final Times/Siena poll (Oct 27–Nov 1) is the exception, with Hinojosa up 1; the other four latest polls have Abbott up 1 to 5.",
     "Trump carried Texas by 13.7 points, so this is about an 11-point gap from 2024. Cook and Sabato say Lean R, Inside Elections Tilt R. The Senate race on the same ballot (Talarico v. Paxton) leans the other way in its averages."
    ],
    "watch": "Whether many voters split their tickets: Abbott ahead for governor while Talarico leads for Senate."
@@ -53,7 +53,7 @@
   "Florida": {
    "headline": "The Republican is ahead in an open seat, though by less than recent Florida results.",
    "body": [
-    "Byron Donalds leads David Jolly, a former Republican congressman now running as a Democrat, by 4.9 to 5.5 points (mean: Donalds +5.2), and the four averages agree closely. Four of the five latest polls favor Donalds; Workbench Strategy, a Democratic firm, has Jolly +2.",
+    "Byron Donalds leads David Jolly, a former Republican congressman now running as a Democrat, by 3.8 to 4.6 points (mean: Donalds +4.3), a little closer than a week ago. All five of the latest polls favor Donalds, by 1 to 6 points; the most recent Times/Siena poll (Oct 19–25) had him up 4.",
     "All three raters list it as Lean R. Trump won Florida by 13.1 points in 2024, and DeSantis won 59.4% of the vote in 2022."
    ],
    "watch": "Miami-Dade, which swung sharply right in 2022 and 2024."
@@ -61,10 +61,10 @@
   "Michigan": {
    "headline": "An open Democratic seat where the Democrat holds a comfortable lead.",
    "body": [
-    "Jocelyn Benson leads John James by 7.6 to 8.6 points across all four averages (mean: Benson +8.0), and all five of the latest polls have her ahead, by 5 to 12 points.",
+    "Jocelyn Benson leads John James by 7.6 to 8.4 points across all four averages (mean: Benson +8.1), and all five of the latest polls have her ahead, from 4 points (Data for Progress) to 13 (the final Times/Siena poll, Oct 23–Nov 1).",
     "Gretchen Whitmer is term-limited. Cook and Inside Elections say Lean D, Sabato Likely D. Trump won Michigan by 1.4 points in 2024, so this is roughly a 9-point gap from that result."
    ],
-   "watch": "Whether Benson's margin is close to Abdul El-Sayed's in the Senate race; the Senate averages show him about 4 points ahead."
+   "watch": "Whether Benson's margin is close to Abdul El-Sayed's in the Senate race; the Senate averages show him about 5 points ahead."
   },
   "Wisconsin": {
    "headline": "An open Democratic seat, with the Democrat ahead in every average.",
@@ -77,7 +77,7 @@
   "Alaska": {
    "headline": "The Democrat leads first choices by about 20 points, but the ranked-choice count is much closer.",
    "body": [
-    "Jonathan Kreiss-Tomkins gets 46–50% of first choices against three Republicans, with Bernadette Wilson the strongest at 27–30%. Alaska elects governors by ranked-choice voting, so most Republican votes would transfer. In Alaska Survey Research's three-round simulation (Oct 23–25), Kreiss-Tomkins finishes 53–47.",
+    "Jonathan Kreiss-Tomkins gets 42–50% of first choices against three Republicans, with Bernadette Wilson the strongest at 25–30%; the final Times/Siena poll (Oct 23–30) has 42% to 25%. Alaska elects governors by ranked-choice voting, so most Republican votes would transfer. In Alaska Survey Research's three-round simulation (Oct 23–25), Kreiss-Tomkins finishes 53–47.",
     "No polling average is published. All three raters call it a Democratic flip (Lean D or Tilt D) of the seat Mike Dunleavy (R) is leaving. Trump won Alaska by 13.1 points."
    ],
    "watch": "Ranked-choice tabulation happens after all ballots arrive, about two weeks after Election Day, so first-round counts on election night won't settle the race."
@@ -85,7 +85,7 @@
   "Arizona": {
    "headline": "The incumbent Democrat is ahead, but the averages disagree on by how much.",
    "body": [
-    "Katie Hobbs leads Andy Biggs in every average, but they range from 6.8 to 11.4 points (mean: Hobbs +9.1). Of the five latest polls, two show her up 13–17 and three show a 5–6 point race, including Noble Predictive Insights (Oct 26–28: Hobbs +6).",
+    "Katie Hobbs leads Andy Biggs in every average, but they range from 6.8 to 11.4 points (mean: Hobbs +9.1). The five latest polls are tighter than the high end: four show a 5–6 point race, including GrayHouse, a Republican firm (Oct 28–29: Hobbs +5), and Noble Predictive Insights (Oct 26–28: Hobbs +6); one, HighGround (Oct 21–25), has her up 13.",
     "Cook and Sabato say Likely D; Inside Elections says only Tilt D. Trump won Arizona by 5.5 points in 2024. Hobbs's share is 49–51% depending on the average."
    ],
    "watch": "Maricopa County's late-counted early ballots, which usually take several days."
@@ -93,7 +93,7 @@
   "Nebraska": {
    "headline": "The Republican incumbent leads, but with low support for an incumbent.",
    "body": [
-    "Jim Pillen leads Lynne Walz by 3.5 to 4.2 points (mean: Pillen +3.8), but his share is only 44.2–44.5%. Brett Lindstrom, a former Republican state senator, is running on the America First line and accounts for much of the remaining vote. Recent polls range from Pillen +7 to Walz +3, depending largely on whether a Republican or Democratic firm ran them.",
+    "Jim Pillen leads Lynne Walz by 5.4 to 6.4 points (mean: Pillen +6.0), up from about 4 points a week ago, but his share is still only 47.4–48.2%. The final Times/Siena poll (Oct 23–29) has him ahead 53–40; YouGov (Oct 26–29) has a 3-point race, and a Democratic firm, Concord, had Walz +3 in mid-October. Brett Lindstrom, a former Republican state senator, is running on the America First line and takes much of the remaining vote.",
     "Cook says Lean R; Inside Elections and Sabato say Likely R. Trump won Nebraska by 20.5 points."
    ],
    "watch": "Lindstrom's vote share, and which major-party candidate it costs more."

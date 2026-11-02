@@ -172,6 +172,9 @@ details[open] summary { margin-bottom: 6px }
 .pick button[aria-pressed="true"].I { background: var(--ind); color: #fff }
 .pick button[aria-pressed="true"].U { background: var(--ink-3); color: var(--surface) }
 .nodata { color: var(--ink-3); font-style: italic }
+.chip.ts-chip { background: var(--ink); color: var(--surface) }
+tr.ts td { background: var(--sunk) }
+.ts-pin { margin: 0 }
 
 /* georgia */
 .rules { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 12px }
@@ -277,6 +280,11 @@ function meterHTML(m, moe, demParty) {
   const moeBox = moe ? `<span class="moe" style="left:${50 - Math.min(moe, cap) / cap * 50}%;width:${Math.min(moe, cap) / cap * 100}%"></span>` : '';
   return `<div class="meter" role="img" aria-label="Margin ${esc(String(m))} points">${moeBox}<span class="fill" style="left:${left}%;width:${Math.max(w, 1)}%;background:${color}"></span><span class="zero"></span></div>`;
 }
+const isTS = x => /New York Times|Siena/.test(x.pollster || '');
+function tsPinned(ts, main) {
+  if (!ts) return '';
+  return `<p class="small ts-pin"><span class="chip ts-chip">Latest Times/Siena</span> ${link(ts.cite, shortDate(ts.dates))}: ${esc(main.dem_side || 'D')} ${ts.dem}, ${esc(main.rep_side || 'R')} ${ts.rep} (${esc(marginLabel(ts.margin, main))}) · ${ts.n ? fmtN(ts.n) : '—'} ${esc(ts.pop || '')} · ±${ts.moe ?? '—'}${ts.in_recent ? '' : ' <span class="tiny muted">(older than the five most recent polls)</span>'}</p>`;
+}
 function pollingHTML(race) {
   const p = race.polling || {}, main = race.main || {};
   const avgs = p.averages || [], polls = p.polls || [];
@@ -287,10 +295,11 @@ function pollingHTML(race) {
   const avgRows = avgs.length ? `<div class="tscroll"><table><thead><tr><th>Average</th><th class="r">Margin</th><th>Updated</th></tr></thead><tbody>${avgs.map(a => `<tr><td>${link(a.cite, a.source)}</td><td class="r num">${esc(marginLabel(a.margin, main) ?? '—')}</td><td class="small">${esc(shortDate(a.updated))}</td></tr>`).join('')}</tbody></table></div>`
     : '';
   const hasRCP = avgs.some(a => /RealClear/.test(a.source));
-  const pollRows = polls.length ? `<div class="tscroll"><table><thead><tr><th>Pollster</th><th>Dates</th><th class="r">n</th><th class="r">MoE</th><th class="r">${esc(main.dem_side || 'D')}</th><th class="r">${esc(main.rep_side || 'R')}</th><th class="r">Margin</th></tr></thead><tbody>${polls.map(x => `<tr><td>${link(x.cite, x.pollster)}${x.partisan ? ` <span class="tiny muted">(${esc(x.partisan)})</span>` : ''}</td><td class="small">${esc(shortDate(x.dates))}</td><td class="r num">${x.n ? fmtN(x.n) : '—'}${x.pop ? ` ${esc(x.pop)}` : ''}</td><td class="r num">${x.moe != null ? '±' + x.moe : '—'}</td><td class="r num">${x.dem}</td><td class="r num">${x.rep}</td><td class="r num">${esc(marginLabel(x.margin, main))}</td></tr>`).join('')}</tbody></table></div>`
+  const pollRows = polls.length ? `<div class="tscroll"><table><thead><tr><th>Pollster</th><th>Dates</th><th class="r">n</th><th class="r">MoE</th><th class="r">${esc(main.dem_side || 'D')}</th><th class="r">${esc(main.rep_side || 'R')}</th><th class="r">Margin</th></tr></thead><tbody>${polls.map(x => `<tr class="${isTS(x) ? 'ts' : ''}"><td>${link(x.cite, x.pollster)}${x.partisan ? ` <span class="tiny muted">(${esc(x.partisan)})</span>` : ''}${isTS(x) ? ' <span class="chip ts-chip">Times/Siena</span>' : ''}</td><td class="small">${esc(shortDate(x.dates))}</td><td class="r num">${x.n ? fmtN(x.n) : '—'}${x.pop ? ` ${esc(x.pop)}` : ''}</td><td class="r num">${x.moe != null ? '±' + x.moe : '—'}</td><td class="r num">${x.dem}</td><td class="r num">${x.rep}</td><td class="r num">${esc(marginLabel(x.margin, main))}</td></tr>`).join('')}</tbody></table></div>`
     : `<p class="nodata small">Recent polls: no data${p.page ? ` on ${link(p.page, 'the race page')}` : ''}.</p>`;
   return `<div class="avg">${head}${meterHTML(race.consensus ?? polls[0]?.margin ?? null, mi?.moe, main.dem_party)}
     ${avgRows}${avgs.length && !hasRCP ? '<p class="tiny muted">RealClearPolling: no data (blocks automated access and not reported for this race).</p>' : ''}
+    ${tsPinned(p.times_siena, main)}
     <details${race.chamber === 'senate' || race.office ? ' open' : ''}><summary>${polls.length ? `${polls.length} most recent polls` : 'Recent polls'}${p.poll_count ? ` <span class="muted small">of ${p.poll_count} listed</span>` : ''}</summary>${pollRows}</details></div>`;
 }
 function candsHTML(cands) {

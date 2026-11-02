@@ -168,6 +168,10 @@ def parse(path, page_url, fetched_at, dem, rep, extra_cols=()):
         rows.sort(key=lambda x: x['end'] or '', reverse=True)
         out['polls'] = rows[:5]
         out['poll_count'] = len(rows)
+        # always surface the latest New York Times/Siena poll, even when it isn't among the five most recent
+        ts = next((r for r in rows if re.search(r'New York Times|Siena', r['pollster'])), None)
+        if ts:
+            out['times_siena'] = {**ts, 'in_recent': ts in out['polls']}
     return out
 
 

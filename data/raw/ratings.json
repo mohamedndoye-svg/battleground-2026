@@ -556,6 +556,14 @@
     "ie": "Likely R",
     "sabato": "Likely R"
    },
+   "Florida 17": {
+    "pvi": "R+10",
+    "incumbent": "Greg Steube",
+    "last": "63.9% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
    "Florida 18": {
     "pvi": "R+8",
     "incumbent": "Scott Franklin",
@@ -691,14 +699,6 @@
     "cook": "Likely R",
     "ie": "Likely R",
     "sabato": "Likely R"
-   },
-   "Kansas 3": {
-    "pvi": "D+2",
-    "incumbent": "Sharice Davids",
-    "last": "53.4% D",
-    "cook": "Solid D",
-    "ie": "Solid D",
-    "sabato": "Safe D"
    },
    "Kentucky 6": {
     "pvi": "R+7",
@@ -1172,6 +1172,14 @@
     "ie": "Solid R",
     "sabato": "Safe R"
    },
+   "Pennsylvania 16": {
+    "pvi": "R+11",
+    "incumbent": "Mike Kelly",
+    "last": "63.7% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
    "South Carolina 1": {
     "pvi": "R+6",
     "incumbent": "Nancy Mace (retiring)",
@@ -1200,6 +1208,14 @@
     "pvi": "R+10",
     "incumbent": "Andy Ogles (lost renomination)",
     "last": "56.8% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
+   },
+   "Tennessee 7": {
+    "pvi": "R+11",
+    "incumbent": "Matt Van Epps",
+    "last": "59.5% R",
     "cook": "Solid R",
     "ie": "Solid R",
     "sabato": "Safe R"
@@ -1251,6 +1267,14 @@
     "cook": "Toss-up",
     "ie": "Tilt D (flip)",
     "sabato": "Lean D (flip)"
+   },
+   "Texas 17": {
+    "pvi": "R+10",
+    "incumbent": "Pete Sessions",
+    "last": "66.4% R",
+    "cook": "Solid R",
+    "ie": "Solid R",
+    "sabato": "Safe R"
    },
    "Texas 21": {
     "pvi": "R+10",
