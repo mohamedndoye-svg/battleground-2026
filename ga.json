@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T03:23:58Z",
+ "generated_at": "2026-11-03T21:52:18Z",
  "statewide": [
   {
    "id": "GA-U-S-Senate",
@@ -23,64 +23,64 @@
    },
    "note": "Jon Ossoff (D) is running for re-election",
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
-   "fetched_at": "2026-11-03T03:21:51Z",
+   "fetched_at": "2026-11-03T21:47:27Z",
    "ratings": {
     "cook": {
      "rating": "Likely D",
-     "as_of": "October 30, 2026",
+     "as_of": "November 2, 2026",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia#Predictions",
-     "fetched_at": "2026-11-03T03:21:51Z"
+     "fetched_at": "2026-11-03T21:47:27Z"
     },
     "ie": {
      "rating": "Likely D",
      "as_of": "October 29, 2026",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia#Predictions",
-     "fetched_at": "2026-11-03T03:21:51Z"
+     "fetched_at": "2026-11-03T21:47:27Z"
     },
     "sabato": {
      "rating": "Likely D",
-     "as_of": "October 29, 2026",
+     "as_of": "November 2, 2026",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia#Predictions",
-     "fetched_at": "2026-11-03T03:21:51Z"
+     "fetched_at": "2026-11-03T21:47:27Z"
     }
    },
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
-    "fetched_at": "2026-11-03T03:21:51Z",
+    "fetched_at": "2026-11-03T21:47:27Z",
     "averages": [
      {
       "source": "270toWin",
-      "dates": "September 15 – October 20, 2026",
-      "updated": "October 21, 2026",
-      "dem": 52.0,
-      "rep": 43.6,
-      "margin": 8.4,
+      "dates": "October 6 – November 2, 2026",
+      "updated": "November 2, 2026",
+      "dem": 54.0,
+      "rep": 44.4,
+      "margin": 9.6,
       "cite": "https://www.270towin.com/2026-senate-polls/georgia"
      },
      {
       "source": "Decision Desk HQ",
-      "dates": "through October 20, 2026",
-      "updated": "October 21, 2026",
-      "dem": 51.5,
-      "rep": 43.7,
-      "margin": 7.8,
+      "dates": "through November 2, 2026",
+      "updated": "November 2, 2026",
+      "dem": 53.1,
+      "rep": 43.3,
+      "margin": 9.8,
       "cite": "https://votes.decisiondeskhq.com/races/2026-11-03/georgia-us-senate-general-election/polling"
      },
      {
       "source": "FiftyPlusOne",
-      "dates": "through October 20, 2026",
-      "updated": "October 21, 2026",
-      "dem": 51.7,
-      "rep": 43.1,
-      "margin": 8.6,
+      "dates": "through November 2, 2026",
+      "updated": "November 3, 2026",
+      "dem": 52.5,
+      "rep": 42.9,
+      "margin": 9.6,
       "cite": "https://fiftyplusone.news/polls/senate/general/georgia"
      },
      {
       "source": "RealClearPolitics",
-      "dates": "September 15 – October 17, 2026",
-      "updated": "October 20, 2026",
-      "dem": 52.0,
-      "rep": 43.4,
+      "dates": "September 15 – November 2, 2026",
+      "updated": "November 2, 2026",
+      "dem": 51.9,
+      "rep": 43.3,
       "margin": 8.6,
       "cite": "https://www.realclearpolling.com/polls/senate/general/2026/georgia/ossoff-vs-collins"
      }
@@ -155,7 +155,7 @@
     "poll_count": 24,
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
    },
-   "consensus": 8.3
+   "consensus": 9.4
   },
   {
    "id": "GA-Governor",
@@ -179,30 +179,30 @@
    },
    "note": "Open: Brian Kemp (R) is term-limited. Libertarian Chase Oliver withdrew.",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election",
-   "fetched_at": "2026-11-03T03:21:55Z",
+   "fetched_at": "2026-11-03T21:47:30Z",
    "ratings": {
     "cook": {
      "rating": "Toss-up",
      "as_of": "October 29, 2026",
      "via": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election#Predictions",
-     "fetched_at": "2026-11-03T03:21:55Z"
+     "fetched_at": "2026-11-03T21:47:30Z"
     },
     "ie": {
      "rating": "Tilt D (flip)",
      "as_of": "October 29, 2026",
      "via": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election#Predictions",
-     "fetched_at": "2026-11-03T03:21:55Z"
+     "fetched_at": "2026-11-03T21:47:30Z"
     },
     "sabato": {
      "rating": "Lean D (flip)",
      "as_of": "November 2, 2026",
      "via": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election#Predictions",
-     "fetched_at": "2026-11-03T03:21:55Z"
+     "fetched_at": "2026-11-03T21:47:30Z"
     }
    },
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election",
-    "fetched_at": "2026-11-03T03:21:55Z",
+    "fetched_at": "2026-11-03T21:47:30Z",
     "averages": [
      {
       "source": "270toWin",
@@ -335,11 +335,11 @@
    },
    "note": "Open seat",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_lieutenant_gubernatorial_election",
-   "fetched_at": "2026-11-03T03:21:58Z",
+   "fetched_at": "2026-11-03T21:47:58Z",
    "ratings": {},
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_lieutenant_gubernatorial_election",
-    "fetched_at": "2026-11-03T03:21:58Z",
+    "fetched_at": "2026-11-03T21:47:58Z",
     "averages": [],
     "polls": [
      {
@@ -396,18 +396,18 @@
    },
    "note": "Open: Brad Raffensperger (R) ran for governor",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_Secretary_of_State_election",
-   "fetched_at": "2026-11-03T03:22:02Z",
+   "fetched_at": "2026-11-03T21:48:02Z",
    "ratings": {
     "sabato": {
      "rating": "Toss-up",
      "as_of": "October 29, 2026",
      "via": "https://en.wikipedia.org/wiki/2026_Georgia_Secretary_of_State_election#Predictions",
-     "fetched_at": "2026-11-03T03:22:02Z"
+     "fetched_at": "2026-11-03T21:48:02Z"
     }
    },
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_Secretary_of_State_election",
-    "fetched_at": "2026-11-03T03:22:02Z",
+    "fetched_at": "2026-11-03T21:48:02Z",
     "averages": [],
     "polls": [],
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
@@ -436,18 +436,18 @@
    },
    "note": "Open: Chris Carr (R) ran for governor",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_Attorney_General_election",
-   "fetched_at": "2026-11-03T03:22:05Z",
+   "fetched_at": "2026-11-03T21:52:17Z",
    "ratings": {
     "sabato": {
      "rating": "Toss-up",
      "as_of": "October 29, 2026",
      "via": "https://en.wikipedia.org/wiki/2026_Georgia_Attorney_General_election#Predictions",
-     "fetched_at": "2026-11-03T03:22:05Z"
+     "fetched_at": "2026-11-03T21:52:17Z"
     }
    },
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_Attorney_General_election",
-    "fetched_at": "2026-11-03T03:22:05Z",
+    "fetched_at": "2026-11-03T21:52:17Z",
     "averages": [],
     "polls": [
      {
@@ -504,11 +504,11 @@
    },
    "note": "Tyler Harper (R) is running for re-election",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_Agriculture_Commissioner_election",
-   "fetched_at": "2026-11-03T03:22:08Z",
+   "fetched_at": "2026-11-03T21:48:57Z",
    "ratings": {},
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_Agriculture_Commissioner_election",
-    "fetched_at": "2026-11-03T03:22:08Z",
+    "fetched_at": "2026-11-03T21:48:57Z",
     "averages": [],
     "polls": [],
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
@@ -537,11 +537,11 @@
    },
    "note": "John King (R) is running for re-election",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_Insurance_Commissioner_election",
-   "fetched_at": "2026-11-03T03:22:20Z",
+   "fetched_at": "2026-11-03T21:49:00Z",
    "ratings": {},
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_Insurance_Commissioner_election",
-    "fetched_at": "2026-11-03T03:22:20Z",
+    "fetched_at": "2026-11-03T21:49:00Z",
     "averages": [],
     "polls": [],
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
@@ -570,11 +570,11 @@
    },
    "note": "Bárbara Rivera Holmes (R) is running for a first full term",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_Labor_Commissioner_election",
-   "fetched_at": "2026-11-03T03:22:23Z",
+   "fetched_at": "2026-11-03T21:49:03Z",
    "ratings": {},
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_Labor_Commissioner_election",
-    "fetched_at": "2026-11-03T03:22:23Z",
+    "fetched_at": "2026-11-03T21:49:03Z",
     "averages": [],
     "polls": [],
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
@@ -603,11 +603,11 @@
    },
    "note": "Richard Woods (R) is running for re-election",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_State_Superintendent_of_Schools_election",
-   "fetched_at": "2026-11-03T03:22:26Z",
+   "fetched_at": "2026-11-03T21:49:07Z",
    "ratings": {},
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_State_Superintendent_of_Schools_election",
-    "fetched_at": "2026-11-03T03:22:26Z",
+    "fetched_at": "2026-11-03T21:49:07Z",
     "averages": [],
     "polls": [],
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
@@ -636,11 +636,11 @@
    },
    "note": "Peter Hubbard (D) is running for re-election; rematch of 2025",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election",
-   "fetched_at": "2026-11-03T03:22:30Z",
+   "fetched_at": "2026-11-03T21:49:10Z",
    "ratings": {},
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election",
-    "fetched_at": "2026-11-03T03:22:30Z",
+    "fetched_at": "2026-11-03T21:49:10Z",
     "averages": [],
     "polls": [
      {
@@ -684,11 +684,11 @@
    },
    "note": "Open: Tricia Pridemore (R) ran for U.S. House",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election",
-   "fetched_at": "2026-11-03T03:22:30Z",
+   "fetched_at": "2026-11-03T21:49:10Z",
    "ratings": {},
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election",
-    "fetched_at": "2026-11-03T03:22:30Z",
+    "fetched_at": "2026-11-03T21:49:10Z",
     "averages": [],
     "polls": [
      {
@@ -1366,11 +1366,11 @@
  ],
  "house_sources": {
   "ratings_via": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-  "ratings_fetched_at": "2026-11-03T03:20:04Z",
+  "ratings_fetched_at": "2026-11-03T21:45:39Z",
   "candidates_and_margins": "https://www.270towin.com/2026-house-election/",
-  "candidates_fetched_at": "2026-11-03T03:22:37Z",
+  "candidates_fetched_at": "2026-11-03T21:49:16Z",
   "gwinnett_source": "https://en.wikipedia.org/wiki/Gwinnett_County,_Georgia",
-  "gwinnett_fetched_at": "2026-11-03T03:22:33Z",
+  "gwinnett_fetched_at": "2026-11-03T21:49:13Z",
   "gwinnett_note": "Gwinnett County is split among the 4th, 9th, 10th and 13th districts (2023 map).",
   "ga13_note": "David Scott (D) died April 22, 2026; Everton Blair won the special election, then lost the Democratic primary to Jasmine Clark.",
   "ga14_note": "Marjorie Taylor Greene (R) resigned January 5, 2026; Clay Fuller won the special election."
@@ -1378,14 +1378,14 @@
  "turnout": {
   "source": "https://georgiavotes.com/",
   "source_note": "georgiavotes.com is an independent site built from the GA Secretary of State absentee voter files (sos.ga.gov blocks automated access from here). Counts only accepted ballots with a return date.",
-  "site_last_updated": "2026-11-02 09:18:46",
+  "site_last_updated": "2026-11-03 08:47:26",
   "site_tz_note": "timezone not stated by the site",
-  "fetched_at": "2026-11-03T03:22:40Z",
-  "through_vote_day": "2026-11-01",
+  "fetched_at": "2026-11-03T21:49:20Z",
+  "through_vote_day": "2026-11-02",
   "statewide": {
-   "votes": 2826388,
-   "same_point_2022": 2512273,
-   "change_vs_2022_pct": 12.5,
+   "votes": 2834893,
+   "same_point_2022": 2526488,
+   "change_vs_2022_pct": 12.2,
    "final_2022_early_total_note": "The 2022 series keeps rising after this point; the 2022 value at election eve is shown in the daily series.",
    "same_point_2024": null,
    "same_point_2024_note": "no data: georgiavotes.com compares midterm to midterm only, and the SOS 2024 absentee file is behind sos.ga.gov's bot wall."
@@ -1393,147 +1393,147 @@
   "daily": [
    {
     "date": "2026-10-05",
-    "y2026": 979,
+    "y2026": 982,
     "y2022": 562
    },
    {
     "date": "2026-10-06",
-    "y2026": 1167,
+    "y2026": 1170,
     "y2022": 675
    },
    {
     "date": "2026-10-07",
-    "y2026": 1686,
+    "y2026": 1689,
     "y2022": 824
    },
    {
     "date": "2026-10-08",
-    "y2026": 2806,
+    "y2026": 2809,
     "y2022": 1340
    },
    {
     "date": "2026-10-09",
-    "y2026": 4361,
+    "y2026": 4364,
     "y2022": 3127
    },
    {
     "date": "2026-10-10",
-    "y2026": 4447,
+    "y2026": 4450,
     "y2022": 3282
    },
    {
     "date": "2026-10-11",
-    "y2026": 4457,
+    "y2026": 4460,
     "y2022": 3314
    },
    {
     "date": "2026-10-12",
-    "y2026": 5855,
+    "y2026": 5858,
     "y2022": 150642
    },
    {
     "date": "2026-10-13",
-    "y2026": 202719,
+    "y2026": 202725,
     "y2022": 297434
    },
    {
     "date": "2026-10-14",
-    "y2026": 383253,
+    "y2026": 383262,
     "y2022": 443824
    },
    {
     "date": "2026-10-15",
-    "y2026": 554855,
+    "y2026": 554871,
     "y2022": 582229
    },
    {
     "date": "2026-10-16",
-    "y2026": 743938,
+    "y2026": 743961,
     "y2022": 738762
    },
    {
     "date": "2026-10-17",
-    "y2026": 839334,
+    "y2026": 839357,
     "y2022": 825615
    },
    {
     "date": "2026-10-18",
-    "y2026": 864666,
+    "y2026": 864692,
     "y2022": 844388
    },
    {
     "date": "2026-10-19",
-    "y2026": 1031072,
+    "y2026": 1031105,
     "y2022": 998522
    },
    {
     "date": "2026-10-20",
-    "y2026": 1190306,
+    "y2026": 1190343,
     "y2022": 1135094
    },
    {
     "date": "2026-10-21",
-    "y2026": 1333813,
+    "y2026": 1333860,
     "y2022": 1268163
    },
    {
     "date": "2026-10-22",
-    "y2026": 1470674,
+    "y2026": 1470728,
     "y2022": 1393059
    },
    {
     "date": "2026-10-23",
-    "y2026": 1636390,
+    "y2026": 1636457,
     "y2022": 1543311
    },
    {
     "date": "2026-10-24",
-    "y2026": 1753817,
+    "y2026": 1753889,
     "y2022": 1641925
    },
    {
     "date": "2026-10-25",
-    "y2026": 1782459,
+    "y2026": 1782530,
     "y2022": 1668467
    },
    {
     "date": "2026-10-26",
-    "y2026": 1958561,
+    "y2026": 1958647,
     "y2022": 1817615
    },
    {
     "date": "2026-10-27",
-    "y2026": 2131953,
+    "y2026": 2132045,
     "y2022": 1952154
    },
    {
     "date": "2026-10-28",
-    "y2026": 2311020,
+    "y2026": 2311142,
     "y2022": 2097540
    },
    {
     "date": "2026-10-29",
-    "y2026": 2516295,
+    "y2026": 2516456,
     "y2022": 2266300
    },
    {
     "date": "2026-10-30",
-    "y2026": 2825221,
+    "y2026": 2825746,
     "y2022": 2508853
    },
    {
     "date": "2026-10-31",
-    "y2026": 2826170,
+    "y2026": 2826819,
     "y2022": 2511966
    },
    {
     "date": "2026-11-01",
-    "y2026": 2826388,
+    "y2026": 2827199,
     "y2022": 2512273
    },
    {
     "date": "2026-11-02",
-    "y2026": null,
+    "y2026": 2834893,
     "y2022": 2526488
    },
    {
@@ -1552,7 +1552,7 @@
    },
    {
     "group": "Black",
-    "y2026": "32.4%",
+    "y2026": "32.5%",
     "y2024": "26.8%",
     "y2022": "30.2%"
    },
@@ -1580,684 +1580,684 @@
    {
     "county": "Fulton",
     "rv": 847454,
-    "votes": 339039,
-    "mail_accepted": 10358,
+    "votes": 340476,
+    "mail_accepted": 11795,
     "early_in_person": 328681,
-    "pct_of_rv": 40.0,
-    "same_point_2022": 303821,
+    "pct_of_rv": 40.2,
+    "same_point_2022": 304885,
     "change_vs_2022_pct": 12,
-    "pct_of_2022_total": "80.6%"
+    "pct_of_2022_total": "80.9%"
    },
    {
     "county": "Gwinnett",
     "rv": 645243,
-    "votes": 238151,
-    "mail_accepted": 9014,
-    "early_in_person": 229137,
-    "pct_of_rv": 36.9,
-    "same_point_2022": 189336,
-    "change_vs_2022_pct": 26,
-    "pct_of_2022_total": "79.3%"
+    "votes": 238889,
+    "mail_accepted": 9751,
+    "early_in_person": 229138,
+    "pct_of_rv": 37.0,
+    "same_point_2022": 191584,
+    "change_vs_2022_pct": 25,
+    "pct_of_2022_total": "79.6%"
    },
    {
     "county": "Cobb",
     "rv": 565749,
-    "votes": 236618,
-    "mail_accepted": 9294,
+    "votes": 237129,
+    "mail_accepted": 9805,
     "early_in_person": 227324,
-    "pct_of_rv": 41.8,
-    "same_point_2022": 202947,
-    "change_vs_2022_pct": 17,
-    "pct_of_2022_total": "75.7%"
+    "pct_of_rv": 41.9,
+    "same_point_2022": 204614,
+    "change_vs_2022_pct": 16,
+    "pct_of_2022_total": "75.9%"
    },
    {
     "county": "DeKalb",
     "rv": 565098,
-    "votes": 239836,
-    "mail_accepted": 9236,
+    "votes": 240254,
+    "mail_accepted": 9654,
     "early_in_person": 230600,
-    "pct_of_rv": 42.4,
-    "same_point_2022": 211391,
+    "pct_of_rv": 42.5,
+    "same_point_2022": 212359,
     "change_vs_2022_pct": 13,
-    "pct_of_2022_total": "80.1%"
+    "pct_of_2022_total": "80.3%"
    },
    {
     "county": "Chatham",
     "rv": 231094,
-    "votes": 66716,
-    "mail_accepted": 3962,
+    "votes": 66971,
+    "mail_accepted": 4217,
     "early_in_person": 62754,
-    "pct_of_rv": 28.9,
-    "same_point_2022": 57088,
-    "change_vs_2022_pct": 17,
-    "pct_of_2022_total": "62.5%"
+    "pct_of_rv": 29.0,
+    "same_point_2022": 57504,
+    "change_vs_2022_pct": 16,
+    "pct_of_2022_total": "62.7%"
    },
    {
     "county": "Cherokee",
     "rv": 219195,
-    "votes": 86428,
-    "mail_accepted": 4728,
+    "votes": 86631,
+    "mail_accepted": 4931,
     "early_in_person": 81700,
-    "pct_of_rv": 39.4,
-    "same_point_2022": 73703,
+    "pct_of_rv": 39.5,
+    "same_point_2022": 74107,
     "change_vs_2022_pct": 17,
-    "pct_of_2022_total": "71.7%"
+    "pct_of_2022_total": "71.8%"
    },
    {
     "county": "Clayton",
     "rv": 205459,
-    "votes": 70878,
-    "mail_accepted": 2148,
+    "votes": 71020,
+    "mail_accepted": 2290,
     "early_in_person": 68730,
-    "pct_of_rv": 34.5,
-    "same_point_2022": 60388,
+    "pct_of_rv": 34.6,
+    "same_point_2022": 60704,
     "change_vs_2022_pct": 17,
-    "pct_of_2022_total": "84.0%"
+    "pct_of_2022_total": "84.1%"
    },
    {
     "county": "Henry",
     "rv": 199097,
-    "votes": 81119,
-    "mail_accepted": 2509,
+    "votes": 81318,
+    "mail_accepted": 2708,
     "early_in_person": 78610,
-    "pct_of_rv": 40.7,
-    "same_point_2022": 68312,
-    "change_vs_2022_pct": 19,
-    "pct_of_2022_total": "84.6%"
+    "pct_of_rv": 40.8,
+    "same_point_2022": 68648,
+    "change_vs_2022_pct": 18,
+    "pct_of_2022_total": "84.8%"
    },
    {
     "county": "Forsyth",
     "rv": 181246,
-    "votes": 74866,
-    "mail_accepted": 3182,
+    "votes": 75237,
+    "mail_accepted": 3553,
     "early_in_person": 71684,
-    "pct_of_rv": 41.3,
-    "same_point_2022": 69332,
+    "pct_of_rv": 41.5,
+    "same_point_2022": 69699,
     "change_vs_2022_pct": 8,
-    "pct_of_2022_total": "72.9%"
+    "pct_of_2022_total": "73.3%"
    },
    {
     "county": "Hall",
     "rv": 153643,
-    "votes": 53995,
-    "mail_accepted": 2558,
-    "early_in_person": 51437,
-    "pct_of_rv": 35.1,
-    "same_point_2022": 48142,
+    "votes": 54208,
+    "mail_accepted": 2770,
+    "early_in_person": 51438,
+    "pct_of_rv": 35.3,
+    "same_point_2022": 48421,
     "change_vs_2022_pct": 12,
-    "pct_of_2022_total": "73.3%"
+    "pct_of_2022_total": "73.6%"
    },
    {
     "county": "Richmond",
     "rv": 146474,
-    "votes": 40355,
-    "mail_accepted": 2346,
+    "votes": 40619,
+    "mail_accepted": 2610,
     "early_in_person": 38009,
-    "pct_of_rv": 27.6,
-    "same_point_2022": 36028,
+    "pct_of_rv": 27.7,
+    "same_point_2022": 36262,
     "change_vs_2022_pct": 12,
-    "pct_of_2022_total": "62.7%"
+    "pct_of_2022_total": "63.1%"
    },
    {
     "county": "Muscogee",
     "rv": 141231,
-    "votes": 42895,
-    "mail_accepted": 2901,
+    "votes": 43048,
+    "mail_accepted": 3054,
     "early_in_person": 39994,
-    "pct_of_rv": 30.4,
-    "same_point_2022": 38942,
+    "pct_of_rv": 30.5,
+    "same_point_2022": 39156,
     "change_vs_2022_pct": 10,
-    "pct_of_2022_total": "71.9%"
+    "pct_of_2022_total": "72.2%"
    },
    {
     "county": "Paulding",
     "rv": 137543,
-    "votes": 52209,
-    "mail_accepted": 2144,
+    "votes": 52416,
+    "mail_accepted": 2351,
     "early_in_person": 50065,
-    "pct_of_rv": 38.0,
-    "same_point_2022": 43756,
+    "pct_of_rv": 38.1,
+    "same_point_2022": 44113,
     "change_vs_2022_pct": 19,
-    "pct_of_2022_total": "77.8%"
+    "pct_of_2022_total": "78.1%"
    },
    {
     "county": "Houston",
     "rv": 125181,
-    "votes": 45669,
-    "mail_accepted": 2149,
+    "votes": 45764,
+    "mail_accepted": 2244,
     "early_in_person": 43520,
-    "pct_of_rv": 36.5,
-    "same_point_2022": 40612,
+    "pct_of_rv": 36.6,
+    "same_point_2022": 40764,
     "change_vs_2022_pct": 12,
-    "pct_of_2022_total": "77.0%"
+    "pct_of_2022_total": "77.2%"
    },
    {
     "county": "Columbia",
     "rv": 123052,
-    "votes": 42529,
-    "mail_accepted": 2266,
+    "votes": 42692,
+    "mail_accepted": 2429,
     "early_in_person": 40263,
-    "pct_of_rv": 34.6,
-    "same_point_2022": 36658,
+    "pct_of_rv": 34.7,
+    "same_point_2022": 36788,
     "change_vs_2022_pct": 16,
-    "pct_of_2022_total": "65.7%"
+    "pct_of_2022_total": "66.0%"
    },
    {
     "county": "Coweta",
     "rv": 119906,
-    "votes": 41419,
-    "mail_accepted": 2147,
+    "votes": 41512,
+    "mail_accepted": 2240,
     "early_in_person": 39272,
-    "pct_of_rv": 34.5,
-    "same_point_2022": 36432,
-    "change_vs_2022_pct": 14,
-    "pct_of_2022_total": "64.9%"
+    "pct_of_rv": 34.6,
+    "same_point_2022": 36713,
+    "change_vs_2022_pct": 13,
+    "pct_of_2022_total": "65.0%"
    },
    {
     "county": "Bibb",
     "rv": 115878,
-    "votes": 34249,
-    "mail_accepted": 1753,
+    "votes": 34422,
+    "mail_accepted": 1926,
     "early_in_person": 32496,
-    "pct_of_rv": 29.6,
-    "same_point_2022": 31008,
+    "pct_of_rv": 29.7,
+    "same_point_2022": 31186,
     "change_vs_2022_pct": 10,
-    "pct_of_2022_total": "63.0%"
+    "pct_of_2022_total": "63.4%"
    },
    {
     "county": "Douglas",
     "rv": 113110,
-    "votes": 43033,
-    "mail_accepted": 1461,
+    "votes": 43178,
+    "mail_accepted": 1606,
     "early_in_person": 41572,
-    "pct_of_rv": 38.0,
-    "same_point_2022": 36952,
+    "pct_of_rv": 38.2,
+    "same_point_2022": 37158,
     "change_vs_2022_pct": 16,
-    "pct_of_2022_total": "81.1%"
+    "pct_of_2022_total": "81.4%"
    },
    {
     "county": "Fayette",
     "rv": 98280,
-    "votes": 45898,
-    "mail_accepted": 1785,
+    "votes": 46035,
+    "mail_accepted": 1922,
     "early_in_person": 44113,
-    "pct_of_rv": 46.7,
-    "same_point_2022": 40975,
+    "pct_of_rv": 46.8,
+    "same_point_2022": 41236,
     "change_vs_2022_pct": 12,
-    "pct_of_2022_total": "75.9%"
+    "pct_of_2022_total": "76.1%"
    },
    {
     "county": "Carroll",
     "rv": 95860,
-    "votes": 24587,
-    "mail_accepted": 911,
+    "votes": 24649,
+    "mail_accepted": 973,
     "early_in_person": 23676,
-    "pct_of_rv": 25.6,
-    "same_point_2022": 23354,
+    "pct_of_rv": 25.7,
+    "same_point_2022": 23434,
     "change_vs_2022_pct": 5,
-    "pct_of_2022_total": "56.1%"
+    "pct_of_2022_total": "56.3%"
    },
    {
     "county": "Newton",
     "rv": 93657,
-    "votes": 31546,
-    "mail_accepted": 1455,
+    "votes": 31591,
+    "mail_accepted": 1500,
     "early_in_person": 30091,
     "pct_of_rv": 33.7,
-    "same_point_2022": 25017,
+    "same_point_2022": 25150,
     "change_vs_2022_pct": 26,
-    "pct_of_2022_total": "74.9%"
+    "pct_of_2022_total": "75.0%"
    },
    {
     "county": "Bartow",
     "rv": 89481,
-    "votes": 25180,
-    "mail_accepted": 1110,
+    "votes": 25204,
+    "mail_accepted": 1134,
     "early_in_person": 24070,
-    "pct_of_rv": 28.1,
-    "same_point_2022": 22389,
+    "pct_of_rv": 28.2,
+    "same_point_2022": 22513,
     "change_vs_2022_pct": 12,
-    "pct_of_2022_total": "62.8%"
+    "pct_of_2022_total": "62.9%"
    },
    {
     "county": "Walton",
     "rv": 82894,
-    "votes": 29868,
-    "mail_accepted": 1054,
+    "votes": 29944,
+    "mail_accepted": 1130,
     "early_in_person": 28814,
-    "pct_of_rv": 36.0,
-    "same_point_2022": 24926,
+    "pct_of_rv": 36.1,
+    "same_point_2022": 25040,
     "change_vs_2022_pct": 20,
-    "pct_of_2022_total": "70.2%"
+    "pct_of_2022_total": "70.4%"
    },
    {
     "county": "Lowndes",
     "rv": 81482,
-    "votes": 23431,
-    "mail_accepted": 856,
+    "votes": 23515,
+    "mail_accepted": 940,
     "early_in_person": 22575,
-    "pct_of_rv": 28.8,
-    "same_point_2022": 22744,
+    "pct_of_rv": 28.9,
+    "same_point_2022": 22857,
     "change_vs_2022_pct": 3,
-    "pct_of_2022_total": "67.2%"
+    "pct_of_2022_total": "67.5%"
    },
    {
     "county": "Clarke",
     "rv": 80150,
-    "votes": 29564,
-    "mail_accepted": 1438,
+    "votes": 29700,
+    "mail_accepted": 1574,
     "early_in_person": 28126,
-    "pct_of_rv": 36.9,
-    "same_point_2022": 25449,
-    "change_vs_2022_pct": 16,
-    "pct_of_2022_total": "73.1%"
+    "pct_of_rv": 37.1,
+    "same_point_2022": 25728,
+    "change_vs_2022_pct": 15,
+    "pct_of_2022_total": "73.5%"
    },
    {
     "county": "Rockdale",
     "rv": 69339,
-    "votes": 28993,
-    "mail_accepted": 1198,
+    "votes": 29053,
+    "mail_accepted": 1258,
     "early_in_person": 27795,
-    "pct_of_rv": 41.8,
-    "same_point_2022": 25091,
-    "change_vs_2022_pct": 16,
-    "pct_of_2022_total": "82.8%"
+    "pct_of_rv": 41.9,
+    "same_point_2022": 25223,
+    "change_vs_2022_pct": 15,
+    "pct_of_2022_total": "83.0%"
    },
    {
     "county": "Jackson",
     "rv": 68228,
-    "votes": 24964,
-    "mail_accepted": 933,
-    "early_in_person": 24031,
-    "pct_of_rv": 36.6,
-    "same_point_2022": 20529,
+    "votes": 25026,
+    "mail_accepted": 994,
+    "early_in_person": 24032,
+    "pct_of_rv": 36.7,
+    "same_point_2022": 20577,
     "change_vs_2022_pct": 22,
-    "pct_of_2022_total": "78.0%"
+    "pct_of_2022_total": "78.2%"
    },
    {
     "county": "Barrow",
     "rv": 68038,
-    "votes": 19683,
-    "mail_accepted": 863,
+    "votes": 19752,
+    "mail_accepted": 932,
     "early_in_person": 18820,
-    "pct_of_rv": 28.9,
-    "same_point_2022": 16911,
+    "pct_of_rv": 29.0,
+    "same_point_2022": 16974,
     "change_vs_2022_pct": 16,
-    "pct_of_2022_total": "66.7%"
+    "pct_of_2022_total": "67.0%"
    },
    {
     "county": "Floyd",
     "rv": 67993,
-    "votes": 18574,
-    "mail_accepted": 858,
+    "votes": 18629,
+    "mail_accepted": 913,
     "early_in_person": 17716,
-    "pct_of_rv": 27.3,
-    "same_point_2022": 16953,
-    "change_vs_2022_pct": 10,
-    "pct_of_2022_total": "57.7%"
+    "pct_of_rv": 27.4,
+    "same_point_2022": 17046,
+    "change_vs_2022_pct": 9,
+    "pct_of_2022_total": "57.9%"
    },
    {
     "county": "Glynn",
     "rv": 67948,
-    "votes": 24499,
-    "mail_accepted": 1366,
+    "votes": 24566,
+    "mail_accepted": 1433,
     "early_in_person": 23133,
-    "pct_of_rv": 36.1,
-    "same_point_2022": 22632,
+    "pct_of_rv": 36.2,
+    "same_point_2022": 22757,
     "change_vs_2022_pct": 8,
-    "pct_of_2022_total": "73.4%"
+    "pct_of_2022_total": "73.6%"
    },
    {
     "county": "Dougherty",
     "rv": 64484,
-    "votes": 15494,
-    "mail_accepted": 856,
+    "votes": 15583,
+    "mail_accepted": 945,
     "early_in_person": 14638,
-    "pct_of_rv": 24.0,
-    "same_point_2022": 13974,
+    "pct_of_rv": 24.2,
+    "same_point_2022": 14095,
     "change_vs_2022_pct": 11,
-    "pct_of_2022_total": "57.7%"
+    "pct_of_2022_total": "58.0%"
    },
    {
     "county": "Whitfield",
     "rv": 64387,
-    "votes": 14146,
-    "mail_accepted": 660,
-    "early_in_person": 13486,
+    "votes": 14185,
+    "mail_accepted": 698,
+    "early_in_person": 13487,
     "pct_of_rv": 22.0,
-    "same_point_2022": 11446,
-    "change_vs_2022_pct": 24,
-    "pct_of_2022_total": "52.2%"
+    "same_point_2022": 11518,
+    "change_vs_2022_pct": 23,
+    "pct_of_2022_total": "52.3%"
    },
    {
     "county": "Bulloch",
     "rv": 53735,
-    "votes": 13817,
-    "mail_accepted": 695,
+    "votes": 13880,
+    "mail_accepted": 758,
     "early_in_person": 13122,
-    "pct_of_rv": 25.7,
-    "same_point_2022": 12515,
+    "pct_of_rv": 25.8,
+    "same_point_2022": 12601,
     "change_vs_2022_pct": 10,
-    "pct_of_2022_total": "58.4%"
+    "pct_of_2022_total": "58.7%"
    },
    {
     "county": "Effingham",
     "rv": 53416,
-    "votes": 13999,
-    "mail_accepted": 517,
+    "votes": 14022,
+    "mail_accepted": 540,
     "early_in_person": 13482,
-    "pct_of_rv": 26.2,
-    "same_point_2022": 12989,
+    "pct_of_rv": 26.3,
+    "same_point_2022": 13029,
     "change_vs_2022_pct": 8,
-    "pct_of_2022_total": "54.9%"
+    "pct_of_2022_total": "55.0%"
    },
    {
     "county": "Spalding",
     "rv": 52887,
-    "votes": 17298,
-    "mail_accepted": 991,
+    "votes": 17299,
+    "mail_accepted": 992,
     "early_in_person": 16307,
     "pct_of_rv": 32.7,
-    "same_point_2022": 14984,
+    "same_point_2022": 15056,
     "change_vs_2022_pct": 15,
     "pct_of_2022_total": "70.7%"
    },
    {
     "county": "Catoosa",
     "rv": 51766,
-    "votes": 15222,
-    "mail_accepted": 568,
+    "votes": 15249,
+    "mail_accepted": 595,
     "early_in_person": 14654,
-    "pct_of_rv": 29.4,
-    "same_point_2022": 14882,
+    "pct_of_rv": 29.5,
+    "same_point_2022": 14956,
     "change_vs_2022_pct": 2,
-    "pct_of_2022_total": "61.8%"
+    "pct_of_2022_total": "61.9%"
    },
    {
     "county": "Walker",
     "rv": 49232,
-    "votes": 12417,
-    "mail_accepted": 603,
+    "votes": 12458,
+    "mail_accepted": 644,
     "early_in_person": 11814,
-    "pct_of_rv": 25.2,
-    "same_point_2022": 11935,
+    "pct_of_rv": 25.3,
+    "same_point_2022": 11940,
     "change_vs_2022_pct": 4,
-    "pct_of_2022_total": "55.9%"
+    "pct_of_2022_total": "56.1%"
    },
    {
     "county": "Troup",
     "rv": 48739,
-    "votes": 13003,
-    "mail_accepted": 782,
+    "votes": 13041,
+    "mail_accepted": 820,
     "early_in_person": 12221,
-    "pct_of_rv": 26.7,
-    "same_point_2022": 12452,
+    "pct_of_rv": 26.8,
+    "same_point_2022": 12518,
     "change_vs_2022_pct": 4,
-    "pct_of_2022_total": "55.8%"
+    "pct_of_2022_total": "55.9%"
    },
    {
     "county": "Camden",
     "rv": 43772,
-    "votes": 12839,
-    "mail_accepted": 755,
+    "votes": 12875,
+    "mail_accepted": 791,
     "early_in_person": 12084,
-    "pct_of_rv": 29.3,
-    "same_point_2022": 10956,
+    "pct_of_rv": 29.4,
+    "same_point_2022": 10995,
     "change_vs_2022_pct": 17,
-    "pct_of_2022_total": "71.4%"
+    "pct_of_2022_total": "71.6%"
    },
    {
     "county": "Liberty",
     "rv": 43299,
-    "votes": 11758,
-    "mail_accepted": 602,
+    "votes": 11783,
+    "mail_accepted": 627,
     "early_in_person": 11156,
     "pct_of_rv": 27.2,
-    "same_point_2022": 10765,
+    "same_point_2022": 10811,
     "change_vs_2022_pct": 9,
-    "pct_of_2022_total": "76.1%"
+    "pct_of_2022_total": "76.2%"
    },
    {
     "county": "Gordon",
     "rv": 42689,
-    "votes": 9833,
-    "mail_accepted": 449,
+    "votes": 9857,
+    "mail_accepted": 473,
     "early_in_person": 9384,
-    "pct_of_rv": 23.0,
-    "same_point_2022": 9345,
+    "pct_of_rv": 23.1,
+    "same_point_2022": 9372,
     "change_vs_2022_pct": 5,
-    "pct_of_2022_total": "51.8%"
+    "pct_of_2022_total": "52.0%"
    },
    {
     "county": "Bryan",
     "rv": 37894,
-    "votes": 12304,
-    "mail_accepted": 350,
+    "votes": 12352,
+    "mail_accepted": 398,
     "early_in_person": 11954,
-    "pct_of_rv": 32.5,
-    "same_point_2022": 11470,
+    "pct_of_rv": 32.6,
+    "same_point_2022": 11515,
     "change_vs_2022_pct": 7,
-    "pct_of_2022_total": "72.2%"
+    "pct_of_2022_total": "72.5%"
    },
    {
     "county": "Laurens",
     "rv": 35954,
-    "votes": 9727,
-    "mail_accepted": 696,
+    "votes": 9750,
+    "mail_accepted": 719,
     "early_in_person": 9031,
     "pct_of_rv": 27.1,
-    "same_point_2022": 9291,
-    "change_vs_2022_pct": 5,
-    "pct_of_2022_total": "52.3%"
+    "same_point_2022": 9354,
+    "change_vs_2022_pct": 4,
+    "pct_of_2022_total": "52.4%"
    },
    {
     "county": "Oconee",
     "rv": 33821,
-    "votes": 16399,
-    "mail_accepted": 728,
+    "votes": 16459,
+    "mail_accepted": 788,
     "early_in_person": 15671,
-    "pct_of_rv": 48.5,
-    "same_point_2022": 15955,
+    "pct_of_rv": 48.7,
+    "same_point_2022": 16051,
     "change_vs_2022_pct": 3,
-    "pct_of_2022_total": "72.8%"
+    "pct_of_2022_total": "73.1%"
    },
    {
     "county": "Habersham",
     "rv": 33415,
-    "votes": 13216,
-    "mail_accepted": 478,
+    "votes": 13249,
+    "mail_accepted": 511,
     "early_in_person": 12738,
     "pct_of_rv": 39.6,
-    "same_point_2022": 12047,
+    "same_point_2022": 12071,
     "change_vs_2022_pct": 10,
-    "pct_of_2022_total": "77.6%"
+    "pct_of_2022_total": "77.8%"
    },
    {
     "county": "Thomas",
     "rv": 33237,
-    "votes": 11483,
-    "mail_accepted": 450,
+    "votes": 11521,
+    "mail_accepted": 488,
     "early_in_person": 11033,
-    "pct_of_rv": 34.5,
-    "same_point_2022": 11285,
+    "pct_of_rv": 34.7,
+    "same_point_2022": 11340,
     "change_vs_2022_pct": 2,
-    "pct_of_2022_total": "66.2%"
+    "pct_of_2022_total": "66.4%"
    },
    {
     "county": "Harris",
     "rv": 30012,
-    "votes": 9375,
-    "mail_accepted": 421,
+    "votes": 9481,
+    "mail_accepted": 527,
     "early_in_person": 8954,
-    "pct_of_rv": 31.2,
-    "same_point_2022": 8635,
+    "pct_of_rv": 31.6,
+    "same_point_2022": 8686,
     "change_vs_2022_pct": 9,
-    "pct_of_2022_total": "54.9%"
+    "pct_of_2022_total": "55.6%"
    },
    {
     "county": "Pickens",
     "rv": 28814,
-    "votes": 9668,
-    "mail_accepted": 447,
+    "votes": 9692,
+    "mail_accepted": 471,
     "early_in_person": 9221,
     "pct_of_rv": 33.6,
-    "same_point_2022": 8762,
+    "same_point_2022": 8803,
     "change_vs_2022_pct": 10,
-    "pct_of_2022_total": "64.0%"
+    "pct_of_2022_total": "64.2%"
    },
    {
     "county": "Baldwin",
     "rv": 28803,
-    "votes": 10364,
-    "mail_accepted": 603,
-    "early_in_person": 9761,
-    "pct_of_rv": 36.0,
-    "same_point_2022": 9916,
-    "change_vs_2022_pct": 5,
-    "pct_of_2022_total": "68.9%"
+    "votes": 10404,
+    "mail_accepted": 642,
+    "early_in_person": 9762,
+    "pct_of_rv": 36.1,
+    "same_point_2022": 9976,
+    "change_vs_2022_pct": 4,
+    "pct_of_2022_total": "69.2%"
    },
    {
     "county": "Polk",
     "rv": 28771,
-    "votes": 8923,
-    "mail_accepted": 334,
+    "votes": 8945,
+    "mail_accepted": 356,
     "early_in_person": 8589,
-    "pct_of_rv": 31.0,
-    "same_point_2022": 8776,
+    "pct_of_rv": 31.1,
+    "same_point_2022": 8804,
     "change_vs_2022_pct": 2,
-    "pct_of_2022_total": "65.4%"
+    "pct_of_2022_total": "65.6%"
    },
    {
     "county": "Colquitt",
     "rv": 28366,
-    "votes": 6503,
-    "mail_accepted": 259,
+    "votes": 6529,
+    "mail_accepted": 285,
     "early_in_person": 6244,
-    "pct_of_rv": 22.9,
-    "same_point_2022": 6491,
+    "pct_of_rv": 23.0,
+    "same_point_2022": 6505,
     "change_vs_2022_pct": 0,
-    "pct_of_2022_total": "51.5%"
+    "pct_of_2022_total": "51.7%"
    },
    {
     "county": "Tift",
     "rv": 28321,
-    "votes": 8332,
-    "mail_accepted": 261,
+    "votes": 8338,
+    "mail_accepted": 267,
     "early_in_person": 8071,
     "pct_of_rv": 29.4,
-    "same_point_2022": 8033,
+    "same_point_2022": 8050,
     "change_vs_2022_pct": 4,
-    "pct_of_2022_total": "63.7%"
+    "pct_of_2022_total": "63.8%"
    },
    {
     "county": "Murray",
     "rv": 27271,
-    "votes": 6365,
-    "mail_accepted": 189,
+    "votes": 6370,
+    "mail_accepted": 194,
     "early_in_person": 6176,
-    "pct_of_rv": 23.3,
-    "same_point_2022": 5418,
+    "pct_of_rv": 23.4,
+    "same_point_2022": 5444,
     "change_vs_2022_pct": 17,
-    "pct_of_2022_total": "55.0%"
+    "pct_of_2022_total": "55.1%"
    },
    {
     "county": "Dawson",
     "rv": 27089,
-    "votes": 10560,
-    "mail_accepted": 443,
+    "votes": 10589,
+    "mail_accepted": 472,
     "early_in_person": 10117,
-    "pct_of_rv": 39.0,
-    "same_point_2022": 9625,
+    "pct_of_rv": 39.1,
+    "same_point_2022": 9663,
     "change_vs_2022_pct": 10,
-    "pct_of_2022_total": "75.4%"
+    "pct_of_2022_total": "75.6%"
    },
    {
     "county": "Gilmer",
     "rv": 25898,
-    "votes": 8292,
-    "mail_accepted": 547,
+    "votes": 8307,
+    "mail_accepted": 562,
     "early_in_person": 7745,
-    "pct_of_rv": 32.0,
-    "same_point_2022": 7952,
+    "pct_of_rv": 32.1,
+    "same_point_2022": 7973,
     "change_vs_2022_pct": 4,
-    "pct_of_2022_total": "58.7%"
+    "pct_of_2022_total": "58.8%"
    },
    {
     "county": "Coffee",
     "rv": 25836,
-    "votes": 7410,
-    "mail_accepted": 180,
+    "votes": 7445,
+    "mail_accepted": 215,
     "early_in_person": 7230,
-    "pct_of_rv": 28.7,
-    "same_point_2022": 7352,
+    "pct_of_rv": 28.8,
+    "same_point_2022": 7374,
     "change_vs_2022_pct": 1,
-    "pct_of_2022_total": "62.0%"
+    "pct_of_2022_total": "62.3%"
    },
    {
     "county": "Lumpkin",
     "rv": 25683,
-    "votes": 9282,
-    "mail_accepted": 397,
+    "votes": 9296,
+    "mail_accepted": 411,
     "early_in_person": 8885,
-    "pct_of_rv": 36.1,
-    "same_point_2022": 8831,
+    "pct_of_rv": 36.2,
+    "same_point_2022": 8869,
     "change_vs_2022_pct": 5,
-    "pct_of_2022_total": "72.7%"
+    "pct_of_2022_total": "72.8%"
    },
    {
     "county": "Lee",
     "rv": 25238,
-    "votes": 7427,
-    "mail_accepted": 265,
+    "votes": 7466,
+    "mail_accepted": 304,
     "early_in_person": 7162,
-    "pct_of_rv": 29.4,
-    "same_point_2022": 7325,
+    "pct_of_rv": 29.6,
+    "same_point_2022": 7365,
     "change_vs_2022_pct": 1,
-    "pct_of_2022_total": "54.5%"
+    "pct_of_2022_total": "54.8%"
    },
    {
     "county": "Haralson",
     "rv": 24457,
-    "votes": 5581,
-    "mail_accepted": 292,
+    "votes": 5595,
+    "mail_accepted": 306,
     "early_in_person": 5289,
-    "pct_of_rv": 22.8,
-    "same_point_2022": 5470,
-    "change_vs_2022_pct": 2,
-    "pct_of_2022_total": "47.8%"
+    "pct_of_rv": 22.9,
+    "same_point_2022": 5515,
+    "change_vs_2022_pct": 1,
+    "pct_of_2022_total": "47.9%"
    },
    {
     "county": "Monroe",
     "rv": 24268,
-    "votes": 8359,
-    "mail_accepted": 350,
+    "votes": 8375,
+    "mail_accepted": 366,
     "early_in_person": 8009,
-    "pct_of_rv": 34.4,
-    "same_point_2022": 7873,
+    "pct_of_rv": 34.5,
+    "same_point_2022": 7902,
     "change_vs_2022_pct": 6,
-    "pct_of_2022_total": "60.7%"
+    "pct_of_2022_total": "60.8%"
    },
    {
     "county": "White",
     "rv": 23905,
-    "votes": 8106,
-    "mail_accepted": 394,
+    "votes": 8121,
+    "mail_accepted": 409,
     "early_in_person": 7712,
-    "pct_of_rv": 33.9,
-    "same_point_2022": 7579,
+    "pct_of_rv": 34.0,
+    "same_point_2022": 7600,
     "change_vs_2022_pct": 7,
-    "pct_of_2022_total": "63.7%"
+    "pct_of_2022_total": "63.8%"
    },
    {
     "county": "Madison",
     "rv": 23821,
-    "votes": 7120,
-    "mail_accepted": 359,
+    "votes": 7125,
+    "mail_accepted": 364,
     "early_in_person": 6761,
     "pct_of_rv": 29.9,
-    "same_point_2022": 6749,
+    "same_point_2022": 6795,
     "change_vs_2022_pct": 5,
-    "pct_of_2022_total": "56.5%"
+    "pct_of_2022_total": "56.6%"
    },
    {
     "county": "Union",
@@ -2266,345 +2266,345 @@
     "mail_accepted": 506,
     "early_in_person": 9080,
     "pct_of_rv": 41.2,
-    "same_point_2022": 8895,
-    "change_vs_2022_pct": 8,
+    "same_point_2022": 8926,
+    "change_vs_2022_pct": 7,
     "pct_of_2022_total": "66.7%"
    },
    {
     "county": "Jones",
     "rv": 22413,
-    "votes": 7390,
-    "mail_accepted": 456,
+    "votes": 7391,
+    "mail_accepted": 457,
     "early_in_person": 6934,
     "pct_of_rv": 33.0,
-    "same_point_2022": 7163,
+    "same_point_2022": 7182,
     "change_vs_2022_pct": 3,
     "pct_of_2022_total": "59.9%"
    },
    {
     "county": "Ware",
     "rv": 22322,
-    "votes": 5987,
-    "mail_accepted": 397,
+    "votes": 5999,
+    "mail_accepted": 409,
     "early_in_person": 5590,
-    "pct_of_rv": 26.8,
-    "same_point_2022": 6515,
-    "change_vs_2022_pct": -8,
-    "pct_of_2022_total": "55.4%"
+    "pct_of_rv": 26.9,
+    "same_point_2022": 6560,
+    "change_vs_2022_pct": -9,
+    "pct_of_2022_total": "55.6%"
    },
    {
     "county": "Fannin",
     "rv": 22206,
-    "votes": 6718,
-    "mail_accepted": 528,
+    "votes": 6735,
+    "mail_accepted": 545,
     "early_in_person": 6190,
     "pct_of_rv": 30.3,
-    "same_point_2022": 6812,
-    "change_vs_2022_pct": -1,
-    "pct_of_2022_total": "52.9%"
+    "same_point_2022": 6841,
+    "change_vs_2022_pct": -2,
+    "pct_of_2022_total": "53.1%"
    },
    {
     "county": "Stephens",
     "rv": 20838,
-    "votes": 7173,
-    "mail_accepted": 365,
+    "votes": 7181,
+    "mail_accepted": 373,
     "early_in_person": 6808,
-    "pct_of_rv": 34.4,
-    "same_point_2022": 7002,
+    "pct_of_rv": 34.5,
+    "same_point_2022": 7033,
     "change_vs_2022_pct": 2,
-    "pct_of_2022_total": "76.1%"
+    "pct_of_2022_total": "76.2%"
    },
    {
     "county": "Peach",
     "rv": 20586,
-    "votes": 7915,
-    "mail_accepted": 313,
+    "votes": 7928,
+    "mail_accepted": 326,
     "early_in_person": 7602,
-    "pct_of_rv": 38.4,
-    "same_point_2022": 7047,
+    "pct_of_rv": 38.5,
+    "same_point_2022": 7099,
     "change_vs_2022_pct": 12,
-    "pct_of_2022_total": "78.6%"
+    "pct_of_2022_total": "78.7%"
    },
    {
     "county": "Wayne",
     "rv": 20582,
-    "votes": 6234,
-    "mail_accepted": 231,
+    "votes": 6243,
+    "mail_accepted": 240,
     "early_in_person": 6003,
     "pct_of_rv": 30.3,
-    "same_point_2022": 5590,
-    "change_vs_2022_pct": 12,
-    "pct_of_2022_total": "62.0%"
+    "same_point_2022": 5620,
+    "change_vs_2022_pct": 11,
+    "pct_of_2022_total": "62.1%"
    },
    {
     "county": "Hart",
     "rv": 20516,
-    "votes": 6821,
-    "mail_accepted": 301,
+    "votes": 6828,
+    "mail_accepted": 308,
     "early_in_person": 6520,
-    "pct_of_rv": 33.2,
-    "same_point_2022": 6028,
+    "pct_of_rv": 33.3,
+    "same_point_2022": 6053,
     "change_vs_2022_pct": 13,
-    "pct_of_2022_total": "64.4%"
+    "pct_of_2022_total": "64.5%"
    },
    {
     "county": "Upson",
     "rv": 20446,
-    "votes": 6967,
-    "mail_accepted": 329,
-    "early_in_person": 6638,
+    "votes": 6982,
+    "mail_accepted": 343,
+    "early_in_person": 6639,
     "pct_of_rv": 34.1,
-    "same_point_2022": 6945,
+    "same_point_2022": 6962,
     "change_vs_2022_pct": 0,
-    "pct_of_2022_total": "68.5%"
+    "pct_of_2022_total": "68.7%"
    },
    {
     "county": "Butts",
     "rv": 19374,
-    "votes": 7658,
-    "mail_accepted": 212,
+    "votes": 7662,
+    "mail_accepted": 216,
     "early_in_person": 7446,
     "pct_of_rv": 39.5,
-    "same_point_2022": 7415,
+    "same_point_2022": 7423,
     "change_vs_2022_pct": 3,
-    "pct_of_2022_total": "78.7%"
+    "pct_of_2022_total": "78.8%"
    },
    {
     "county": "Sumter",
     "rv": 18915,
-    "votes": 6223,
-    "mail_accepted": 457,
+    "votes": 6261,
+    "mail_accepted": 495,
     "early_in_person": 5766,
-    "pct_of_rv": 32.9,
-    "same_point_2022": 6142,
+    "pct_of_rv": 33.1,
+    "same_point_2022": 6176,
     "change_vs_2022_pct": 1,
-    "pct_of_2022_total": "65.6%"
+    "pct_of_2022_total": "66.0%"
    },
    {
     "county": "Decatur",
     "rv": 18237,
-    "votes": 5057,
-    "mail_accepted": 288,
+    "votes": 5079,
+    "mail_accepted": 310,
     "early_in_person": 4769,
-    "pct_of_rv": 27.7,
-    "same_point_2022": 5435,
+    "pct_of_rv": 27.8,
+    "same_point_2022": 5460,
     "change_vs_2022_pct": -7,
-    "pct_of_2022_total": "56.7%"
+    "pct_of_2022_total": "57.0%"
    },
    {
     "county": "Putnam",
     "rv": 18097,
-    "votes": 7512,
-    "mail_accepted": 438,
+    "votes": 7538,
+    "mail_accepted": 464,
     "early_in_person": 7074,
-    "pct_of_rv": 41.5,
-    "same_point_2022": 6821,
+    "pct_of_rv": 41.7,
+    "same_point_2022": 6842,
     "change_vs_2022_pct": 10,
-    "pct_of_2022_total": "73.2%"
+    "pct_of_2022_total": "73.4%"
    },
    {
     "county": "Franklin",
     "rv": 17990,
-    "votes": 4891,
-    "mail_accepted": 206,
+    "votes": 4901,
+    "mail_accepted": 216,
     "early_in_person": 4685,
     "pct_of_rv": 27.2,
-    "same_point_2022": 4543,
-    "change_vs_2022_pct": 8,
-    "pct_of_2022_total": "55.8%"
+    "same_point_2022": 4561,
+    "change_vs_2022_pct": 7,
+    "pct_of_2022_total": "55.9%"
    },
    {
     "county": "Burke",
     "rv": 17875,
-    "votes": 4691,
-    "mail_accepted": 374,
+    "votes": 4705,
+    "mail_accepted": 388,
     "early_in_person": 4317,
-    "pct_of_rv": 26.2,
-    "same_point_2022": 4234,
+    "pct_of_rv": 26.3,
+    "same_point_2022": 4254,
     "change_vs_2022_pct": 11,
-    "pct_of_2022_total": "55.2%"
+    "pct_of_2022_total": "55.4%"
    },
    {
     "county": "Meriwether",
     "rv": 17713,
-    "votes": 4193,
-    "mail_accepted": 301,
+    "votes": 4215,
+    "mail_accepted": 323,
     "early_in_person": 3892,
-    "pct_of_rv": 23.7,
-    "same_point_2022": 4267,
+    "pct_of_rv": 23.8,
+    "same_point_2022": 4299,
     "change_vs_2022_pct": -2,
-    "pct_of_2022_total": "46.9%"
+    "pct_of_2022_total": "47.1%"
    },
    {
     "county": "Toombs",
     "rv": 17702,
-    "votes": 4938,
-    "mail_accepted": 238,
+    "votes": 4955,
+    "mail_accepted": 255,
     "early_in_person": 4700,
-    "pct_of_rv": 27.9,
-    "same_point_2022": 5488,
+    "pct_of_rv": 28.0,
+    "same_point_2022": 5516,
     "change_vs_2022_pct": -10,
-    "pct_of_2022_total": "58.0%"
+    "pct_of_2022_total": "58.2%"
    },
    {
     "county": "Morgan",
     "rv": 17263,
-    "votes": 6938,
-    "mail_accepted": 279,
+    "votes": 6957,
+    "mail_accepted": 298,
     "early_in_person": 6659,
-    "pct_of_rv": 40.2,
-    "same_point_2022": 6458,
+    "pct_of_rv": 40.3,
+    "same_point_2022": 6472,
     "change_vs_2022_pct": 7,
-    "pct_of_2022_total": "67.0%"
+    "pct_of_2022_total": "67.2%"
    },
    {
     "county": "Greene",
     "rv": 17242,
-    "votes": 8302,
-    "mail_accepted": 407,
+    "votes": 8321,
+    "mail_accepted": 426,
     "early_in_person": 7895,
-    "pct_of_rv": 48.1,
-    "same_point_2022": 7586,
+    "pct_of_rv": 48.3,
+    "same_point_2022": 7614,
     "change_vs_2022_pct": 9,
-    "pct_of_2022_total": "78.8%"
+    "pct_of_2022_total": "79.0%"
    },
    {
     "county": "McDuffie",
     "rv": 16533,
-    "votes": 5930,
-    "mail_accepted": 390,
+    "votes": 5957,
+    "mail_accepted": 417,
     "early_in_person": 5540,
-    "pct_of_rv": 35.9,
-    "same_point_2022": 5801,
+    "pct_of_rv": 36.0,
+    "same_point_2022": 5835,
     "change_vs_2022_pct": 2,
-    "pct_of_2022_total": "71.1%"
+    "pct_of_2022_total": "71.4%"
    },
    {
     "county": "Grady",
     "rv": 16486,
-    "votes": 4577,
-    "mail_accepted": 264,
+    "votes": 4595,
+    "mail_accepted": 282,
     "early_in_person": 4313,
-    "pct_of_rv": 27.8,
-    "same_point_2022": 4615,
+    "pct_of_rv": 27.9,
+    "same_point_2022": 4644,
     "change_vs_2022_pct": -1,
-    "pct_of_2022_total": "54.7%"
+    "pct_of_2022_total": "54.9%"
    },
    {
     "county": "Chattooga",
     "rv": 16347,
-    "votes": 3930,
-    "mail_accepted": 176,
+    "votes": 3941,
+    "mail_accepted": 187,
     "early_in_person": 3754,
-    "pct_of_rv": 24.0,
-    "same_point_2022": 4169,
+    "pct_of_rv": 24.1,
+    "same_point_2022": 4184,
     "change_vs_2022_pct": -6,
-    "pct_of_2022_total": "50.8%"
+    "pct_of_2022_total": "50.9%"
    },
    {
     "county": "Pike",
     "rv": 16234,
-    "votes": 5458,
-    "mail_accepted": 233,
+    "votes": 5474,
+    "mail_accepted": 249,
     "early_in_person": 5225,
-    "pct_of_rv": 33.6,
-    "same_point_2022": 5505,
+    "pct_of_rv": 33.7,
+    "same_point_2022": 5518,
     "change_vs_2022_pct": -1,
-    "pct_of_2022_total": "57.8%"
+    "pct_of_2022_total": "58.0%"
    },
    {
     "county": "Lamar",
     "rv": 15605,
-    "votes": 5183,
-    "mail_accepted": 245,
+    "votes": 5194,
+    "mail_accepted": 256,
     "early_in_person": 4938,
-    "pct_of_rv": 33.2,
-    "same_point_2022": 4494,
+    "pct_of_rv": 33.3,
+    "same_point_2022": 4507,
     "change_vs_2022_pct": 15,
-    "pct_of_2022_total": "66.7%"
+    "pct_of_2022_total": "66.9%"
    },
    {
     "county": "Banks",
     "rv": 15469,
-    "votes": 4813,
-    "mail_accepted": 223,
+    "votes": 4825,
+    "mail_accepted": 235,
     "early_in_person": 4590,
-    "pct_of_rv": 31.1,
-    "same_point_2022": 4723,
+    "pct_of_rv": 31.2,
+    "same_point_2022": 4732,
     "change_vs_2022_pct": 2,
-    "pct_of_2022_total": "65.4%"
+    "pct_of_2022_total": "65.5%"
    },
    {
     "county": "Emanuel",
     "rv": 15361,
-    "votes": 3802,
-    "mail_accepted": 171,
+    "votes": 3808,
+    "mail_accepted": 177,
     "early_in_person": 3631,
     "pct_of_rv": 24.8,
-    "same_point_2022": 3632,
+    "same_point_2022": 3641,
     "change_vs_2022_pct": 5,
-    "pct_of_2022_total": "50.1%"
+    "pct_of_2022_total": "50.2%"
    },
    {
     "county": "Rabun",
     "rv": 14446,
-    "votes": 5971,
-    "mail_accepted": 355,
+    "votes": 6009,
+    "mail_accepted": 393,
     "early_in_person": 5616,
-    "pct_of_rv": 41.3,
-    "same_point_2022": 6467,
-    "change_vs_2022_pct": -8,
-    "pct_of_2022_total": "71.9%"
+    "pct_of_rv": 41.6,
+    "same_point_2022": 6481,
+    "change_vs_2022_pct": -7,
+    "pct_of_2022_total": "72.4%"
    },
    {
     "county": "Worth",
     "rv": 14420,
-    "votes": 3545,
-    "mail_accepted": 157,
+    "votes": 3565,
+    "mail_accepted": 177,
     "early_in_person": 3388,
-    "pct_of_rv": 24.6,
-    "same_point_2022": 3441,
+    "pct_of_rv": 24.7,
+    "same_point_2022": 3456,
     "change_vs_2022_pct": 3,
-    "pct_of_2022_total": "47.7%"
+    "pct_of_2022_total": "48.0%"
    },
    {
     "county": "Mitchell",
     "rv": 14277,
-    "votes": 3771,
-    "mail_accepted": 328,
+    "votes": 3784,
+    "mail_accepted": 341,
     "early_in_person": 3443,
-    "pct_of_rv": 26.4,
-    "same_point_2022": 3861,
-    "change_vs_2022_pct": -2,
-    "pct_of_2022_total": "53.4%"
+    "pct_of_rv": 26.5,
+    "same_point_2022": 3884,
+    "change_vs_2022_pct": -3,
+    "pct_of_2022_total": "53.5%"
    },
    {
     "county": "Elbert",
     "rv": 14098,
-    "votes": 4041,
-    "mail_accepted": 220,
+    "votes": 4045,
+    "mail_accepted": 224,
     "early_in_person": 3821,
     "pct_of_rv": 28.7,
     "same_point_2022": 3981,
     "change_vs_2022_pct": 2,
-    "pct_of_2022_total": "55.0%"
+    "pct_of_2022_total": "55.1%"
    },
    {
     "county": "Pierce",
     "rv": 14020,
-    "votes": 4893,
-    "mail_accepted": 146,
+    "votes": 4912,
+    "mail_accepted": 165,
     "early_in_person": 4747,
-    "pct_of_rv": 34.9,
-    "same_point_2022": 4901,
+    "pct_of_rv": 35.0,
+    "same_point_2022": 4918,
     "change_vs_2022_pct": 0,
-    "pct_of_2022_total": "67.9%"
+    "pct_of_2022_total": "68.1%"
    },
    {
     "county": "Dade",
     "rv": 13966,
-    "votes": 2759,
-    "mail_accepted": 95,
+    "votes": 2762,
+    "mail_accepted": 98,
     "early_in_person": 2664,
     "pct_of_rv": 19.8,
     "same_point_2022": 2797,
@@ -2614,24 +2614,24 @@
    {
     "county": "Washington",
     "rv": 13944,
-    "votes": 5105,
-    "mail_accepted": 378,
+    "votes": 5144,
+    "mail_accepted": 417,
     "early_in_person": 4727,
-    "pct_of_rv": 36.6,
-    "same_point_2022": 4575,
+    "pct_of_rv": 36.9,
+    "same_point_2022": 4603,
     "change_vs_2022_pct": 12,
-    "pct_of_2022_total": "65.2%"
+    "pct_of_2022_total": "65.7%"
    },
    {
     "county": "Crisp",
     "rv": 13745,
-    "votes": 4258,
-    "mail_accepted": 228,
+    "votes": 4271,
+    "mail_accepted": 241,
     "early_in_person": 4030,
-    "pct_of_rv": 31.0,
-    "same_point_2022": 4149,
+    "pct_of_rv": 31.1,
+    "same_point_2022": 4162,
     "change_vs_2022_pct": 3,
-    "pct_of_2022_total": "67.0%"
+    "pct_of_2022_total": "67.2%"
    },
    {
     "county": "Jasper",
@@ -2640,86 +2640,86 @@
     "mail_accepted": 191,
     "early_in_person": 3785,
     "pct_of_rv": 30.5,
-    "same_point_2022": 3683,
+    "same_point_2022": 3698,
     "change_vs_2022_pct": 8,
     "pct_of_2022_total": "60.3%"
    },
    {
     "county": "Long",
     "rv": 13045,
-    "votes": 2855,
-    "mail_accepted": 80,
+    "votes": 2863,
+    "mail_accepted": 88,
     "early_in_person": 2775,
     "pct_of_rv": 21.9,
-    "same_point_2022": 2465,
+    "same_point_2022": 2477,
     "change_vs_2022_pct": 16,
-    "pct_of_2022_total": "64.3%"
+    "pct_of_2022_total": "64.5%"
    },
    {
     "county": "Tattnall",
     "rv": 12917,
-    "votes": 3712,
-    "mail_accepted": 131,
+    "votes": 3734,
+    "mail_accepted": 153,
     "early_in_person": 3581,
-    "pct_of_rv": 28.7,
-    "same_point_2022": 3910,
+    "pct_of_rv": 28.9,
+    "same_point_2022": 3919,
     "change_vs_2022_pct": -5,
-    "pct_of_2022_total": "56.6%"
+    "pct_of_2022_total": "57.0%"
    },
    {
     "county": "Brantley",
     "rv": 12803,
-    "votes": 2966,
-    "mail_accepted": 78,
+    "votes": 2971,
+    "mail_accepted": 83,
     "early_in_person": 2888,
     "pct_of_rv": 23.2,
-    "same_point_2022": 3000,
+    "same_point_2022": 3008,
     "change_vs_2022_pct": -1,
-    "pct_of_2022_total": "50.4%"
+    "pct_of_2022_total": "50.5%"
    },
    {
     "county": "Berrien",
     "rv": 12748,
-    "votes": 3299,
-    "mail_accepted": 145,
+    "votes": 3313,
+    "mail_accepted": 159,
     "early_in_person": 3154,
-    "pct_of_rv": 25.9,
-    "same_point_2022": 3251,
+    "pct_of_rv": 26.0,
+    "same_point_2022": 3267,
     "change_vs_2022_pct": 1,
-    "pct_of_2022_total": "54.7%"
+    "pct_of_2022_total": "54.9%"
    },
    {
     "county": "Appling",
     "rv": 12576,
-    "votes": 3786,
-    "mail_accepted": 209,
+    "votes": 3791,
+    "mail_accepted": 214,
     "early_in_person": 3577,
     "pct_of_rv": 30.1,
-    "same_point_2022": 3657,
-    "change_vs_2022_pct": 4,
-    "pct_of_2022_total": "56.3%"
+    "same_point_2022": 3686,
+    "change_vs_2022_pct": 3,
+    "pct_of_2022_total": "56.4%"
    },
    {
     "county": "Dodge",
     "rv": 12372,
-    "votes": 3719,
-    "mail_accepted": 215,
+    "votes": 3729,
+    "mail_accepted": 225,
     "early_in_person": 3504,
     "pct_of_rv": 30.1,
-    "same_point_2022": 3410,
+    "same_point_2022": 3430,
     "change_vs_2022_pct": 9,
-    "pct_of_2022_total": "55.9%"
+    "pct_of_2022_total": "56.1%"
    },
    {
     "county": "Oglethorpe",
     "rv": 12175,
-    "votes": 4432,
-    "mail_accepted": 259,
+    "votes": 4448,
+    "mail_accepted": 275,
     "early_in_person": 4173,
-    "pct_of_rv": 36.4,
-    "same_point_2022": 4410,
+    "pct_of_rv": 36.5,
+    "same_point_2022": 4426,
     "change_vs_2022_pct": 0,
-    "pct_of_2022_total": "64.9%"
+    "pct_of_2022_total": "65.1%"
    },
    {
     "county": "Cook",
@@ -2728,20 +2728,20 @@
     "mail_accepted": 132,
     "early_in_person": 3212,
     "pct_of_rv": 28.0,
-    "same_point_2022": 3320,
-    "change_vs_2022_pct": 1,
+    "same_point_2022": 3331,
+    "change_vs_2022_pct": 0,
     "pct_of_2022_total": "59.8%"
    },
    {
     "county": "Brooks",
     "rv": 11746,
-    "votes": 3029,
-    "mail_accepted": 184,
+    "votes": 3038,
+    "mail_accepted": 193,
     "early_in_person": 2845,
-    "pct_of_rv": 25.8,
-    "same_point_2022": 2948,
+    "pct_of_rv": 25.9,
+    "same_point_2022": 2961,
     "change_vs_2022_pct": 3,
-    "pct_of_2022_total": "53.8%"
+    "pct_of_2022_total": "53.9%"
    },
    {
     "county": "Jefferson",
@@ -2750,31 +2750,31 @@
     "mail_accepted": 233,
     "early_in_person": 2727,
     "pct_of_rv": 25.2,
-    "same_point_2022": 3403,
+    "same_point_2022": 3415,
     "change_vs_2022_pct": -13,
     "pct_of_2022_total": "47.0%"
    },
    {
     "county": "Towns",
     "rv": 11490,
-    "votes": 5693,
-    "mail_accepted": 354,
+    "votes": 5703,
+    "mail_accepted": 364,
     "early_in_person": 5339,
-    "pct_of_rv": 49.5,
-    "same_point_2022": 5355,
+    "pct_of_rv": 49.6,
+    "same_point_2022": 5374,
     "change_vs_2022_pct": 6,
-    "pct_of_2022_total": "78.9%"
+    "pct_of_2022_total": "79.0%"
    },
    {
     "county": "Ben Hill",
     "rv": 11155,
-    "votes": 3570,
-    "mail_accepted": 122,
-    "early_in_person": 3448,
+    "votes": 3574,
+    "mail_accepted": 125,
+    "early_in_person": 3449,
     "pct_of_rv": 32.0,
-    "same_point_2022": 3738,
+    "same_point_2022": 3742,
     "change_vs_2022_pct": -4,
-    "pct_of_2022_total": "69.5%"
+    "pct_of_2022_total": "69.6%"
    },
    {
     "county": "Screven",
@@ -2783,30 +2783,30 @@
     "mail_accepted": 77,
     "early_in_person": 3248,
     "pct_of_rv": 31.0,
-    "same_point_2022": 3023,
+    "same_point_2022": 3028,
     "change_vs_2022_pct": 10,
     "pct_of_2022_total": "62.6%"
    },
    {
     "county": "McIntosh",
     "rv": 10383,
-    "votes": 3737,
-    "mail_accepted": 143,
+    "votes": 3742,
+    "mail_accepted": 148,
     "early_in_person": 3594,
     "pct_of_rv": 36.0,
-    "same_point_2022": 3660,
+    "same_point_2022": 3669,
     "change_vs_2022_pct": 2,
-    "pct_of_2022_total": "67.6%"
+    "pct_of_2022_total": "67.7%"
    },
    {
     "county": "Jeff Davis",
     "rv": 9257,
-    "votes": 2288,
-    "mail_accepted": 84,
+    "votes": 2291,
+    "mail_accepted": 87,
     "early_in_person": 2204,
     "pct_of_rv": 24.7,
-    "same_point_2022": 2370,
-    "change_vs_2022_pct": -3,
+    "same_point_2022": 2377,
+    "change_vs_2022_pct": -4,
     "pct_of_2022_total": "50.2%"
    },
    {
@@ -2816,152 +2816,152 @@
     "mail_accepted": 119,
     "early_in_person": 2701,
     "pct_of_rv": 30.6,
-    "same_point_2022": 2758,
+    "same_point_2022": 2776,
     "change_vs_2022_pct": 2,
     "pct_of_2022_total": "58.2%"
    },
    {
     "county": "Heard",
     "rv": 9157,
-    "votes": 2101,
-    "mail_accepted": 208,
+    "votes": 2103,
+    "mail_accepted": 210,
     "early_in_person": 1893,
-    "pct_of_rv": 22.9,
-    "same_point_2022": 2050,
+    "pct_of_rv": 23.0,
+    "same_point_2022": 2067,
     "change_vs_2022_pct": 2,
     "pct_of_2022_total": "47.0%"
    },
    {
     "county": "Bleckley",
     "rv": 8644,
-    "votes": 3137,
-    "mail_accepted": 140,
+    "votes": 3143,
+    "mail_accepted": 146,
     "early_in_person": 2997,
-    "pct_of_rv": 36.3,
-    "same_point_2022": 2936,
-    "change_vs_2022_pct": 7,
-    "pct_of_2022_total": "65.0%"
+    "pct_of_rv": 36.4,
+    "same_point_2022": 2957,
+    "change_vs_2022_pct": 6,
+    "pct_of_2022_total": "65.1%"
    },
    {
     "county": "Early",
     "rv": 7634,
-    "votes": 2035,
-    "mail_accepted": 133,
+    "votes": 2039,
+    "mail_accepted": 137,
     "early_in_person": 1902,
     "pct_of_rv": 26.7,
-    "same_point_2022": 2196,
-    "change_vs_2022_pct": -7,
-    "pct_of_2022_total": "51.7%"
+    "same_point_2022": 2208,
+    "change_vs_2022_pct": -8,
+    "pct_of_2022_total": "51.8%"
    },
    {
     "county": "Macon",
     "rv": 7509,
-    "votes": 2300,
-    "mail_accepted": 163,
+    "votes": 2304,
+    "mail_accepted": 167,
     "early_in_person": 2137,
-    "pct_of_rv": 30.6,
-    "same_point_2022": 2415,
+    "pct_of_rv": 30.7,
+    "same_point_2022": 2425,
     "change_vs_2022_pct": -5,
-    "pct_of_2022_total": "60.6%"
+    "pct_of_2022_total": "60.7%"
    },
    {
     "county": "Candler",
     "rv": 7299,
-    "votes": 2280,
-    "mail_accepted": 68,
+    "votes": 2283,
+    "mail_accepted": 71,
     "early_in_person": 2212,
-    "pct_of_rv": 31.2,
-    "same_point_2022": 2539,
+    "pct_of_rv": 31.3,
+    "same_point_2022": 2547,
     "change_vs_2022_pct": -10,
     "pct_of_2022_total": "63.7%"
    },
    {
     "county": "Charlton",
     "rv": 7225,
-    "votes": 1814,
-    "mail_accepted": 81,
+    "votes": 1817,
+    "mail_accepted": 84,
     "early_in_person": 1733,
     "pct_of_rv": 25.1,
-    "same_point_2022": 1849,
+    "same_point_2022": 1854,
     "change_vs_2022_pct": -2,
-    "pct_of_2022_total": "53.1%"
+    "pct_of_2022_total": "53.2%"
    },
    {
     "county": "Wilkes",
     "rv": 7167,
-    "votes": 2735,
-    "mail_accepted": 217,
+    "votes": 2744,
+    "mail_accepted": 226,
     "early_in_person": 2518,
-    "pct_of_rv": 38.2,
-    "same_point_2022": 2379,
+    "pct_of_rv": 38.3,
+    "same_point_2022": 2389,
     "change_vs_2022_pct": 15,
-    "pct_of_2022_total": "65.6%"
+    "pct_of_2022_total": "65.9%"
    },
    {
     "county": "Bacon",
     "rv": 7056,
-    "votes": 2550,
-    "mail_accepted": 82,
+    "votes": 2551,
+    "mail_accepted": 83,
     "early_in_person": 2468,
-    "pct_of_rv": 36.1,
-    "same_point_2022": 2743,
+    "pct_of_rv": 36.2,
+    "same_point_2022": 2749,
     "change_vs_2022_pct": -7,
     "pct_of_2022_total": "68.1%"
    },
    {
     "county": "Wilkinson",
     "rv": 6974,
-    "votes": 1679,
-    "mail_accepted": 130,
+    "votes": 1694,
+    "mail_accepted": 145,
     "early_in_person": 1549,
-    "pct_of_rv": 24.1,
-    "same_point_2022": 1691,
+    "pct_of_rv": 24.3,
+    "same_point_2022": 1704,
     "change_vs_2022_pct": -1,
-    "pct_of_2022_total": "41.2%"
+    "pct_of_2022_total": "41.6%"
    },
    {
     "county": "Evans",
     "rv": 6797,
-    "votes": 2077,
-    "mail_accepted": 160,
+    "votes": 2083,
+    "mail_accepted": 166,
     "early_in_person": 1917,
     "pct_of_rv": 30.6,
-    "same_point_2022": 2274,
+    "same_point_2022": 2289,
     "change_vs_2022_pct": -9,
-    "pct_of_2022_total": "61.6%"
+    "pct_of_2022_total": "61.8%"
    },
    {
     "county": "Lincoln",
     "rv": 6745,
-    "votes": 2521,
-    "mail_accepted": 209,
+    "votes": 2535,
+    "mail_accepted": 223,
     "early_in_person": 2312,
-    "pct_of_rv": 37.4,
-    "same_point_2022": 2276,
+    "pct_of_rv": 37.6,
+    "same_point_2022": 2285,
     "change_vs_2022_pct": 11,
-    "pct_of_2022_total": "63.2%"
+    "pct_of_2022_total": "63.5%"
    },
    {
     "county": "Terrell",
     "rv": 6740,
-    "votes": 2011,
-    "mail_accepted": 177,
+    "votes": 2019,
+    "mail_accepted": 185,
     "early_in_person": 1834,
-    "pct_of_rv": 29.8,
-    "same_point_2022": 2059,
+    "pct_of_rv": 30.0,
+    "same_point_2022": 2063,
     "change_vs_2022_pct": -2,
-    "pct_of_2022_total": "54.9%"
+    "pct_of_2022_total": "55.1%"
    },
    {
     "county": "Irwin",
     "rv": 6553,
-    "votes": 2056,
-    "mail_accepted": 59,
+    "votes": 2058,
+    "mail_accepted": 61,
     "early_in_person": 1997,
     "pct_of_rv": 31.4,
-    "same_point_2022": 1981,
-    "change_vs_2022_pct": 4,
-    "pct_of_2022_total": "59.9%"
+    "same_point_2022": 1989,
+    "change_vs_2022_pct": 3,
+    "pct_of_2022_total": "60.0%"
    },
    {
     "county": "Lanier",
@@ -2970,75 +2970,75 @@
     "mail_accepted": 38,
     "early_in_person": 1623,
     "pct_of_rv": 25.4,
-    "same_point_2022": 1646,
+    "same_point_2022": 1649,
     "change_vs_2022_pct": 1,
     "pct_of_2022_total": "62.6%"
    },
    {
     "county": "Telfair",
     "rv": 6522,
-    "votes": 1779,
-    "mail_accepted": 102,
+    "votes": 1781,
+    "mail_accepted": 104,
     "early_in_person": 1677,
     "pct_of_rv": 27.3,
-    "same_point_2022": 1828,
+    "same_point_2022": 1842,
     "change_vs_2022_pct": -3,
     "pct_of_2022_total": "51.9%"
    },
    {
     "county": "Dooly",
     "rv": 6519,
-    "votes": 1908,
-    "mail_accepted": 109,
+    "votes": 1910,
+    "mail_accepted": 111,
     "early_in_person": 1799,
     "pct_of_rv": 29.3,
-    "same_point_2022": 1908,
-    "change_vs_2022_pct": 0,
+    "same_point_2022": 1920,
+    "change_vs_2022_pct": -1,
     "pct_of_2022_total": "57.8%"
    },
    {
     "county": "Seminole",
     "rv": 6407,
-    "votes": 1244,
-    "mail_accepted": 61,
+    "votes": 1246,
+    "mail_accepted": 63,
     "early_in_person": 1183,
     "pct_of_rv": 19.4,
-    "same_point_2022": 1389,
+    "same_point_2022": 1392,
     "change_vs_2022_pct": -10,
-    "pct_of_2022_total": "40.5%"
+    "pct_of_2022_total": "40.6%"
    },
    {
     "county": "Twiggs",
     "rv": 6401,
-    "votes": 1853,
-    "mail_accepted": 211,
+    "votes": 1862,
+    "mail_accepted": 220,
     "early_in_person": 1642,
-    "pct_of_rv": 28.9,
-    "same_point_2022": 1795,
+    "pct_of_rv": 29.1,
+    "same_point_2022": 1811,
     "change_vs_2022_pct": 3,
-    "pct_of_2022_total": "52.1%"
+    "pct_of_2022_total": "52.3%"
    },
    {
     "county": "Pulaski",
     "rv": 6340,
-    "votes": 2380,
-    "mail_accepted": 138,
+    "votes": 2384,
+    "mail_accepted": 142,
     "early_in_person": 2242,
-    "pct_of_rv": 37.5,
-    "same_point_2022": 2357,
+    "pct_of_rv": 37.6,
+    "same_point_2022": 2369,
     "change_vs_2022_pct": 1,
-    "pct_of_2022_total": "70.3%"
+    "pct_of_2022_total": "70.4%"
    },
    {
     "county": "Hancock",
     "rv": 6245,
-    "votes": 2264,
-    "mail_accepted": 262,
+    "votes": 2278,
+    "mail_accepted": 276,
     "early_in_person": 2002,
-    "pct_of_rv": 36.3,
-    "same_point_2022": 2166,
-    "change_vs_2022_pct": 5,
-    "pct_of_2022_total": "66.4%"
+    "pct_of_rv": 36.5,
+    "same_point_2022": 2196,
+    "change_vs_2022_pct": 4,
+    "pct_of_2022_total": "66.8%"
    },
    {
     "county": "Turner",
@@ -3047,31 +3047,31 @@
     "mail_accepted": 64,
     "early_in_person": 2046,
     "pct_of_rv": 34.5,
-    "same_point_2022": 2096,
-    "change_vs_2022_pct": 1,
+    "same_point_2022": 2100,
+    "change_vs_2022_pct": 0,
     "pct_of_2022_total": "67.7%"
    },
    {
     "county": "Montgomery",
     "rv": 5894,
-    "votes": 1489,
-    "mail_accepted": 63,
+    "votes": 1499,
+    "mail_accepted": 73,
     "early_in_person": 1426,
-    "pct_of_rv": 25.3,
-    "same_point_2022": 1477,
+    "pct_of_rv": 25.4,
+    "same_point_2022": 1485,
     "change_vs_2022_pct": 1,
-    "pct_of_2022_total": "45.9%"
+    "pct_of_2022_total": "46.2%"
    },
    {
     "county": "Johnson",
     "rv": 5889,
-    "votes": 1820,
-    "mail_accepted": 88,
+    "votes": 1825,
+    "mail_accepted": 93,
     "early_in_person": 1732,
-    "pct_of_rv": 30.9,
-    "same_point_2022": 1993,
+    "pct_of_rv": 31.0,
+    "same_point_2022": 1999,
     "change_vs_2022_pct": -9,
-    "pct_of_2022_total": "53.7%"
+    "pct_of_2022_total": "53.8%"
    },
    {
     "county": "Taylor",
@@ -3080,31 +3080,31 @@
     "mail_accepted": 134,
     "early_in_person": 1885,
     "pct_of_rv": 35.3,
-    "same_point_2022": 2098,
-    "change_vs_2022_pct": -4,
+    "same_point_2022": 2129,
+    "change_vs_2022_pct": -5,
     "pct_of_2022_total": "62.8%"
    },
    {
     "county": "Jenkins",
     "rv": 5465,
-    "votes": 1442,
-    "mail_accepted": 79,
+    "votes": 1445,
+    "mail_accepted": 82,
     "early_in_person": 1363,
     "pct_of_rv": 26.4,
-    "same_point_2022": 1687,
+    "same_point_2022": 1694,
     "change_vs_2022_pct": -15,
-    "pct_of_2022_total": "51.8%"
+    "pct_of_2022_total": "51.9%"
    },
    {
     "county": "Marion",
     "rv": 5347,
-    "votes": 1618,
-    "mail_accepted": 101,
+    "votes": 1631,
+    "mail_accepted": 114,
     "early_in_person": 1517,
-    "pct_of_rv": 30.3,
-    "same_point_2022": 1563,
+    "pct_of_rv": 30.5,
+    "same_point_2022": 1572,
     "change_vs_2022_pct": 4,
-    "pct_of_2022_total": "56.6%"
+    "pct_of_2022_total": "57.1%"
    },
    {
     "county": "Atkinson",
@@ -3120,35 +3120,35 @@
    {
     "county": "Wilcox",
     "rv": 4916,
-    "votes": 1217,
-    "mail_accepted": 52,
+    "votes": 1220,
+    "mail_accepted": 55,
     "early_in_person": 1165,
     "pct_of_rv": 24.8,
-    "same_point_2022": 1276,
+    "same_point_2022": 1291,
     "change_vs_2022_pct": -5,
-    "pct_of_2022_total": "46.2%"
+    "pct_of_2022_total": "46.3%"
    },
    {
     "county": "Talbot",
     "rv": 4790,
-    "votes": 1457,
-    "mail_accepted": 114,
+    "votes": 1462,
+    "mail_accepted": 119,
     "early_in_person": 1343,
-    "pct_of_rv": 30.4,
-    "same_point_2022": 1408,
+    "pct_of_rv": 30.5,
+    "same_point_2022": 1424,
     "change_vs_2022_pct": 3,
-    "pct_of_2022_total": "50.7%"
+    "pct_of_2022_total": "50.8%"
    },
    {
     "county": "Chattahoochee",
     "rv": 4666,
-    "votes": 620,
-    "mail_accepted": 23,
+    "votes": 623,
+    "mail_accepted": 26,
     "early_in_person": 597,
-    "pct_of_rv": 13.3,
-    "same_point_2022": 547,
+    "pct_of_rv": 13.4,
+    "same_point_2022": 550,
     "change_vs_2022_pct": 13,
-    "pct_of_2022_total": "60.3%"
+    "pct_of_2022_total": "60.5%"
    },
    {
     "county": "Randolph",
@@ -3157,20 +3157,20 @@
     "mail_accepted": 81,
     "early_in_person": 1318,
     "pct_of_rv": 30.7,
-    "same_point_2022": 1570,
+    "same_point_2022": 1577,
     "change_vs_2022_pct": -11,
     "pct_of_2022_total": "54.1%"
    },
    {
     "county": "Treutlen",
     "rv": 4553,
-    "votes": 1435,
-    "mail_accepted": 78,
+    "votes": 1437,
+    "mail_accepted": 80,
     "early_in_person": 1357,
-    "pct_of_rv": 31.5,
-    "same_point_2022": 1607,
+    "pct_of_rv": 31.6,
+    "same_point_2022": 1620,
     "change_vs_2022_pct": -11,
-    "pct_of_2022_total": "58.3%"
+    "pct_of_2022_total": "58.4%"
    },
    {
     "county": "Clinch",
@@ -3179,64 +3179,64 @@
     "mail_accepted": 32,
     "early_in_person": 1049,
     "pct_of_rv": 24.4,
-    "same_point_2022": 1171,
+    "same_point_2022": 1174,
     "change_vs_2022_pct": -8,
     "pct_of_2022_total": "50.8%"
    },
    {
     "county": "Warren",
     "rv": 4095,
-    "votes": 1442,
-    "mail_accepted": 81,
+    "votes": 1444,
+    "mail_accepted": 83,
     "early_in_person": 1361,
-    "pct_of_rv": 35.2,
-    "same_point_2022": 1428,
+    "pct_of_rv": 35.3,
+    "same_point_2022": 1432,
     "change_vs_2022_pct": 1,
-    "pct_of_2022_total": "66.6%"
+    "pct_of_2022_total": "66.7%"
    },
    {
     "county": "Miller",
     "rv": 4020,
-    "votes": 1173,
-    "mail_accepted": 65,
+    "votes": 1176,
+    "mail_accepted": 68,
     "early_in_person": 1108,
-    "pct_of_rv": 29.2,
-    "same_point_2022": 1268,
-    "change_vs_2022_pct": -7,
-    "pct_of_2022_total": "54.1%"
+    "pct_of_rv": 29.3,
+    "same_point_2022": 1276,
+    "change_vs_2022_pct": -8,
+    "pct_of_2022_total": "54.2%"
    },
    {
     "county": "Wheeler",
     "rv": 3462,
-    "votes": 1089,
-    "mail_accepted": 53,
+    "votes": 1092,
+    "mail_accepted": 56,
     "early_in_person": 1036,
     "pct_of_rv": 31.5,
     "same_point_2022": 981,
     "change_vs_2022_pct": 11,
-    "pct_of_2022_total": "59.5%"
+    "pct_of_2022_total": "59.7%"
    },
    {
     "county": "Schley",
     "rv": 3201,
-    "votes": 1172,
-    "mail_accepted": 47,
+    "votes": 1176,
+    "mail_accepted": 51,
     "early_in_person": 1125,
-    "pct_of_rv": 36.6,
-    "same_point_2022": 1272,
+    "pct_of_rv": 36.7,
+    "same_point_2022": 1279,
     "change_vs_2022_pct": -8,
-    "pct_of_2022_total": "62.2%"
+    "pct_of_2022_total": "62.4%"
    },
    {
     "county": "Calhoun",
     "rv": 3139,
-    "votes": 913,
-    "mail_accepted": 93,
+    "votes": 915,
+    "mail_accepted": 95,
     "early_in_person": 820,
     "pct_of_rv": 29.1,
-    "same_point_2022": 885,
+    "same_point_2022": 888,
     "change_vs_2022_pct": 3,
-    "pct_of_2022_total": "53.0%"
+    "pct_of_2022_total": "53.1%"
    },
    {
     "county": "Stewart",
@@ -3245,86 +3245,86 @@
     "mail_accepted": 29,
     "early_in_person": 719,
     "pct_of_rv": 25.5,
-    "same_point_2022": 898,
+    "same_point_2022": 902,
     "change_vs_2022_pct": -17,
     "pct_of_2022_total": "47.9%"
    },
    {
     "county": "Echols",
     "rv": 2248,
-    "votes": 592,
-    "mail_accepted": 4,
+    "votes": 594,
+    "mail_accepted": 6,
     "early_in_person": 588,
-    "pct_of_rv": 26.3,
-    "same_point_2022": 691,
+    "pct_of_rv": 26.4,
+    "same_point_2022": 692,
     "change_vs_2022_pct": -14,
-    "pct_of_2022_total": "55.4%"
+    "pct_of_2022_total": "55.6%"
    },
    {
     "county": "Glascock",
     "rv": 2201,
-    "votes": 767,
-    "mail_accepted": 27,
+    "votes": 769,
+    "mail_accepted": 29,
     "early_in_person": 740,
-    "pct_of_rv": 34.8,
-    "same_point_2022": 701,
+    "pct_of_rv": 34.9,
+    "same_point_2022": 703,
     "change_vs_2022_pct": 9,
-    "pct_of_2022_total": "58.5%"
+    "pct_of_2022_total": "58.7%"
    },
    {
     "county": "Baker",
     "rv": 2187,
-    "votes": 667,
-    "mail_accepted": 62,
+    "votes": 669,
+    "mail_accepted": 64,
     "early_in_person": 605,
-    "pct_of_rv": 30.5,
-    "same_point_2022": 724,
+    "pct_of_rv": 30.6,
+    "same_point_2022": 729,
     "change_vs_2022_pct": -8,
-    "pct_of_2022_total": "52.6%"
+    "pct_of_2022_total": "52.8%"
    },
    {
     "county": "Clay",
     "rv": 2167,
-    "votes": 724,
-    "mail_accepted": 67,
+    "votes": 733,
+    "mail_accepted": 76,
     "early_in_person": 657,
-    "pct_of_rv": 33.4,
-    "same_point_2022": 718,
-    "change_vs_2022_pct": 1,
-    "pct_of_2022_total": "63.8%"
+    "pct_of_rv": 33.8,
+    "same_point_2022": 719,
+    "change_vs_2022_pct": 2,
+    "pct_of_2022_total": "64.6%"
    },
    {
     "county": "Webster",
     "rv": 1809,
-    "votes": 654,
-    "mail_accepted": 77,
+    "votes": 655,
+    "mail_accepted": 78,
     "early_in_person": 577,
     "pct_of_rv": 36.2,
-    "same_point_2022": 740,
+    "same_point_2022": 748,
     "change_vs_2022_pct": -12,
-    "pct_of_2022_total": "57.6%"
+    "pct_of_2022_total": "57.7%"
    },
    {
     "county": "Quitman",
     "rv": 1701,
-    "votes": 543,
-    "mail_accepted": 19,
+    "votes": 545,
+    "mail_accepted": 21,
     "early_in_person": 524,
-    "pct_of_rv": 31.9,
-    "same_point_2022": 557,
+    "pct_of_rv": 32.0,
+    "same_point_2022": 564,
     "change_vs_2022_pct": -3,
-    "pct_of_2022_total": "59.5%"
+    "pct_of_2022_total": "59.8%"
    },
    {
     "county": "Taliaferro",
     "rv": 1321,
-    "votes": 498,
-    "mail_accepted": 56,
+    "votes": 507,
+    "mail_accepted": 65,
     "early_in_person": 442,
-    "pct_of_rv": 37.7,
-    "same_point_2022": 515,
-    "change_vs_2022_pct": -3,
-    "pct_of_2022_total": "61.1%"
+    "pct_of_rv": 38.4,
+    "same_point_2022": 518,
+    "change_vs_2022_pct": -2,
+    "pct_of_2022_total": "62.2%"
    }
   ],
   "focus_counties": [
@@ -3337,92 +3337,92 @@
    {
     "district": "GA-1",
     "rv": 582343,
-    "votes": 172589,
-    "pct_of_2022_total": "64.5%"
+    "votes": 173107,
+    "pct_of_2022_total": "64.7%"
    },
    {
     "district": "GA-2",
     "rv": 531799,
-    "votes": 155285,
-    "pct_of_2022_total": "64.1%"
+    "votes": 155876,
+    "pct_of_2022_total": "64.4%"
    },
    {
     "district": "GA-3",
     "rv": 612014,
-    "votes": 201467,
-    "pct_of_2022_total": "62.7%"
+    "votes": 202049,
+    "pct_of_2022_total": "62.9%"
    },
    {
     "district": "GA-4",
     "rv": 504547,
-    "votes": 192834,
-    "pct_of_2022_total": "83.4%"
+    "votes": 193181,
+    "pct_of_2022_total": "83.5%"
    },
    {
     "district": "GA-5",
     "rv": 596404,
-    "votes": 223168,
-    "pct_of_2022_total": "81.5%"
+    "votes": 223875,
+    "pct_of_2022_total": "81.8%"
    },
    {
     "district": "GA-6",
     "rv": 587934,
-    "votes": 244205,
-    "pct_of_2022_total": "84.4%"
+    "votes": 244964,
+    "pct_of_2022_total": "84.6%"
    },
    {
     "district": "GA-7",
     "rv": 584425,
-    "votes": 247667,
-    "pct_of_2022_total": "75.9%"
+    "votes": 248751,
+    "pct_of_2022_total": "76.2%"
    },
    {
     "district": "GA-8",
     "rv": 536815,
-    "votes": 168208,
-    "pct_of_2022_total": "63.2%"
+    "votes": 168670,
+    "pct_of_2022_total": "63.4%"
    },
    {
     "district": "GA-9",
     "rv": 588874,
-    "votes": 211844,
-    "pct_of_2022_total": "72.0%"
+    "votes": 212417,
+    "pct_of_2022_total": "72.2%"
    },
    {
     "district": "GA-10",
     "rv": 604319,
-    "votes": 217859,
-    "pct_of_2022_total": "68.8%"
+    "votes": 218485,
+    "pct_of_2022_total": "69.0%"
    },
    {
     "district": "GA-11",
     "rv": 590940,
-    "votes": 215545,
-    "pct_of_2022_total": "67.9%"
+    "votes": 216050,
+    "pct_of_2022_total": "68.0%"
    },
    {
     "district": "GA-12",
     "rv": 549355,
-    "votes": 164012,
-    "pct_of_2022_total": "60.7%"
+    "votes": 164712,
+    "pct_of_2022_total": "60.9%"
    },
    {
     "district": "GA-13",
     "rv": 571625,
-    "votes": 227724,
-    "pct_of_2022_total": "85.6%"
+    "votes": 228285,
+    "pct_of_2022_total": "85.8%"
    },
    {
     "district": "GA-14",
     "rv": 566878,
-    "votes": 183981,
-    "pct_of_2022_total": "65.7%"
+    "votes": 184471,
+    "pct_of_2022_total": "65.9%"
    }
   ],
   "gwinnett_extra": {
    "pres2024": "D+16.7",
    "source": "https://georgiavotes.com/county?c=67",
-   "fetched_at": "2026-11-03T03:22:50Z"
+   "fetched_at": "2026-11-03T21:49:30Z"
   },
   "sos_turnout_page": "https://sos.ga.gov/page/election-data-hub-turnout"
  },
