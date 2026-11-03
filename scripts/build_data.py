@@ -172,8 +172,9 @@ def house_summary():
     rows = {k: v for k, v in ratings['house']['rows'].items() if not k.startswith('_')}
     out = {}
     for k in RATER:
-        m = re.search(r'D\D+(\d+)\D+R\D+(\d+)\D+(\d+)', ratings['house']['rows']['_overall'][k])
-        totD, totR, toss = map(int, m.groups())
+        # final ratings can drop toss-ups entirely (e.g. "D – 239 R – 196"), so the toss-up count is optional
+        m = re.search(r'D\D+(\d+)\D+R\D+(\d+)(?:\D+(\d+))?', ratings['house']['rows']['_overall'][k])
+        totD, totR, toss = int(m.group(1)), int(m.group(2)), int(m.group(3) or 0)
         cnt = {'D': {c: 0 for c in CATS}, 'R': {c: 0 for c in CATS}}
         for row in rows.values():
             r = (row.get(k) or '').replace(' (flip)', '')

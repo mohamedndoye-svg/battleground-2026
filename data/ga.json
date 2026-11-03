@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T01:44:25Z",
+ "generated_at": "2026-11-03T03:23:58Z",
  "statewide": [
   {
    "id": "GA-U-S-Senate",
@@ -23,30 +23,30 @@
    },
    "note": "Jon Ossoff (D) is running for re-election",
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
-   "fetched_at": "2026-11-02T01:41:19Z",
+   "fetched_at": "2026-11-03T03:21:51Z",
    "ratings": {
     "cook": {
      "rating": "Likely D",
      "as_of": "October 30, 2026",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia#Predictions",
-     "fetched_at": "2026-11-02T01:41:19Z"
+     "fetched_at": "2026-11-03T03:21:51Z"
     },
     "ie": {
      "rating": "Likely D",
      "as_of": "October 29, 2026",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia#Predictions",
-     "fetched_at": "2026-11-02T01:41:19Z"
+     "fetched_at": "2026-11-03T03:21:51Z"
     },
     "sabato": {
      "rating": "Likely D",
      "as_of": "October 29, 2026",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia#Predictions",
-     "fetched_at": "2026-11-02T01:41:19Z"
+     "fetched_at": "2026-11-03T03:21:51Z"
     }
    },
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
-    "fetched_at": "2026-11-02T01:41:19Z",
+    "fetched_at": "2026-11-03T03:21:51Z",
     "averages": [
      {
       "source": "270toWin",
@@ -87,6 +87,32 @@
     ],
     "polls": [
      {
+      "pollster": "Research Co.",
+      "partisan": null,
+      "dates": "October 31 – November 2, 2026",
+      "end": "2026-11-02",
+      "n": 450,
+      "pop": "LV",
+      "moe": 4.6,
+      "dem": 52.0,
+      "rep": 42.0,
+      "margin": 10.0,
+      "cite": "https://researchco.ca/2026/11/02/midterms-2026-two/"
+     },
+     {
+      "pollster": "InsiderAdvantage",
+      "partisan": "R",
+      "dates": "October 31 – November 2, 2026",
+      "end": "2026-11-02",
+      "n": 2500,
+      "pop": "LV",
+      "moe": 2.0,
+      "dem": 53.0,
+      "rep": 46.0,
+      "margin": 7.0,
+      "cite": "https://insideradvantage.com/it-figures-in-matt-towery-and-insideradvantages-final-public-poll-at-the-end-of-a-26-year-career-georgias-governors-race-has-a-3-separation-insideradvantages-final-georgia-governors-su/"
+     },
+     {
       "pollster": "Echelon Insights",
       "partisan": "R",
       "dates": "October 16–23, 2026",
@@ -124,35 +150,9 @@
       "rep": 45.0,
       "margin": 7.0,
       "cite": "https://drive.google.com/file/d/1e2r7nm_omQkzU9N5XySW6BidnadoY3vB/view"
-     },
-     {
-      "pollster": "University of Georgia School of Public and International Affairs",
-      "partisan": null,
-      "dates": "October 7–15, 2026",
-      "end": "2026-10-15",
-      "n": 1000,
-      "pop": "LV",
-      "moe": 3.1,
-      "dem": 48.0,
-      "rep": 40.0,
-      "margin": 8.0,
-      "cite": "https://www.ajc.com/politics/2026/10/ajc-poll-ossoff-leads-collins-in-georgias-us-senate-race/"
-     },
-     {
-      "pollster": "Trafalgar Group",
-      "partisan": "R",
-      "dates": "October 7–9, 2026",
-      "end": "2026-10-09",
-      "n": 1101,
-      "pop": "LV",
-      "moe": 2.9,
-      "dem": 51.0,
-      "rep": 43.0,
-      "margin": 8.0,
-      "cite": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/10/GA-General-Report-1010.pdf"
      }
     ],
-    "poll_count": 22,
+    "poll_count": 24,
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
    },
    "consensus": 8.3
@@ -179,30 +179,30 @@
    },
    "note": "Open: Brian Kemp (R) is term-limited. Libertarian Chase Oliver withdrew.",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election",
-   "fetched_at": "2026-11-02T01:41:22Z",
+   "fetched_at": "2026-11-03T03:21:55Z",
    "ratings": {
     "cook": {
      "rating": "Toss-up",
-     "as_of": "October 27, 2026",
+     "as_of": "October 29, 2026",
      "via": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election#Predictions",
-     "fetched_at": "2026-11-02T01:41:22Z"
+     "fetched_at": "2026-11-03T03:21:55Z"
     },
     "ie": {
      "rating": "Tilt D (flip)",
      "as_of": "October 29, 2026",
      "via": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election#Predictions",
-     "fetched_at": "2026-11-02T01:41:22Z"
+     "fetched_at": "2026-11-03T03:21:55Z"
     },
     "sabato": {
-     "rating": "Toss-up",
-     "as_of": "October 27, 2026",
+     "rating": "Lean D (flip)",
+     "as_of": "November 2, 2026",
      "via": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election#Predictions",
-     "fetched_at": "2026-11-02T01:41:22Z"
+     "fetched_at": "2026-11-03T03:21:55Z"
     }
    },
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election",
-    "fetched_at": "2026-11-02T01:41:22Z",
+    "fetched_at": "2026-11-03T03:21:55Z",
     "averages": [
      {
       "source": "270toWin",
@@ -243,6 +243,32 @@
     ],
     "polls": [
      {
+      "pollster": "Research Co.",
+      "partisan": null,
+      "dates": "October 31 – November 2, 2026",
+      "end": "2026-11-02",
+      "n": 450,
+      "pop": "LV",
+      "moe": 4.6,
+      "dem": 46.0,
+      "rep": 45.0,
+      "margin": 1.0,
+      "cite": "https://researchco.ca/2026/11/02/midterms-2026-two/"
+     },
+     {
+      "pollster": "InsiderAdvantage",
+      "partisan": "R",
+      "dates": "October 31 – November 2, 2026",
+      "end": "2026-11-02",
+      "n": 2500,
+      "pop": "LV",
+      "moe": 2.0,
+      "dem": 49.0,
+      "rep": 49.0,
+      "margin": 0.0,
+      "cite": "https://insideradvantage.com/it-figures-in-matt-towery-and-insideradvantages-final-public-poll-at-the-end-of-a-26-year-career-georgias-governors-race-has-a-3-separation-insideradvantages-final-georgia-governors-su/"
+     },
+     {
       "pollster": "State Navigate",
       "partisan": null,
       "dates": "October 23–27, 2026",
@@ -280,35 +306,9 @@
       "rep": 51.5,
       "margin": -3.0,
       "cite": "https://www.activote.net/polls/2026/ga-governor/"
-     },
-     {
-      "pollster": "Quantus Insights",
-      "partisan": "R",
-      "dates": "October 15–17, 2026",
-      "end": "2026-10-17",
-      "n": 755,
-      "pop": "LV",
-      "moe": 3.8,
-      "dem": 47.0,
-      "rep": 48.0,
-      "margin": -1.0,
-      "cite": "https://drive.google.com/file/d/1e2r7nm_omQkzU9N5XySW6BidnadoY3vB/view"
-     },
-     {
-      "pollster": "University of Georgia",
-      "partisan": null,
-      "dates": "October 7–15, 2026",
-      "end": "2026-10-15",
-      "n": 1000,
-      "pop": "LV",
-      "moe": 3.1,
-      "dem": 45.0,
-      "rep": 46.0,
-      "margin": -1.0,
-      "cite": "https://www.wsbtv.com/news/local/ajcuga-poll-bottoms-jackson-dead-heat-georgia-governor-race/76TN3NROXRG4HDILVYDUMJS4RQ/"
      }
     ],
-    "poll_count": 18,
+    "poll_count": 20,
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
    },
    "consensus": -0.7
@@ -335,11 +335,11 @@
    },
    "note": "Open seat",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_lieutenant_gubernatorial_election",
-   "fetched_at": "2026-11-02T01:41:26Z",
+   "fetched_at": "2026-11-03T03:21:58Z",
    "ratings": {},
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_lieutenant_gubernatorial_election",
-    "fetched_at": "2026-11-02T01:41:26Z",
+    "fetched_at": "2026-11-03T03:21:58Z",
     "averages": [],
     "polls": [
      {
@@ -396,18 +396,18 @@
    },
    "note": "Open: Brad Raffensperger (R) ran for governor",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_Secretary_of_State_election",
-   "fetched_at": "2026-11-02T01:41:29Z",
+   "fetched_at": "2026-11-03T03:22:02Z",
    "ratings": {
     "sabato": {
      "rating": "Toss-up",
      "as_of": "October 29, 2026",
      "via": "https://en.wikipedia.org/wiki/2026_Georgia_Secretary_of_State_election#Predictions",
-     "fetched_at": "2026-11-02T01:41:29Z"
+     "fetched_at": "2026-11-03T03:22:02Z"
     }
    },
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_Secretary_of_State_election",
-    "fetched_at": "2026-11-02T01:41:29Z",
+    "fetched_at": "2026-11-03T03:22:02Z",
     "averages": [],
     "polls": [],
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
@@ -436,18 +436,18 @@
    },
    "note": "Open: Chris Carr (R) ran for governor",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_Attorney_General_election",
-   "fetched_at": "2026-11-02T01:41:33Z",
+   "fetched_at": "2026-11-03T03:22:05Z",
    "ratings": {
     "sabato": {
      "rating": "Toss-up",
      "as_of": "October 29, 2026",
      "via": "https://en.wikipedia.org/wiki/2026_Georgia_Attorney_General_election#Predictions",
-     "fetched_at": "2026-11-02T01:41:33Z"
+     "fetched_at": "2026-11-03T03:22:05Z"
     }
    },
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_Attorney_General_election",
-    "fetched_at": "2026-11-02T01:41:33Z",
+    "fetched_at": "2026-11-03T03:22:05Z",
     "averages": [],
     "polls": [
      {
@@ -504,11 +504,11 @@
    },
    "note": "Tyler Harper (R) is running for re-election",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_Agriculture_Commissioner_election",
-   "fetched_at": "2026-11-02T01:41:36Z",
+   "fetched_at": "2026-11-03T03:22:08Z",
    "ratings": {},
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_Agriculture_Commissioner_election",
-    "fetched_at": "2026-11-02T01:41:36Z",
+    "fetched_at": "2026-11-03T03:22:08Z",
     "averages": [],
     "polls": [],
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
@@ -537,11 +537,11 @@
    },
    "note": "John King (R) is running for re-election",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_Insurance_Commissioner_election",
-   "fetched_at": "2026-11-02T01:41:40Z",
+   "fetched_at": "2026-11-03T03:22:20Z",
    "ratings": {},
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_Insurance_Commissioner_election",
-    "fetched_at": "2026-11-02T01:41:40Z",
+    "fetched_at": "2026-11-03T03:22:20Z",
     "averages": [],
     "polls": [],
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
@@ -570,11 +570,11 @@
    },
    "note": "Bárbara Rivera Holmes (R) is running for a first full term",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_Labor_Commissioner_election",
-   "fetched_at": "2026-11-02T01:41:43Z",
+   "fetched_at": "2026-11-03T03:22:23Z",
    "ratings": {},
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_Labor_Commissioner_election",
-    "fetched_at": "2026-11-02T01:41:43Z",
+    "fetched_at": "2026-11-03T03:22:23Z",
     "averages": [],
     "polls": [],
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
@@ -603,11 +603,11 @@
    },
    "note": "Richard Woods (R) is running for re-election",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_State_Superintendent_of_Schools_election",
-   "fetched_at": "2026-11-02T01:41:47Z",
+   "fetched_at": "2026-11-03T03:22:26Z",
    "ratings": {},
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_State_Superintendent_of_Schools_election",
-    "fetched_at": "2026-11-02T01:41:47Z",
+    "fetched_at": "2026-11-03T03:22:26Z",
     "averages": [],
     "polls": [],
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
@@ -636,11 +636,11 @@
    },
    "note": "Peter Hubbard (D) is running for re-election; rematch of 2025",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election",
-   "fetched_at": "2026-11-02T01:41:50Z",
+   "fetched_at": "2026-11-03T03:22:30Z",
    "ratings": {},
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election",
-    "fetched_at": "2026-11-02T01:41:50Z",
+    "fetched_at": "2026-11-03T03:22:30Z",
     "averages": [],
     "polls": [
      {
@@ -684,11 +684,11 @@
    },
    "note": "Open: Tricia Pridemore (R) ran for U.S. House",
    "source": "https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election",
-   "fetched_at": "2026-11-02T01:41:50Z",
+   "fetched_at": "2026-11-03T03:22:30Z",
    "ratings": {},
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election",
-    "fetched_at": "2026-11-02T01:41:50Z",
+    "fetched_at": "2026-11-03T03:22:30Z",
     "averages": [],
     "polls": [
      {
@@ -764,7 +764,7 @@
    "ratings": {
     "cook": {
      "rating": "Solid R",
-     "as_of": "Oct 30, 2026"
+     "as_of": "Nov 2, 2026"
     },
     "ie": {
      "rating": "Solid R",
@@ -772,7 +772,7 @@
     },
     "sabato": {
      "rating": "Safe R",
-     "as_of": "Oct 27, 2026"
+     "as_of": "Nov 2, 2026"
     }
    },
    "competitive": false,
@@ -806,7 +806,7 @@
    "ratings": {
     "cook": {
      "rating": "Solid",
-     "as_of": "Oct 30, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     },
     "ie": {
@@ -816,7 +816,7 @@
     },
     "sabato": {
      "rating": "Solid",
-     "as_of": "Oct 27, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     }
    },
@@ -851,7 +851,7 @@
    "ratings": {
     "cook": {
      "rating": "Solid",
-     "as_of": "Oct 30, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     },
     "ie": {
@@ -861,7 +861,7 @@
     },
     "sabato": {
      "rating": "Solid",
-     "as_of": "Oct 27, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     }
    },
@@ -896,7 +896,7 @@
    "ratings": {
     "cook": {
      "rating": "Solid",
-     "as_of": "Oct 30, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     },
     "ie": {
@@ -906,7 +906,7 @@
     },
     "sabato": {
      "rating": "Solid",
-     "as_of": "Oct 27, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     }
    },
@@ -941,7 +941,7 @@
    "ratings": {
     "cook": {
      "rating": "Solid",
-     "as_of": "Oct 30, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     },
     "ie": {
@@ -951,7 +951,7 @@
     },
     "sabato": {
      "rating": "Solid",
-     "as_of": "Oct 27, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     }
    },
@@ -986,7 +986,7 @@
    "ratings": {
     "cook": {
      "rating": "Solid",
-     "as_of": "Oct 30, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     },
     "ie": {
@@ -996,7 +996,7 @@
     },
     "sabato": {
      "rating": "Solid",
-     "as_of": "Oct 27, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     }
    },
@@ -1031,7 +1031,7 @@
    "ratings": {
     "cook": {
      "rating": "Solid R",
-     "as_of": "Oct 30, 2026"
+     "as_of": "Nov 2, 2026"
     },
     "ie": {
      "rating": "Solid R",
@@ -1039,7 +1039,7 @@
     },
     "sabato": {
      "rating": "Safe R",
-     "as_of": "Oct 27, 2026"
+     "as_of": "Nov 2, 2026"
     }
    },
    "competitive": false,
@@ -1073,7 +1073,7 @@
    "ratings": {
     "cook": {
      "rating": "Solid",
-     "as_of": "Oct 30, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     },
     "ie": {
@@ -1083,7 +1083,7 @@
     },
     "sabato": {
      "rating": "Solid",
-     "as_of": "Oct 27, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     }
    },
@@ -1118,7 +1118,7 @@
    "ratings": {
     "cook": {
      "rating": "Solid",
-     "as_of": "Oct 30, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     },
     "ie": {
@@ -1128,7 +1128,7 @@
     },
     "sabato": {
      "rating": "Solid",
-     "as_of": "Oct 27, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     }
    },
@@ -1163,7 +1163,7 @@
    "ratings": {
     "cook": {
      "rating": "Solid R",
-     "as_of": "Oct 30, 2026"
+     "as_of": "Nov 2, 2026"
     },
     "ie": {
      "rating": "Solid R",
@@ -1171,7 +1171,7 @@
     },
     "sabato": {
      "rating": "Safe R",
-     "as_of": "Oct 27, 2026"
+     "as_of": "Nov 2, 2026"
     }
    },
    "competitive": false,
@@ -1204,16 +1204,19 @@
    ],
    "ratings": {
     "cook": {
-     "rating": "Solid R",
-     "as_of": "Oct 30, 2026"
+     "rating": "Solid",
+     "as_of": "Nov 2, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     },
     "ie": {
-     "rating": "Solid R",
-     "as_of": "Oct 29, 2026"
+     "rating": "Solid",
+     "as_of": "Oct 29, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     },
     "sabato": {
-     "rating": "Safe R",
-     "as_of": "Oct 27, 2026"
+     "rating": "Solid",
+     "as_of": "Nov 2, 2026",
+     "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     }
    },
    "competitive": false,
@@ -1247,7 +1250,7 @@
    "ratings": {
     "cook": {
      "rating": "Solid R",
-     "as_of": "Oct 30, 2026"
+     "as_of": "Nov 2, 2026"
     },
     "ie": {
      "rating": "Solid R",
@@ -1255,7 +1258,7 @@
     },
     "sabato": {
      "rating": "Safe R",
-     "as_of": "Oct 27, 2026"
+     "as_of": "Nov 2, 2026"
     }
    },
    "competitive": false,
@@ -1289,7 +1292,7 @@
    "ratings": {
     "cook": {
      "rating": "Solid",
-     "as_of": "Oct 30, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     },
     "ie": {
@@ -1299,7 +1302,7 @@
     },
     "sabato": {
      "rating": "Solid",
-     "as_of": "Oct 27, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     }
    },
@@ -1334,7 +1337,7 @@
    "ratings": {
     "cook": {
      "rating": "Solid",
-     "as_of": "Oct 30, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     },
     "ie": {
@@ -1344,7 +1347,7 @@
     },
     "sabato": {
      "rating": "Solid",
-     "as_of": "Oct 27, 2026",
+     "as_of": "Nov 2, 2026",
      "note": "Not listed in the competitive-seat table, i.e. rated Solid/Safe by every rater"
     }
    },
@@ -1363,11 +1366,11 @@
  ],
  "house_sources": {
   "ratings_via": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-  "ratings_fetched_at": "2026-11-02T01:39:34Z",
+  "ratings_fetched_at": "2026-11-03T03:20:04Z",
   "candidates_and_margins": "https://www.270towin.com/2026-house-election/",
-  "candidates_fetched_at": "2026-11-02T01:41:57Z",
+  "candidates_fetched_at": "2026-11-03T03:22:37Z",
   "gwinnett_source": "https://en.wikipedia.org/wiki/Gwinnett_County,_Georgia",
-  "gwinnett_fetched_at": "2026-11-02T01:41:54Z",
+  "gwinnett_fetched_at": "2026-11-03T03:22:33Z",
   "gwinnett_note": "Gwinnett County is split among the 4th, 9th, 10th and 13th districts (2023 map).",
   "ga13_note": "David Scott (D) died April 22, 2026; Everton Blair won the special election, then lost the Democratic primary to Jasmine Clark.",
   "ga14_note": "Marjorie Taylor Greene (R) resigned January 5, 2026; Clay Fuller won the special election."
@@ -1375,13 +1378,13 @@
  "turnout": {
   "source": "https://georgiavotes.com/",
   "source_note": "georgiavotes.com is an independent site built from the GA Secretary of State absentee voter files (sos.ga.gov blocks automated access from here). Counts only accepted ballots with a return date.",
-  "site_last_updated": "2026-11-01 07:58:01",
+  "site_last_updated": "2026-11-02 09:18:46",
   "site_tz_note": "timezone not stated by the site",
-  "fetched_at": "2026-11-02T01:42:00Z",
-  "through_vote_day": "2026-10-31",
+  "fetched_at": "2026-11-03T03:22:40Z",
+  "through_vote_day": "2026-11-01",
   "statewide": {
-   "votes": 2826146,
-   "same_point_2022": 2511966,
+   "votes": 2826388,
+   "same_point_2022": 2512273,
    "change_vs_2022_pct": 12.5,
    "final_2022_early_total_note": "The 2022 series keeps rising after this point; the 2022 value at election eve is shown in the daily series.",
    "same_point_2024": null,
@@ -1430,42 +1433,42 @@
    },
    {
     "date": "2026-10-13",
-    "y2026": 202718,
+    "y2026": 202719,
     "y2022": 297434
    },
    {
     "date": "2026-10-14",
-    "y2026": 383252,
+    "y2026": 383253,
     "y2022": 443824
    },
    {
     "date": "2026-10-15",
-    "y2026": 554854,
+    "y2026": 554855,
     "y2022": 582229
    },
    {
     "date": "2026-10-16",
-    "y2026": 743937,
+    "y2026": 743938,
     "y2022": 738762
    },
    {
     "date": "2026-10-17",
-    "y2026": 839333,
+    "y2026": 839334,
     "y2022": 825615
    },
    {
     "date": "2026-10-18",
-    "y2026": 864665,
+    "y2026": 864666,
     "y2022": 844388
    },
    {
     "date": "2026-10-19",
-    "y2026": 1031071,
+    "y2026": 1031072,
     "y2022": 998522
    },
    {
     "date": "2026-10-20",
-    "y2026": 1190305,
+    "y2026": 1190306,
     "y2022": 1135094
    },
    {
@@ -1505,27 +1508,27 @@
    },
    {
     "date": "2026-10-28",
-    "y2026": 2311019,
+    "y2026": 2311020,
     "y2022": 2097540
    },
    {
     "date": "2026-10-29",
-    "y2026": 2516294,
+    "y2026": 2516295,
     "y2022": 2266300
    },
    {
     "date": "2026-10-30",
-    "y2026": 2825212,
+    "y2026": 2825221,
     "y2022": 2508853
    },
    {
     "date": "2026-10-31",
-    "y2026": 2826146,
+    "y2026": 2826170,
     "y2022": 2511966
    },
    {
     "date": "2026-11-01",
-    "y2026": null,
+    "y2026": 2826388,
     "y2022": 2512273
    },
    {
@@ -1588,11 +1591,11 @@
    {
     "county": "Gwinnett",
     "rv": 645243,
-    "votes": 238117,
-    "mail_accepted": 8980,
+    "votes": 238151,
+    "mail_accepted": 9014,
     "early_in_person": 229137,
     "pct_of_rv": 36.9,
-    "same_point_2022": 189324,
+    "same_point_2022": 189336,
     "change_vs_2022_pct": 26,
     "pct_of_2022_total": "79.3%"
    },
@@ -1603,15 +1606,15 @@
     "mail_accepted": 9294,
     "early_in_person": 227324,
     "pct_of_rv": 41.8,
-    "same_point_2022": 202854,
+    "same_point_2022": 202947,
     "change_vs_2022_pct": 17,
     "pct_of_2022_total": "75.7%"
    },
    {
     "county": "DeKalb",
     "rv": 565098,
-    "votes": 239655,
-    "mail_accepted": 9055,
+    "votes": 239836,
+    "mail_accepted": 9236,
     "early_in_person": 230600,
     "pct_of_rv": 42.4,
     "same_point_2022": 211391,
@@ -1625,15 +1628,15 @@
     "mail_accepted": 3962,
     "early_in_person": 62754,
     "pct_of_rv": 28.9,
-    "same_point_2022": 56925,
+    "same_point_2022": 57088,
     "change_vs_2022_pct": 17,
     "pct_of_2022_total": "62.5%"
    },
    {
     "county": "Cherokee",
     "rv": 219195,
-    "votes": 86423,
-    "mail_accepted": 4723,
+    "votes": 86428,
+    "mail_accepted": 4728,
     "early_in_person": 81700,
     "pct_of_rv": 39.4,
     "same_point_2022": 73703,
@@ -1669,7 +1672,7 @@
     "mail_accepted": 3182,
     "early_in_person": 71684,
     "pct_of_rv": 41.3,
-    "same_point_2022": 69328,
+    "same_point_2022": 69332,
     "change_vs_2022_pct": 8,
     "pct_of_2022_total": "72.9%"
    },
@@ -1702,7 +1705,7 @@
     "mail_accepted": 2901,
     "early_in_person": 39994,
     "pct_of_rv": 30.4,
-    "same_point_2022": 38940,
+    "same_point_2022": 38942,
     "change_vs_2022_pct": 10,
     "pct_of_2022_total": "71.9%"
    },
@@ -1797,9 +1800,9 @@
    {
     "county": "Newton",
     "rv": 93657,
-    "votes": 31531,
-    "mail_accepted": 1441,
-    "early_in_person": 30090,
+    "votes": 31546,
+    "mail_accepted": 1455,
+    "early_in_person": 30091,
     "pct_of_rv": 33.7,
     "same_point_2022": 25017,
     "change_vs_2022_pct": 26,
@@ -1834,7 +1837,7 @@
     "mail_accepted": 856,
     "early_in_person": 22575,
     "pct_of_rv": 28.8,
-    "same_point_2022": 22743,
+    "same_point_2022": 22744,
     "change_vs_2022_pct": 3,
     "pct_of_2022_total": "67.2%"
    },
@@ -1885,8 +1888,8 @@
    {
     "county": "Floyd",
     "rv": 67993,
-    "votes": 18567,
-    "mail_accepted": 851,
+    "votes": 18574,
+    "mail_accepted": 858,
     "early_in_person": 17716,
     "pct_of_rv": 27.3,
     "same_point_2022": 16953,
@@ -1999,7 +2002,7 @@
     "mail_accepted": 755,
     "early_in_person": 12084,
     "pct_of_rv": 29.3,
-    "same_point_2022": 10936,
+    "same_point_2022": 10956,
     "change_vs_2022_pct": 17,
     "pct_of_2022_total": "71.4%"
    },
@@ -2010,7 +2013,7 @@
     "mail_accepted": 602,
     "early_in_person": 11156,
     "pct_of_rv": 27.2,
-    "same_point_2022": 10764,
+    "same_point_2022": 10765,
     "change_vs_2022_pct": 9,
     "pct_of_2022_total": "76.1%"
    },
@@ -2021,7 +2024,7 @@
     "mail_accepted": 449,
     "early_in_person": 9384,
     "pct_of_rv": 23.0,
-    "same_point_2022": 9344,
+    "same_point_2022": 9345,
     "change_vs_2022_pct": 5,
     "pct_of_2022_total": "51.8%"
    },
@@ -2208,8 +2211,8 @@
     "mail_accepted": 265,
     "early_in_person": 7162,
     "pct_of_rv": 29.4,
-    "same_point_2022": 7316,
-    "change_vs_2022_pct": 2,
+    "same_point_2022": 7325,
+    "change_vs_2022_pct": 1,
     "pct_of_2022_total": "54.5%"
    },
    {
@@ -2626,7 +2629,7 @@
     "mail_accepted": 228,
     "early_in_person": 4030,
     "pct_of_rv": 31.0,
-    "same_point_2022": 4148,
+    "same_point_2022": 4149,
     "change_vs_2022_pct": 3,
     "pct_of_2022_total": "67.0%"
    },
@@ -3352,13 +3355,13 @@
    {
     "district": "GA-4",
     "rv": 504547,
-    "votes": 192724,
-    "pct_of_2022_total": "83.3%"
+    "votes": 192834,
+    "pct_of_2022_total": "83.4%"
    },
    {
     "district": "GA-5",
     "rv": 596404,
-    "votes": 223087,
+    "votes": 223168,
     "pct_of_2022_total": "81.5%"
    },
    {
@@ -3382,19 +3385,19 @@
    {
     "district": "GA-9",
     "rv": 588874,
-    "votes": 211831,
+    "votes": 211844,
     "pct_of_2022_total": "72.0%"
    },
    {
     "district": "GA-10",
     "rv": 604319,
-    "votes": 217851,
+    "votes": 217859,
     "pct_of_2022_total": "68.8%"
    },
    {
     "district": "GA-11",
     "rv": 590940,
-    "votes": 215540,
+    "votes": 215545,
     "pct_of_2022_total": "67.9%"
    },
    {
@@ -3406,20 +3409,20 @@
    {
     "district": "GA-13",
     "rv": 571625,
-    "votes": 227706,
+    "votes": 227724,
     "pct_of_2022_total": "85.6%"
    },
    {
     "district": "GA-14",
     "rv": 566878,
-    "votes": 183974,
+    "votes": 183981,
     "pct_of_2022_total": "65.7%"
    }
   ],
   "gwinnett_extra": {
    "pres2024": "D+16.7",
    "source": "https://georgiavotes.com/county?c=67",
-   "fetched_at": "2026-11-02T01:42:11Z"
+   "fetched_at": "2026-11-03T03:22:50Z"
   },
   "sos_turnout_page": "https://sos.ga.gov/page/election-data-hub-turnout"
  },

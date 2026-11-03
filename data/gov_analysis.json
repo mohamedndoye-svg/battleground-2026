@@ -1,27 +1,27 @@
 {
- "as_of": "Nov 1, 2026",
+ "as_of": "Nov 3, 2026",
  "note": "Hand-written analysis drawn only from the ratings, polls and 2024 results stored for each race. Describes the state of the race; not a forecast. Edit freely, then rebuild.",
  "races": {
   "Georgia": {
    "headline": "The closest governor's race on the map, and the one most likely to go to a runoff.",
    "body": [
-    "The four free averages run from Jackson +1.5 to an exact tie (mean: Jackson +0.7). Each of the five latest polls is within its own margin of error, and they split three for Jackson, two for Bottoms. Cook and Sabato call it a Toss-up; Inside Elections has it Tilt D.",
-    "Neither candidate reaches 50% in any average (Bottoms 46.3–48.0%, Jackson 47.8–48.8%). Georgia requires 50% + 1 of the votes cast, and write-in votes count toward that total, so a result this close could send the seat to the December 1 runoff even with only two names on the ballot. Trump carried Georgia by 2.2 points in 2024, so the race is running about 1.5 points better for Democrats than the 2024 presidential vote."
+    "The four free averages run from Jackson +1.5 to an exact tie (mean: Jackson +0.7). The two final polls (Oct 31–Nov 2) split the difference: Research Co. has Bottoms up 1 and InsiderAdvantage, a Republican firm, has a 49–49 tie. Every one of the latest five is within its margin of error. The final ratings differ: Cook still calls it a Toss-up, Inside Elections says Tilt D, and Sabato, which retired all its toss-ups on Nov 2, says Lean D.",
+    "Neither candidate reaches 50% in any average (Bottoms 46.3–48.0%, Jackson 47.8–48.8%). Georgia requires 50% + 1 of the votes cast, and write-in votes count toward that total, so a result this close could send the seat to the December 1 runoff even with only two names on the ballot. Trump carried Georgia by 2.2 points in 2024."
    ],
    "watch": "Whether the leader clears 50% once all ballots are counted. If not, Georgia votes again on December 1."
   },
   "Iowa": {
    "headline": "An open Republican seat where the Democrat has led steadily and sits above 50%.",
    "body": [
-    "Rob Sand leads Zach Lahn by 5.8 to 6.7 points across all four averages (mean: Sand +6.3), and his share is 51.2–51.6% in every one. All five of the latest polls have him ahead: the final Times/Siena poll by 8, YouGov by 7, and the Republican firm co/efficient by 5.",
-    "That's a big gap from 2024, when Trump won Iowa by 13.2 points: about a 19-point difference. All three raters list it as Lean D, a flip from the retiring Republican Kim Reynolds. An independent, Sondra Wilson, is also on the ballot."
+    "Rob Sand leads Zach Lahn by 6.2 to 7.7 points across all four averages (mean: Sand +7.1), and his share is 51.3–52.0% in every one. All five of the latest polls have him ahead, from 5 points (Rasmussen and co/efficient, both Republican firms) to 10 (AtlasIntel); the final Times/Siena poll has him up 8.",
+    "That's a big gap from 2024, when Trump won Iowa by 13.2 points: about a 20-point difference. All three raters list it as Lean D, a flip from the retiring Republican Kim Reynolds. An independent, Sondra Wilson, is also on the ballot."
    ],
    "watch": "Whether Sand's lead holds in the rural counties Trump won easily. The polls show a statewide lead; they don't show where it comes from."
   },
   "Nevada": {
    "headline": "A pure toss-up between an incumbent Republican and the state's attorney general.",
    "body": [
-    "The averages range from Lombardo +1.3 to Aaron Ford +0.7 (mean: Lombardo +0.2), and all three raters call it a Toss-up. The newest independent poll, Noble Predictive Insights (Oct 26–28), shows a 47–47 tie. Polls showing Ford ahead come from Democratic-aligned firms.",
+    "The averages range from Lombardo +1.3 to Aaron Ford +0.7 (mean: Lombardo +0.2). Cook and Inside Elections call it a Toss-up; Sabato, which retired its toss-ups on Nov 2, says Lean D. The newest independent poll, Noble Predictive Insights (Oct 26–28), shows a 47–47 tie, and no new polls came out over the final weekend. Polls showing Ford ahead come from Democratic-aligned firms.",
     "Two of the averages are stale (270toWin updated Oct 20, RealClearPolitics Oct 6). An unrelated independent, Danielle Ford, is also on the ballot, which could confuse voters looking for Aaron Ford. Trump carried Nevada by 3.1 points in 2024."
    ],
    "watch": "Clark County (Las Vegas) mail ballots, which Nevada often counts for days after Election Day."
@@ -29,31 +29,31 @@
   "Kansas": {
    "headline": "A Democratic seat leaning toward a Republican flip, with mixed recent polling.",
    "body": [
-    "Ty Masterson leads Cindy Holscher by 1.4 to 2.9 points in the averages (mean: Masterson +2.0). The latest polls point in different directions: the final Times/Siena poll (Oct 27–Nov 1) has Holscher up 1 and The Washington Post/SSPG had her up 6, while Emerson and SSRS have Masterson up 5 and YouGov up 1.",
-    "Laura Kelly (D) is term-limited. The raters differ: Cook says Toss-up, Inside Elections Tilt R, and Sabato Lean R. Trump won Kansas by 16.1 points, so even a narrow Masterson win would leave the race far closer than the presidential vote."
+    "Ty Masterson leads Cindy Holscher by only 0.6 to 1.8 points in the averages (mean: Masterson +1.1), narrower than a week ago. The final polls lean the other way: AtlasIntel has Holscher up 4, and Survey 160 and the final Times/Siena poll have her up 1, while YouGov has Masterson up 1 and Emerson up 5.",
+    "Laura Kelly (D) is term-limited. The final ratings still differ: Cook says Toss-up, Inside Elections Tilt R, and Sabato Lean R. Trump won Kansas by 16.1 points, so even a narrow Masterson win would leave the race far closer than the presidential vote."
    ],
    "watch": "Johnson County (suburban Kansas City), where Democrats have needed big margins to win statewide."
   },
   "Ohio": {
    "headline": "An open Republican seat where the Democrat holds a small but consistent lead.",
    "body": [
-    "Amy Acton leads Vivek Ramaswamy by 2.2 to 4.5 points across the four averages (mean: Acton +3.2). All five of the latest polls have her ahead, including the final Times/Siena poll (Acton +6) and InsiderAdvantage, a Republican firm (Acton +3).",
-    "All three raters list it as a lean or tilt flip to Democrats. Trump won Ohio by 11.2 points in 2024. Acton's share is 48.4–49.3%, just under 50%, and a Libertarian is on the ballot, so a small polling miss could still change the result."
+    "Amy Acton leads Vivek Ramaswamy by 3.7 to 4.7 points across the four averages (mean: Acton +4.2), up about a point since the weekend. Four of the five latest polls have her ahead by 6 to 8, including the final Times/Siena poll (+6) and AtlasIntel (+8); Emerson's final poll (Oct 31–Nov 1) has a 48–48 tie.",
+    "All three raters list it as a lean or tilt flip to Democrats. Trump won Ohio by 11.2 points in 2024. Acton's share is 48.9–49.6%, just under 50%, and a Libertarian is on the ballot."
    ],
    "watch": "The Senate special election (Brown v. Husted) on the same ballot, where Brown leads by about 2 points in the averages."
   },
   "Texas": {
    "headline": "Abbott leads, but by far less than Trump's 2024 margin.",
    "body": [
-    "Greg Abbott leads Gina Hinojosa by 2.2 to 3.3 points (mean: Abbott +2.6), with his share at 49.3–50.2%. The final Times/Siena poll (Oct 27–Nov 1) is the exception, with Hinojosa up 1; the other four latest polls have Abbott up 1 to 5.",
-    "Trump carried Texas by 13.7 points, so this is about an 11-point gap from 2024. Cook and Sabato say Lean R, Inside Elections Tilt R. The Senate race on the same ballot (Talarico v. Paxton) leans the other way in its averages."
+    "Greg Abbott leads Gina Hinojosa by 1.5 to 2.5 points (mean: Abbott +2.0), the closest it has been. The final polls are split: AtlasIntel and the final Times/Siena poll have Hinojosa up 1, while Research Co., Emerson and Kreate Strategies have Abbott up 1 to 2. Abbott's share is 48.9–49.8%.",
+    "Trump carried Texas by 13.7 points, so this is about a 12-point gap from 2024. Cook and Sabato say Lean R, Inside Elections Tilt R. The Senate race on the same ballot (Talarico v. Paxton) leans the other way in its averages."
    ],
    "watch": "Whether many voters split their tickets: Abbott ahead for governor while Talarico leads for Senate."
   },
   "Florida": {
    "headline": "The Republican is ahead in an open seat, though by less than recent Florida results.",
    "body": [
-    "Byron Donalds leads David Jolly, a former Republican congressman now running as a Democrat, by 3.8 to 4.6 points (mean: Donalds +4.3), a little closer than a week ago. All five of the latest polls favor Donalds, by 1 to 6 points; the most recent Times/Siena poll (Oct 19–25) had him up 4.",
+    "Byron Donalds leads David Jolly, a former Republican congressman now running as a Democrat, by 3.8 to 4.6 points (mean: Donalds +4.3). All five of the latest polls favor Donalds, by 3 to 6 points; the final Research Co. poll (Oct 31–Nov 2) has him up 4.",
     "All three raters list it as Lean R. Trump won Florida by 13.1 points in 2024, and DeSantis won 59.4% of the vote in 2022."
    ],
    "watch": "Miami-Dade, which swung sharply right in 2022 and 2024."
@@ -61,15 +61,15 @@
   "Michigan": {
    "headline": "An open Democratic seat where the Democrat holds a comfortable lead.",
    "body": [
-    "Jocelyn Benson leads John James by 7.6 to 8.4 points across all four averages (mean: Benson +8.1), and all five of the latest polls have her ahead, from 4 points (Data for Progress) to 13 (the final Times/Siena poll, Oct 23–Nov 1).",
-    "Gretchen Whitmer is term-limited. Cook and Inside Elections say Lean D, Sabato Likely D. Trump won Michigan by 1.4 points in 2024, so this is roughly a 9-point gap from that result."
+    "Jocelyn Benson leads John James by 8.8 to 9.7 points across all four averages (mean: Benson +9.2), up about a point since the weekend. All five of the latest polls have her ahead, from 4 points (Emerson, Oct 31–Nov 1) to 13 (the final Times/Siena poll).",
+    "Gretchen Whitmer is term-limited. Cook and Inside Elections say Lean D, Sabato Likely D. Trump won Michigan by 1.4 points in 2024, so this is roughly a 10-point gap from that result."
    ],
-   "watch": "Whether Benson's margin is close to Abdul El-Sayed's in the Senate race; the Senate averages show him about 5 points ahead."
+   "watch": "Whether Benson's margin is close to Abdul El-Sayed's in the Senate race; the Senate averages show him about 5.5 points ahead."
   },
   "Wisconsin": {
    "headline": "An open Democratic seat, with the Democrat ahead in every average.",
    "body": [
-    "David Crowley leads Tom Tiffany by 3.7 to 5.4 points (mean: Crowley +4.7). Marquette University, Wisconsin's most-cited poll, has him up 7 (Oct 14–22); Wick, a Republican firm, has him up 3.",
+    "David Crowley leads Tom Tiffany by 3.7 to 5.4 points (mean: Crowley +4.7). The newest poll, Research Co. (Oct 30–Nov 1), has him up 5; Marquette University, Wisconsin's most-cited poll, had him up 7 (Oct 14–22); Wick, a Republican firm, up 3.",
     "Tony Evers is retiring. Cook and Sabato say Lean D, Inside Elections Tilt D. Trump carried Wisconsin by 0.9 points in 2024, and only 11 polls are listed for this race, fewer than other close races."
    ],
    "watch": "Milwaukee, where Crowley is the county executive, and the Waukesha suburbs."
@@ -77,8 +77,8 @@
   "Alaska": {
    "headline": "The Democrat leads first choices by about 20 points, but the ranked-choice count is much closer.",
    "body": [
-    "Jonathan Kreiss-Tomkins gets 42–50% of first choices against three Republicans, with Bernadette Wilson the strongest at 25–30%; the final Times/Siena poll (Oct 23–30) has 42% to 25%. Alaska elects governors by ranked-choice voting, so most Republican votes would transfer. In Alaska Survey Research's three-round simulation (Oct 23–25), Kreiss-Tomkins finishes 53–47.",
-    "No polling average is published. All three raters call it a Democratic flip (Lean D or Tilt D) of the seat Mike Dunleavy (R) is leaving. Trump won Alaska by 13.1 points."
+    "Jonathan Kreiss-Tomkins gets 42–52% of first choices against three Republicans, with Bernadette Wilson the strongest at 25–34%; AtlasIntel's final poll (Oct 28–Nov 1) has 52% to 34%. Alaska elects governors by ranked-choice voting, so most Republican votes would transfer. In Alaska Survey Research's three-round simulation (Oct 23–25), Kreiss-Tomkins finishes 53–47.",
+    "No polling average is published. All three raters call it a Democratic flip (Cook Lean D, Inside Elections Tilt D, Sabato Likely D) of the seat Mike Dunleavy (R) is leaving. Trump won Alaska by 13.1 points."
    ],
    "watch": "Ranked-choice tabulation happens after all ballots arrive, about two weeks after Election Day, so first-round counts on election night won't settle the race."
   },
@@ -107,9 +107,9 @@
    "watch": "Whether the outcome matches the October polls, which are about a month old."
   },
   "Vermont": {
-   "headline": "Vermont's popular Republican governor leads in a strongly Democratic state, by less than in past races.",
+   "headline": "Vermont's popular Republican governor is in his closest race yet, and the last two polls disagree.",
    "body": [
-    "Phil Scott leads Amanda Janoo by 3 points in the two most recent State Navigate polls (Oct 23–25: 49–46). Earlier polls vary widely, from Scott +11 to a University of New Hampshire poll with Janoo +6. No polling average is published.",
+    "The final University of New Hampshire poll (Oct 27–31) has Amanda Janoo ahead 51–43, while State Navigate (Oct 23–25) had Phil Scott up 3 (49–46). Earlier polls range from Scott +10 to Janoo +6, and no polling average is published.",
     "Scott won in 2024 with 73% even as Harris carried Vermont by 31.5 points. Cook and Inside Elections say Likely R, Sabato Lean R."
    ],
    "watch": "Whether Scott tops 50%: in Vermont, if no candidate gets a majority, the legislature chooses the governor."

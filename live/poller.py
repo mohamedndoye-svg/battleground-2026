@@ -67,6 +67,8 @@ def run(out, duration_min=None, once=False, root=None, sleep=time.sleep, clock=t
     sources = build_sources()
     end = clock() + duration_min * 60 if duration_min else None
     while True:
+        # re-read race data each cycle so a refresh pulled in by the publish step is used straight away
+        races = load(os.path.join(root, 'data', 'races.json'), races)
         for s in sources:
             st = state['sources'].setdefault(s.id, {})
             if once or clock() >= st.get('next_due', 0):

@@ -1,9 +1,9 @@
 {
  "senate": {
   "as_of": {
-   "cook": "Oct 30, 2026",
+   "cook": "Nov 2, 2026",
    "ie": "Oct 29, 2026",
-   "sabato": "Oct 29, 2026"
+   "sabato": "Nov 2, 2026"
   },
   "rows": {
    "Alabama": {
@@ -84,7 +84,7 @@
     "last": "51.74% R",
     "cook": "Toss-up",
     "ie": "Toss-up",
-    "sabato": "Toss-up"
+    "sabato": "Lean R"
    },
    "Kansas": {
     "pvi": "R+8",
@@ -92,7 +92,7 @@
     "last": "53.22% R",
     "cook": "Toss-up",
     "ie": "Toss-up",
-    "sabato": "Toss-up"
+    "sabato": "Lean D (flip)"
    },
    "Kentucky": {
     "pvi": "R+15",
@@ -108,7 +108,7 @@
     "last": "59.32% R",
     "cook": "Solid R",
     "ie": "Likely R",
-    "sabato": "Likely R"
+    "sabato": "Lean R"
    },
    "Maine": {
     "pvi": "D+4",
@@ -116,7 +116,7 @@
     "last": "50.98% R",
     "cook": "Toss-up",
     "ie": "Toss-up",
-    "sabato": "Toss-up"
+    "sabato": "Lean D (flip)"
    },
    "Massachusetts": {
     "pvi": "D+14",
@@ -130,7 +130,7 @@
     "pvi": "EVEN",
     "incumbent": "Gary Peters (retiring)",
     "last": "49.90% D",
-    "cook": "Toss-up",
+    "cook": "Lean D",
     "ie": "Tilt D",
     "sabato": "Lean D"
    },
@@ -204,7 +204,7 @@
     "last": "Appointed (2025)[r]",
     "cook": "Toss-up",
     "ie": "Tilt D (flip)",
-    "sabato": "Toss-up"
+    "sabato": "Lean D (flip)"
    },
    "Oklahoma": {
     "pvi": "R+17",
@@ -260,7 +260,7 @@
     "last": "53.51% R",
     "cook": "Toss-up",
     "ie": "Tilt D (flip)",
-    "sabato": "Toss-up"
+    "sabato": "Lean D (flip)"
    },
    "Virginia": {
     "pvi": "D+3",
@@ -287,17 +287,17 @@
     "sabato": "Safe R"
    },
    "_overall": {
-    "cook": "D/I - 47 R - 46 7 tossups",
+    "cook": "D/I - 48 R - 46 6 tossups",
     "ie": "D/I - 50 R - 46 4 tossups",
-    "sabato": "D/I - 49 R - 46 5 tossups"
+    "sabato": "D/I - 53 R - 47"
    }
   }
  },
  "house": {
   "as_of": {
-   "cook": "Oct 30, 2026",
+   "cook": "Nov 2, 2026",
    "ie": "Oct 29, 2026",
-   "sabato": "Oct 27, 2026"
+   "sabato": "Nov 2, 2026"
   },
   "rows": {
    "Alabama 2": {
@@ -306,7 +306,7 @@
     "last": "54.6% D",
     "cook": "Lean R (flip)",
     "ie": "Tilt R (flip)",
-    "sabato": "Toss-up"
+    "sabato": "Lean D"
    },
    "Alaska at-large": {
     "pvi": "R+6",
@@ -426,7 +426,7 @@
     "last": "50.8% R",
     "cook": "Likely R",
     "ie": "Likely R",
-    "sabato": "Likely R"
+    "sabato": "Lean R"
    },
    "Colorado 4": {
     "pvi": "R+9",
@@ -442,7 +442,7 @@
     "last": "54.7% R",
     "cook": "Toss-up",
     "ie": "Toss-up",
-    "sabato": "Toss-up"
+    "sabato": "Lean D (flip)"
    },
    "Colorado 8": {
     "pvi": "EVEN",
@@ -472,7 +472,7 @@
     "pvi": "R+5",
     "incumbent": "Aaron Bean",
     "last": "57.3% R",
-    "cook": "Solid R",
+    "cook": "Likely R",
     "ie": "Solid R",
     "sabato": "Safe R"
    },
@@ -490,7 +490,7 @@
     "last": "56.5% R",
     "cook": "Lean R",
     "ie": "Likely R",
-    "sabato": "Likely R"
+    "sabato": "Lean R"
    },
    "Florida 8": {
     "pvi": "R+8",
@@ -506,7 +506,7 @@
     "last": "55.1% D",
     "cook": "Lean R (flip)",
     "ie": "Likely R (flip)",
-    "sabato": "Likely R (flip)"
+    "sabato": "Lean R (flip)"
    },
    "Florida 11": {
     "pvi": "R+7",
@@ -538,7 +538,7 @@
     "last": "57.0% D",
     "cook": "Toss-up",
     "ie": "Tilt D",
-    "sabato": "Toss-up"
+    "sabato": "Lean D"
    },
    "Florida 15": {
     "pvi": "R+9",
@@ -586,7 +586,7 @@
     "last": "\u2013",
     "cook": "Toss-up",
     "ie": "Toss-up",
-    "sabato": "Toss-up"
+    "sabato": "Lean D"
    },
    "Florida 25": {
     "pvi": "R+3",
@@ -632,14 +632,6 @@
     "pvi": "R+11",
     "incumbent": "Mike Collins (retiring)",
     "last": "63.1% R",
-    "cook": "Solid R",
-    "ie": "Solid R",
-    "sabato": "Safe R"
-   },
-   "Georgia 11": {
-    "pvi": "R+12",
-    "incumbent": "Barry Loudermilk (retiring)",
-    "last": "65.6% R",
     "cook": "Solid R",
     "ie": "Solid R",
     "sabato": "Safe R"
@@ -706,7 +698,7 @@
     "last": "63.0% R",
     "cook": "Toss-up",
     "ie": "Toss-up",
-    "sabato": "Toss-up"
+    "sabato": "Lean R"
    },
    "Maine 2": {
     "pvi": "R+4",
@@ -730,7 +722,7 @@
     "last": "59.2% R",
     "cook": "Solid R",
     "ie": "Solid R",
-    "sabato": "Safe R"
+    "sabato": "Likely R"
    },
    "Michigan 3": {
     "pvi": "D+4",
@@ -746,7 +738,7 @@
     "last": "55.1% R",
     "cook": "Toss-up",
     "ie": "Toss-up",
-    "sabato": "Toss-up"
+    "sabato": "Lean D (flip)"
    },
    "Michigan 7": {
     "pvi": "EVEN",
@@ -754,7 +746,7 @@
     "last": "50.3% R",
     "cook": "Toss-up",
     "ie": "Toss-up",
-    "sabato": "Toss-up"
+    "sabato": "Lean D (flip)"
    },
    "Michigan 8": {
     "pvi": "R+1",
@@ -770,7 +762,7 @@
     "last": "51.1% R",
     "cook": "Toss-up",
     "ie": "Tilt R",
-    "sabato": "Toss-up"
+    "sabato": "Lean D (flip)"
    },
    "Minnesota 1": {
     "pvi": "R+6",
@@ -802,7 +794,7 @@
     "last": "54.5% R",
     "cook": "Likely R",
     "ie": "Solid R",
-    "sabato": "Toss-up"
+    "sabato": "Lean R"
    },
    "Montana 1": {
     "pvi": "R+5",
@@ -810,7 +802,7 @@
     "last": "52.3% R",
     "cook": "Toss-up",
     "ie": "Toss-up",
-    "sabato": "Toss-up"
+    "sabato": "Lean D (flip)"
    },
    "Nebraska 1": {
     "pvi": "R+6",
@@ -882,7 +874,7 @@
     "last": "58.0% R",
     "cook": "Likely R",
     "ie": "Likely R",
-    "sabato": "Likely R"
+    "sabato": "Lean R"
    },
    "New Jersey 7": {
     "pvi": "EVEN",
@@ -946,7 +938,7 @@
     "last": "52.2% R",
     "cook": "Toss-up",
     "ie": "Toss-up",
-    "sabato": "Toss-up"
+    "sabato": "Lean R"
    },
    "New York 19": {
     "pvi": "D+1",
@@ -1008,7 +1000,7 @@
     "pvi": "R+7",
     "incumbent": "David Rouzer",
     "last": "58.6% R",
-    "cook": "Solid R",
+    "cook": "Likely R",
     "ie": "Solid R",
     "sabato": "Safe R"
    },
@@ -1026,7 +1018,7 @@
     "last": "56.3% R",
     "cook": "Likely R",
     "ie": "Likely R",
-    "sabato": "Safe R"
+    "sabato": "Likely R"
    },
    "North Carolina 10": {
     "pvi": "R+9",
@@ -1050,13 +1042,13 @@
     "last": "58.6% R",
     "cook": "Likely R",
     "ie": "Likely R",
-    "sabato": "Safe R"
+    "sabato": "Likely R"
    },
    "North Carolina 14": {
     "pvi": "R+8",
     "incumbent": "Tim Moore",
     "last": "58.1% R",
-    "cook": "Solid R",
+    "cook": "Likely R",
     "ie": "Solid R",
     "sabato": "Safe R"
    },
@@ -1074,7 +1066,7 @@
     "last": "51.1% R",
     "cook": "Toss-up",
     "ie": "Tilt D (flip)",
-    "sabato": "Toss-up"
+    "sabato": "Lean D (flip)"
    },
    "Ohio 8": {
     "pvi": "R+8",
@@ -1090,7 +1082,7 @@
     "last": "48.3% D",
     "cook": "Lean D",
     "ie": "Tilt D",
-    "sabato": "Toss-up"
+    "sabato": "Lean D"
    },
    "Ohio 10": {
     "pvi": "R+4",
@@ -1138,7 +1130,7 @@
     "last": "56.4% R",
     "cook": "Toss-up",
     "ie": "Toss-up",
-    "sabato": "Toss-up"
+    "sabato": "Lean D (flip)"
    },
    "Pennsylvania 7": {
     "pvi": "R+1",
@@ -1210,7 +1202,7 @@
     "last": "56.8% R",
     "cook": "Solid R",
     "ie": "Solid R",
-    "sabato": "Safe R"
+    "sabato": "Likely R"
    },
    "Tennessee 7": {
     "pvi": "R+11",
@@ -1224,9 +1216,9 @@
     "pvi": "R+9",
     "incumbent": "Steve Cohen (retiring)",
     "last": "71.3% D",
-    "cook": "Solid R (flip)",
+    "cook": "Likely R (flip)",
     "ie": "Likely R (flip)",
-    "sabato": "Safe R (flip)"
+    "sabato": "Likely R (flip)"
    },
    "Texas 2": {
     "pvi": "R+11",
@@ -1354,7 +1346,7 @@
     "last": "\u2013",
     "cook": "Toss-up",
     "ie": "Toss-up",
-    "sabato": "Toss-up"
+    "sabato": "Lean D"
    },
    "Texas 38": {
     "pvi": "R+10",
@@ -1370,7 +1362,7 @@
     "last": "56.4% R",
     "cook": "Toss-up",
     "ie": "Tilt R",
-    "sabato": "Toss-up"
+    "sabato": "Lean D (flip)"
    },
    "Virginia 2": {
     "pvi": "EVEN",
@@ -1384,9 +1376,9 @@
     "pvi": "R+6",
     "incumbent": "John McGuire",
     "last": "57.5% R",
-    "cook": "Likely R",
+    "cook": "Lean R",
     "ie": "Lean R",
-    "sabato": "Toss-up"
+    "sabato": "Lean D (flip)"
    },
    "Virginia 7": {
     "pvi": "D+2",
@@ -1471,7 +1463,7 @@
    "_overall": {
     "cook": "D \u2013 222 R \u2013 195 18 tossups",
     "ie": "D \u2013 224 R \u2013 198 13 tossups",
-    "sabato": "D \u2013 225 R \u2013 193 17 tossups"
+    "sabato": "D \u2013 239 R \u2013 196"
    }
   }
  },
@@ -1479,7 +1471,7 @@
   "as_of": {
    "cook": "Oct 29, 2026",
    "ie": "Oct 29, 2026",
-   "sabato": "Oct 27, 2026"
+   "sabato": "Nov 2, 2026"
   },
   "rows": {
    "Alabama": {
@@ -1496,7 +1488,7 @@
     "last": "50.29% R",
     "cook": "Lean D (flip)",
     "ie": "Tilt D (flip)",
-    "sabato": "Lean D (flip)"
+    "sabato": "Likely D (flip)"
    },
    "Arizona": {
     "pvi": "R+2",
@@ -1552,7 +1544,7 @@
     "last": "53.41% R",
     "cook": "Toss-up",
     "ie": "Tilt D (flip)",
-    "sabato": "Toss-up"
+    "sabato": "Lean D (flip)"
    },
    "Hawaii": {
     "pvi": "D+13",
@@ -1648,7 +1640,7 @@
     "last": "48.81% R",
     "cook": "Toss-up",
     "ie": "Toss-up",
-    "sabato": "Toss-up"
+    "sabato": "Lean D (flip)"
    },
    "New Hampshire": {
     "pvi": "D+2",
@@ -1656,7 +1648,7 @@
     "last": "53.64% R",
     "cook": "Likely R",
     "ie": "Solid R",
-    "sabato": "Likely R"
+    "sabato": "Lean R"
    },
    "New Mexico": {
     "pvi": "D+4",
@@ -1773,7 +1765,7 @@
    "_overall": {
     "cook": "D - 26 R - 21 3 tossups",
     "ie": "D - 27 R - 22 1 tossup",
-    "sabato": "D - 26 R - 22 2 tossups"
+    "sabato": "D - 28 R - 22"
    }
   }
  }
