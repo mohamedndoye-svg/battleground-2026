@@ -734,3 +734,26 @@
 {"ts": "2026-11-03T20:55:55Z", "event": "unchanged", "source": "ga", "version": "39216161-f401-4074-9b22-618926e9cfec"}
 {"ts": "2026-11-03T20:57:01Z", "event": "fetch", "source": "Minnesota Secretary of State", "url": "https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt", "status": 200, "bytes": 329, "ms": 206, "attempt": 1}
 {"ts": "2026-11-03T20:57:01Z", "event": "unchanged", "source": "mn", "version": "b65ac5aa4423"}
+{"ts": "2026-11-03T20:57:07Z", "event": "publish", "ok": true, "rc": 0, "out": ""}
+{"ts": "2026-11-03T20:57:34Z", "event": "fetch", "source": "NC State Board of Elections", "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt", "status": 200, "bytes": 182090, "ms": 400, "attempt": 1}
+{"ts": "2026-11-03T20:57:34Z", "event": "unchanged", "source": "nc", "version": "920f115c53b7"}
+{"ts": "2026-11-03T20:57:35Z", "event": "fetch", "source": "Florida Division of Elections", "url": "https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt", "status": 200, "bytes": 352661, "ms": 52, "attempt": 1}
+{"ts": "2026-11-03T20:57:35Z", "event": "unchanged", "source": "fl", "version": "65b913d89dd0"}
+{"ts": "2026-11-03T20:57:55Z", "event": "fetch", "source": "GA Secretary of State (Enhanced Voting)", "url": "https://results.sos.ga.gov/results/public/api/elections/Georgia/11032026GeneralAndSpecialElection", "status": 200, "bytes": 3067, "ms": 271, "attempt": 1}
+{"ts": "2026-11-03T20:57:55Z", "event": "unchanged", "source": "ga", "version": "39216161-f401-4074-9b22-618926e9cfec"}
+{"ts": "2026-11-03T20:58:22Z", "event": "fetch", "source": "Nebraska Secretary of State", "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY (export)", "status": 200, "bytes": 25680}
+{"ts": "2026-11-03T20:58:22Z", "event": "unchanged", "source": "ne", "version": "f361fbe5a0b4"}
+{"ts": "2026-11-03T20:59:56Z", "event": "fetch", "source": "GA Secretary of State (Enhanced Voting)", "url": "https://results.sos.ga.gov/results/public/api/elections/Georgia/11032026GeneralAndSpecialElection", "status": 200, "bytes": 3067, "ms": 238, "attempt": 1}
+{"ts": "2026-11-03T20:59:56Z", "event": "unchanged", "source": "ga", "version": "39216161-f401-4074-9b22-618926e9cfec"}
+{"ts": "2026-11-03T21:00:01Z", "event": "fetch", "source": "Minnesota Secretary of State", "url": "https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt", "status": 200, "bytes": 329, "ms": 217, "attempt": 1}
+{"ts": "2026-11-03T21:00:01Z", "event": "unchanged", "source": "mn", "version": "b65ac5aa4423"}
+{"ts": "2026-11-03T21:00:35Z", "event": "fetch", "source": "NC State Board of Elections", "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt", "status": 200, "bytes": 182090, "ms": 510, "attempt": 1}
+{"ts": "2026-11-03T21:00:35Z", "event": "unchanged", "source": "nc", "version": "920f115c53b7"}
+{"ts": "2026-11-03T21:00:35Z", "event": "fetch", "source": "Florida Division of Elections", "url": "https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt", "status": 200, "bytes": 352661, "ms": 64, "attempt": 1}
+{"ts": "2026-11-03T21:00:35Z", "event": "unchanged", "source": "fl", "version": "65b913d89dd0"}
+{"ts": "2026-11-03T21:01:23Z", "event": "fetch", "source": "Nebraska Secretary of State", "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY (export)", "status": 200, "bytes": 25680}
+{"ts": "2026-11-03T21:01:23Z", "event": "unchanged", "source": "ne", "version": "f361fbe5a0b4"}
+{"ts": "2026-11-03T21:01:56Z", "event": "fetch", "source": "GA Secretary of State (Enhanced Voting)", "url": "https://results.sos.ga.gov/results/public/api/elections/Georgia/11032026GeneralAndSpecialElection", "status": 200, "bytes": 3067, "ms": 411, "attempt": 1}
+{"ts": "2026-11-03T21:01:56Z", "event": "unchanged", "source": "ga", "version": "39216161-f401-4074-9b22-618926e9cfec"}
+{"ts": "2026-11-03T21:03:02Z", "event": "fetch", "source": "Minnesota Secretary of State", "url": "https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt", "status": 200, "bytes": 329, "ms": 307, "attempt": 1}
+{"ts": "2026-11-03T21:03:02Z", "event": "unchanged", "source": "mn", "version": "b65ac5aa4423"}
