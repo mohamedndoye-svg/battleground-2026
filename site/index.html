@@ -699,6 +699,7 @@ const clockTxt = h => { const hh = Math.floor(h) % 24, mm = Math.round((h % 1) *
 function sourcesStrip() {
   const off = L.sources.filter(s => s.kind === 'official'), none = L.sources.filter(s => s.kind === 'none');
   return `<div class="srcstrip">${off.map(s => `<span class="src-chip" title="${esc(s.name)}: ${esc(s.status)}${s.last_error ? ' · ' + esc(s.last_error) : ''}">${healthDot(s.health)}${esc(s.state)} <span class="muted tiny">${esc(s.status === 'not_live' ? 'not live yet' : agoTxt(s.last_ok))}</span></span>`).join('')}</div>
+    ${off.filter(s => s.health === 'red' && s.last_error).map(s => `<p class="tiny" style="margin:0;color:var(--rep)">${esc(s.state)}: ${esc(/bot check/.test(s.last_error) ? 'the state\'s results site blocks requests from GitHub\'s servers (bot check). Showing the last good data, if any.' : s.last_error)}</p>`).join('')}
     <details><summary>${none.length} tracked states have no automated official source</summary><ul class="small" style="margin:6px 0 0;padding-left:18px">${none.map(s => `<li>${healthDot('red')}<b>${esc(s.state)}</b>: ${esc(s.reason)}</li>`).join('')}</ul></details>`;
 }
 function closingsPanel() {

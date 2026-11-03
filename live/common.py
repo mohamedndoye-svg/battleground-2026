@@ -58,6 +58,10 @@ def fetch(url, source, timeout=60, tries=None, base_delay=2.0, opener=None):
             log('fetch', source=source, url=url, status=status, bytes=len(body), ms=int((time.time() - t0) * 1000), attempt=i + 1)
             if status == 204:
                 return b''
+            if status == 202 and not body:
+                # CloudFront/AWS WAF answers a bot challenge with an empty 202; retrying won't pass it
+                log('blocked', source=source, url=url, status=202)
+                raise FetchError(f'{source}: blocked by a bot check (HTTP 202 with no content) from this server')
             return body
         except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as e:
             code = getattr(e, 'code', None)

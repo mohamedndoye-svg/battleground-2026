@@ -10,7 +10,7 @@ Contest names differ by state, so each state passes a {our_key: regex} map.
 import io, re, zipfile
 import xml.etree.ElementTree as ET
 from datetime import datetime
-from ..common import fetch, fetch_json, add_pcts, party_code, now_iso
+from ..common import fetch, fetch_json, add_pcts, party_code, now_iso, FetchError
 
 
 def list_elections(base, source, opener=None):
@@ -33,7 +33,10 @@ def find_election(base, source, date, opener=None):
 
 
 def current_version(base, eid, source, opener=None):
-    return fetch(f'{base}/{eid}/current_ver.txt', source, opener=opener).decode().strip()
+    ver = fetch(f'{base}/{eid}/current_ver.txt', source, opener=opener).decode().strip()
+    if not ver.isdigit():
+        raise FetchError(f'{source}: unexpected version file content {ver[:40]!r}')
+    return ver
 
 
 def clean_choice(name, party):
