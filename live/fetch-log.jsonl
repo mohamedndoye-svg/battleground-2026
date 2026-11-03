@@ -505,3 +505,26 @@
 {"ts": "2026-11-03T03:02:44Z", "event": "unchanged", "source": "ne", "version": "f361fbe5a0b4"}
 {"ts": "2026-11-03T03:05:18Z", "event": "fetch", "source": "Minnesota Secretary of State", "url": "https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt", "status": 200, "bytes": 329, "ms": 282, "attempt": 1}
 {"ts": "2026-11-03T03:05:18Z", "event": "unchanged", "source": "mn", "version": "b65ac5aa4423"}
+{"ts": "2026-11-03T03:05:20Z", "event": "publish", "ok": true, "rc": 0, "out": ""}
+{"ts": "2026-11-03T03:05:25Z", "event": "fetch", "source": "NC State Board of Elections", "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt", "status": 200, "bytes": 182090, "ms": 360, "attempt": 1}
+{"ts": "2026-11-03T03:05:25Z", "event": "unchanged", "source": "nc", "version": "920f115c53b7"}
+{"ts": "2026-11-03T03:05:25Z", "event": "fetch", "source": "Florida Division of Elections", "url": "https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt", "status": 200, "bytes": 352661, "ms": 74, "attempt": 1}
+{"ts": "2026-11-03T03:05:25Z", "event": "unchanged", "source": "fl", "version": "65b913d89dd0"}
+{"ts": "2026-11-03T03:05:45Z", "event": "fetch", "source": "Nebraska Secretary of State", "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY (export)", "status": 200, "bytes": 25680}
+{"ts": "2026-11-03T03:05:45Z", "event": "unchanged", "source": "ne", "version": "f361fbe5a0b4"}
+{"ts": "2026-11-03T03:08:18Z", "event": "fetch", "source": "Minnesota Secretary of State", "url": "https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt", "status": 200, "bytes": 329, "ms": 293, "attempt": 1}
+{"ts": "2026-11-03T03:08:18Z", "event": "unchanged", "source": "mn", "version": "b65ac5aa4423"}
+{"ts": "2026-11-03T03:08:25Z", "event": "fetch", "source": "NC State Board of Elections", "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt", "status": 200, "bytes": 182090, "ms": 384, "attempt": 1}
+{"ts": "2026-11-03T03:08:25Z", "event": "unchanged", "source": "nc", "version": "920f115c53b7"}
+{"ts": "2026-11-03T03:08:25Z", "event": "fetch", "source": "Florida Division of Elections", "url": "https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt", "status": 200, "bytes": 352661, "ms": 48, "attempt": 1}
+{"ts": "2026-11-03T03:08:25Z", "event": "unchanged", "source": "fl", "version": "65b913d89dd0"}
+{"ts": "2026-11-03T03:08:46Z", "event": "fetch", "source": "Nebraska Secretary of State", "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY (export)", "status": 200, "bytes": 25680}
+{"ts": "2026-11-03T03:08:46Z", "event": "unchanged", "source": "ne", "version": "f361fbe5a0b4"}
+{"ts": "2026-11-03T03:10:43Z", "event": "fetch", "source": "Iowa Secretary of State (Clarity ENR)", "url": "https://electionresults.iowa.gov/IA/127077/current_ver.txt", "status": 202, "bytes": 0, "ms": 169, "attempt": 1}
+{"ts": "2026-11-03T03:10:43Z", "event": "fetch", "source": "Iowa Secretary of State (Clarity ENR)", "url": "https://electionresults.iowa.gov/IA/127077//json/en/summary.json", "status": 202, "bytes": 0, "ms": 50, "attempt": 1}
+{"ts": "2026-11-03T03:10:43Z", "event": "source_error", "source": "ia", "failures": 7, "retry_in_s": 1800, "error": "TypeError: 'NoneType' object is not iterable"}
+{"ts": "2026-11-03T03:10:49Z", "event": "fetch", "source": "SC Election Commission (Clarity ENR)", "url": "https://www.enr-scvotes.org/SC/127300/current_ver.txt", "status": 202, "bytes": 0, "ms": 207, "attempt": 1}
+{"ts": "2026-11-03T03:10:49Z", "event": "fetch", "source": "SC Election Commission (Clarity ENR)", "url": "https://www.enr-scvotes.org/SC/127300//json/en/summary.json", "status": 202, "bytes": 0, "ms": 14, "attempt": 1}
+{"ts": "2026-11-03T03:10:49Z", "event": "source_error", "source": "sc", "failures": 7, "retry_in_s": 1800, "error": "TypeError: 'NoneType' object is not iterable"}
+{"ts": "2026-11-03T03:11:19Z", "event": "fetch", "source": "Minnesota Secretary of State", "url": "https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt", "status": 200, "bytes": 329, "ms": 232, "attempt": 1}
+{"ts": "2026-11-03T03:11:19Z", "event": "unchanged", "source": "mn", "version": "b65ac5aa4423"}
