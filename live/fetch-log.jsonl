@@ -1264,3 +1264,32 @@
 {"ts": "2026-11-03T23:08:19Z", "event": "unchanged", "source": "ga", "version": "39216161-f401-4074-9b22-618926e9cfec"}
 {"ts": "2026-11-03T23:09:24Z", "event": "fetch", "source": "Minnesota Secretary of State", "url": "https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt", "status": 200, "bytes": 329, "ms": 292, "attempt": 1}
 {"ts": "2026-11-03T23:09:24Z", "event": "unchanged", "source": "mn", "version": "b65ac5aa4423"}
+{"ts": "2026-11-03T23:09:27Z", "event": "publish", "ok": true, "rc": 0, "out": ""}
+{"ts": "2026-11-03T23:09:44Z", "event": "fetch", "source": "NC State Board of Elections", "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt", "status": 200, "bytes": 182090, "ms": 367, "attempt": 1}
+{"ts": "2026-11-03T23:09:44Z", "event": "unchanged", "source": "nc", "version": "920f115c53b7"}
+{"ts": "2026-11-03T23:09:44Z", "event": "fetch", "source": "Florida Division of Elections", "url": "https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt", "status": 200, "bytes": 352661, "ms": 61, "attempt": 1}
+{"ts": "2026-11-03T23:09:44Z", "event": "unchanged", "source": "fl", "version": "65b913d89dd0"}
+{"ts": "2026-11-03T23:10:19Z", "event": "fetch", "source": "GA Secretary of State (Enhanced Voting)", "url": "https://results.sos.ga.gov/results/public/api/elections/Georgia/11032026GeneralAndSpecialElection", "status": 200, "bytes": 3069, "ms": 218, "attempt": 1}
+{"ts": "2026-11-03T23:10:19Z", "event": "unchanged", "source": "ga", "version": "39216161-f401-4074-9b22-618926e9cfec"}
+{"ts": "2026-11-03T23:11:14Z", "event": "fetch", "source": "Nebraska Secretary of State", "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY (export)", "status": 200, "bytes": 25680}
+{"ts": "2026-11-03T23:11:14Z", "event": "unchanged", "source": "ne", "version": "f361fbe5a0b4"}
+{"ts": "2026-11-03T23:11:43Z", "event": "fetch", "source": "Iowa Secretary of State (Clarity ENR)", "url": "https://electionresults.iowa.gov/IA/127077/current_ver.txt", "status": 202, "bytes": 0, "ms": 108, "attempt": 1}
+{"ts": "2026-11-03T23:11:43Z", "event": "blocked", "source": "Iowa Secretary of State (Clarity ENR)", "url": "https://electionresults.iowa.gov/IA/127077/current_ver.txt", "status": 202}
+{"ts": "2026-11-03T23:11:43Z", "event": "source_error", "source": "ia", "failures": 47, "retry_in_s": 1800, "error": "FetchError: Iowa Secretary of State (Clarity ENR): blocked by a bot check (HTTP 202 with no content) from this server"}
+{"ts": "2026-11-03T23:11:49Z", "event": "fetch", "source": "SC Election Commission (Clarity ENR)", "url": "https://www.enr-scvotes.org/SC/127300/current_ver.txt", "status": 202, "bytes": 0, "ms": 116, "attempt": 1}
+{"ts": "2026-11-03T23:11:49Z", "event": "blocked", "source": "SC Election Commission (Clarity ENR)", "url": "https://www.enr-scvotes.org/SC/127300/current_ver.txt", "status": 202}
+{"ts": "2026-11-03T23:11:49Z", "event": "source_error", "source": "sc", "failures": 47, "retry_in_s": 1800, "error": "FetchError: SC Election Commission (Clarity ENR): blocked by a bot check (HTTP 202 with no content) from this server"}
+{"ts": "2026-11-03T23:12:19Z", "event": "fetch", "source": "GA Secretary of State (Enhanced Voting)", "url": "https://results.sos.ga.gov/results/public/api/elections/Georgia/11032026GeneralAndSpecialElection", "status": 200, "bytes": 3069, "ms": 237, "attempt": 1}
+{"ts": "2026-11-03T23:12:19Z", "event": "unchanged", "source": "ga", "version": "39216161-f401-4074-9b22-618926e9cfec"}
+{"ts": "2026-11-03T23:12:25Z", "event": "fetch", "source": "Minnesota Secretary of State", "url": "https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt", "status": 200, "bytes": 329, "ms": 215, "attempt": 1}
+{"ts": "2026-11-03T23:12:25Z", "event": "unchanged", "source": "mn", "version": "b65ac5aa4423"}
+{"ts": "2026-11-03T23:12:45Z", "event": "fetch", "source": "NC State Board of Elections", "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt", "status": 200, "bytes": 182090, "ms": 352, "attempt": 1}
+{"ts": "2026-11-03T23:12:45Z", "event": "unchanged", "source": "nc", "version": "920f115c53b7"}
+{"ts": "2026-11-03T23:12:45Z", "event": "fetch", "source": "Florida Division of Elections", "url": "https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt", "status": 200, "bytes": 352661, "ms": 36, "attempt": 1}
+{"ts": "2026-11-03T23:12:45Z", "event": "unchanged", "source": "fl", "version": "65b913d89dd0"}
+{"ts": "2026-11-03T23:14:15Z", "event": "fetch", "source": "Nebraska Secretary of State", "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY (export)", "status": 200, "bytes": 25681}
+{"ts": "2026-11-03T23:14:15Z", "event": "unchanged", "source": "ne", "version": "f361fbe5a0b4"}
+{"ts": "2026-11-03T23:14:21Z", "event": "fetch", "source": "GA Secretary of State (Enhanced Voting)", "url": "https://results.sos.ga.gov/results/public/api/elections/Georgia/11032026GeneralAndSpecialElection", "status": 200, "bytes": 3069, "ms": 299, "attempt": 1}
+{"ts": "2026-11-03T23:14:21Z", "event": "unchanged", "source": "ga", "version": "39216161-f401-4074-9b22-618926e9cfec"}
+{"ts": "2026-11-03T23:15:27Z", "event": "fetch", "source": "Minnesota Secretary of State", "url": "https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt", "status": 200, "bytes": 329, "ms": 239, "attempt": 1}
+{"ts": "2026-11-03T23:15:27Z", "event": "unchanged", "source": "mn", "version": "b65ac5aa4423"}
