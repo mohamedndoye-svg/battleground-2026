@@ -469,3 +469,22 @@
 {"ts": "2026-11-03T02:50:41Z", "event": "unchanged", "source": "ne", "version": "f361fbe5a0b4"}
 {"ts": "2026-11-03T02:53:17Z", "event": "fetch", "source": "Minnesota Secretary of State", "url": "https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt", "status": 200, "bytes": 329, "ms": 205, "attempt": 1}
 {"ts": "2026-11-03T02:53:17Z", "event": "unchanged", "source": "mn", "version": "b65ac5aa4423"}
+{"ts": "2026-11-03T02:53:18Z", "event": "publish", "ok": true, "rc": 0, "out": ""}
+{"ts": "2026-11-03T02:53:24Z", "event": "fetch", "source": "NC State Board of Elections", "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt", "status": 200, "bytes": 182090, "ms": 406, "attempt": 1}
+{"ts": "2026-11-03T02:53:24Z", "event": "unchanged", "source": "nc", "version": "920f115c53b7"}
+{"ts": "2026-11-03T02:53:24Z", "event": "fetch", "source": "Florida Division of Elections", "url": "https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt", "status": 200, "bytes": 352661, "ms": 54, "attempt": 1}
+{"ts": "2026-11-03T02:53:24Z", "event": "unchanged", "source": "fl", "version": "65b913d89dd0"}
+{"ts": "2026-11-03T02:53:41Z", "event": "fetch", "source": "Nebraska Secretary of State", "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY (export)", "status": 200, "bytes": 25681}
+{"ts": "2026-11-03T02:53:41Z", "event": "unchanged", "source": "ne", "version": "f361fbe5a0b4"}
+{"ts": "2026-11-03T02:56:17Z", "event": "fetch", "source": "Minnesota Secretary of State", "url": "https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt", "status": 200, "bytes": 329, "ms": 223, "attempt": 1}
+{"ts": "2026-11-03T02:56:17Z", "event": "unchanged", "source": "mn", "version": "b65ac5aa4423"}
+{"ts": "2026-11-03T02:56:24Z", "event": "fetch", "source": "NC State Board of Elections", "url": "https://er.ncsbe.gov/enr/20261103/data/results_0.txt", "status": 200, "bytes": 182090, "ms": 366, "attempt": 1}
+{"ts": "2026-11-03T02:56:24Z", "event": "unchanged", "source": "nc", "version": "920f115c53b7"}
+{"ts": "2026-11-03T02:56:24Z", "event": "fetch", "source": "Florida Division of Elections", "url": "https://flelectionfiles.floridados.gov/enightfilespublic/20261103_ElecResultsFL.txt", "status": 200, "bytes": 352661, "ms": 63, "attempt": 1}
+{"ts": "2026-11-03T02:56:24Z", "event": "unchanged", "source": "fl", "version": "65b913d89dd0"}
+{"ts": "2026-11-03T02:56:42Z", "event": "fetch", "source": "Nebraska Secretary of State", "url": "https://electionresults.nebraska.gov/resultsSW.aspx?type=SW&map=CTY (export)", "status": 200, "bytes": 25680}
+{"ts": "2026-11-03T02:56:42Z", "event": "unchanged", "source": "ne", "version": "f361fbe5a0b4"}
+{"ts": "2026-11-03T02:57:10Z", "event": "fetch_error", "source": "GA Secretary of State (Enhanced Voting)", "url": "https://results.sos.ga.gov/results/public/api/jurisdictions/Georgia", "status": 403, "error": "HTTP Error 403: Forbidden", "attempt": 1}
+{"ts": "2026-11-03T02:57:10Z", "event": "source_error", "source": "ga", "failures": 3, "retry_in_s": 960, "error": "FetchError: GA Secretary of State (Enhanced Voting): https://results.sos.ga.gov/results/public/api/jurisdictions/Georgia: HTTP Error 403: Forbidden"}
+{"ts": "2026-11-03T02:59:17Z", "event": "fetch", "source": "Minnesota Secretary of State", "url": "https://electionresultsfiles.sos.mn.gov/20261103/ussenate.txt", "status": 200, "bytes": 329, "ms": 551, "attempt": 1}
+{"ts": "2026-11-03T02:59:17Z", "event": "unchanged", "source": "mn", "version": "b65ac5aa4423"}
