@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T03:26:57Z",
+ "generated_at": "2026-11-03T21:52:50Z",
  "notes": {
   "ratings": "Cook, Inside Elections and Sabato all block automated access (Cloudflare / bot walls). Ratings are read from Wikipedia's rating tables, which cite each rater with the date shown.",
   "polls": "Polls and averages come from each race's Wikipedia page (pollster, dates, sample, LV/RV, MoE, with the pollster's own link). RealClearPolling blocks automated access; its average appears only where Wikipedia reports it (labelled RealClearPolitics). Silver Bulletin (paid) is excluded.",
@@ -20,7 +20,7 @@
     "I": 0
    },
    "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
-   "fetched_at": "2026-11-03T03:20:01Z",
+   "fetched_at": "2026-11-03T21:45:36Z",
    "holdover": {
     "D": 34,
     "R": 31
@@ -53,7 +53,7 @@
     "note": "Independent Kevin Kiley (CA) caucuses with Republicans. All 435 seats are up in 2026."
    },
    "source": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
-   "fetched_at": "2026-11-03T03:20:08Z",
+   "fetched_at": "2026-11-03T21:45:42Z",
    "majority": 218,
    "seats": 435,
    "by_rater": {
@@ -140,7 +140,7 @@
     }
    },
    "ratings_via": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "ratings_fetched_at": "2026-11-03T03:20:04Z"
+   "ratings_fetched_at": "2026-11-03T21:45:39Z"
   },
   "governor": {
    "current": {
@@ -158,7 +158,7 @@
     "sabato": "Nov 2, 2026"
    },
    "source": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-   "fetched_at": "2026-11-03T03:20:11Z",
+   "fetched_at": "2026-11-03T21:45:46Z",
    "analysis_as_of": "Nov 3, 2026"
   }
  },
@@ -203,7 +203,7 @@
    "pres2024": {
     "margin_r": 13.13,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+6",
    "ratings": {
@@ -213,7 +213,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "ie": {
      "rating": "Toss-up",
@@ -221,7 +221,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/senate",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "sabato": {
      "rating": "Lean D (flip)",
@@ -229,14 +229,14 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-senate/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     }
    },
    "included_by": "rule",
    "included_note": null,
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska",
-    "fetched_at": "2026-11-03T03:20:18Z",
+    "fetched_at": "2026-11-03T21:45:52Z",
     "averages": [
      {
       "source": "270toWin",
@@ -259,10 +259,10 @@
      {
       "source": "FiftyPlusOne",
       "dates": "through November 1, 2026",
-      "updated": "November 2, 2026",
+      "updated": "November 3, 2026",
       "dem": 49.7,
-      "rep": 48.0,
-      "margin": 1.7,
+      "rep": 47.4,
+      "margin": 2.3,
       "cite": "https://fiftyplusone.news/polls/senate/general/alaska"
      },
      {
@@ -359,7 +359,7 @@
     },
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
    },
-   "consensus": 1.9,
+   "consensus": 2.0,
    "mean_score": 0.67
   },
   {
@@ -397,7 +397,7 @@
    "pres2024": {
     "margin_r": 13.21,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+6",
    "ratings": {
@@ -407,7 +407,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "ie": {
      "rating": "Toss-up",
@@ -415,7 +415,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/senate",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "sabato": {
      "rating": "Lean R",
@@ -423,49 +423,49 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-senate/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     }
    },
    "included_by": "rule",
    "included_note": null,
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Iowa",
-    "fetched_at": "2026-11-03T03:20:21Z",
+    "fetched_at": "2026-11-03T21:45:56Z",
     "averages": [
      {
       "source": "270toWin",
       "dates": "October 16 – November 1, 2026",
-      "updated": "November 2, 2026",
-      "dem": 47.0,
-      "rep": 47.0,
-      "margin": 0.0,
+      "updated": "November 3, 2026",
+      "dem": 47.7,
+      "rep": 46.8,
+      "margin": 0.9,
       "cite": "https://www.270towin.com/2026-senate-polls/iowa"
      },
      {
       "source": "Decision Desk HQ",
       "dates": "through November 1, 2026",
-      "updated": "November 2, 2026",
-      "dem": 46.5,
-      "rep": 47.2,
-      "margin": -0.7,
+      "updated": "November 3, 2026",
+      "dem": 47.0,
+      "rep": 47.3,
+      "margin": -0.3,
       "cite": "https://votes.decisiondeskhq.com/races/2026-11-03/iowa-us-senate-general-election/polling"
      },
      {
       "source": "FiftyPlusOne",
       "dates": "through November 1, 2026",
-      "updated": "November 2, 2026",
-      "dem": 47.1,
-      "rep": 46.8,
-      "margin": 0.3,
+      "updated": "November 3, 2026",
+      "dem": 47.8,
+      "rep": 47.2,
+      "margin": 0.6,
       "cite": "https://fiftyplusone.news/polls/senate/general/iowa"
      },
      {
       "source": "RealClearPolitics",
-      "dates": "October 9 – November 1, 2026",
+      "dates": "October 13 – November 1, 2026",
       "updated": "November 2, 2026",
-      "dem": 46.4,
-      "rep": 46.9,
-      "margin": -0.5,
+      "dem": 47.1,
+      "rep": 47.1,
+      "margin": 0.0,
       "cite": "https://www.realclearpolling.com/polls/senate/general/2026/iowa/turek-vs-hinson"
      }
     ],
@@ -553,7 +553,7 @@
     },
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
    },
-   "consensus": -0.2,
+   "consensus": 0.3,
    "mean_score": -0.67
   },
   {
@@ -591,7 +591,7 @@
    "pres2024": {
     "margin_r": 16.12,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+8",
    "ratings": {
@@ -601,7 +601,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "ie": {
      "rating": "Toss-up",
@@ -609,7 +609,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/senate",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "sabato": {
      "rating": "Lean D (flip)",
@@ -617,49 +617,49 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-senate/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     }
    },
    "included_by": "rule",
    "included_note": null,
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
-    "fetched_at": "2026-11-03T03:20:25Z",
+    "fetched_at": "2026-11-03T21:45:59Z",
     "averages": [
      {
       "source": "270toWin",
       "dates": "October 20 – November 1, 2026",
-      "updated": "November 2, 2026",
-      "dem": 49.8,
+      "updated": "November 3, 2026",
+      "dem": 50.2,
       "rep": 45.2,
-      "margin": 4.6,
+      "margin": 5.0,
       "cite": "https://www.270towin.com/2026-senate-polls/kansas"
      },
      {
       "source": "Decision Desk HQ",
       "dates": "through November 1, 2026",
-      "updated": "November 1, 2026",
-      "dem": 48.7,
-      "rep": 45.3,
-      "margin": 3.4,
+      "updated": "November 3, 2026",
+      "dem": 49.3,
+      "rep": 45.6,
+      "margin": 3.7,
       "cite": "https://votes.decisiondeskhq.com/races/2026-11-03/kansas-us-senate-general-election/polling"
      },
      {
       "source": "FiftyPlusOne",
       "dates": "through November 1, 2026",
-      "updated": "November 2, 2026",
-      "dem": 49.1,
-      "rep": 45.7,
-      "margin": 3.4,
+      "updated": "November 3, 2026",
+      "dem": 49.8,
+      "rep": 45.4,
+      "margin": 4.4,
       "cite": "https://fiftyplusone.news/polls/senate/general/kansas"
      },
      {
       "source": "RealClearPolitics",
       "dates": "October 13 – November 1, 2026",
-      "updated": "November 1, 2026",
-      "dem": 49.8,
-      "rep": 46.2,
-      "margin": 3.6,
+      "updated": "November 2, 2026",
+      "dem": 50.1,
+      "rep": 46.0,
+      "margin": 4.1,
       "cite": "https://www.realclearpolling.com/polls/senate/general/2026/kansas/marshall-vs-hamilton"
      }
     ],
@@ -747,7 +747,7 @@
     },
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
    },
-   "consensus": 3.8,
+   "consensus": 4.3,
    "mean_score": 0.67
   },
   {
@@ -780,7 +780,7 @@
    "pres2024": {
     "margin_r": -6.94,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "D+4",
    "ratings": {
@@ -790,7 +790,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "ie": {
      "rating": "Toss-up",
@@ -798,7 +798,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/senate",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "sabato": {
      "rating": "Lean D (flip)",
@@ -806,49 +806,49 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-senate/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     }
    },
    "included_by": "rule",
    "included_note": null,
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Maine",
-    "fetched_at": "2026-11-03T03:20:28Z",
+    "fetched_at": "2026-11-03T21:46:02Z",
     "averages": [
      {
       "source": "270toWin",
       "dates": "October 16 – November 1, 2026",
-      "updated": "November 2, 2026",
-      "dem": 50.4,
-      "rep": 45.6,
-      "margin": 4.8,
+      "updated": "November 3, 2026",
+      "dem": 50.9,
+      "rep": 45.9,
+      "margin": 5.0,
       "cite": "https://www.270towin.com/2026-senate-polls/maine"
      },
      {
       "source": "Decision Desk HQ",
       "dates": "through November 1, 2026",
-      "updated": "November 2, 2026",
-      "dem": 51.0,
-      "rep": 45.3,
-      "margin": 5.7,
+      "updated": "November 3, 2026",
+      "dem": 51.2,
+      "rep": 45.9,
+      "margin": 5.3,
       "cite": "https://votes.decisiondeskhq.com/races/2026-11-03/maine-us-senate-general-election/polling"
      },
      {
       "source": "FiftyPlusOne",
       "dates": "through November 1, 2026",
-      "updated": "November 2, 2026",
+      "updated": "November 3, 2026",
       "dem": 50.8,
-      "rep": 45.8,
-      "margin": 5.0,
+      "rep": 46.1,
+      "margin": 4.7,
       "cite": "https://fiftyplusone.news/polls/senate/general/maine"
      },
      {
       "source": "RealClearPolitics",
-      "dates": "October 8 – November 1, 2026",
-      "updated": "November 1, 2026",
-      "dem": 49.9,
+      "dates": "October 16 – November 1, 2026",
+      "updated": "November 2, 2026",
+      "dem": 50.2,
       "rep": 46.6,
-      "margin": 3.3,
+      "margin": 3.6,
       "cite": "https://www.realclearpolling.com/polls/senate/general/2026/collins-vs-jackson"
      }
     ],
@@ -969,7 +969,7 @@
    "pres2024": {
     "margin_r": 1.42,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "EVEN",
    "ratings": {
@@ -979,7 +979,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "ie": {
      "rating": "Tilt D",
@@ -987,7 +987,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/senate",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "sabato": {
      "rating": "Lean D",
@@ -995,48 +995,48 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-senate/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     }
    },
    "included_by": "rule",
    "included_note": null,
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
-    "fetched_at": "2026-11-03T03:20:31Z",
+    "fetched_at": "2026-11-03T21:46:05Z",
     "averages": [
      {
       "source": "270toWin",
       "dates": "October 8 – November 1, 2026",
-      "updated": "November 2, 2026",
-      "dem": 50.9,
-      "rep": 44.6,
-      "margin": 6.3,
+      "updated": "November 3, 2026",
+      "dem": 50.8,
+      "rep": 44.9,
+      "margin": 5.9,
       "cite": "https://www.270towin.com/2026-senate-polls/michigan"
      },
      {
       "source": "Decision Desk HQ",
-      "dates": "through November 1, 2026",
-      "updated": "November 2, 2026",
-      "dem": 49.6,
-      "rep": 44.4,
-      "margin": 5.2,
+      "dates": "through November 2, 2026",
+      "updated": "November 3, 2026",
+      "dem": 50.1,
+      "rep": 45.5,
+      "margin": 4.6,
       "cite": "https://votes.decisiondeskhq.com/races/2026-11-03/michigan-us-senate-general-election/polling"
      },
      {
       "source": "FiftyPlusOne",
-      "dates": "through November 1, 2026",
-      "updated": "November 2, 2026",
-      "dem": 49.9,
-      "rep": 44.6,
-      "margin": 5.3,
+      "dates": "through November 2, 2026",
+      "updated": "November 3, 2026",
+      "dem": 50.5,
+      "rep": 45.0,
+      "margin": 5.5,
       "cite": "https://fiftyplusone.news/polls/senate/general/michigan"
      },
      {
       "source": "RealClearPolitics",
       "dates": "October 15 – November 1, 2026",
-      "updated": "November 1, 2026",
-      "dem": 50.1,
-      "rep": 44.8,
+      "updated": "November 2, 2026",
+      "dem": 50.3,
+      "rep": 45.0,
       "margin": 5.3,
       "cite": "https://www.realclearpolling.com/polls/senate/general/2026/michigan/rogers-vs-el-sayed"
      }
@@ -1069,6 +1069,19 @@
       "cite": "https://pollvault.substack.com/p/new-poll-vault-emerson-senate-and"
      },
      {
+      "pollster": "Trafalgar Group",
+      "partisan": "R",
+      "dates": "October 31 – November 1, 2026",
+      "end": "2026-11-01",
+      "n": 1087,
+      "pop": "LV",
+      "moe": 2.9,
+      "dem": 47.0,
+      "rep": 46.0,
+      "margin": 1.0,
+      "cite": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/11/MI-Gen-Sen-Poll-Report-1101.pdf"
+     },
+     {
       "pollster": "Concord Public Opinion Partners",
       "partisan": "D",
       "dates": "October 31 – November 1, 2026",
@@ -1093,22 +1106,9 @@
       "rep": 46.0,
       "margin": 2.0,
       "cite": "https://researchco.ca/2026/11/01/midterms-2026-one/"
-     },
-     {
-      "pollster": "AtlasIntel",
-      "partisan": null,
-      "dates": "October 28 – November 1, 2026",
-      "end": "2026-11-01",
-      "n": 1316,
-      "pop": "LV",
-      "moe": 3.0,
-      "dem": 54.0,
-      "rep": 46.0,
-      "margin": 8.0,
-      "cite": "https://atlasintel.org/poll/usa-michigan-atlaspollstergraph-poll-2026-11-02"
      }
     ],
-    "poll_count": 68,
+    "poll_count": 69,
     "times_siena": {
      "pollster": "New York Times/Siena University",
      "partisan": null,
@@ -1125,7 +1125,7 @@
     },
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
    },
-   "consensus": 5.5,
+   "consensus": 5.3,
    "mean_score": 1.67
   },
   {
@@ -1158,7 +1158,7 @@
    "pres2024": {
     "margin_r": -4.24,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "D+3",
    "ratings": {
@@ -1168,7 +1168,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "ie": {
      "rating": "Lean D",
@@ -1176,7 +1176,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/senate",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "sabato": {
      "rating": "Likely D",
@@ -1184,49 +1184,49 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-senate/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     }
    },
    "included_by": "rule",
    "included_note": null,
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Minnesota",
-    "fetched_at": "2026-11-03T03:20:40Z",
+    "fetched_at": "2026-11-03T21:46:09Z",
     "averages": [
      {
       "source": "270toWin",
       "dates": "October 13 – November 1, 2026",
-      "updated": "November 2, 2026",
-      "dem": 49.6,
-      "rep": 44.0,
-      "margin": 5.6,
+      "updated": "November 3, 2026",
+      "dem": 50.2,
+      "rep": 44.8,
+      "margin": 5.4,
       "cite": "https://www.270towin.com/2026-senate-polls/minnesota"
      },
      {
       "source": "Decision Desk HQ",
       "dates": "through November 1, 2026",
-      "updated": "November 2, 2026",
-      "dem": 49.8,
-      "rep": 43.2,
-      "margin": 6.6,
+      "updated": "November 3, 2026",
+      "dem": 49.7,
+      "rep": 43.4,
+      "margin": 6.3,
       "cite": "https://votes.decisiondeskhq.com/races/2026-11-03/minnesota-us-senate-general-election/polling"
      },
      {
       "source": "FiftyPlusOne",
       "dates": "through November 1, 2026",
-      "updated": "November 2, 2026",
-      "dem": 49.8,
-      "rep": 42.6,
-      "margin": 7.2,
+      "updated": "November 3, 2026",
+      "dem": 49.4,
+      "rep": 43.2,
+      "margin": 6.2,
       "cite": "https://fiftyplusone.news/polls/senate/general/minnesota"
      },
      {
       "source": "RealClearPolitics",
-      "dates": "October 2–30, 2026",
-      "updated": "November 1, 2026",
-      "dem": 48.4,
-      "rep": 43.0,
-      "margin": 5.4,
+      "dates": "October 5 – November 1, 2026",
+      "updated": "November 2, 2026",
+      "dem": 48.9,
+      "rep": 43.7,
+      "margin": 5.2,
       "cite": "https://www.realclearpolling.com/polls/senate/general/2026/minnesota/tafoya-vs-flanagan"
      }
     ],
@@ -1314,7 +1314,7 @@
     },
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
    },
-   "consensus": 6.2,
+   "consensus": 5.8,
    "mean_score": 2.33
   },
   {
@@ -1347,7 +1347,7 @@
    "pres2024": {
     "margin_r": 20.46,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+10",
    "ratings": {
@@ -1357,7 +1357,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "ie": {
      "rating": "Tilt R",
@@ -1365,7 +1365,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/senate",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "sabato": {
      "rating": "Lean R",
@@ -1373,44 +1373,57 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-senate/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     }
    },
    "included_by": "rule",
    "included_note": null,
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Nebraska",
-    "fetched_at": "2026-11-03T03:20:43Z",
+    "fetched_at": "2026-11-03T21:46:12Z",
     "averages": [
      {
       "source": "270toWin",
-      "dates": "September 28 – October 29, 2026",
-      "updated": "November 1, 2026",
-      "dem": 43.8,
-      "rep": 46.6,
-      "margin": -2.8,
+      "dates": "October 16 – November 1, 2026",
+      "updated": "November 2, 2026",
+      "dem": 45.0,
+      "rep": 47.6,
+      "margin": -2.6,
       "cite": "https://www.270towin.com/2026-senate-polls/nebraska"
      },
      {
       "source": "Decision Desk HQ",
-      "dates": "through October 29, 2026",
-      "updated": "November 1, 2026",
-      "dem": 46.2,
-      "rep": 47.4,
-      "margin": -1.2,
+      "dates": "through November 1, 2026",
+      "updated": "November 2, 2026",
+      "dem": 45.6,
+      "rep": 47.7,
+      "margin": -2.1,
       "cite": "https://votes.decisiondeskhq.com/races/2026-11-03/nebraska-us-senate-general-election/polling"
      },
      {
       "source": "FiftyPlusOne",
-      "dates": "through October 29, 2026",
-      "updated": "November 1, 2026",
-      "dem": 46.2,
-      "rep": 47.7,
-      "margin": -1.5,
+      "dates": "through November 1, 2026",
+      "updated": "November 3, 2026",
+      "dem": 46.4,
+      "rep": 48.1,
+      "margin": -1.7,
       "cite": "https://fiftyplusone.news/polls/senate/general/nebraska"
      }
     ],
     "polls": [
+     {
+      "pollster": "GrayHouse",
+      "partisan": "R",
+      "dates": "October 29 – November 1, 2026",
+      "end": "2026-11-01",
+      "n": 534,
+      "pop": "LV",
+      "moe": 4.2,
+      "dem": 44.0,
+      "rep": 50.0,
+      "margin": -6.0,
+      "cite": "https://www.grayhouse.com/post/grayhouse-poll-ricketts-leads-in-nebraska-by-4"
+     },
      {
       "pollster": "YouGov",
       "partisan": null,
@@ -1462,22 +1475,9 @@
       "rep": 47.0,
       "margin": -1.0,
       "cite": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/"
-     },
-     {
-      "pollster": "GBAO",
-      "partisan": "D",
-      "dates": "October 18–22, 2026",
-      "end": "2026-10-22",
-      "n": 800,
-      "pop": "LV",
-      "moe": 3.5,
-      "dem": 46.0,
-      "rep": 45.0,
-      "margin": 1.0,
-      "cite": "https://data.ddhq.io/polls/2026/10/23/GBAO/Working-Class-Majority-Nebraska-2026-10-18-2026-10-22"
      }
     ],
-    "poll_count": 21,
+    "poll_count": 22,
     "times_siena": {
      "pollster": "New York Times/Siena University",
      "partisan": null,
@@ -1494,7 +1494,7 @@
     },
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
    },
-   "consensus": -1.8,
+   "consensus": -2.1,
    "mean_score": -1.67
   },
   {
@@ -1527,7 +1527,7 @@
    "pres2024": {
     "margin_r": -2.78,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "D+2",
    "ratings": {
@@ -1537,7 +1537,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "ie": {
      "rating": "Tilt D",
@@ -1545,7 +1545,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/senate",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "sabato": {
      "rating": "Likely D",
@@ -1553,49 +1553,49 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-senate/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     }
    },
    "included_by": "rule",
    "included_note": null,
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Hampshire",
-    "fetched_at": "2026-11-03T03:20:46Z",
+    "fetched_at": "2026-11-03T21:46:15Z",
     "averages": [
      {
       "source": "270toWin",
-      "dates": "September 15 – October 20, 2026",
-      "updated": "October 22, 2026",
-      "dem": 49.7,
-      "rep": 42.8,
-      "margin": 6.9,
+      "dates": "October 2 – November 1, 2026",
+      "updated": "November 3, 2026",
+      "dem": 50.8,
+      "rep": 42.6,
+      "margin": 8.2,
       "cite": "https://www.270towin.com/2026-senate-polls/new-hampshire"
      },
      {
       "source": "Decision Desk HQ",
-      "dates": "through October 20, 2026",
-      "updated": "October 22, 2026",
-      "dem": 51.1,
-      "rep": 43.8,
-      "margin": 7.3,
+      "dates": "through November 1, 2026",
+      "updated": "November 3, 2026",
+      "dem": 52.0,
+      "rep": 43.6,
+      "margin": 8.4,
       "cite": "https://votes.decisiondeskhq.com/races/2026-11-03/new-hampshire-us-senate-general-election/polling"
      },
      {
       "source": "FiftyPlusOne",
-      "dates": "through October 20, 2026",
-      "updated": "October 22, 2026",
-      "dem": 50.0,
-      "rep": 43.1,
-      "margin": 6.9,
+      "dates": "through November 1, 2026",
+      "updated": "November 3, 2026",
+      "dem": 51.8,
+      "rep": 43.0,
+      "margin": 8.8,
       "cite": "https://fiftyplusone.news/polls/senate/general/new-hampshire"
      },
      {
       "source": "RealClearPolitics",
-      "dates": "September 15 – October 20, 2026",
-      "updated": "October 22, 2026",
-      "dem": 49.5,
-      "rep": 43.0,
-      "margin": 6.5,
+      "dates": "October 2 – November 1, 2026",
+      "updated": "November 2, 2026",
+      "dem": 50.8,
+      "rep": 42.8,
+      "margin": 8.0,
       "cite": "https://www.realclearpolling.com/polls/senate/general/2026/new-hampshire/pappas-vs-sununu"
      }
     ],
@@ -1683,7 +1683,7 @@
     },
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
    },
-   "consensus": 6.9,
+   "consensus": 8.3,
    "mean_score": 2.0
   },
   {
@@ -1716,7 +1716,7 @@
    "pres2024": {
     "margin_r": 3.21,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+1",
    "ratings": {
@@ -1726,7 +1726,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "ie": {
      "rating": "Lean D (flip)",
@@ -1734,7 +1734,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/senate",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "sabato": {
      "rating": "Likely D (flip)",
@@ -1742,48 +1742,48 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-senate/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     }
    },
    "included_by": "rule",
    "included_note": null,
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_North_Carolina",
-    "fetched_at": "2026-11-03T03:20:50Z",
+    "fetched_at": "2026-11-03T21:46:19Z",
     "averages": [
      {
       "source": "270toWin",
-      "dates": "October 1–29, 2026",
-      "updated": "November 1, 2026",
-      "dem": 53.4,
-      "rep": 41.8,
-      "margin": 11.6,
+      "dates": "October 1 – November 1, 2026",
+      "updated": "November 3, 2026",
+      "dem": 54.2,
+      "rep": 42.8,
+      "margin": 11.4,
       "cite": "https://www.270towin.com/2026-senate-polls/north-carolina"
      },
      {
       "source": "Decision Desk HQ",
-      "dates": "through October 29, 2026",
-      "updated": "November 1, 2026",
-      "dem": 52.7,
-      "rep": 42.6,
-      "margin": 10.1,
+      "dates": "through November 1, 2026",
+      "updated": "November 3, 2026",
+      "dem": 54.1,
+      "rep": 43.1,
+      "margin": 11.0,
       "cite": "https://votes.decisiondeskhq.com/races/2026-11-03/north-carolina-us-senate-general-election/polling"
      },
      {
       "source": "FiftyPlusOne",
-      "dates": "through October 29, 2026",
-      "updated": "November 1, 2026",
-      "dem": 52.9,
-      "rep": 42.3,
-      "margin": 10.6,
+      "dates": "through November 1, 2026",
+      "updated": "November 3, 2026",
+      "dem": 54.1,
+      "rep": 42.5,
+      "margin": 11.6,
       "cite": "https://fiftyplusone.news/polls/senate/general/north-carolina"
      },
      {
       "source": "RealClearPolitics",
-      "dates": "September 29 – October 29, 2026",
-      "updated": "November 1, 2026",
-      "dem": 51.8,
-      "rep": 40.8,
+      "dates": "October 1 – November 1, 2026",
+      "updated": "November 2, 2026",
+      "dem": 52.8,
+      "rep": 41.8,
       "margin": 11.0,
       "cite": "https://www.realclearpolling.com/polls/senate/general/2026/north-carolina/cooper-vs-whatley"
      }
@@ -1872,7 +1872,7 @@
     },
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
    },
-   "consensus": 10.8,
+   "consensus": 11.2,
    "mean_score": 2.67
   },
   {
@@ -1905,7 +1905,7 @@
    "pres2024": {
     "margin_r": 11.21,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+5",
    "ratings": {
@@ -1915,7 +1915,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "ie": {
      "rating": "Tilt D (flip)",
@@ -1923,7 +1923,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/senate",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "sabato": {
      "rating": "Lean D (flip)",
@@ -1931,14 +1931,14 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-senate/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     }
    },
    "included_by": "rule",
    "included_note": null,
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_United_States_Senate_special_election_in_Ohio",
-    "fetched_at": "2026-11-03T03:21:00Z",
+    "fetched_at": "2026-11-03T21:46:29Z",
     "averages": [
      {
       "source": "270toWin",
@@ -2094,7 +2094,7 @@
    "pres2024": {
     "margin_r": 17.87,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+8",
    "ratings": {
@@ -2104,7 +2104,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "ie": {
      "rating": "Tilt R",
@@ -2112,7 +2112,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/senate",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "sabato": {
      "rating": "Lean R",
@@ -2120,49 +2120,49 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-senate/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     }
    },
    "included_by": "rule",
    "included_note": null,
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_South_Carolina",
-    "fetched_at": "2026-11-03T03:20:53Z",
+    "fetched_at": "2026-11-03T21:46:22Z",
     "averages": [
      {
       "source": "270toWin",
-      "dates": "October 16–26, 2026",
-      "updated": "October 29, 2026",
+      "dates": "October 14 – November 1, 2026",
+      "updated": "November 2, 2026",
       "dem": 45.2,
-      "rep": 47.6,
-      "margin": -2.4,
+      "rep": 47.4,
+      "margin": -2.2,
       "cite": "https://www.270towin.com/2026-senate-polls/south-carolina"
      },
      {
       "source": "Decision Desk HQ",
-      "dates": "through October 29, 2026",
-      "updated": "October 30, 2026",
-      "dem": 45.6,
-      "rep": 45.7,
-      "margin": -0.1,
+      "dates": "through November 1, 2026",
+      "updated": "November 2, 2026",
+      "dem": 46.0,
+      "rep": 45.9,
+      "margin": 0.1,
       "cite": "https://votes.decisiondeskhq.com/races/2026-11-03/south-carolina-us-senate-general-election/polling"
      },
      {
       "source": "FiftyPlusOne",
-      "dates": "through October 29, 2026",
-      "updated": "October 30, 2026",
-      "dem": 45.6,
-      "rep": 46.0,
-      "margin": -0.4,
+      "dates": "through November 1, 2026",
+      "updated": "November 3, 2026",
+      "dem": 45.8,
+      "rep": 45.8,
+      "margin": 0.0,
       "cite": "https://fiftyplusone.news/polls/senate/general/south-carolina"
      },
      {
       "source": "RealClearPolitics",
-      "dates": "September 28 – October 26, 2026",
-      "updated": "October 29, 2026",
-      "dem": 45.0,
-      "rep": 47.7,
-      "margin": -2.7,
+      "dates": "October 14 – November 1, 2026",
+      "updated": "November 2, 2026",
+      "dem": 45.4,
+      "rep": 48.0,
+      "margin": -2.6,
       "cite": "https://www.realclearpolling.com/polls/senate/general/2026/south-carolina/graham-nordone-vs-andrews"
      }
     ],
@@ -2182,8 +2182,8 @@
      },
      {
       "pollster": "Rasmussen Reports",
-      "partisan": null,
-      "dates": "October 31 2026",
+      "partisan": "R",
+      "dates": "October 27–31, 2026",
       "end": "2026-10-31",
       "n": 1028,
       "pop": "LV",
@@ -2250,7 +2250,7 @@
     },
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
    },
-   "consensus": -1.4,
+   "consensus": -1.2,
    "mean_score": -1.67
   },
   {
@@ -2288,7 +2288,7 @@
    "pres2024": {
     "margin_r": 13.68,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+6",
    "ratings": {
@@ -2298,7 +2298,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "ie": {
      "rating": "Tilt D (flip)",
@@ -2306,7 +2306,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/senate",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "sabato": {
      "rating": "Lean D (flip)",
@@ -2314,14 +2314,14 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-senate/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     }
    },
    "included_by": "rule",
    "included_note": null,
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
-    "fetched_at": "2026-11-03T03:20:57Z",
+    "fetched_at": "2026-11-03T21:46:25Z",
     "averages": [
      {
       "source": "270toWin",
@@ -2486,7 +2486,7 @@
    "pres2024": {
     "margin_r": 2.19,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+1",
    "ratings": {
@@ -2496,7 +2496,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/senate-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "ie": {
      "rating": "Likely D",
@@ -2504,7 +2504,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/senate",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     },
     "sabato": {
      "rating": "Likely D",
@@ -2512,48 +2512,48 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-senate/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:01Z"
+     "fetched_at": "2026-11-03T21:45:36Z"
     }
    },
    "included_by": "manual",
    "included_note": "Added by hand: Georgia (rated Likely D by all three, outside the Toss-up/Lean rule).",
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia",
-    "fetched_at": "2026-11-03T03:21:51Z",
+    "fetched_at": "2026-11-03T21:47:27Z",
     "averages": [
      {
       "source": "270toWin",
-      "dates": "September 15 – October 20, 2026",
-      "updated": "October 21, 2026",
-      "dem": 52.0,
-      "rep": 43.6,
-      "margin": 8.4,
+      "dates": "October 6 – November 2, 2026",
+      "updated": "November 2, 2026",
+      "dem": 54.0,
+      "rep": 44.4,
+      "margin": 9.6,
       "cite": "https://www.270towin.com/2026-senate-polls/georgia"
      },
      {
       "source": "Decision Desk HQ",
-      "dates": "through October 20, 2026",
-      "updated": "October 21, 2026",
-      "dem": 51.5,
-      "rep": 43.7,
-      "margin": 7.8,
+      "dates": "through November 2, 2026",
+      "updated": "November 2, 2026",
+      "dem": 53.1,
+      "rep": 43.3,
+      "margin": 9.8,
       "cite": "https://votes.decisiondeskhq.com/races/2026-11-03/georgia-us-senate-general-election/polling"
      },
      {
       "source": "FiftyPlusOne",
-      "dates": "through October 20, 2026",
-      "updated": "October 21, 2026",
-      "dem": 51.7,
-      "rep": 43.1,
-      "margin": 8.6,
+      "dates": "through November 2, 2026",
+      "updated": "November 3, 2026",
+      "dem": 52.5,
+      "rep": 42.9,
+      "margin": 9.6,
       "cite": "https://fiftyplusone.news/polls/senate/general/georgia"
      },
      {
       "source": "RealClearPolitics",
-      "dates": "September 15 – October 17, 2026",
-      "updated": "October 20, 2026",
-      "dem": 52.0,
-      "rep": 43.4,
+      "dates": "September 15 – November 2, 2026",
+      "updated": "November 2, 2026",
+      "dem": 51.9,
+      "rep": 43.3,
       "margin": 8.6,
       "cite": "https://www.realclearpolling.com/polls/senate/general/2026/georgia/ossoff-vs-collins"
      }
@@ -2628,7 +2628,7 @@
     "poll_count": 24,
     "rcp_direct": "blocked: realclearpolling.com returns 403 to automated requests"
    },
-   "consensus": 8.3,
+   "consensus": 9.4,
    "mean_score": 3.0
   },
   {
@@ -2671,7 +2671,7 @@
    "pres2024": {
     "margin_r": 13.13,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+6",
    "ratings": {
@@ -2681,7 +2681,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/governor-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "ie": {
      "rating": "Tilt D (flip)",
@@ -2689,7 +2689,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/governor",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "sabato": {
      "rating": "Likely D (flip)",
@@ -2697,13 +2697,13 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-governor/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     }
    },
    "included_by": "rule",
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Alaska_gubernatorial_election",
-    "fetched_at": "2026-11-03T03:21:04Z",
+    "fetched_at": "2026-11-03T21:46:32Z",
     "averages": [],
     "polls": [
      {
@@ -2840,7 +2840,7 @@
    "pres2024": {
     "margin_r": 5.53,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+2",
    "ratings": {
@@ -2850,7 +2850,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/governor-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "ie": {
      "rating": "Tilt D",
@@ -2858,7 +2858,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/governor",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "sabato": {
      "rating": "Likely D",
@@ -2866,13 +2866,13 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-governor/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     }
    },
    "included_by": "rule",
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Arizona_gubernatorial_election",
-    "fetched_at": "2026-11-03T03:21:07Z",
+    "fetched_at": "2026-11-03T21:46:35Z",
     "averages": [
      {
       "source": "270toWin",
@@ -3027,7 +3027,7 @@
    "pres2024": {
     "margin_r": 13.1,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+5",
    "ratings": {
@@ -3037,7 +3037,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/governor-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "ie": {
      "rating": "Lean R",
@@ -3045,7 +3045,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/governor",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "sabato": {
      "rating": "Lean R",
@@ -3053,13 +3053,13 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-governor/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     }
    },
    "included_by": "rule",
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Florida_gubernatorial_election",
-    "fetched_at": "2026-11-03T03:21:11Z",
+    "fetched_at": "2026-11-03T21:46:39Z",
     "averages": [
      {
       "source": "270toWin",
@@ -3113,6 +3113,19 @@
       "cite": "https://researchco.ca/2026/11/02/midterms-2026-two/"
      },
      {
+      "pollster": "RedBox Research",
+      "partisan": "D",
+      "dates": "October 30–31, 2026",
+      "end": "2026-10-31",
+      "n": 2898,
+      "pop": "LV",
+      "moe": 2.1,
+      "dem": 46.0,
+      "rep": 47.0,
+      "margin": -1.0,
+      "cite": "https://afightworthhaving.com/polling/2026/florida"
+     },
+     {
       "pollster": "ActiVote",
       "partisan": null,
       "dates": "October 20–31, 2026",
@@ -3150,22 +3163,9 @@
       "rep": 51.0,
       "margin": -6.0,
       "cite": "https://www.stetson.edu/artsci/cpor/media/cpor-fall-2026-report-wave-3-october.pdf"
-     },
-     {
-      "pollster": "InsiderAdvantage",
-      "partisan": "R",
-      "dates": "October 28–29, 2026",
-      "end": "2026-10-29",
-      "n": 1200,
-      "pop": "LV",
-      "moe": 2.8,
-      "dem": 45.0,
-      "rep": 49.0,
-      "margin": -4.0,
-      "cite": "https://insideradvantage.com/insideradvantage-florida-survey-donalds-49-jolly-45-moody-49-nixon-43/"
      }
     ],
-    "poll_count": 44,
+    "poll_count": 46,
     "times_siena": {
      "pollster": "New York Times/Siena University",
      "partisan": null,
@@ -3187,7 +3187,7 @@
    "analysis": {
     "headline": "The Republican is ahead in an open seat, though by less than recent Florida results.",
     "body": [
-     "Byron Donalds leads David Jolly, a former Republican congressman now running as a Democrat, by 3.8 to 4.6 points (mean: Donalds +4.3). All five of the latest polls favor Donalds, by 3 to 6 points; the final Research Co. poll (Oct 31–Nov 2) has him up 4.",
+     "Byron Donalds leads David Jolly, a former Republican congressman now running as a Democrat, by 3.8 to 4.6 points (mean: Donalds +4.3). All five of the latest polls favor Donalds, by 1 to 6 points; RedBox Research (Oct 30–31) has him up just 1 and the final Research Co. poll (Oct 31–Nov 2) up 4.",
      "All three raters list it as Lean R. Trump won Florida by 13.1 points in 2024, and DeSantis won 59.4% of the vote in 2022."
     ],
     "watch": "Miami-Dade, which swung sharply right in 2022 and 2024."
@@ -3223,7 +3223,7 @@
    "pres2024": {
     "margin_r": 2.19,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+1",
    "ratings": {
@@ -3233,7 +3233,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/governor-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "ie": {
      "rating": "Tilt D (flip)",
@@ -3241,7 +3241,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/governor",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "sabato": {
      "rating": "Lean D (flip)",
@@ -3249,13 +3249,13 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-governor/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     }
    },
    "included_by": "rule",
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Georgia_gubernatorial_election",
-    "fetched_at": "2026-11-03T03:21:14Z",
+    "fetched_at": "2026-11-03T21:46:42Z",
     "averages": [
      {
       "source": "270toWin",
@@ -3410,7 +3410,7 @@
    "pres2024": {
     "margin_r": 13.21,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+6",
    "ratings": {
@@ -3420,7 +3420,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/governor-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "ie": {
      "rating": "Lean D (flip)",
@@ -3428,7 +3428,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/governor",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "sabato": {
      "rating": "Lean D (flip)",
@@ -3436,13 +3436,13 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-governor/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     }
    },
    "included_by": "rule",
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Iowa_gubernatorial_election",
-    "fetched_at": "2026-11-03T03:21:17Z",
+    "fetched_at": "2026-11-03T21:46:45Z",
     "averages": [
      {
       "source": "270toWin",
@@ -3606,7 +3606,7 @@
    "pres2024": {
     "margin_r": 16.12,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+8",
    "ratings": {
@@ -3616,7 +3616,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/governor-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "ie": {
      "rating": "Tilt R (flip)",
@@ -3624,7 +3624,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/governor",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "sabato": {
      "rating": "Lean R (flip)",
@@ -3632,13 +3632,13 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-governor/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     }
    },
    "included_by": "rule",
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Kansas_gubernatorial_election",
-    "fetched_at": "2026-11-03T03:21:21Z",
+    "fetched_at": "2026-11-03T21:46:49Z",
     "averages": [
      {
       "source": "270toWin",
@@ -3807,7 +3807,7 @@
    "pres2024": {
     "margin_r": 1.42,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "EVEN",
    "ratings": {
@@ -3817,7 +3817,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/governor-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "ie": {
      "rating": "Lean D",
@@ -3825,7 +3825,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/governor",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "sabato": {
      "rating": "Likely D",
@@ -3833,13 +3833,13 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-governor/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     }
    },
    "included_by": "rule",
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Michigan_gubernatorial_election",
-    "fetched_at": "2026-11-03T03:21:24Z",
+    "fetched_at": "2026-11-03T21:46:52Z",
     "averages": [
      {
       "source": "270toWin",
@@ -4008,7 +4008,7 @@
    "pres2024": {
     "margin_r": 20.46,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+10",
    "ratings": {
@@ -4018,7 +4018,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/governor-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "ie": {
      "rating": "Likely R",
@@ -4026,7 +4026,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/governor",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "sabato": {
      "rating": "Likely R",
@@ -4034,13 +4034,13 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-governor/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     }
    },
    "included_by": "rule",
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Nebraska_gubernatorial_election",
-    "fetched_at": "2026-11-03T03:21:28Z",
+    "fetched_at": "2026-11-03T21:46:56Z",
     "averages": [
      {
       "source": "270toWin",
@@ -4200,7 +4200,7 @@
    "pres2024": {
     "margin_r": 3.1,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+1",
    "ratings": {
@@ -4210,7 +4210,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/governor-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "ie": {
      "rating": "Toss-up",
@@ -4218,7 +4218,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/governor",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "sabato": {
      "rating": "Lean D (flip)",
@@ -4226,13 +4226,13 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-governor/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     }
    },
    "included_by": "rule",
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Nevada_gubernatorial_election",
-    "fetched_at": "2026-11-03T03:21:31Z",
+    "fetched_at": "2026-11-03T21:46:59Z",
     "averages": [
      {
       "source": "270toWin",
@@ -4387,7 +4387,7 @@
    "pres2024": {
     "margin_r": 11.21,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+5",
    "ratings": {
@@ -4397,7 +4397,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/governor-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "ie": {
      "rating": "Tilt D (flip)",
@@ -4405,7 +4405,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/governor",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "sabato": {
      "rating": "Lean D (flip)",
@@ -4413,13 +4413,13 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-governor/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     }
    },
    "included_by": "rule",
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Ohio_gubernatorial_election",
-    "fetched_at": "2026-11-03T03:21:34Z",
+    "fetched_at": "2026-11-03T21:47:02Z",
     "averages": [
      {
       "source": "270toWin",
@@ -4588,7 +4588,7 @@
    "pres2024": {
     "margin_r": -14.3,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "D+8",
    "ratings": {
@@ -4598,7 +4598,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/governor-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "ie": {
      "rating": "Tilt D",
@@ -4606,7 +4606,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/governor",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "sabato": {
      "rating": "Lean D",
@@ -4614,13 +4614,13 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-governor/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     }
    },
    "included_by": "rule",
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Oregon_gubernatorial_election",
-    "fetched_at": "2026-11-03T03:21:38Z",
+    "fetched_at": "2026-11-03T21:47:05Z",
     "averages": [],
     "polls": [
      {
@@ -4738,7 +4738,7 @@
    "pres2024": {
     "margin_r": 13.68,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "R+6",
    "ratings": {
@@ -4748,7 +4748,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/governor-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "ie": {
      "rating": "Tilt R",
@@ -4756,7 +4756,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/governor",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "sabato": {
      "rating": "Lean R",
@@ -4764,13 +4764,13 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-governor/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     }
    },
    "included_by": "rule",
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
-    "fetched_at": "2026-11-03T03:21:41Z",
+    "fetched_at": "2026-11-03T21:47:09Z",
     "averages": [
      {
       "source": "270toWin",
@@ -4939,7 +4939,7 @@
    "pres2024": {
     "margin_r": -31.51,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "D+17",
    "ratings": {
@@ -4949,7 +4949,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/governor-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "ie": {
      "rating": "Likely R",
@@ -4957,7 +4957,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/governor",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "sabato": {
      "rating": "Lean R",
@@ -4965,13 +4965,13 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-governor/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     }
    },
    "included_by": "rule",
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Vermont_gubernatorial_election",
-    "fetched_at": "2026-11-03T03:21:45Z",
+    "fetched_at": "2026-11-03T21:47:12Z",
     "averages": [],
     "polls": [
      {
@@ -5084,7 +5084,7 @@
    "pres2024": {
     "margin_r": 0.86,
     "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election#Results_by_state",
-    "fetched_at": "2026-11-03T03:20:14Z"
+    "fetched_at": "2026-11-03T21:45:49Z"
    },
    "pvi": "EVEN",
    "ratings": {
@@ -5094,7 +5094,7 @@
      "rater": "Cook Political Report",
      "rater_url": "https://www.cookpolitical.com/ratings/governor-race-ratings",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "ie": {
      "rating": "Tilt D",
@@ -5102,7 +5102,7 @@
      "rater": "Inside Elections",
      "rater_url": "https://insideelections.com/ratings/governor",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     },
     "sabato": {
      "rating": "Lean D",
@@ -5110,13 +5110,13 @@
      "rater": "Sabato's Crystal Ball",
      "rater_url": "https://centerforpolitics.org/crystalball/2026-governor/",
      "via": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections#Predictions",
-     "fetched_at": "2026-11-03T03:20:11Z"
+     "fetched_at": "2026-11-03T21:45:46Z"
     }
    },
    "included_by": "rule",
    "polling": {
     "page": "https://en.wikipedia.org/wiki/2026_Wisconsin_gubernatorial_election",
-    "fetched_at": "2026-11-03T03:21:48Z",
+    "fetched_at": "2026-11-03T21:47:15Z",
     "averages": [
      {
       "source": "270toWin",

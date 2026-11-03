@@ -12,7 +12,7 @@
 "pts": 13.1,
 "raw": "13.1%"
 },
-"competitive_270": false,
+"competitive_270": true,
 "candidates": [
 {
 "name": "Eric Hafner",
@@ -228,28 +228,6 @@
 }
 ],
 "note": "Currently CA-06; moved due to redistricting"
-},
-"CA-6": {
-"id": "CA-6",
-"incumbent": "Kevin Kiley",
-"house2024": null,
-"pres2024": {
-"party": "D",
-"pts": 8.4,
-"raw": "8.4%"
-},
-"competitive_270": true,
-"candidates": [
-{
-"name": "Richard Pan",
-"fill": "DD"
-},
-{
-"name": "Kevin Kiley*",
-"fill": "P"
-}
-],
-"note": "Currently CA-03; moved due to redistricting"
 },
 "CA-13": {
 "id": "CA-13",
@@ -534,6 +512,28 @@
 }
 ],
 "note": ""
+},
+"FL-11": {
+"id": "FL-11",
+"incumbent": "Dan Webster",
+"house2024": null,
+"pres2024": {
+"party": "R",
+"pts": 15.6,
+"raw": "15.6%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "James Pericola",
+"fill": "DD"
+},
+{
+"name": "Joe Strada",
+"fill": "RR"
+}
+],
+"note": "Incumbent not running for re-election in 2026."
 },
 "FL-13": {
 "id": "FL-13",
@@ -871,6 +871,32 @@
 ],
 "note": "Incumbent not running for re-election in 2026."
 },
+"MD-1": {
+"id": "MD-1",
+"incumbent": "Andrew Harris",
+"house2024": {
+"party": "R",
+"pts": 22.0,
+"raw": "22.0%"
+},
+"pres2024": {
+"party": "R",
+"pts": 16.9,
+"raw": "16.9%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Dan Schwartz",
+"fill": "DD"
+},
+{
+"name": "Andy Harris*",
+"fill": "RR"
+}
+],
+"note": ""
+},
 "ME-2": {
 "id": "ME-2",
 "incumbent": "Jared Golden",
@@ -1066,7 +1092,7 @@
 "pts": 7.9,
 "raw": "7.9%"
 },
-"competitive_270": false,
+"competitive_270": true,
 "candidates": [
 {
 "name": "Fred Wellman",
@@ -1144,6 +1170,32 @@
 },
 {
 "name": "Greg Murphy*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NC-7": {
+"id": "NC-7",
+"incumbent": "David Rouzer",
+"house2024": {
+"party": "R",
+"pts": 17.2,
+"raw": "17.2%"
+},
+"pres2024": {
+"party": "R",
+"pts": 13.8,
+"raw": "13.8%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Kim Hardy",
+"fill": "DD"
+},
+{
+"name": "David Rouzer*",
 "fill": "RR"
 }
 ],
@@ -1227,6 +1279,32 @@
 ],
 "note": ""
 },
+"NC-14": {
+"id": "NC-14",
+"incumbent": "Tim Moore",
+"house2024": {
+"party": "R",
+"pts": 16.1,
+"raw": "16.1%"
+},
+"pres2024": {
+"party": "R",
+"pts": 15.0,
+"raw": "15.0%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Lakesha Womack",
+"fill": "DD"
+},
+{
+"name": "Tim Moore*",
+"fill": "RR"
+}
+],
+"note": ""
+},
 "NE-1": {
 "id": "NE-1",
 "incumbent": "Mike Flood",
@@ -1304,32 +1382,6 @@
 }
 ],
 "note": "Retiring to run for U.S. Senate"
-},
-"NH-2": {
-"id": "NH-2",
-"incumbent": "Maggie Goodlander",
-"house2024": {
-"party": "D",
-"pts": 6.0,
-"raw": "6.0%"
-},
-"pres2024": {
-"party": "D",
-"pts": 3.5,
-"raw": "3.5%"
-},
-"competitive_270": false,
-"candidates": [
-{
-"name": "Maggie Goodlander*",
-"fill": "DD"
-},
-{
-"name": "Lily Tang Williams",
-"fill": "RR"
-}
-],
-"note": ""
 },
 "NJ-2": {
 "id": "NJ-2",
@@ -1682,7 +1734,7 @@
 "pts": 20.6,
 "raw": "20.6%"
 },
-"competitive_270": false,
+"competitive_270": true,
 "candidates": [
 {
 "name": "Blake Gendebien",
@@ -1770,7 +1822,7 @@
 "pts": 7.7,
 "raw": "7.7%"
 },
-"competitive_270": false,
+"competitive_270": true,
 "candidates": [
 {
 "name": "Kristina Knickerbocker",
@@ -1822,6 +1874,32 @@
 },
 {
 "name": "Mike Carey*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"OK-5": {
+"id": "OK-5",
+"incumbent": "Stephanie Bice",
+"house2024": {
+"party": "R",
+"pts": 21.4,
+"raw": "21.4%"
+},
+"pres2024": {
+"party": "R",
+"pts": 17.7,
+"raw": "17.7%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Jena Nelson",
+"fill": "DD"
+},
+{
+"name": "Stephanie Bice*",
 "fill": "RR"
 }
 ],
@@ -2768,6 +2846,28 @@
 }
 ],
 "note": ""
+},
+"CA-6": {
+"id": "CA-6",
+"incumbent": "Kevin Kiley",
+"house2024": null,
+"pres2024": {
+"party": "D",
+"pts": 8.4,
+"raw": "8.4%"
+},
+"competitive_270": true,
+"candidates": [
+{
+"name": "Richard Pan",
+"fill": "DD"
+},
+{
+"name": "Kevin Kiley*",
+"fill": "P"
+}
+],
+"note": "Currently CA-03; moved due to redistricting"
 },
 "CA-7": {
 "id": "CA-7",
@@ -4100,28 +4200,6 @@
 }
 ],
 "note": ""
-},
-"FL-11": {
-"id": "FL-11",
-"incumbent": "Dan Webster",
-"house2024": null,
-"pres2024": {
-"party": "R",
-"pts": 15.6,
-"raw": "15.6%"
-},
-"competitive_270": false,
-"candidates": [
-{
-"name": "James Pericola",
-"fill": "DD"
-},
-{
-"name": "Joe Strada",
-"fill": "RR"
-}
-],
-"note": "Incumbent not running for re-election in 2026."
 },
 "FL-12": {
 "id": "FL-12",
@@ -5979,32 +6057,6 @@
 ],
 "note": ""
 },
-"MD-1": {
-"id": "MD-1",
-"incumbent": "Andrew Harris",
-"house2024": {
-"party": "R",
-"pts": 22.0,
-"raw": "22.0%"
-},
-"pres2024": {
-"party": "R",
-"pts": 16.9,
-"raw": "16.9%"
-},
-"competitive_270": false,
-"candidates": [
-{
-"name": "Dan Schwartz",
-"fill": "DD"
-},
-{
-"name": "Andy Harris*",
-"fill": "RR"
-}
-],
-"note": ""
-},
 "MD-2": {
 "id": "MD-2",
 "incumbent": "Johnny Olszewski",
@@ -7015,32 +7067,6 @@
 ],
 "note": ""
 },
-"NC-7": {
-"id": "NC-7",
-"incumbent": "David Rouzer",
-"house2024": {
-"party": "R",
-"pts": 17.2,
-"raw": "17.2%"
-},
-"pres2024": {
-"party": "R",
-"pts": 13.8,
-"raw": "13.8%"
-},
-"competitive_270": false,
-"candidates": [
-{
-"name": "Kim Hardy",
-"fill": "DD"
-},
-{
-"name": "David Rouzer*",
-"fill": "RR"
-}
-],
-"note": ""
-},
 "NC-8": {
 "id": "NC-8",
 "incumbent": "Mark Harris",
@@ -7119,32 +7145,6 @@
 ],
 "note": ""
 },
-"NC-14": {
-"id": "NC-14",
-"incumbent": "Tim Moore",
-"house2024": {
-"party": "R",
-"pts": 16.1,
-"raw": "16.1%"
-},
-"pres2024": {
-"party": "R",
-"pts": 15.0,
-"raw": "15.0%"
-},
-"competitive_270": false,
-"candidates": [
-{
-"name": "Lakesha Womack",
-"fill": "DD"
-},
-{
-"name": "Tim Moore*",
-"fill": "RR"
-}
-],
-"note": ""
-},
 "ND-AL": {
 "id": "ND-AL",
 "incumbent": "Julie Fedorchak",
@@ -7192,6 +7192,32 @@
 },
 {
 "name": "Adrian Smith*",
+"fill": "RR"
+}
+],
+"note": ""
+},
+"NH-2": {
+"id": "NH-2",
+"incumbent": "Maggie Goodlander",
+"house2024": {
+"party": "D",
+"pts": 6.0,
+"raw": "6.0%"
+},
+"pres2024": {
+"party": "D",
+"pts": 3.5,
+"raw": "3.5%"
+},
+"competitive_270": false,
+"candidates": [
+{
+"name": "Maggie Goodlander*",
+"fill": "DD"
+},
+{
+"name": "Lily Tang Williams",
 "fill": "RR"
 }
 ],
@@ -8296,32 +8322,6 @@
 },
 {
 "name": "Tom Cole*",
-"fill": "RR"
-}
-],
-"note": ""
-},
-"OK-5": {
-"id": "OK-5",
-"incumbent": "Stephanie Bice",
-"house2024": {
-"party": "R",
-"pts": 21.4,
-"raw": "21.4%"
-},
-"pres2024": {
-"party": "R",
-"pts": 17.7,
-"raw": "17.7%"
-},
-"competitive_270": false,
-"candidates": [
-{
-"name": "Jena Nelson",
-"fill": "DD"
-},
-{
-"name": "Stephanie Bice*",
 "fill": "RR"
 }
 ],
