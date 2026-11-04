@@ -3,10 +3,7 @@ name: Election night poller
 # Each run keeps one job polling for ~5h40m, so GitHub's often-late cron only has to start a job, not drive each poll.
 # The hourly schedule starts the next job; the concurrency group keeps exactly one poller running and one queued.
 on:
-  schedule:
-    - cron: '7 * 3-6 11 *'      # hourly, Nov 3-6 (UTC)
-    - cron: '7 */3 7-30 11 *'   # every 3 hours through Nov 30 (late counts, recounts)
-    - cron: '7 * 1-3 12 *'      # hourly Dec 1-3 (Georgia runoff, if any)
+  # Scheduled polling ended Nov 4, 2026 (no Georgia runoff). Run manually from the Actions tab if needed.
   workflow_dispatch:
     inputs:
       minutes:

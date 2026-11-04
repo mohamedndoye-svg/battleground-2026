@@ -1,6 +1,6 @@
 {
  "note": "Race calls from named outlets only (AP, NBC, CNN, Fox, ABC, CBS, DDHQ), each with the outlet, time of the call and the page it was read from. Times are converted from Eastern to UTC. Nothing here is projected by this dashboard.",
- "extracted_at": "2026-11-04T04:50:00Z",
+ "extracted_at": "2026-11-04T12:50:00Z",
  "races": {
   "S-GA": {
    "call": {
@@ -85,6 +85,106 @@
     "called_at": null,
     "url": "https://iowacapitaldispatch.com/2026/11/03/democrat-rob-sand-wins-election-to-become-iowa-governor-ap-projects/"
    }
+  },
+  "S-IA": {
+   "call": {
+    "winner": "Josh Turek",
+    "party": "D",
+    "outlet": "AP",
+    "called_at": null,
+    "url": "https://www.npr.org/2026/11/03/g-s1-148956/iowa-senate-race-josh-turek"
+   }
+  },
+  "S-MI": {
+   "call": {
+    "winner": "Abdul El-Sayed",
+    "party": "D",
+    "outlet": "CBS",
+    "called_at": null,
+    "url": "https://www.cbsnews.com/live-updates/senate-election-results-2026/"
+   }
+  },
+  "S-KS": {
+   "call": {
+    "winner": "Adam Hamilton",
+    "party": "D",
+    "outlet": "NBC",
+    "called_at": null,
+    "url": "https://www.nbcnews.com/politics/2026-elections/kansas-senate-results"
+   }
+  },
+  "S-NE": {
+   "call": {
+    "winner": "Pete Ricketts",
+    "party": "R",
+    "outlet": "NBC",
+    "called_at": null,
+    "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+   }
+  },
+  "G-Ohio": {
+   "call": {
+    "winner": "Amy Acton",
+    "party": "D",
+    "outlet": "ABC",
+    "called_at": null,
+    "url": "https://abcnews.com/Politics/ohio-2026-live-midterm-election-results/story?id=136761684"
+   }
+  },
+  "G-Wisconsin": {
+   "call": {
+    "winner": "David Crowley",
+    "party": "D",
+    "outlet": "ABC",
+    "called_at": null,
+    "url": "https://abcnews.com/Elections/2026-us-governor-election-results-live-map/"
+   }
+  },
+  "G-Arizona": {
+   "call": {
+    "winner": "Katie Hobbs",
+    "party": "D",
+    "outlet": "ABC",
+    "called_at": null,
+    "url": "https://abcnews.com/Elections/2026-us-governor-election-results-live-map/"
+   }
+  },
+  "G-Nevada": {
+   "call": {
+    "winner": "Aaron Ford",
+    "party": "D",
+    "outlet": "ABC",
+    "called_at": null,
+    "url": "https://abcnews.com/Elections/2026-us-governor-election-results-live-map/"
+   }
+  },
+  "G-Oregon": {
+   "call": {
+    "winner": "Tina Kotek",
+    "party": "D",
+    "outlet": "ABC",
+    "called_at": null,
+    "url": "https://abcnews.com/Elections/2026-us-governor-election-results-live-map/"
+   }
+  },
+  "G-Nebraska": {
+   "call": {
+    "winner": "Jim Pillen",
+    "party": "R",
+    "outlet": "ABC",
+    "called_at": null,
+    "url": "https://abcnews.com/Elections/2026-us-governor-election-results-live-map/"
+   }
   }
+ },
+ "not_recorded": {
+  "S-ME": "Collins conceded to Jackson (Axios); no call from a listed outlet was found",
+  "S-MN": "Official count 100% in (Flanagan 53.7%); the outlet behind the reported call was not clear",
+  "G-Michigan": "Washington Post reports Benson won; not a listed outlet",
+  "G-Texas": "NBC page headline says Hinojosa wins; the projection label could not be confirmed",
+  "S-AK": "Uncalled: late ballots counted for about two weeks; ranked-choice count if no majority",
+  "G-Alaska": "Uncalled: no results found; ranked-choice count after late ballots",
+  "G-Kansas": "Uncalled: Holscher 50.3%, Masterson 49.7% with ~98% counted",
+  "G-Vermont": "Uncalled: no results found; the legislature decides if nobody reaches 50%"
  }
 }
