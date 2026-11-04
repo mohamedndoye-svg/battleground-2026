@@ -715,7 +715,7 @@ function liveRaceCard(e) {
   const cands = r ? [...r.candidates].filter(c => !c.write_in).sort((a, b) => b.votes - a.votes).slice(0, 4) : [];
   const fl = e.flags || {};
   const chips = [
-    e.call ? `<span class="chip flag">Called: ${esc(e.call.winner)} · ${esc(e.call.outlet)} ${esc(fmtTS(e.call.called_at))}</span>` : '<span class="chip n">Not called</span>',
+    e.call ? `<span class="chip flag">Called: ${esc(e.call.winner)} · ${esc(e.call.outlet)}${e.call.called_at ? ' ' + esc(fmtTS(e.call.called_at)) : ''}</span>` : '<span class="chip n">Not called</span>',
     fl.recount?.within ? `<span class="chip moe">Recount margin: ${esc(fl.recount.rule.type)} (${esc(fl.recount.diff_pct)}%)</span>` : '',
     fl.majority && fl.majority.above === false ? `<span class="chip moe">${fl.majority.type === 'runoff' ? (fl.majority.likely ? 'Likely runoff' : 'Below 50%') : fl.majority.type === 'rcv' ? 'Below 50%: ranked-choice count' : 'Below 50%: legislature decides'}</span>` : '',
     e.discrepancy ? '<span class="chip moe">Source disagreement</span>' : '',
@@ -723,13 +723,13 @@ function liveRaceCard(e) {
   return `<article class="card"><div class="stripe" style="background:${e.margin_dr == null ? 'var(--line)' : e.margin_dr > 0 ? 'var(--dem)' : 'var(--rep)'}"></div><div class="body">
     <div class="card-head"><div class="t"><div class="eyebrow">${e.chamber === 'senate' ? 'Senate' : 'Governor'} · polls close ${e.closes?.last != null ? clockTxt(e.closes.last) : '—'}</div><h3>${esc(R.races.find(x => x.id === e.id)?.state || e.label)}</h3></div><div class="chips" style="justify-content:flex-end">${chips}</div></div>
     ${r ? `<div class="tscroll"><table><thead><tr><th>Candidate</th><th class="r">Votes</th><th class="r">%</th></tr></thead><tbody>${cands.map(c => `<tr><td><span class="pdot ${esc(c.party)}"></span> ${esc(c.name)}</td><td class="r num">${fmtN(c.votes)}</td><td class="r num">${pctTxt(c.pct)}</td></tr>`).join('')}</tbody></table></div>
-      ${e.call ? `<p class="small" style="margin:0"><b>Called:</b> ${esc(e.call.winner)} (${esc(e.call.party)}) by ${esc(e.call.outlet)} at ${esc(fmtTS(e.call.called_at))}${e.call.note ? ` · <span class="muted">${esc(e.call.note)}</span>` : ''} · ${link(e.call.url, 'source')}</p>` : ''}
+      ${e.call ? `<p class="small" style="margin:0"><b>Called:</b> ${esc(e.call.winner)} (${esc(e.call.party)}) by ${esc(e.call.outlet)} ${e.call.called_at ? 'at ' + esc(fmtTS(e.call.called_at)) : '(time not reported)'}${e.call.note ? ` · <span class="muted">${esc(e.call.note)}</span>` : ''} · ${link(e.call.url, 'source')}</p>` : ''}
       <div class="facts"><div class="fact"><span class="eyebrow">Counted</span><b>${repTxt(e.reporting)}</b><span class="tiny">Expected vote: no data (no official estimate)</span></div>
         <div class="fact"><span class="eyebrow">Margin now</span><b>${marginTxt(e.margin_dr, dp)}</b><span class="tiny">Final poll avg ${marginTxt(e.poll_avg_dr, dp)} · 2024 pres ${e.pres2024_margin_r == null ? '—' : marginTxt(-e.pres2024_margin_r)}</span></div></div>
       ${e.discrepancy ? `<p class="small" style="color:var(--warn)">Official vs ${esc(e.discrepancy[0].secondary_source)}: ${e.discrepancy.map(d => `${esc(d.candidate)} ${fmtN(d.official)} vs ${fmtN(d.secondary)}`).join('; ')}. Showing the official number.</p>` : ''}
       ${fl.majority ? `<p class="tiny muted">${esc(fl.majority.rule.text)}</p>` : ''}
       ${fl.recount?.within ? `<p class="tiny muted">${esc(fl.recount.rule.text)} ${link(fl.recount.rule.url, 'Rule')}</p>` : ''}`
-      : `${e.call ? `<p class="small" style="margin:0"><b>Called:</b> ${esc(e.call.winner)} (${esc(e.call.party)}) by ${esc(e.call.outlet)} at ${esc(fmtTS(e.call.called_at))}${e.call.note ? ` · <span class="muted">${esc(e.call.note)}</span>` : ''} · ${link(e.call.url, 'source')}</p>` : ''}<p class="nodata small">Results: no data. ${esc(e.notes.join(' '))}</p>`}
+      : `${e.call ? `<p class="small" style="margin:0"><b>Called:</b> ${esc(e.call.winner)} (${esc(e.call.party)}) by ${esc(e.call.outlet)} ${e.call.called_at ? 'at ' + esc(fmtTS(e.call.called_at)) : '(time not reported)'}${e.call.note ? ` · <span class="muted">${esc(e.call.note)}</span>` : ''} · ${link(e.call.url, 'source')}</p>` : ''}<p class="nodata small">Results: no data. ${esc(e.notes.join(' '))}</p>`}
     ${e.notes.length && r ? `<p class="tiny muted">${esc(e.notes.join(' '))}</p>` : ''}
     <div class="stamp">${e.source ? `${link(e.source.url, e.source.name)} · data as of ${esc(e.source.as_of || fmtTS(e.source.fetched_at))} · checked ${esc(agoTxt(e.source.last_checked || e.source.fetched_at))}` : 'No source'}</div>
   </div></article>`;
