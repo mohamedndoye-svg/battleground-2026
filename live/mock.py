@@ -190,6 +190,7 @@ def run(out):
     os.environ['BG_LOG'] = os.path.join(out, 'fetch.jsonl')
     common.LOG_PATH = os.environ['BG_LOG']
     common.CLOCK = clock
+    os.environ['BG_NO_CALLS'] = '1'  # the mock checks that nothing is called; keep tonight's real calls out of it
     common.TRIES = 1
     patch_sources()
     calibrate_governor()

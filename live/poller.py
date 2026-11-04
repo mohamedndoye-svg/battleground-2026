@@ -74,6 +74,10 @@ def run(out, duration_min=None, once=False, root=None, sleep=time.sleep, clock=t
             if once or clock() >= st.get('next_due', 0):
                 poll_source(s, st, clock)
         secondary = load(os.path.join(out, 'secondary.json'), {})
+        # race calls kept in data/calls.json on main (synced by the publish step); merged under any secondary.json entry
+        calls = {} if os.environ.get('BG_NO_CALLS') else load(os.path.join(root, 'data', 'calls.json'), {})
+        for rid, v in (calls.get('races') or {}).items():
+            secondary.setdefault('races', {}).setdefault(rid, {}).setdefault('call', v.get('call'))
         live = combine.build(races, ga_json, state, sources, secondary, now=datetime.fromtimestamp(clock(), timezone.utc))
         write_json(os.path.join(out, 'live.json'), live)
         write_json(state_path, state)

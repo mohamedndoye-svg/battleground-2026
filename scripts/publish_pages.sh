@@ -7,7 +7,7 @@ mkdir -p "$PAGES/live" "$PAGES/data"
 # Use the newest page and race data from main, so a data refresh pushed mid-night goes live on the next publish
 # (the running job's checkout is from when it started). The poller re-reads data/*.json every cycle.
 if git -C "$ROOT" fetch -q origin main 2>/dev/null; then
-  git -C "$ROOT" checkout -q origin/main -- site/index.html data/races.json data/ga.json data/raw/ga_county_pres2024.json 2>/dev/null || true
+  git -C "$ROOT" checkout -q origin/main -- site/index.html data/races.json data/ga.json data/raw/ga_county_pres2024.json data/calls.json 2>/dev/null || true
 fi
 cp "$ROOT/site/index.html" "$PAGES/index.html"
 cp "$ROOT/data/races.json" "$ROOT/data/ga.json" "$PAGES/"
