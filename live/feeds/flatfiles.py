@@ -124,6 +124,37 @@ def parse_fl(text, url, fetched_at=None):
     return out
 
 
+FL_WATCH = 'https://floridaelectionwatch.gov/StateOffices/Governor'
+
+
+def parse_fl_watch(html, url, fetched_at=None):
+    """Florida Election Watch contest page: a table of Candidate | Party | Votes | %. It gives no precinct counts."""
+    from bs4 import BeautifulSoup
+    rows = BeautifulSoup(html, 'lxml').select('tr.grid-row')
+    cands = []
+    for tr in rows:
+        td = [x.get_text(' ', strip=True) for x in tr.find_all('td')]
+        if len(td) < 3 or not re.sub(r'\D', '', td[2]):
+            continue
+        name = td[0].split(' and ')[0].strip()  # ticket: keep the top of the ticket
+        cands.append({'name': name, 'party': party_code(td[1]) or None, 'votes': int(re.sub(r'\D', '', td[2])), 'by_method': {},
+                      'write_in': td[1].strip().upper() == 'WRI'})
+    if not cands:
+        return []
+    total = sum(c['votes'] for c in cands)
+    return [{'state': 'FL', 'key': 'FL-GOV', 'office': 'Governor and Lieutenant Governor', 'candidates': add_pcts(cands, total),
+             'total_votes': total, 'reporting': None, 'official': False,
+             'source': {'name': 'Florida Election Watch (Florida Dept. of State)', 'kind': 'official', 'url': url,
+                        'fetched_at': fetched_at or now_iso(), 'as_of': None}}]
+
+
 def poll_fl(date, opener=None):
+    """The election-night file is the primary source; in 2026 the state stopped updating it on election night,
+    so fall back to the Election Watch page whenever the file still shows no votes."""
     url = fl_url(date)
-    return parse_fl(fetch(url, FL_SOURCE, opener=opener, timeout=120).decode('utf-8', 'replace'), url)
+    res = parse_fl(fetch(url, FL_SOURCE, opener=opener, timeout=120).decode('utf-8', 'replace'), url)
+    if not any(c['total_votes'] for c in res):
+        watch = parse_fl_watch(fetch(FL_WATCH, FL_SOURCE, opener=opener).decode('utf-8', 'replace'), FL_WATCH)
+        if watch and watch[0]['total_votes']:
+            return watch
+    return res

@@ -102,6 +102,15 @@ class TestFlorida(unittest.TestCase):
         self.assertEqual((by['Donalds'], by['Jolly']), ('R', 'D'))
 
 
+class TestFloridaElectionWatch(unittest.TestCase):
+    def test_election_night_governor_page(self):
+        c = flatfiles.parse_fl_watch(fx('fl_watch_governor_20261103.html'), 'u')[0]
+        by = {x['name']: x for x in c['candidates']}
+        self.assertEqual((by['Byron Donalds']['votes'], by['Byron Donalds']['party']), (3964383, 'R'))
+        self.assertEqual((by['David Jolly']['votes'], by['David Jolly']['party']), (3888627, 'D'))
+        self.assertEqual(c['total_votes'], 7952626)
+
+
 class TestNebraska(unittest.TestCase):
     def test_2026_export_structure(self):
         cs = nebraska.parse(fx('ne_2026_pre.xlsx', 'rb'), {'ricketts': 'R', 'osborn': 'I', 'pillen': 'R', 'walz': 'D'})
